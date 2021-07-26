@@ -1,0 +1,104 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq-train-b0:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+
+  utter_faq-train-b0/next-version: #28
+  - text: We are continuously updating the latest visualisations on our portal.
+  utter_faq-train-b0/how-to-use-idp: #266
+  - text: On the top right corner tab you will find training. After clicking on training you will find two categories- workshop & events and online training. Click on online training to find tutorial videos.
+  utter_faq-train-b0/any-training-available: #268
+  - text: On the top right corner tab you will find training. After clicking on training you will find two subtabs- workshop & events and online training. Click on online training to find tutorial videos.
+  utter_faq-train-b0/help-to-see-graph: #271
+  - text: On the top right corner tab you will find training. After clicking on training you will find two subtabs- workshop & events and online training. Click on online training to find tutorial videos.
+  utter_faq-train-b0/need-help-understand-portal: #272
+  - text: On the top right corner tab you will find training. After clicking on training you will find two subtabs- workshop & events and online training. Click on online training to find tutorial videos.
+  utter_faq-train-b0/next-training-when: #274
+  - text: On the top right corner tab you will find training. After clicking on training you will find two subtabs- workshop & events and online training. Click on workshop & events to find next training
+  utter_faq-train-b0/next-masterclass-when: #275
+  - text: On the top right corner tab you will find training. After clicking on training you will find two subtabs- workshop & events and online training. Click on workshop & events to find masterclass
+  utter_faq-train-b0/join-masterclass-how: #276
+  - text: You can register in the workshop and events page which is in the training tab. Also you can write to us at idp@isb.edu. We will send the zoom link for the masterclass
+  utter_faq-train-b0/what-is-masterclass: #277
+  - text: Masterclass is a virtual tutorial class intended for journalists, students, researchers, faculties,consultants to learn about Indiadataportal
+  utter_faq-train-b0/any-certification-available: #278
+  - text: Yes we do provide certificates from Indian School of business for attending the masterclass
+  utter_faq-train-b0/what-training-material-we-use: #279
+  - text: On the top right corner tab you will find training. After clicking on training you will find two subtabs- workshop & events and online training. Click on workshop & events to find next training
+
+  utter_faq-train-b0/learn-data-visualisation: #280
+  - text: On the top right corner tab you will find training. After clicking on training you will find two subtabs- workshop & events and online training. Click on online training to find tutorial videos.
+
+  utter_faq-train-b0/idp-journalism: # 287
+  - text: IDP helps you in creating different visualization which you can add in your stories making your stories enriched with data and attractive
+
+  utter_faq-train-b0/idp-stories: #288
+  - text: IDP helps you in creating different visualization which you can add in your stories making your stories enriched with data and attractive
+
+  utter_faq-train-b0/any-journalism-certificate: #290
+  - text: We are now collaborating with India spend for an online certification course which will gain you a certificate
+
+  utter_faq-train-b0/researchers-learn-about-idp: #291
+  - text: Yes Researchers can learn and use IDP in their research. IDP will help them in creating data insightful articles with different charts and graphs
+
+
+  utter_faq-train-b0/training-cover: #292
+  - text: The training will cover hands-on experience in IDP creating new different visualizations based on an newspaper article and also assisting journalists in writing their stories.
+
+  utter_faq-train-b0/training-content: #293
+  - text: Training details about the portal can be found through the training tab in our website or through our social media handles
+  
+  utter_faq-train-b0/training-content-video: #294
+  - text: Training videos consists of full lenght in depth explanations on how to use India Data Portal
+
+
+  utter_faq-train-b0/training-duration: #295
+  - text: We are collaborating with newslaundry for the training and our training duration is 15 days as of now.
+
+
+  utter_faq-train-b0/training-for-novice-users: # 297
+  - text: We have the training modules where any novice user can also learn. It doesn't require any prerequisite knowledge.
+
+
+  utter_faq-train-b0/training-for-jounalist-users: # 298
+  - text: The training is primarily meant for the journalists. But students, researchers, faculties also can join.
+
+  utter_faq-train-b0/how-training-help-me: # 300
+  - text: IDP will help you in creating data insightful articles with different charts and graphs. This you can use in your articles and blogs.
+  
+  utter_faq-train-b0/training-data-from-cmie: # 301
+  - text: As of now, India Data Portal has data made available from government sources. In future, private data sources would be incorporated on the portal
+
+  utter_faq-train-b0/multiple-training-modules: # 299
+  - text: There are multiple training modules which you can find in the training tab on the top right corner of the home page. We frequently upload many training modules here.
+
+  utter_faq-train-b0/online-resource-for-training: #350
+  - text: You can find a Training tab on our website and for more material on India Data Portal visit our Youtube Channel https://www.youtube.com/channel/UCB6LwUiFwPSobU0TwXuF4Fg
+  utter_faq-train-b0/tutorial-on-how-to-use-idp: #351
+  - text: You can find a Training tab on our website and for more material on India Data Portal visit our Youtube Channel https://www.youtube.com/channel/UCB6LwUiFwPSobU0TwXuF4Fg
+  utter_faq-train-b0/free-online-tutorials-idp: #352
+  - text: You can find a Training tab on our website and for more material on India Data Portal visit our Youtube Channel https://www.youtube.com/channel/UCB6LwUiFwPSobU0TwXuF4Fg
+  utter_faq-train-b0/workshops-by-idp : #353
+  - text: India Data Portal conducts workshops and masterclasses. The details are announced through the training tab in our website and through social media handles
+  utter_faq-train-b0/physical-workshop: #354
+  - text: India Data Portal conducts physical trainings/workshops
+  utter_faq-train-b0/training-material-on-youtube: #355
+  - text: India Data Portal's Youtube channel can be accessed at https://www.youtube.com/channel/UCB6LwUiFwPSobU0TwXuF4Fg
+  utter_faq-train-b0/idp-training-incharge: #356
+  - text: IDP offers training through researchers and experts in the field
+  utter_faq-train-b0/training-participation-recognition: #357
+  - text: IDP offers a certificate of participation for people who successfully compeletes the training program
+  utter_faq-train-b0/how-to-send-feedback: #358
+  - text: You can fill the feedback form or mail us at- idp@isb.edu
+  utter_faq-train-b0/training-available-for-all: #364
+  - text: India Data Portal offers Masterclasses and Workshops free of cost and anyone can attend 
+  utter_faq-train-b0/portals-objective: #365
+  - text: The “India Data Portal” is a one-stop open-access portal for journalists to access, interact with, and visualize information, data and knowledge related to agriculture and financial inclusion, while also aiding other beneficiaries – researchers, students, policy makers, administrators, NGOs, and entrepreneurs.

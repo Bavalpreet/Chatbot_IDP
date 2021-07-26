@@ -1,0 +1,344 @@
+version: "2.0"
+nlu:
+
+- intent: faq-visualisation-b1/add-dataset-on-idp
+  examples: |
+    - How to add dataset
+    - can we upload datasets on IDP
+    - is there any way to add new data on Indiadataportal
+    - Does Indian data portal supports adding personal custom data on IDP
+    - any way to upload additional datasets on IDP
+    - can we make our own datasets available on IDP
+    - How to add a dataset
+    - how do you upload additional datasets on the indian data portal
+    - is there a way to add further datasets on idp
+    - how datasets are added?
+    - dataset uploading present on Indian data portal?
+    - how do i upload additional datasets to the indiandataportal
+    - how can i upload datasets to indian data portal
+    - Ahmm how can i upload datasets to indian dp
+    - how to insert datasets
+    - can i upload custom datasets?
+    - how can i add personal data here?
+    - how can i upload personal data on the portal?
+    - where i can upload personal data?
+    - where am i supposed to upload custom data?
+    - how am i supposed to insert a dataset?
+    - how can i insert a dataset ?
+    - is there anyway we can add dataset to this webiste
+    - is there anyway we can add dataset to this portal
+    - is there anyway we can add dataset to this website
+    - anyway we can add dataset to webiste 
+    - anyway we can add dataset to website
+
+- intent: faq-visualisation-b1/location-meaning-idp
+  examples: |
+    - What does location mean in IDP
+    - what does the loaction indicator signifies on Indian data portal
+    - i saw location button on IDP what does that signify
+    - what does loaction indicator suggest on IDP
+    - what does location in indaindataportal mean?
+    - location what does it really mean on Indiaan data portal
+    - does location indicator signify something important on INDIAN DATA PORTAL?
+    - what does location signifies on the portal?
+    - what does location illustrates in datasets?
+    - What does the term location mean on the portal?
+    - location meaning in datasets?
+    - what does term location imply?
+    - On the portal, what does the location indicate?
+    - what does location represents here?
+    - while here location what's that
+    - how can you tell me abou location feature
+    - can you tell me about loaction icon on IDP
+    - can you tell me about loaction icon on Indiandata portal
+    - inidan data portal has something location what's that
+    - guide me about location icon here
+    - tell me something about loaction icon here
+    
+
+- intent: faq-visualisation-b1/only-india-is-covered
+  examples: |
+    - Does this cover only India
+    - Only India is covered here?
+    - is data only concerned with Indian territory?
+    - does idp covers every country around the globe for data?
+    - India data portal covers every country or only INDIA
+    - can you tell is INDIAN data sources are considered here only
+    - which other countries are covered here
+    - different number of countries that are covered on IDP?
+    - What is geographical coverage on IDP?
+    - does it covers all districts in a particular state?
+    - are all states and districts of india covered on IDP ?
+    - data is only focused on India?
+    - what data sources are covered here?
+    - are we concerned with only Indian data sources?
+    - data sources are covering data across the globe?
+    - is data only limited to India?
+    - is the information in datsets limited to Indian territory?
+    - is is data only covering Indian region?
+    - what regions of india are covered ?
+    - idp covers only indian resources ?
+    - iindian data portal covers indian only ?
+    - ahmmm can you tell me are you covering india only
+    - IDP just covers inida only na?
+    - indiandataportal covers india only or foreign data also?
+
+- intent: faq-visualisation-b1/mandatory-to-select-location
+  examples: |
+    - Is it mandatory to select a location for visualisation
+    - is it vital to chose location for making visulas?
+    - is it necessary to salect location for making viz
+    - do i need to select location parameter always?
+    - in what cases location parameter is needed?
+    - in what scenarios location parameter is must to be selected?
+    - when it is mandatory to select location ?
+    - to plot diff. visualisation is it compulsory to select location on iDP
+    - selecting location is a pre requisite for making diffrent visualisation?
+    - is it really important to select loaction for plot visualisation?
+    - is it always required to slect the location for making diagrams
+    - is it necessary to select location to make graphs?
+    - what norms are mandatory for crafting vizss on INDDIAN DATA PRTAL
+    - what norms are mandatory for making of visualisations on INDIAN DATA PORTAL
+    - when it is compulsary to use location parameter?
+    - in what cases location parameter is a requirement?
+    - Is it required to pick a location for visualising
+    - Is it important to use a location for visualising?
+    - Is it important to choose a place for visualising?
+    - Is it essential to choose a place for visualising?
+    - Would it be essential to choose a place for visualising?
+    - Would that be essential to choose a place for visualising?
+    - Should it be essential to choose a place for visualising?
+    - Is that really essential to choose a place for visualising?
+    - Will it be crucial to choose a place for visualising?
+    - Will it be crucial to choose a place for trying to visualize?
+    - Will it be crucial to choose a place for envisioning?
+
+    
+- intent: faq-visualisation-b1/can-i-select-dis-without-state
+  examples: |
+    - Can I select a District without selecting a State
+    - can i choose a district without selecting a state?
+    - is there a way to select a district without selecting a state?
+    - is it possible to select district without having selected a state
+    - does IDP provides me with option of having to select district without selecting state
+    - is it feasible to select a district without having to select a state
+    - is it viable to select a district without having to select a state
+    - Is it mandatory to select Districts after states?
+    - selecting a district without selecting a state is possible?
+    - Is it feasible to choose a district without first deciding on a state?
+    - Is it viable to choose a district before choosing a state?
+    - Is it feasible to choose a district before deciding on a state?
+    - Is it possible to select a District without first selecting a State?
+    - Is it necessary to distinguish a District without first selecting a State?
+    - Would it be necessary to distinguish a District without first selecting a State?
+    - Would it be necessary to distinguish a District before even selecting a State?
+    - Would it be necessary to distinguish a District before even selecting a Province?
+    - Is that really necessary to distinguish a District before even selecting a Province?
+    - Is that really essential to identify a District before even selecting a Province?
+    - Is that really essential to identify a Region before even selecting a Province?
+    - Should it be essential to identify a Region before even selecting a Province?
+    - can you tell is it that essential to identify a Region before even selecting a Province?
+    - ahmm i want to know is it that essential to identify a Region before even selecting a state
+    - I want to know is it that essential to identify a Region before even selecting a Province?
+    - i have a query is it that essential to identify a Region before even selecting a Province?
+    - district selection necessary without selecting a state?
+    - district selection necessary without selecting a province
+
+    
+- intent: faq-visualisation-b1/can-change-color-of-viz
+  examples: |
+    - How do I change color in visualisation?
+    - can a user change a color of viz drawn on IDP.
+    - can i swap colors for VISUALISATION here?
+    - is it possible to switch colors for output of datasets
+    - is it possible to switch colors for output of different visulaisations?
+    - How do I change color in viz drawn on indian data portal
+    - how to change the color of my chart?
+    - how can i change the colors of my graph?
+    - change color of visuals
+    - changing color of visualization?
+    - how can we change graph colors?
+    - how am i supposed to change the color of visualisations?
+    - how can i change the color of diagrams?
+    - How do I alter the colour of the visualisation?
+    - How do I modify the colors of the visualisation?
+    - How then do I modify the colors of the visualisation?
+    - How then do I modify the colors of the data visualization?
+    - How else do I modify the colors of the data visualization?
+    - How else do I update the colors of the data visualization?
+    - Is it possible to change the colour of the output for different diagrams?
+    - Is it possible to change the colour of the output for different graphs?
+    - Is it possible to change that colour of the output for different graphs?
+    - Is it try to modify that colour of the output for different graphs?
+    - Would it be possible to alter that colour of the output for different graphs?
+    - Would it be possible to alter a colour of the output for different graphs?
+
+- intent: faq-visualisation-b1/can-we-save-viz
+  examples: |
+    - Can we save a visualisation
+    - Is it possible to preserve a visualisation?
+    - Is it possible to save a visualisation?
+    - Can we archive a visualisation?
+    - Is it possible to save an image?
+    - can we save the diagram?
+    - is it possible to save the graph?
+    - provision to save visuals is present?
+    - is it possible to save output of visualisation
+    - would it be possible to save viz on IDP
+    - does iDP provides facility to save VISUAL output of datasets
+    - how can we save outcome on IDP
+    - where is SAVE button on Indiandataportal
+    - how can i take my visuals offline
+    - how can i take my visuals locally once i have worked here
+    - once my work is done how can i save visualisation offline
+    - how can i save my plot offline
+    - can't save Visual output of datasets is this possible do that?
+    - saving visualization
+    - i want to save a visual what should i do?
+    - what should i supposed to be doing in order to save a visulaisation
+    - to save a visual what are the steps?
+    - what steps do i need to follow in order to save a visualisation?
+    - whats the procedure to save a visual?
+    - how visuals are supposed to be saved?
+    - i want to know how can i save a visual?
+    - guide me to save a visualisation
+    - help me in saving a visualisation
+    - guide me to save a visuals
+    - help me in saving diff visuals
+    - Is it possible to save a rendering?
+    - Is it possible to save a representation?
+    - Is it possible to save a visualisation?
+    - Could it be conceivable to save a visualisation?
+    - Could it be conceivable to save a diagrams
+    - Could it be conceivable to save a grpahs
+    - Could it be conceivable to save a output
+    - Could it be able and save a visualisation?
+    - Would that be able and save a drawing?
+    - Might it be able to save every drawing?
+
+
+    
+- intent: faq-visualisation-b1/can-we-export-viz
+  examples: |
+    - Can we export image of a visualisation
+    - How do I export image of a visualisation
+    - is it possible to export image?
+    - Is it possible to export the visualisation?
+    - Is the visualisation exportable?
+    - Is the plot image exportable?
+    - Is the graph exportable?
+    - can we export the visuals?
+    - exporting the visualisations
+    - would it be possible some how download our output
+    - can we dowload image to local computer from IDP
+    - can I download the visualization in jpeg?
+    - how am i supposed to export a visual?
+    - help me to export a visual?
+    - guide me to export a visual image?
+    - what are the steps to export a visualisation?
+    - steps to save diagram
+    - steps i need to follow to save a visual?
+    - How do I even save visualisation?
+    - How do I even save visual display?
+    - How do I even save viewing?
+    - How the fuck do I even save viewing?
+    - How else would I even save viewing?
+    - So how would I even save visual representation?
+    - can you tell how would I even save visual representation?
+    - ahmm can you tell how would I even save visual representation?
+    - is there any way I can even save visual representation? 
+    - indian data portal allows to save visuals from here
+    
+
+
+- intent: faq-visualisation-b1/can-share-viz-on-social-media
+  examples: |
+    - How do I share visualization on Facebook
+    - How do I share visualization on Linkedin
+    - How do I share visual output on Twitter
+    - how am i supposed to share visuals on social handles?
+    - how can i share diagrams on social media?
+    - guide me how can i share my charts on social media?
+    - guide me how can i share my plots on social handles?
+    - How do I share visual. on Instagram
+    - How do I share visualization on social media
+    - does IDP allows me to share visualisation on social media
+    - How do I share vis on Reddit
+    - how can i share visuals on reddit?
+    - how can i share visuals on instagram?
+    - how can i share visuals on linkedin?
+    - how can i share visuals on facebook?
+    - how can i share visuals on twitter?
+    - how can i share plots on social media?
+    - can i share my viz on social media
+    - can I share this on my social media?
+
+- intent: faq-visualisation-b1/do-i-have-to-share-number
+  examples: |
+    - Do I have to share my phone number to share on whatsapp
+    - to use watsapp do i need to share my number?
+    - to use whatsapp do i need to share my contact details?
+    - is it mandatory to share my phone number to share on whatsapp
+    - is it really necessary to share my phone number
+    - to share my output on whatsapp what steps do i need to follow?
+    - to share my output do i need to add my cell phone number?
+    - to share plots on whatsapp do i need to add my contact number?
+    - to share graphs on whatsapp do i need to add my phone number?
+    - do we have to put in our personal phone number to share our output on whatsapp
+    - would IDP ask me my personal phone number to share my output on IDP
+    - Is it necessary for me to share my phone number on WhatsApp?
+    - Is it required for me to share my mobile number on WhatsApp?
+    - Would it be required for me to share my mobile number ?
+    - Would it be required for me to share my contact information?
+    - Would it be required for me to share my phone?
+    - Would that be required for me to share my phone
+    - What procedures do I need to take to share my work on Whatsapp?
+    - What activities do I need to take to share my work on Whatsapp?
+    - Exactly activities do I need to take to share my work on Whatsapp?
+    - Which action do I need to take to share my work on Whatsapp?
+    
+
+- intent: faq-visualisation-b1/which-social-media-platform-supported-for-sharing-vis
+  examples: |
+    - On which social media I can share the visualisations
+    - which platforms are supported for sharing output on platform
+    - which social media platforms IDP supports for saving output
+    - diffrent platforms on which i can share my viz outputs
+    - does IDp supports sharing visualisation on Linkedin
+    - does IDp supports sharing visualisation on Instagram
+    - does IDp supports sharing visualisation on fb
+    - can can i share my visualisation on Reddit
+    - can i share my visualisation on Internet
+    - Which platforms are supported for sharing the output generated here?
+    - Which technologies are supported for sharing the data provided here?
+    - What technologies are supported for sharing the data provided here?
+    - Does IDp permit visual sharing on Linkedin?
+    - Does IDp permit visual sharing on reddit
+    - Is it possible to share data visualisations on Linkedin using the India Data Portal?
+    - which social media channels does IDP support for output saving
+    - which social media sites does IDP support for output saving
+    - which social media sites does IDP accept for output saving
+    - Does facebook and twitter allow IDP for output saving
+
+- intent: faq-visualisation-b4/what-my-graphics #(no answer and this intent needed to to be changed already in b4 file)
+  examples: |
+    - Can graphics be downloaded?
+    - Is it feasible to get graphics?
+    - Is it possible to obtain graphics by downloading them?
+    - Is it possible to download graphics?
+    - Can the graphics be saved?
+    - graphics can be downloaded?
+    - Is there a way to get graphics?
+    - Can I download graphics?
+    - download graphics ?
+    - Can I download visuals?
+    - Can I save visuals?
+    - does IDP allows saving visuals created here
+    - Is it conceivable to get graphics?
+    - Is it conceivable to somehow get graphics?
+    - Is it conceivable to just get graphic designs?
+    - Would it be conceivable to just get graphic designs?
+    - do you allow to dwonlaoda graphics locally
+    - do you allow to download visuals created here
+    - Would it be workable to just get drawings?
+    - Would it be workable to just get illustrations?

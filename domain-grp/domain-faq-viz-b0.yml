@@ -1,0 +1,73 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq-visualisation-b0:
+    use_entities: true
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- idp_bot_intro:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+- ok:
+    use_entities: true
+entities:
+- intent_button
+slots:
+  intent_button:
+    type: list
+    influence_conversation: true
+
+responses:
+
+  utter_ok:
+  - text: Ok go ahead :)
+  utter_greet:
+  - text: Hey! How are you? How can i help you
+  utter_goodbye:
+  - text: Bye It was very nice meeting you
+  utter_idp_bot_intro:
+  - text: I am a bot that is here to help you for INDIAN DATA portal
+  - text: ' Hey I am a chatbot to help you here'
+  - text: I am bot made by IDP
+  
+  utter_faq-visualisation-b0/count_of_datasets:
+  - text: There are more than 35+ dataset available at IDP, across various sectors like agriculture, rural development, soci-economic, financial inclusion, economic activity, etc.
+  utter_faq-visualisation-b0/type_of_viz:
+  - text: The list of visualizations available is wide (about 30 kinds of visualisations). They range from :-Lollipop, stacked bar plot, maps, grouped bar plots, grouped scattered plots, treemap, donut, Sankey, infographic, frequency histogram, Grouped Bubble chart, beeswarm plot,
+  
+  utter_faq-visualisation-b0/source_of_data:
+  - text: The IDP uses multiple sources for the data but mostly relies on publically available and have been shared by government institutions, who frankly are the only bodies in the country to have that kind of data collection capabilities. The repository for visualization is exhaustive with overlapping as well as independent well-established remote-sensing and satellite products.
+  utter_faq-visualisation-b0/will_addtional_sources_be_added:
+  - text: 'The IDP endeavours to regularly add more training material/videos/etc as we move forward. The feedback from users would also help us in adding more material and features to the portal. '
+  
+
+####################### prashant
+  utter_faq-visualisation-b0/frequently-data-updated: #10
+  - text: The data is updated on quarterly basis on IDP and daily for HFI indicators
+  
+
+  utter_faq-visualisation-b0/share-upload-dataset: #21
+  - text: It is not possible to upload a data set into the India Data Portal 
+  utter_faq-visualisation-b0/multiple-data-set-same-parameters-which-useful: #23
+  - text: The datasets on IDP are sourced from governments sources  There are multiple surveys  data collection activities by the government those have common parameters for data collection which is usually the mandat of data collection objective So as a result there can be similar indicators but with different data collection methods As far as their usability is concerned  this type comparison has not been considered yet but is part of our long term plan
+
+  utter_out_of_scope:
+  - text: "Out of my knowledge can you pls rephrase"
+  utter_please_rephrase: # for low confidences classified intents
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+
+
+
+actions: 
+- action_slot_setter
+- action_viz_faq
+
+forms: {}
+e2e_actions: []

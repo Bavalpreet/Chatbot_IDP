@@ -1,0 +1,970 @@
+version: "2.0"
+nlu:
+- intent: faq-train-b0/next-version #28
+  examples: |
+    - When is the next improved version of the visualization tool releasing?
+    - When will the next enhanced version of the visualisation tool be available?
+    - Will the next enhanced version of the visualisation tool be available?
+    - Will the next enhanced version of the visualisation be available?
+    - Will the next enhanced version of the visualisation be accessible?
+    - Will the next enhanced version of the visualisation be usable?
+    - When's the next upgraded version of the visualisation be usable?
+    - When's the next upgraded version of the visualisation be readily accessible?
+    - When will be the next improved version of the visual tool releasing?
+    - When will the next version of the visualisation tool be available?
+    - When will the visualisation tool's next upgraded version be available?
+    - When will the visualisation tool's next enhanced version be released?
+    - When will the next improved version of the visualisation tool be available?
+    - When will the next updated version of the visualisation tool be available?
+    - When will the next enhanced version of the visualisation tool be available?
+    - So when does the improved version of the visualisation tool be available?
+    - when the new update of visualisation tool be ready?
+    - when will the new update of visualisation tool be out?
+    - when you are releasing next update of visualisation tool?
+    - when next update of visulaisation tool is coming?
+    - when you are launching next version of visualisation tool in market?
+    - when you are releasing next version of visualisation tool for public?
+
+
+- intent: faq-train-b0/how-to-use-idp #266
+  examples: |
+    - help me to use this portal?
+    - How do I make usage of the Portal?
+    - guide me how to use this portal?
+    - guide me how to use this ?
+    - how can i use this portal
+    - How do I utilise the Portal?
+    - How to learn using the portal?
+    - How do learn to use the portal ?
+    - teach me how to use this portal?
+    - how am i supposed to use the portal?
+    - how to operate the portal?
+    - guide me to use the portal?
+    - help me to understand the portal?
+    - can you please guide me to operate portal?
+    - What is the best way to use the Portal?
+    - What is the Portal's purpose and how do I use it?
+    - What are the steps to using the Portal?
+    - steps to use the portal?
+
+- intent: faq-train-b0/any-training-available #268
+  examples: |
+    - Are there any training available?
+    - Any tutorial for using the portal?
+    - Any video to use the portal?
+    - Is there any kind of training that you can I get?
+    - Is any method of training available to me?
+    - where can i find training
+    - where can i learn from training
+    - training for use idp??
+    - Is there a tutorial on how to use the portal?
+    - any help how to use portal?
+    - tutorial on usage of portal?
+    - how to use this portal any tutorial?
+    - Could there be a video on using the portal?
+    - any video how to use portal?
+    - video for usage of portal?
+    - Is there any kind of training that i can get here?
+    - Is there any kind of training that one can get?
+    - is there any sort of training available?
+    - any sort of training possible on portal?
+    - Is it possible to get some training?
+    - is it feasible to get some training?
+    - by any chance we can get any training?
+    - Is it viable to get some training?
+    - Is there any kind of instruction available?
+    - Is there any kind of tutorial available?
+    - Is there any kind of guided process available?
+    - Is there any kind of teaching available?
+    - any kind of guidance available?
+
+- intent: faq-train-b0/help-to-see-graph    #271
+  examples: |
+    - require assistance with visualising data
+    - help on visualizing data?
+    - how to visualize data
+    - how can i visualize data
+    - guidance to visualize data?
+    - can you tell me how can i see output
+    - pls help me how can isee graphs
+    - require assistance in visualising data?
+    - need help to visualize diagrams
+    - require assistance with data visualisation?
+    - need assistance with data visualisation?
+    - need assistance in data visualisation
+    - can you help me out to draw graphs
+    - can you help me out to draw diagrams
+    - can you help me out to draw charts
+    - guide me to draw charts
+    - any assistance available in data visualisation?
+    - any assistance available for making charts?
+
+- intent: faq-train-b0/need-help-understand-portal    #272
+  examples: |
+    - Need help to understand the portal
+    - I'm having trouble understanding the portal?
+    - help understand portal?
+    - i can't understand this portal
+    - this portal is confusing me help me
+    - how to understand this portal
+    - Assistance with learning IDP
+    - help learn idp
+    - i can't understand this IDP
+    - help me to learn IDP
+    - I require assistance in comprehending the portal.
+    - I seek support in comprehending the portal.
+    - I require help in understanding the portal.
+    - i need help in properly understanding the portal?
+    - can you help me with comprehending the portal?
+    - can you help me out in understanding the portal
+    - help me to undersdtand the portal?
+    - help me in learning portal's functionality
+    - how can i learn portals functionality
+    - want assistance in comprehending the portal
+    - how can i interpret portals functionality
+    - how to operate portal?
+
+- intent: faq-train-b0/next-training-when   #274
+  examples: |
+    - When is the next training?
+    - next training on portal?
+    - when is next task?
+    - next class?
+    - at what time is next trainning
+    - When will the next training be held?
+    - when idp is organising next training?
+    - when next training will be held?
+    - When will the next training be held?
+    - can you tell when next training has to happen?
+    - whats the schedule for next training?
+    - when next training is scheduled?
+    - when next training will be organized?
+    - when will be next training workshop?
+    - when next training is supposed to be held?
+    - When is the next training session going to take place?
+    - When is the next training session going to be happening?
+    - When is the next training session actually taking place?
+    - When is the next training session going to occur?
+    - When will the next training take place?
+    - When will the next training start happening?
+    - When is the next training going to take place?
+    - When is the next training scheduled?
+    - When is the next training planned?
+    - When is the next training timetabled?
+    - plans for next training session?
+    - schedule for next training session?
+    - timetable for next training session?
+
+- intent: faq-train-b0/next-masterclass-when    #275
+  examples: |
+    - When is the masterclass scheduled?
+    - when is next masterclass
+    - When is the masterclass supposed to be taken?
+    - next masterclass
+    - When is the masterclass scheduled to occur?
+    - about next masterclass
+    - when idp is organising next training?
+    - when next masterclass will be held?
+    - When will the next masterclass be held?
+    - can you tell when next masterclass has to happen?
+    - whats the schedule for next masterclass?
+    - when next masterclass is scheduled?
+    - when next masterclass will be organized?
+    - when will be next masterclass?
+    - when next training is supposed to be held?
+    - When is the next masterclass going to take place?
+    - When is the next masterclass session going to be happening?
+    - When is the next masterclass actually taking place?
+    - When is the next masterclass going to occur?
+    - When will the next masterclass take place?
+    - When will the next masterclass start happening?
+    - When is the next masterclass going to take place?
+    - When is the next masterclass scheduled?
+    - When is the next masterclass planned?
+    - When is the next masterclass timetabled?
+    - plans for next masterclass session?
+    - schedule for next masterclass session?
+    - timetable for next masterclass session?
+
+- intent: faq-train-b0/join-masterclass-how #276
+  examples: |
+    - How do I join a masterclass?
+    - What is the procedure for enrolling in a master class?
+    - how can i join next masterclass
+    - join next masterclass
+    - register for next masterclass
+    - procedure for next masterclass
+    - how am i supposed to join the masterclass?
+    - how to join masterclass
+    - how one can enter a masterclass
+    - what the procedure to join masterclass?
+    - How can I sign up for a masterclass?
+    - How can I buy tickets for a masterclass?
+    - How can I submit an application for a masterclass?
+    - How can I simply register for a masterclass?
+    - How can I enrol in a masterclass?
+    - how to enrol for a masterclass?
+    - enrollment in masterclass?
+    - joining a masterclass?
+    - What is the procedure for enrolling in a masterclass?
+    - What is the process for enrolling in a masterclass?
+    - how can we enroll in masterclass?
+    - How could I simply register for a masterclass?
+    - masterclass registration?
+    - masterclass enrollment?
+
+- intent: faq-train-b0/what-is-masterclass  #277
+  examples: |
+    - masterclass?
+    - help masterclass
+    - What really is the concept of a masterclass?
+    - masterclass what is that?
+    - use of masterclass
+    - What is a masterclass?
+    - about masterclass.
+    - masterclass is what?
+    - masterclass!!
+    - please masterclass!!
+    - Define masterclass
+    - elaborate masterclass?
+    - can you please tell me about masterclass?
+    - can you explain what is masterclass?
+    - can you elaborate about masterclass?
+    - what exactly is a masterclass?
+    - What is the definition of masterclass?
+    - What is a masterclass, exactly?
+    - What is a masterclass, precisely?
+    - What is a masterclass, basically?
+    - basically what is masterclass?
+    - what exactly is a masterclass?
+    - What actually is a masterclass?
+    - What specifically is a masterclass?
+    - tell me about masterclass?
+    - enlight me about masterclass
+
+- intent: faq-train-b0/any-certification-available  #278
+  examples: |
+    - any certificate is available
+    - help certification
+    - can i get a certificate
+    - Is there any kind of accreditation?
+    - what about certificate?
+    - Is there any certification available?
+    - Is there any kind of accreditation?
+    - Is there any kind of certificate?
+    - Is there a way to get certified?
+    - any sort of certification available?
+    - Is there any kind of certification?
+    - can i get any certification from idp?
+    - do you provide any certification?
+    - idp give any certification?
+    - does idp provide any certification?
+    - how can we get certification from idp?
+    - Do you offer any kind of certification?
+    - Is there any sort of certification that you provide?
+    - Do you provide any sort of certification?
+    - any certification provided vis portal?
+    - any certification provided by india data portal?
+
+- intent: faq-train-b0/what-training-material-we-use    #279
+  examples: |
+    - What kind of training materials am I allowed to use?
+    - what material can i use in training
+    - which training material can i access
+    - help training material
+    - what can i use as training material
+    - What training material can I use?
+    - what training material am i supposed to use?
+    - what training material can i go with?
+    - What sort of training materials am I allowed to use?
+    - What kind of learning resources am I allowed to use?
+    - What kind of training materials do I have access to?
+    - What training materials are available to me?
+    - What training materials are accesible to me?
+    - What training materials may I use?
+    - What kinds of training materials are available to me?
+    - What sorts of training materials do I have access to?
+    - What types of training materials do I have access to?
+    - What training materials do I have access to?
+
+- intent: faq-train-b0/learn-data-visualisation #280
+  examples: |
+    - How do I learn data visualization?
+    - how can we learn data visualization?
+    - can we have a data visualisation for learning.
+    - data visualization  for learning.
+    - how we learn data visualization?
+    - how do we learn data visualisation.
+    - how am i supposed to learn data viusalisation?
+    - how am i supposed to learn how to make visuals?
+    - can you help me in learning visulaisation?
+    - What is the best way to learn data visualisation?
+    - What is the best way for me to learn how to visualise data?
+    - What is the key to learning data visualisation?
+    - What is the most important aspect of learning data visualisation?
+    - What is the most important factor to remember while learning to visualise data?
+    - What is the secret to mastering data visualisation?
+    - What is the key to mastering data visualisation?
+
+- intent: faq-train-b0/idp-journalism
+  examples: |
+    - how we use IDP for journalism?
+    - how can i use this for reporting
+    - do i use IDP for journalism?
+    - can we use IDP for journalism?
+    - how is it possible to use IDP for journalism?
+    - is it possible to use IDP for journalism?
+    - use IDP for jpournalism.
+    - how i use portal for my journalism work
+    - using IDP for data journalism.
+    - how to use IDP  for data jounalism.
+    - can we use IDP for data journalism.
+    - is it possible to use IDP for data journalism.
+    - do i use IDP for jounalism.
+    - how can we use  this for data journalism.
+    - can we use  portal for data journlism ?
+    - can we use  this for data jouranalism.
+    - How can I utilise IDP to aid my reporting efforts?
+    - What is the most effective approach for me to use IDP in my journalism?
+    - How can I use IDP to make my reporting easier?
+    - What's the most effective approach for me to use IDP for journalism?
+    - How should IDP be used for journalism?
+    - What's the most effective approach to use IDP in journalism?
+    - What can I do using IDP to make my reporting easier?
+    - What is the most effective approach for me to use IDP for my journalism?
+    - What is the best way to use IDP for journalism?
+    - What is the most effective approach to use IDP for reporting?
+    - What is the best way for me to use IDP for journalism?
+    - How can I use IDP to help me with my reporting?
+    - how do i utilize this portal for journalism?
+    
+- intent: faq-train-b0/idp-stories
+  examples: |
+    - use IDP for data stories.
+    - how to use  IDP for data series.
+    - can we use IDP for data series.
+    - how is it possible to use IDP for data series.
+    - do i use IDP for data series.
+    - is it possible to use IDP for data series.
+    - Using IDP for data stories
+    - IDP is helpful when it comes to data stories.
+    - When it comes to data stories, IDP is a great tool.
+    - IDP is beneficial for data stories.
+    - IDP is a fantastic tool for telling data stories.
+    - IDP is useful for data stories.
+    - IDP is helpful for data stories.
+    - For data stories, IDP is useful.
+    - IDP comes in helpful when it comes to data stories.
+    - IDP is useful when it comes to data stories.
+    - IDP is a fantastic tool for data stories.
+    - When it comes to data tales, IDP comes in handy.
+    - IDP is a fantastic tool for creating data stories.
+    - how to utilize idp for data stories
+    - how to use idp for data storytelling
+    - how to use idp to create data stories.
+    -  how to utilise idp to tell data tales.
+
+- intent: faq-train-b0/any-journalism-certificate
+  examples: |
+    - Data journalism certification available?
+    - any journalism certification available .
+    - any journalism certification is available.
+    - can we get any journalism certificate.
+    - is it any  journalism certificate available.
+    - any  jounalism certification is avaible after training.
+    - what  are the availability of  journalism certificates?
+    - data journlism certificate is available?
+    - Is there a data journalism certification?
+    - Is there such a thing as a data journalist's credential?
+    - Is there a certification programme for data journalism?
+    - Is there such a thing as a data journalism credential?
+    - Is there a credential for data journalism?
+    - Is there a data journalism credential?
+    - Is there a qualification for data journalism?
+    - Is there any kind of accreditation for data journalism?
+    - Is there a data journalism certification programme?
+    - Is there any kind of data journalism certification programme?
+    - Is there any kind of certification for data journalism?
+    - Is there a programme for data journalism certification?
+    - will you provide any data journalism certificate?
+    - do journalist supposed to get any specific journalism certification?
+    - this portal provides any certification program for journalist?
+    - this portal has any journalism certificate for masses?
+
+- intent: faq-train-b0/researchers-learn-about-idp
+  examples: |
+    - how researchers can learn about IDP?
+    - is it possible for pioneers to learn about this?
+    - how  the researchers learn about portal?
+    - what are the ways for researchers to learn about IDP?
+    - how do researchers learn about IDP?
+    - how do reseachers learn  about INDIAN DATA PORTAL?
+    - do reseachers learn about IDP?
+    - Can researchers learn about IDP?
+    - Is it possible for researchers to gain access to information concerning IDP?
+    - Is it possible for scientists to learn about IDP?
+    - Is it possible for researchers to understand more about IDP?
+    - Is there a way for scholars to learn more about IDP?
+    - Is it possible for researchers to learn about IDP?
+    - Is it possible for researchers to have a better understanding of IDP?
+    - Is there any way for researchers to learn more about IDP?
+    - Is there any way for researchers to have a better understanding of IDP?
+    - Can IDP be learned by researchers?
+    - Is it possible for researchers to learn IDP?
+    - how researchers supposed to get knowledge about idp?
+    - What is the best way for researchers to learn about idp?
+    - What is the smartest method for researchers to gain knowledge about idp?
+    - What is the ideal route for researchers to discover about idp?
+    - What is the best route for researchers to understand about idp?
+    - ideal way for researchers to understand about idp?
+    - What is the best way for scholars to learn about the idp?
+    - How are academics meant to learn about idp?
+    - How are researchers supposed to learn about idp?
+    - How are academics expected to learn about idp?
+
+- intent: faq-train-b0/training-cover
+  examples: |
+    - what are the things we cover during training?
+    - topics to be covered in the training?
+    - how much we cover under this training?
+    - what topics we are supposed to cover during training?
+    - topics for training?
+    - how much we cover during training?
+    - what are the valid aspects do we cover in the training?
+    - What does the training cover?
+    - What topics will be covered during the training?
+    - What exactly will training entail?
+    - What exactly will training involve?
+    - What specifically will training encompass?
+    - What specifically will training cover?
+    - What are the subjects that will be addressed throughout the training?
+    - What subjects will be discussed throughout the training?
+    - What topics will be covered throughout the training?
+    - What topics will be discussed during the training?
+    - What does the training entail?
+    - What is the scope of the training?
+    - What topics will be covered in the training?
+    - What will the training cover?
+    - What is the training's scope?
+    - What will the training consist of?
+    - What topics will the training cover?
+
+- intent: faq-train-b0/training-content
+  examples: |
+    - give me the content of the training material?
+    - content for training.
+    - training material contents.
+    - what is the content for training?
+    - define the content of the training material?
+    - Contents of the training materails?
+    - provide me details about training materiial?
+    - details of the training material?
+    - what does training material consists of?
+    - What's in the training materials?
+    - What is included in the training materials?
+    - What is the content of the training materials?
+    - What will be included in the training materials?
+    - What exactly will the training materials entail?
+    - What will the training materials contain?
+    - What is the training material's content?
+    - What will the training materials consist of?
+    - What are the contents of the training materials?
+    - What materials will be included in the training?
+    - i want to know about the training material content?
+    - elaborate content of training material?
+    - define training material content?
+    - What does training material entail?
+    - What is the content of training materials?
+    - what is the content of training material
+
+- intent: faq-train-b0/training-content-video
+  examples: |
+    - content of training videos
+    - what are the outliers of the training videos?
+    - training video content
+    - content list of the training videos.
+    - what is the content of the training videos?
+    - give me the content list of training materil.
+    - The substance of the training videos
+    - The substance of the videos
+    - The training videos' content
+    - The contents of the videos
+    - The videos' content
+    - The substance of the training videos is
+    - Content for video education
+    - The subject matter of the training videos
+    - Content for video training
+    - content for video training
+    - Content of the videos
+    - Video training content
+    - what does training video consists of?
+    - What exactly is a training video?
+    - whats inside the training video?
+    - what does training video comprises of?
+    - what does training video covers?
+    - what aspects are covered under the training video?
+    - how much is covered in training video? 
+    - What is included in a training video?
+    - What exactly does a training video entail?
+    - What does a training video encompass? 
+    - How much information is covered in the training video?
+
+- intent: faq-train-b0/training-duration
+  examples: |
+    - duration of the training?
+    - what is the training period?
+    - what is the time duration for training?
+    - how much time we need to spend for training?
+    - training duration.
+    - give trainig duration.
+    - What is the training duration?
+    - what is the time period of training?
+    - how long it will take to complete?
+    - timing for training.
+    - what is  the training timing?
+    - when our  training will gonna end?
+    - how much it take time to finish?
+    - How long is the training?
+    - what is training tenure?
+    - what is training time period?
+    - what is time duration for training?
+    - How long is the training time?
+    - What is the duration of the training?
+    - How long will the training take?
+    - How long will the training last?
+    - Is this going to be a long-term training?
+    - What is the training's duration?
+    - Is the training going to last for a long time?
+    - How long will the course last?
+    - Is this going to be a long-term training programme?
+    - What is the length of the training?
+    - Is the training going to be long?
+    - Is the training going to last a long time?
+    - Is the training continuing to last for a lot longer?
+    - how much this training will gona take?
+    - what is the training timeperiod ?
+    - can you tell me the training timeperiod?
+    - please let me know about training time period?
+    - tell me how much training will gona last?
+    - How long will the training gonna take?
+
+
+- intent: faq-train-b0/training-for-novice-users
+  examples: |
+    - there is training for novice users?
+    - is it a training for novice user.
+    - any chance for training for novice users.
+    - is there any training for novice users?
+    - any training is available for novice users?
+    - Is there training for novice user?
+    - Is there training for new user?
+    - any proposal for training for newbie
+    - Is there any training available for new users?
+    - Is there any kind of training for new users?
+    - Is there any form of newcomer training available?
+    - Is there any kind of new user training available?
+    - Is there any type of training for newcomers?
+    - Is there any kind of training available for newbies?
+    - Is there any new user training available?
+    - Is there any training available for new users?
+    - Is there any type of newcomer training available?
+    - Is there any type of training available for new users?
+    - Is there any kind of training available for newcomers?
+    - Is there some kind of training opportunities for new members?
+    - Is there any form of training for new user groups?
+    - any training provision for new users?
+    - do new users get any training?
+    - for new users did you provide any sort of training?
+    - Is there any training provided for new users?
+    - as a new user will i get any training?
+    - as a new user will i got any guided way to understand portal?
+    - will i got training to operate this portal?
+    - any training available for new comers?
+
+- intent: faq-train-b0/training-for-jounalist-users
+  examples: |
+    - is there training for journalists.
+    - there is training available for journalists.
+    - any traing is available for journalists?
+    - is  there any training for journalists?
+    - isn't any training available for journalists?
+    - is  there training for the  journalists?
+    - Training available for journalists?
+    - Is there any journalistic education available?
+    - Is it possible to get journalistic training?
+    - Is there any journalistic school in the area?
+    - Is journalistic training available?
+    - Is there journalism training available?
+    - Is there any kind of journalistic school?
+    - Is journalism education available?
+    - Is it possible to get journalism training?
+    - Is there any journalism training available?
+    - Is there any journalistic school?
+    - so can i get training for myself i am a journalist.
+    - is this portal supposed to provide training to journalists?
+    - is portal providing any training to journalists?
+    - are journalists trained for the portal?
+    - will journalists be taught about the working of a portal?
+    - working of the portal is available in form of training?
+    - operating a portal as a training is available for journalists?
+    - do journalists supposed to get any training?
+    - i am a journalist will i be getting any training?
+    - i am a journalist will i be getting any training about the portal?
+    - for managing the portal is there any training avaialble?
+    - to operate the portal will journalists be getting any sort of training?
+    - Will journalists receive any kind of training in order to operate the portal?
+    - Will journalists receive any training in order to operate the portal?
+    - Will journalists receive any kind of training to utilise the portal?
+    - Will journalists undergo any training in order to run the portal?
+    - Will journalists be trained to operate the portal?
+    - Will journalists be given any training in order to utilise the portal?
+
+- intent: faq-train-b0/multiple-training-modules
+  examples: |
+    - there are multiple training modules.
+    - training modules
+    - give me the modules for training.
+    - there are number of training modules available.
+    - elaborate about training modules.
+    - is there multiple training modules.
+    - explaine the training modules.
+    - training assignemts?
+    - any work for training assignments
+    - Is there a range of training modules available?
+    - Is there a range of training alternatives available to you?
+    - Is there a wide range of training modules to choose from?
+    - Is it possible to choose from a choice of training modules?
+    - Do you offer a wide range of training opportunities?
+    - Is there a variety of training modules?
+    - Is there a wide range of training modules available?
+    - Do you offer a wide range of training options?
+    - Is there a variety of training modules available?
+    - Is there a wide range of training modules?
+    - Do you have a variety of training options?
+    - are there multiple training modules?
+    - do you have multiple training modules?
+    - by any chance multiple training modules are there?
+    - tell me about multiple training modules?
+    - where can i find multiple traing modules?
+    - where are multiple training modules?
+    - multiple training modules available?
+    - multiple training modules are there?
+
+- intent: faq-train-b0/how-training-help-me
+  examples: |
+    - How will training help me?
+    - how IDP training will help?
+    - how training from here help me
+    - will these traingss helpful?
+    - how the IDP training is beneficial for me?
+    - IDP training is helpful for me?
+    - how can i find IDP training is helpful?
+    - can i get benefit of IDP  training?
+    - How would training assist me in gaining a better knowledge of the portal?
+- intent: faq-train-b0/training-data-from-cmie
+  examples: |
+    - Are you having employment data from CMIE ?
+    - Any employment data from CMIE ?
+    - data from CMIE for employemnt ?
+    - can i see work data from cmie?
+    - can you help in getting data from CMIE regarding employment
+    - can IDP help in extracting some data from CMIE related to employemnt domain
+    - you can help in getting data from cmie for employbility domain
+    - how can i get employment data from the cmie?
+    - are you receiving employment data from the cmie?
+- intent: faq-train-b0/online-resource-for-training
+  examples: |
+    - Do you have any online resources for training?
+    - do you have online training resources?
+    - are there any online resources for training?
+    - Do you have any training resources available online?
+    - any online training resources available on idp?
+    - does idp provide any online training resource?
+    - any online training resource?
+    - Are there any online training resources available to you?
+    - Do you have access to any online training materials?
+    - Do you have any training resources available on the internet?
+    - Are there any online training tools you have?
+    - Do you have any training resources available online?
+    - Do you have any online training resources?
+    - Do you have access to any online training resources?
+    - Are there any online training resources available?
+    - Are there any training resources available online?
+    - how can i find training sources on portal?
+    - how am i supposed to find the training sources?
+    - any trainng source available online?
+    - any training resource available on portal?
+    - does this portal have any training resource with them?
+    - do you have any training resource?
+    - Do you have any online training materials on hand?
+    - Is there any kind of online training material you have?
+    - can i have access to any online training resources?
+    - Do you have any online training resources? which i can opt.
+
+- intent: faq-train-b0/tutorial-on-how-to-use-idp
+  examples: |
+    - Where can someone get help or tutorials on using the India Data Portal?
+    - Where can one get help on using India Data Portal?
+    - Where can one go for information on how to use the India Data Portal?
+    - any tutorial available on how to use the portal?
+    - any suggestions on how india data portal can be used ?
+    - Where can one go for guidance or tutotrials on how to use India Data Portal?
+    - need help how to use idp?
+    - need help how to operate this portal?
+    - help me to understand this portal?
+    - help me to learn how to use the portal?
+    - guide me to operate the portal?
+    - any assistance to operate the portal?
+    - can you help me to understand this portal?
+
+- intent: faq-train-b0/free-online-tutorials-idp
+  examples: |
+    - Where can I get instructions on how to utilise the India Data Portal?
+    - What is the best place to learn how to use the India Data Portal?
+    - Where may one get instructions for using the Idp?
+    - are there any tutorials on idp?
+    - how to get start with idp?
+    - Are there any free online tutorials available on India Data Portal?
+    - Are there any free online tutorials available on India Data Portal?
+    - Is the India Data Portal home to a list of free online tutorials?
+    - Are there any free online tutorials on India Data Portal?
+    - Is there a list of India Data Portal's free online tutorials?
+    - Is India Data Portal home to a list of free online tutorials?
+    - On the India Data Portal, is there a list of free online tutorials?
+    - Are there any free online tutorials available on the India Data Portal?
+    - Is there a list of free online tutorials on India Data Portal?
+    - Does the India Data Portal include a list of free online tutorials?
+    - Is there a list of free online tutorials on the India Data Portal?
+    - Is India Data Portal home to any free online tutorials?
+    - Is it possible to find free online tutorials on India Data Portal?
+    - Are there any free online tutorials accessible on India Data Portal?
+    - Is there a catalogue of free online tutorials on India Data Portal?
+    - What is the best way to get started with this portal?
+    - How can I Begin with this portal?
+
+- intent: faq-train-b0/workshops-by-idp
+  examples: |
+    - Do you provide any training sessions? If so, where can I get additional information?
+    - Are there any workshops that you offer? If this is the case, where can I learn more?
+    - If there are any workshops that you run? how can I know more?
+    - does idp supervise any workshops? if so ,then where can i get details?
+    - any workshops regulated by idp? how can we get details about that?
+    - Do you conduct any workshops? if yes, where can I find more details?
+    - any training sessions by idp?
+    - Do you have any training sessions available?
+    - Do you have any training sessions currently offered?
+    - are you offering training session in coming future?
+    - Are there any training sessions available from you?
+    - will there be training sessions from your side?
+    - will you gonna provide training session?
+    - Do you offer training sessions?
+    - Do you arrange training sessions?
+    - Do you conduct training sessions?
+    - Do you organize training sessions?
+    - are workshops being organised by you?
+    - Do you provide any classes or workshops? If that's the case, where can I learn more?
+    - Are there any workshops that you run? If so, where can I learn more?
+    - Are there any training sessions available? If that's the case, where can I find further information?
+    - Are there any training sessions available from you? If that's the case, where can I find out more?
+    - Is it possible to attend a workshop? Where can I find out more if this is the case?
+    - Do you conduct any workshops? If that's the case, how can I find out more information?
+    - Are there any workshops that you offer? If this is the case, where can I learn more?
+    - Do you provide any workshops? If that's the case, where can I find out more?
+    - Do you provide any workshops? If that's the case, where can I find out more information?
+    - Do you offer any training sessions? If so, where can I get additional information?
+    - Do you have any training sessions available? If that's the case, where can I get further information?
+    - Is there anything you offer in the way of workshops? If this is the case, where can I find out more information?
+    - are you organising training sessions?
+
+
+
+- intent: faq-train-b0/physical-workshop
+  examples: |
+    - Do you provide physical training or workshops to your users?
+    - Do you organise physical training sessions or workshops?
+    - does idp run any physical training sessions or workshops?
+    - is India data Portal undertaking any physical training?
+    - physical workshop is conducted by idp?
+    - Do you conduct physical trainings or workshops?
+    - Are you going to hold a physical workshop?
+    - are you conducting any physical workshop?
+    - Is there anything you offer in the way of workshops? If this is the case, where can I find out more information?
+    - Do you organise physical training sessions or workshops?
+    - Do you offer your clients physical training or workshops?
+    - Are you a physical trainer or do you offer workshops?
+    - Do you offer physical training or workshop sessions?
+    - Are you in charge of putting on physical training programmes or workshops?
+    - Do you provide physical training or workshops to your clients?
+    - Are you able to supply your clients with physical training or workshops?
+    - Do you offer clients physical training or workshops?
+    - Do you run physical training sessions or workshops?
+    - Do you host physical training sessions or courses for your employees?
+    - Do you host workshops or physical training sessions?
+    - Do you provide physical training or workshops?
+    - any physical training avaialble here?
+    - Is there a physical workshop that you're holding?
+
+- intent: faq-train-b0/training-material-on-youtube
+  examples: |
+    - Is there any training material available on YouTube for India Data Portal?
+    - is there any youtube content available for idp training?
+    - Does idp training material available on youtube?
+    - Is there any training material for India Data Portal on YouTube?
+    - is there any youtube chanel for idp training?
+    - Is there any youtube training material available?
+    - Is there any India Data Portal training material on YouTube?
+    - Is there any training material available on youtube for India Data Portal?
+    - Is there any training material for the India Data Portal on youtube?
+    - Is there any India Data Portal training material available on youtube?
+    - Is there any training material for India Data Portal on youtube?
+    - Is there any youtube training for the India Data Portal?
+    - Is there any training material available on youtube for the India Data Portal?
+    - Is there any youtube training material for India Data Portal?
+    - Is there any youtube training material for the India Data Portal?
+    - Is there any India Data Portal-related training material on youtube?
+    - Is there any YouTube-based training material?
+    - any youtube based training content?
+    - any training content on youtube?
+    - training content in form of youtube videos?
+
+- intent: faq-train-b0/idp-training-incharge
+  examples: |
+    - Who is in charge of IDP training?
+    - IDP trainings are conducted by whom?
+    - Who is responsible for IDP training?
+    - Who teaches IDP courses?
+    - idp training is undertaken by whom?
+    - Who conducts IDP training?
+    - IDP training is overseen by whom?
+    - Who is in charge of the IDP training?
+    - Who does IDP trainings?
+    - Who is responsible for IDP training?
+    - What is the name of the person in charge of IDP training?
+    - IDP trainings are conducted by whom?
+    - IDP training is the responsibility of who?
+    - Who is in charge of IDP training?
+    - whom i can see as a incharge of portal?
+    - Who is in charge of the training programme for the India Data Portal?
+    - Who is in charge of a training course for the India Data Portal?
+    - idp training is undertaken by whom?
+    - who is supposed to be the incharge of the portal?
+    - Who is in charge of the India Data Portal Training Program?
+
+- intent: faq-train-b0/training-participation-recognition
+  examples: |
+    - Will I be recognised for my participation in a training programme?
+    - Will I get recognised after completing a training programme?
+    - is there any endorsements after attending training sessions?
+    - does idp offers any certification for trainees who join training programs?
+    - Will I be honored after finishing a training programme?
+    - Will I get an acknowledgement after attending a training program?
+    - Will I get a certificate if I participate in a training programme?
+    - Will I be given a certificate if I complete a training programme?
+    - Will I receive a certificate for attending a training programme?
+    - Will I be given a certificate if I complete a training course?
+    - After completing a training programme, will I obtain a certificate?
+    - After completing a training programme, would I be given a certificate?
+    - After finishing a training programme, would I be given a certificate?
+    - Will I be granted a certificate after completing a training programme?
+    - Will I receive a certificate after completing a training programme?
+    - Will I be granted a certificate if I complete a training programme?
+    - When I finish a training programme, will I be given a certificate?
+    - Would I be granted a certificate after completing a training programme?
+    - is there any certification for attending a workshop?
+    - Will I receive a certificate if I take part in a training programme?
+    - Would I obtain a certificate if I partake in a training programme?
+    - Would I receive a certificate if I engage in a training programme?
+    - certification for training program?
+
+- intent: faq-train-b0/how-to-send-feedback
+  examples: |
+    - how can one send feeback to idp?
+    - What is the best way for me to provide feedback?
+    - How do I send my feedback?
+    - best way for submitting a feedback?
+    - what is the best way to give the feedback?
+    - How can I send my feedbacks?
+    - What is the most efficient method for me to send my comments?
+    - What is the most effective method for me to give feedback?
+    - What is the most efficient method for me to submit feedback?
+    - What is the most effective approach for me to submit feedback?
+    - What's the best way for me to provide my feedback?
+    - Where should I send feedback?
+    - where am i supposed to submit a feedback?
+    - What is the most efficient way for me to provide my feedback?
+    - What is the most efficient method for me to provide my feedback?
+    - What is the best way for me to provide my feedback?
+    - tell me where a feedback has to be sent?
+    - What is the most effective method for me to submit feedback?
+    - well where do we suppose to give feedback?
+    - where is feedback link?
+    - What is the most effective approach for me to give feedback?
+    - What is the best way for me to send my comments?
+    - how am i supposed to send feedback ?
+    - What is the best way to submit feedback to idp?
+    - guide me I'm not sure how I'm supposed to send feedback.
+    - help me out I'm not sure how I'm supposed to send feedback.
+    - What's the best way for me to provide feedback?
+    - So what is the ideal way for me to provide feedback?
+    - How should I provide feedback?
+    - So how could I give feedback?
+    - So how would I submit feedback?
+
+- intent: faq-train-b0/training-available-for-all
+  examples: |
+    - Is training available to everyone?
+    - Is training accessible to everybody?
+    - can anyone get idp training?
+    - Is training available to all?
+    - who can attend idp training?
+    - Is training offered for everyone?
+    - can anyone get the training?
+    - Is training open to the general public?
+    - Is training available to everyone?
+    - Is training accessible to all?
+    - Is it possible for everyone to get training?
+    - Is there any public training available?
+    - Is there any wide public training available?
+    - Is there any training available to the general public?
+    - Is training accessible to anyone?
+    - Is training available to anyone?
+    - Is it possible to get training for free?
+    - Is there any public training?
+    - Is the training available to anyone?
+    - would training be able to everyone?
+    - who else can get training?
+    - who supposed to get trained?
+    - Who is eligible to attend training?
+    - Who is eligible to participate in training?
+
+- intent: faq-train-b0/portals-objective
+  examples: |
+    - what is the main aim of the portal?
+    - What are the Portal's primary goals?
+    - What are the Portal's key goals?
+    - What are the main goals of the Portal?
+    - prominant goals of the India Data Portal
+    - why should i came here?
+    - what is here for me?
+    - What is the Portal's main goal?
+    - What are the Portal's primary objectives?
+    - What are the Portal's primary goals?
+    - What is the Portal's primary goal?
+    - What is the Portal's primary objective?
+    - What are the main goals of the Portal?
+    - What is the main goal of the Portal?
+    - What are the Portal's key objectives?
+    - What exactly is the Portal's main objective?
+    - What are the main objectives of the Portal?
+    - What are the key objectives of the Portal?
+    - whats your main goal?
+    - main goal of this portal?
+    - What is the Portal's main objective?
+    - What is the main objective of the Portal?
+    - What is the main purpose of the Portal?
+    - purpose of the portal?
+    - objective of the portal?
+    - goal of the portal?
+
+
+

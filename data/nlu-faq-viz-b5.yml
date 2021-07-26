@@ -1,0 +1,1102 @@
+version: "2.0"
+nlu:
+- intent: faq-visualisation-b5/why-not-add-two-datasets #140
+  examples: |
+    - why am i not able to add more than two datasets ?
+    - why can't i add more than two datasets ?
+    - Why is it not possible for me to add more than two datasets ?
+    - How to add more than two datasets ?
+    - Is there a way to add more than two datasets ?
+    - I have problem adding more than two datasets
+    - Can i append more than two datasets
+    - Need help with adding more than two datasets
+    - Is it possible to add more than two datasets ?
+    - help add more than 2 datasets
+    - I am not able to add more than two datasets. Why?
+    - Why am I unable to include more than two datasets in my project?
+    - Why am I unable to use more than two datasets in my project?
+    - Why is it that I can't have more than two datasets?
+    - Why am I unable to include more than two datasets in my plot?
+    - Why can't I have more than two datasets?
+    - Why am I only allowed to have two datasets?
+    - Why am I limited to only two datasets?
+    - Why is it that I can't have visual from more than two datasets?
+    - Why can't I add more than two datasets to my project?
+    - Why can't I create a visual with more than two datasets?
+    - Why am I not allowed to have more than two datasets?
+    - Why can't I add more than two datasets to make my visualisation?
+    - Why am I only permitted to have two datasets?
+    - Why can't my project contain more than two datasets?
+    - Why can't my visualisation have more than two datasets?
+    - I'm only allowed to add two datasets?
+    - What is preventing me from using more than two datasets in my visualisation?
+    - Why can't I have more than two datasets at a time?
+    - Why can't my project have more than two datasets?
+    - Why is it that I can't have more than two datasets in my project?
+    - Why am I only allowed to work with two datasets?
+    - hey Why can't I add more than two datasets to my visualisation?
+    - Why am I only allowed to have two datasets in my visualisation?
+    - tell me Why am I unable to create a visualisation containing more than two datasets?
+    - Why can't I add more than two datasets to my plot?
+    - Why can't I work with more than two datasets in my diagram?
+    - Why couldn't I fit more than two datasets into my visualisation?
+    - Why can't I combine more than two datasets in my project?
+    - Why can't I create a visualisation with more than two datasets?
+    - tell me why am I only allowed to have just two datasets?
+    - Why can I only have two datasets?
+    - Why am I unable to create a visualisation that contains more than two datasets?
+    - only two datasets are allowed to insert in visualisation?
+    - What is preventing me from using more than two datasets in my project?
+    - Why is it that I can't have more than two datasets in my visualisation?
+    - Why can't I use more than two datasets in a visualisation?
+    - Why can I only have two datasets in my visualisation?
+    - Why are there only two datasets available to me?
+    - Why am I only allowed to have two datasets in my project?
+    - Why couldn't I use my visualisation to combine more than two datasets?
+    - Why am I only allowed to use two datasets?
+    - Why am I unable to include more than two datasets in my visualisation?
+    - Why can't I put more than two datasets into my project?
+
+- intent: faq-visualisation-b5/help-understand-indicators #142
+  examples: |
+    - Can you help me understand the indicators
+    - Can you describe how the indicators works
+    - what does indicators do ?
+    - Is there any description for indicators ?
+    - What is the meaning of indicators
+    - indicators help
+    - Help understanding indicators
+    - What is an indicator?
+    - Could you assist me with deciphering indicators?
+    - Would you be able to guide me through the process of deciphering indicators?
+    - Could you assist me in deciphering indicators?
+    - Would you be able to assist me in comprehending indicators?
+    - Could you assist me with interpreting indicators?
+    - Could you perhaps help me comprehend the indicators?
+    - Could you assist me with comprehending indicators?
+    - Are you able to aid me in deciphering indicators?
+    - Would you be able to guide me through the process of deciphering indicators?
+    - Could you help me comprehend the indicators?
+    - Could you please assist me with deciphering indicators?
+    - tell me how can i interpret what indicators mean?
+    - enlight on meaning of indicators?
+    - what do indicators supposed to do?
+    - what is the role of indicators?
+    - what is the purpose of indicators?
+    - indicators what are they supposed to be doing?
+    - whats the aim of indicators?
+    - sole purpose of indicators?
+    - Could you help me decipher the indicators?
+    - Is it possible for you to walk me through the process of interpreting indicators?
+    - Could you assist me in interpreting the indicators?
+    - Are you able to assist me in deciphering indicators?
+    - Would you be able to help me figure out how to read indicators?
+    - Do you think you could help me decipher indicators?
+    - will you be able to assist me in interpreting indicators?
+    - Can you please assist me in interpreting the indicators?
+    - Could you please guide me through the process of understanding indicators?
+    - Could you please assist me in deciphering indicators?
+    - Could you help me decipher indicators?
+    - Could you please help me interpret indicators?
+    - Would you be able to assist me in deciphering indicators?
+    - Can you help me interpret some indicators?
+    - Is it possible for you to assist me in comprehending indicators?
+    - Could you help me to decipher some indicators?
+    - Please help me in understanding the indicators.
+    - Could you please assist me in deciphering the indicators?
+    - Could you assist me in making indicators familiar?
+    - Would you be able to guide me through the process of deciphering indicators?
+    - Could you please help me get knowledgeable about indicators?
+    - can you help me out with indicators?
+    - Is it possible for you to help me decipher indicators?
+    - Could you please help me decipher some indicators?
+    - Can you please assist me in deciphering the symbols?
+    - Could you please assist me in interpreting the indicators?
+
+- intent: faq-visualisation-b5/tutorial-making-graphs-visualisations #144
+  examples: |
+    - Is there any tutorial for making graphs/visualisation ?
+    - Is there any tutorial available on India data portal making graphs/visualisation ?
+    - How to create graphs/visualisations
+    - How to make graphs/visualisations
+    - Help me with making graphs/visualisation
+    - Can you help me with graphs/visualisation
+    - I need help with graohs/visualisation
+    - graphs help
+    - help with graphs/visualisation
+    - is there any tutorial available?
+    - Is there a class on how to make visuals?
+    - Is there a lesson on how to create visualisations?
+    - Is there a visualisations tutorial?
+    - Is there a lesson on how to make visualisations?
+    - Is there a course that teaches you how to make visualisations?
+    - any tutorial on visualisations?
+    - Is there a visualisations tutorial available?
+    - Is there a tutorial for visualisations?
+    - Is there a class that teaches you how to make visualisations?
+    - Is there a tutorial on visualisations available?
+    - Is there a tutorial on making visualisations?
+    - Is there a tutorial on making plots?
+    - Is there a tutorial on how to make visuals?
+    - any visualisations tutorial available?
+    - Is there a tutorial for making visualisations?
+    - Is it possible to find a tutorial on how to make visualisations?
+    - Is it possible to find a tutorial on how to create visuals?
+    - Is a tutorial on how to make visualisations available?
+    - does this portal have any guide on how to make visuals?
+    - Is there a guide to creating visualisations?
+    - Is there a plotting tutorial?
+    - tutorial on visualisations available?
+    - Is there a tutorial on making graphs?
+    - Is there a tutorial on making diagrams?
+    - Is there any tutorial on visuals?
+    - Is a visualisations tutorial available?
+    - Is there a tutorial on how to create visualisations?
+    - Is there a video tutorial on how to create visualisations?
+    - Is a tutorial on how to create visualisations available?
+
+
+
+- intent: faq-visualisation-b5/only-see-states-find-district-village #145
+  examples: |
+    - How to find district/ village names ?
+    - How can i find district/village names ?
+    - I am not able to find district/village names.
+    - why am i not able to find district/village names ?
+    - why can't i find district/village names ?
+    - states help
+    - help with village names
+    - district names help
+    - assist with district/village names
+    - I can only see states. Where can I find district/village names?
+    - I can't find district. Why?
+    - How can I look up the names of districts and villages in the most efficient way possible?
+    - How can I quickly look up the names of villages and districts?
+    - What is the best way for me to look up the names of districts and villages?
+    - How can I quickly locate the names of districts and villages?
+    - How do I look up the names of districts and villages?
+    - What is the quickest way to look up the names of the villages and districts?
+    - most efficient method for locating the names of districts and villages?
+    - What is the best method for locating district and village names?
+    - What is the ideal way to find the names of districts and villages?
+    - What is the suggested way to look up the names of the villages and districts?
+    - What's the appropriate way to look for the names of districts and villages?
+    - What is the most effective method for locating district and village names?
+    - How can I look up the names of the villages and districts?
+    - How can I look up the names of districts and villages?
+    - What is the quickest way to find the names of districts and villages?
+    - How can I find the names of districts and villages the quickest?
+    - What is the most efficient way to look up the names of villages and districts?
+    - What's the best way for me to look up the names of the districts and villages?
+    - How do I look up the names of the villages and districts that I'm interested in?
+    - What is the fastest way to look up the names of districts and villages?
+    - What's the best way to look up district and village names?
+    - What is the best way for me to look up the names of the villages and districts?
+    - What is the most effective way for me to look up the names of districts and villages?
+    - What is the most efficient method for looking up the names of the districts and villages?
+    - How do I look up the names of the districts and villages?
+    - What is the quickest way to locate the names of villages and districts?
+    - How can I quickly find the names of districts and villages?
+    - What's the best way to look up the names of districts and villages?
+
+
+
+- intent: faq-visualisation-b5/graph-not-see-loading #151
+  examples: |
+    - I am not able te see the graph
+    - something is wrong with my graph
+    - my graph isn't showing
+    - my graph is showing nothing
+    - i can't see my graph
+    - My graph is not showing
+    - why am i not able to see my graph
+    - why is my graph not loading?
+    - My graph is not loading.
+    - why is my graph not loading
+    - here why cant i see graphs
+    - Why is my graph not coming up?
+    - My graph appears to be incorrectly loading.
+    - My graph isn't appearing.
+    - graph is not showing up.
+    - My graph isn't displaying properly.
+    - My graph is missing.
+    - My plot is missing.
+    - It appears that my graph is not loading.
+    - My graph doesn't seem to be loading correctly.
+    - help me my graph doesn't seem to be loading properly.
+    - My graph isn't showing up.
+    - graph does not appear.
+    - My plot isn't loading properly.
+    - My graph does not appear to be properly loading.
+    - It appears that my graph isn't loading.
+    - My graph isn't showing up as it should.
+    - My graph doesn't appear to be loading, can you help me?
+    - My graph does not appear to be loading properly.
+    - My graph isn't showing up right.
+    - graph isn't showing up for some reason.
+    - It appears that my graph is not loading properly.
+    - My graph does not appear to be loading correctly.
+    - graph isn't showing up correctly.
+    - My plot does not appear to be properly loading.
+    - tell me why my graph appears to be loading incorrectly.
+    - please explain why my graph does not appear to be loading.
+    - It appears that my graph is not loading correctly.
+ 
+
+- intent: faq-visualisation-b5/How-change-title #152
+  examples: |
+    - How to change the title ?
+    - Is it possible to change the title ?
+    - where can i change the title ?
+    - What is the procedure to change the title ?
+    - Help me changing the title
+    - title change
+    - how to title change
+    - problem with title change
+    - how can I change the title?
+    - What is the most effective way to alter the title?
+    - I don't know how I'd go about doing that.
+    - What is the most efficient method of changing the title for me?
+    - What's the most effective way to alter the title?
+    - What's the best way for me to change the title?
+    - What is the most effective way for me to modify the title?
+    - I'm not sure how I'd go about doing so.
+    - I am not sure how to make the title change.
+    - I'm not sure how I'd do it.
+    - I don't know how to alter the title.
+    - How can I change the title in the most effective way?
+    - What is the most efficient way to alter the title?
+    - What's the best way to change the title?
+    - What is the most effective method for me to change the title?
+    - What is the most efficient method of changing the title?
+    - How can I change the title in the most efficient way?
+    - What's the most efficient way to change the title?
+    - I'm not sure how to make the title different.
+    - What is the most efficient method for changing the title?
+    - How should I go about changing the title?
+    - What is the best way for me to change the title?
+    - What is the most effective method for changing the title?
+    - I'm not sure how I'd go about changing the title.
+    - If I wanted to change the title, I'm not sure what I'd do.
+    - What is the most efficient method for changing the title for me?
+    - I'm not sure how to change the title.
+    - If I needed to change the title, I'm not sure what I'd do.
+    - I'm not sure how I would go about it.
+    - I'm not sure what I'd do if I wanted to change the title.
+    - What is the best way to change the title?
+    - If I wanted to change the title, I'm not sure how I'd go about it.
+    - What should I do if I want to change the title?
+
+- intent: faq-visualisation-b5/What-numbers-in-brackets #153
+  examples: |
+    - what does numbers in the bracket refers to ?
+    - what does the numbers in bracket means ?
+    - what are those numbers in the bracket ?
+    - what is the meaning of those numbers in bracket ?
+    - where can i use those numbers in the brackets ?
+    - What are the numbers in the brackets?
+    - What are the numbers in the brackets?
+    - What do the bracketed numbers indicate?
+    - What do the numbers in the brackets represent?
+    - What do the numbers in brackets mean?
+    - What do the numbers in the brackets indicate?
+    - What does the number in brackets mean?
+    - What exactly do the numbers in brackets indicate?
+    - What do the numbers in brackets mean exactly?
+    - What do the numbers in the brackets mean exactly?
+    - What exactly do the numbers in brackets mean?
+    - What exactly do the numbers in the brackets indicate?
+    - What do the numbers in brackets indicate?
+    - What do the numbers in the brackets actually mean?
+    - What do the numbers in brackets denote?
+    - What are the numbers in the brackets supposed to mean?
+    - What do the numbers in brackets stand for?
+    - What do the figures in brackets mean?
+    - What do the bracketed numbers mean?
+    - What do the numbers between the brackets mean?
+    - What exactly do the numbers in the brackets mean?
+
+- intent: faq-visualisation-b5/Do-have-select-filters #154
+  examples: |
+    - Do i really have to select filters ?
+    - Is it necessary to select filters ?
+    - Is it compulsory to select filters ?
+    - Is it mandatory to select filters ?
+    - Do i have to select filter for visulisation
+    - filters selection help
+    - help filter selection
+    - trouble filter select
+    - Is it mandatory that I choose filters?
+    - Is it required that I select filters?
+    - Is it necessary for me to choose filters?
+    - Is it obligatory for me to select filters?
+    - Is it necessary for me to pick my filters?
+    - Do I have to choose filters?
+    - Is it required for me to choose filters?
+    - Is it necessary for me to select filters?
+    - Is it required that I use filters?
+    - Is there a need for me to choose filters?
+    - Is it required that I choose filters?
+    - Is it mandatory for me to use filters?
+    - Is using filters a requirement?
+    - Is it obligatory for me to choose filters?
+    - Is it required of me to select filters?
+    - Is it necessary for me to pick filters?
+    - Is it necessary for me to use filters?
+    - Is it necessary that I select filters?
+    - Is it mandatory for me to select filters?
+
+
+- intent: faq-visualisation-b5/What-JumpStartIndia-ISB
+  examples: |
+    - What is the meaning of jumpStartIndia@IDP ?
+    - What does jumpStartIndia@ISB means ?
+    - What does jumpStartIndia@ISB refers to ?
+    - What do you mean by jumpStartIndia@ISB ?
+    - what does jumpStartIndia refers to?
+    - What does jumpStartIndia represents ?
+    - What do you mean by jumpStartIndia@Indian dat portal ?
+    - What is JumpStartIndia@ISB?  
+
+- intent: faq-visualisation-b5/Can-zoom-chart #156
+  examples: |
+    - Is it possible to zoom into chart ?
+    - How can i zoom into chart ?
+    - How to zoom on chart ?
+    - Is there any way to zoom on the chart ?
+    - What is the procedure to zoom into the chart ?
+    - Shortcut for zooming into the chart
+    - chart zooming
+    - how zooming in chart
+    - Is there a way to make the graph bigger?
+    - Is the graph zoomable?
+    - Is it possible to look at the graph more closely?
+    - Is it possible to zoom in on the chart?
+    - Is it possible to look at the graph in more detail?
+    - Is it possible to examine the graph in greater detail?
+    - Is a closer examination of the graph possible?
+    - Is the graph able to be enlarged?
+    - Is there any way to increase the size of the graph?
+    - Is zooming in on the graph possible?
+    - Is it possible to enlarge the chart?
+    - Is it possible to delve deeper into the graph?
+    - Is it possible to make the graph larger?
+    - Is there a way to enlarge the graph?
+    - Is there a way to magnify the graph?
+    - Is it possible to enlarge the graph?
+    - Is it possible to magnify the graph?
+    - Is it possible to make the chart larger?
+    - Is enlarging the graph possible?
+    - Is it possible to get a closer look at the graph?
+    - Is it possible to zoom in on a graph?
+    - Is it possible to increase the size of the graph?
+    - Is it possible to zoom in on the graph?
+    - Is there any way to enlarge the graph?
+
+- intent: faq-visualisation-b5/Should-select-location-always #160
+  examples: |
+    - what location should i select ?
+    - It is important to select a locattion?
+    - It is necessary to select location always?
+    - Necessary to select location always?
+    - Manadatory to select location?
+- intent: faq-visualisation-b5/How-many-indicators-select-at-time #161
+  examples: |
+    - Which indicator should i select?
+    - Can i use two indicators together?
+    - When i select al indicators?
+    - May i choose more than one indicators?
+    - How many indicators should i choose ?
+    - Is there a limit to how many indicators I can choose at one time?
+    - Is there a limit to how many indicators I can choose at a given time?
+    - Is there a limit to how many indicators I can select at once?
+    - Is there a limit to how many indicators I can select at a time?
+    - How many indicators do I have to select at a time?
+    - How many indicators do I have to choose at the same time?
+    - Is there a limit to how many indicators I can choose at the same time?
+    - Is there a limit to how many indicators I can choose at once?
+    - How many indicators do I have to choose at once?
+    - How many indicators can I choose at one time?
+    - How many indicators do I have to choose from at the same time?
+    - Is there a limit to the number of indicators I can choose at once?
+    - Is there a limit to the number of indicators I can choose from at once?
+    - Is there a limit to the number of indicators I can choose at one time?
+    - How many indicators can I choose at once?
+    - How many indicators do I have to select at the same time?
+    - Is there a limit to how many indicators I can pick at once?
+    - How many indicators do I have to choose from at once?
+    - Is there a limit to the number of indicators I can pick at once?
+    - Is there a limit to how many indicators I can choose at a time?
+    - Is there a limit to how many indicators I can select at one time?
+    - Is there a limit to the number of indicators I can select at a time?
+    - How many indicators do I have to pick at once?
+    - Is there a limit to the number of indicators I can select at one time?
+    - How many indicators must I choose at a time?
+
+- intent: faq-visualisation-b5/How-select-two-datasets-visualizing-together #163
+  examples: |
+    - How to select two different datasets for visualizing together?
+    - Can i select more than one different datasets for visualizing together?
+    - How to build chart with two datasets?
+    - Can I add two datasets for visualization?
+    - May I choose two or more datasets for chart building?
+    - help me build chart for two datasets
+    - How can I select two different datasets for visualizing it together
+    - What is the best way to visualize data from two different datasets?
+    - How do I combine two datasets into a single visualization?
+    - What is the best way to combine two datasets into a single visualization?
+    - What is the best way to compare and contrast two datasets?
+    - How do I make a single visualization from two different datasets?
+    - How do I visualize data from two different datasets?
+    - How can I visualize two different datasets?
+    - How can I combine two datasets into a single visualization?
+    - How do I visualize two different datasets?
+    - How can I combine two different datasets for visualization?
+    - How do I combine two different datasets for visualization?
+    - What's the best way to combine two different datasets into a single visualization?
+    - What is the best way for me to visualize two different datasets?
+    - How do I combine data from two different datasets into a single visualization?
+    - How do I make a single visualization out of two different datasets?
+    - How do I combine data from two separate datasets into a single visualization?
+    - What is the best method for combining two different datasets into a single visualization?
+    - How should two different datasets be visualized?
+    - What's the best way to visualize two different datasets?
+    - What is the most effective way to combine two different datasets into a single visualization?
+    - What's the best way to combine two datasets into one visualization?
+    - What is the best way to visualize two different datasets?
+    - What's the best way to combine two different datasets into one visualization?
+    - What's the best way to compare and contrast two datasets?
+    - How do I combine two different datasets into a single visualization?
+
+
+- intent: faq-visualisation-b5/what-kind-datasets-i-compare #165
+  examples: |
+    - What kind of datasets can I compare
+    - whatkind of datasets i can compare  here
+    - what datssets we can comapre on IDP
+    - what datssets we can comapre on Indian data portal
+    - on idp which variety of datasets we can compare
+    - on indian data portal which variety of datasets we can compare
+    - datasets that i have on local server can i compare here
+    - datasets that i have on local pc can i compare here
+    - i have some data can i compare it on here
+    - Is it possible for me to make a comparison between different datasets?
+    -Which datasets am I allowed to compare?
+    -Which datasets can I compare and contrast?
+    -Is it possible to compare multiple datasets?
+    -Is it possible for me to compare datasets of various types?
+    -What types of datasets am I able to compare?
+    -What datasets am I able to contrast?
+    -Which datasets can I compare?
+    -Can I compare which datasets?
+    -What datasets am I able to compare?
+    -Is it possible for me to compare different kinds of datasets?
+    -Is it feasible for me to compare various dataset types?
+    -What datasets can I compare?
+    -Which datasets I can compare
+    -Is it permissible for me to compare which datasets?
+    -Is it feasible for me to compare various datasets?
+    -Is it possible for me to compare different types of datasets?
+    -What kinds of datasets can I compare?
+    -Which datasets may I compare?
+    -Is it possible for me to compare various dataset types?
+    -I'm able to figure out which datasets to compare.
+    -Is it possible for me to make a comparison between two datasets?
+    -Can I compare different types of datasets?
+    -Is it possible for me to compare different datasets?
+    -Which datasets am I able to compare?
+    -Which datasets am I able to contrast?
+    -I'm able to compare which datasets.
+
+
+- intent: faq-visualisation-b5/What-you-mean-time #166
+  examples: |
+    - Meaning of time?
+    - Define time?
+    - What is time on visualize data?
+    - Describe time on chrt bhuilder?
+    - whta does time means here while visulaising
+    - whta does time means here while making grpahs
+    - whta does time means here while making graphs
+    - What exactly do you mean by "time"?
+    - What do you mean when you say "time"?
+    - What do you mean by "time"?
+    - So, what exactly do you mean when you say "time"?
+    - When you say "time," exactly what do you mean?
+    - So, what do you mean by "time"?
+    - When you say "time," what exactly do you mean?
+    - So, when you say "time," what exactly do you mean?
+    - So, when you say "time," what exactly do you imply?
+    - What do you mean by "time" exactly?
+    - What exactly do you mean when you say "time"?
+    - So, what exactly do you mean by "time"?
+
+
+- intent: faq-visualisation-b5/Why-click-options-popping-out-in-Build-Chart #167
+  examples: |
+    - How to diversifiy visualization on chart buildeR?
+    - What's the reason for giving options on chart builder?
+    - why do i use the options on visualize dataset?
+    - what is the need to use all options on visualize dataset?
+    - why to click on options on visualize?
+    - Why should I click on the options popping out in Build Your Chart
+    - What are the advantages of using the Build Your Chart window's options?
+    - What are the benefits of selecting the options in the Build Your Chart window?
+    - What are the advantages of selecting one of the available Build Your Chart options?
+    - What are the advantages of choosing one of the available Build Your Chart options?
+    - What are the advantages of the Build Your Chart window's options?
+    - What are the benefits of using the Build Your Chart window's options?
+    - Why should I use the options in Build Your Chart?
+    - What are the advantages of selecting the options in the Build Your Chart window?
+    - Why should I use the features of Build Your Chart?
+    - Why should I select the options that appear in the Build Your Chart window?
+    - Why should I use the options in the Build Your Chart window?
+    - Why should I use the Build Your Chart window's options?
+    - What are the benefits of selecting one of the available Build Your Chart options?
+    - What are the advantages of using the Build Your Chart options?
+    - What are the benefits of using the Build Your Chart window options?
+    - Why should I use Build Your Chart's options?
+    - Why should I choose from the options in Build Your Chart?
+    - What makes the Build Your Chart options so appealing?
+    - What are the benefits of using the options in Build Your Chart?
+    - Why should I choose from the Build Your Chart options that appear?
+    - What are the benefits of choosing one of the Build Your Chart options?
+    - What makes you think one of the Build Your Chart options is better than the others?
+    - What are the benefits of selecting one of the Build Your Chart options that appear?
+    - What are the advantages of choosing one of the Build Your Chart options?
+    - Why should I choose from the Build Your Chart options?
+    - Why should I choose one of the options in the Build Your Chart section?
+    - What are the benefits of choosing one of the Build Your Chart options available?
+    - Why should I select one of the Build Your Chart options?
+    - What are the advantages of selecting one of the Build Your Chart options that appear?
+    - What are the advantages of using the options in the Build Your Chart window?
+    - What are the benefits of using the options in the Build Your Chart window?
+    - What are the advantages of using the Build Your Chart window options?
+    - What are the benefits of using the Build Your Chart options?
+
+
+- intent: faq-visualisation-b5/How-many-ways-create-graph #168
+  examples: |
+    - What are the ways to create a graph?
+    - What types of ways to create graph?
+    - Alternate ways to generate graph
+    - tell me ways to build graphs
+    - Help me to find ways to build graphs
+    - How many ways can I create a particular graph
+    - How many ways can I create a particular graph here
+    - on IDP in How many ways can I create a particular graph
+    - on Indian data portal How many ways can I create a particular graph
+    - Is there a limit on how many graphs I can make?
+    - Is there a limit to the number of ways in which graphs can be made?
+    - Is there a limit on how many graphs I can create?
+    -Is it possible to make a graph in as many different ways as I want?
+    - Can I make a graph in as many different ways as I want?
+    - Is it possible to create a graph in any number of ways?
+    - Is it possible for me to make a graph as many times as possible?
+    - Is it possible for me to make a graph in as many different ways as possible?
+    - Is there a limit on the number of graphs I can make?
+    - Is it possible for me to create a graph in as many different ways as I want?
+    - Is it possible for me to create a graph in as many ways as possible?
+    - Is it possible to make a graph in as many different ways as possible?
+    - Is there a limit to ways of creatinga graph?
+    - Is there any limit to how many graphs I can make?
+    - Is there a cap on how many graphs I can make?
+    - How many different ways can I make a given graph?
+    - How many graphs can I create?
+    - What is the maximum number of graphs I can create?
+    - Is it possible for me to create a graph in as many ways as I want?
+    - Is it possible to create a graph in any number of different ways?
+    - Is there any way for me to make a graph in as many different ways as possible?
+    - Is there a way to make a graph in as many ways as possible?
+    - How many different ways can I make a graph?
+    - Is there a limit to the number of graphs I can create?
+    - How many different graphs can I make?
+    - Is there a limit to how many times I can make a graph?
+    - Is it possible to create a graph in as many ways as possible?
+    - Is it possible for me to make a graph in as many different ways as I want?
+    - Is it possible to make a graph in any number of different ways?
+    - Is it possible to draw a graph in as many ways as possible?
+    - what are maximum number ways of graph creation? 
+
+
+- intent: faq-visualisation-b5/How-multiple-colours-available-Select-at-time #169
+  examples: |
+    - how many colours are avaiable on options for chart?
+    - Different colour palets for chart
+    - Help me with all colours available for visualization
+    - Can I get FAQ link for checking all colours available on chart?
+    - Help me to find multiple colours on chart
+    - Can I seelct more than one colour on chart?
+    - Is there multi selection possible on colours?
+    - How many colors can I pick at once?
+    - What is the maximum number of colors I can pick at once?
+    - Is there a limit to the number of colors I can pick at once?
+    - Is there a limit to the number of colors I can choose at one time?
+    - What is the maximum number of colors I can choose at once?
+    - Is it possible for me to choose several colors at once?
+    - Is there a limit to how many colors I can choose at once?
+    - Is there a limit to how many colors I can select at a time?
+    - How many colors can I choose at once?
+    - Is there a limit to the number of colors I can choose at the same time?
+    - What is the maximum number of colors I can select at one time?
+    - Is there a limit to the number of colors I can choose at a time?
+    - Is there a limit to the number of colors I can choose at once?
+    - Is there a limit to how many colors I can pick at once?
+    - Is there a limit to how many colors I can select at one time?
+    - Is there a limit to the number of colors I can select at one time?
+    - How many colors can I select at once?
+    - Is there a limit to how many colors I can pick at one time?
+    - Is there a limit to the number of colors I can pick at one time?
+    - Is it possible for me to select multiple colors simultaneously?
+    - How many colors can I choose at the same time?
+    - Is it possible for me to choose multiple colors at the same time?
+    - Is it possible for me to select several colors at once?
+    - Is it possible to alter an entity's units?
+    - Is it possible to change the units of a character?
+    - Is it possible for me to change the units of any entity?
+    - Is it possible to change the units of an entity?
+    - Is it possible to change the units of a creature?
+    - Is it possible to change a creature's unit?
+    - Is it possible to modify the units of an entity?
+    - Is it possible to change the units of any entity?
+    - Is it possible to change any entity's units?
+    - Is it possible for me to modify any entity's units?
+    - Is it possible for me to change any entity's units?
+    - Is it possible to alter the units of any entity?
+    - Is it possible to change an entity's units?
+    - Can an entity's units be changed?
+    - Is it possible to change a creature's units?
+    - Is it possible to modify an entity's units?
+    - Can a creature's units be changed?
+    - Can I change the units of any entity?
+    - Is it possible to modify the units of any entity?
+
+
+- intent: faq-visualisation-b5/how-change-units-entity #170
+  examples: |
+    - how can I change enetity units?
+    - help change entity units
+    - help convert entity unts
+    - advice/advise how to change entity units
+    - FAQ for changing entity units
+- intent: faq-visualisation-b5/How-change-different-colours-bar #171
+  examples: |
+    - how to chnge color scheeme?
+    - right click option on every bar is available for changing colours?
+    - Errror in changign colours on each bar help
+    - help me change colour on every bar of graph
+    - how to change colour on bar graph
+    - how can I change the colors?
+    - How can I have different colours on each Bar
+    - What's the best way to change the color of each bar?
+    - I'm not sure how I'd go about changing the color of each bar.
+    - I'm not sure how to make each bar a different color.
+    - What is the best way to make each bar have a different color?
+    - What is the best way to make each bar a different color?
+    - What's the most efficient way to color each bar differently?
+    - Is there anything I can do to make each bar a different color?
+    - What's the most effective way to make each bar a different color?
+    - I'm not sure how to change the color of each bar.
+    - How do I make each bar's color change?
+    - What can I do to make each bar a different color?
+    - How can I make each bar a different color?
+    - How can I make each bar have a different color?
+    - What is the most effective method for making each bar a different color?
+    - I'm not sure how I'd go about making each bar a different color.
+    - What is the most efficient way to make each bar a unique color?
+    - How can I change the color of each bar?
+    - What is the most efficient way to color each bar differently?
+    - What are the options for changing the color of each bar?
+    - How can I make each bar a different color in the most efficient way possible?
+    - What is the best way to change the color of each bar?
+    - What can I do to change the color of each bar?
+    - How do I make each bar have a different color?
+    - How do I make each bar a different color?
+    - What's the best way to make each bar a different color?
+    - How do I change the color of each bar?
+    - I'm not sure how I can make each bar a different color.
+
+- intent: faq-visualisation-b5/how-change-color-graph #172
+  examples: |
+    - How can I change the color on a graph
+    - how the color on the graph could be changed
+    - ahmm i wanna chnage grpah colors possible ?
+    - oh i just wanted to know is iit even possible to change color of graph
+    - how the color on the graph could be changed while i am here
+    - on idp is it possible to change color on the graph
+    - on indian data portal is it possible to change color on the graph
+    - while on idp is it possible to change color on the graph
+    - How can I alter the color of a graph?
+    - How do you change the color of a graph the most effectively?
+    - What is the most effective method for changing the color of a graph?
+    - How do I change the color of a graph?
+    - How can I effectively change the color of a graph?
+    - What are the options for changing the color of a graph?
+    - How do you effectively change the color of a graph?
+    - How do you change the color of a graph?
+    - What is the best way to change a graph's color?
+    - On a graph, how do I change the color?
+    - What's the best way to change a graph's color?
+    - How can I change the color of a graph the most effectively?
+    - How can I most effectively change the color of a graph?
+    - What is the most efficient method for changing a graph's color?
+    - how do you most effectively change the color of a graph?
+    - What is the best way to change the color of a graph?
+    - What's the most efficient way to change the color of a graph?
+    - What is the most efficient way to change a graph's color?
+    - What's the best way to change the color of a graph?
+
+
+- intent: faq-visualisation-b5/How-many-ways-download-graph #173
+  examples: |
+    - how to downlod graph?
+    - how can i export graph?
+    - how to save my graph?
+    - Is there a way to download a grapy?
+    - Is there more than one way to download a graph?
+    - can I download my chart?
+    - Download the graphics?
+    - Download IDP data?
+    - Can data from IDP be downloaded?
+    - Can the visualization be saved?
+    - is tutorials available for downloading grpahs?
+    - is tutorials available for downloading graphs?
+    - How many different ways can I get the graph?
+    - Is there a restriction on how many times I can save the graph?
+    - Is there a cap on how many times I can save the graph?
+    - Is there a limit to how many different approaches I can use to obtain the graph?
+    - Is there a limit to how many times I can get the graph in different ways?
+    - Is there a limit to the number of ways I can obtain the graph?
+    - Is there a limit to the number of different methods I can use to obtain the graph?
+    - Is there a limit to how many times the graph can be saved?
+    - Is it possible to download the graph as many times as you want?
+    - Is there any limit to how many different ways I can get the graph?
+    - Is it possible to download the graph indefinitely?
+    - Is there a limit to how many times the graph can be downloaded?
+    - Is there a limit to how many ways I can obtain the graph?
+    - Is there any way to get the graph in as many different ways as possible?
+    - Is there a limit to the number of times I can save the graph?
+    - Is it possible to download the graph an unlimited number of times?
+    - Is it possible to obtain the graph in as many different formats as possible?
+    - Is there a way to get the graph in a variety of formats?
+    - Is there a limit to how many different ways I can get the graph?
+    - Is it possible to obtain the graph in as many different ways as possible?
+    - Is there a limit to how many times you can download the graph?
+    - Is there a limit to the number of times the graph can be downloaded?
+    - Is there a limit to how many times I can download the graph?
+
+
+- intent: faq-visualisation-b5/Can-share-graphs-on-social-media #174
+  examples: |
+    - share option fir whatsapp?
+    - share option fir facebook?
+    - share option for bluetooth?
+    - share option for linkedln?
+    - linkdin is available for sharing graphs made here ?
+    - facebook is available for sharing graphs made here ?
+    - twitter is available for sharing graphs made here ?
+    - can i share my work on social media
+    - can i share my work on reddit
+    - can i share on my work on social media websites
+    - facbook can i share my reesults on it?
+    - twitte can i share my reesults on it?
+    - bluettoth can i share my reesults on it?
+    - reddit can i share my reesults on it?
+    - whatsaap can i share my reesults on it?
+    - share option on one drive?
+    - can i copy the link of graph?
+    - How can I share my graph?
+    - how can I share my graph?
+    - Is it okay if I use social media to share the graphs?
+    - Is it all right if I post the graphs on Facebook?
+    - Is it okay if I share the graphs on Facebook and Twitter?
+    - Is it all right if I share the graphs on social media?
+    - Is it okay if I post the graphs on Facebook?
+    - Is it permissible for me to share the graphs on social media?
+    - Is it all right if I post the graphs on social media?
+    - Is it okay for me to post the graphs on social media?
+    - Is it okay if I share the graphs on social media sites like Facebook and Twitter?
+    - Is it OK if I post the graphs on Facebook?
+    - Is it acceptable for me to post the graphs on Facebook?
+    - Is it acceptable for me to share the graphs on social media?
+    - Is it okay if I share the graphs on Facebook?
+    - Is it okay if I post the graphs on Facebook and Twitter?
+    - Is it alright if I share the graphs on social media?
+    - Is it permissible for me to post the graphs on Facebook and Twitter?
+    - Is it permissible for me to post the graphs on Facebook?
+    - Is it okay if I post the graphs on social media?
+    - Is it okay if I share the graphs on social media?
+    - Is it permissible for me to post the graphs on social media?
+    - Is it okay if I share the graphs on social media sites such as Facebook and Twitter?
+    - Is it okay if I post the graphs to social media?
+
+
+- intent: faq-visualisation-b5/compare-more-datasets-single-visualization #175
+  examples: |
+    - Can i compare more than two datasets in a single visualization?
+    - How to select two different datasets for visualizing together?
+    - Can i select more than one different datasets for visualizing together?
+    - How to build chart with two datasets?
+    - Can I add two datasets for visualization?
+    - May I choose two or more datasets for chart building?
+    - help me build chart for two datasets
+    - can i compare two datasets?
+    - Can I compare 2 or more datasets in a single visualization
+    - Is it possible to use a single visualization to compare two or more datasets?
+    - In a single visualization, can I compare two or more datasets?
+    - Is it possible to compare two or more datasets in a single visualization?
+    - Is it possible to graph two or more datasets side by side?
+    - Is it possible to use a single graph to compare two or more datasets?
+    - Is it possible to compare two or more datasets using a single visualization?
+    - Can I compare two or more datasets within a single visualization?
+    - Is it possible to compare multiple datasets in one visual?
+    - Is it possible to compare multiple datasets in a single visualization?
+    - Can I use a single visualization to compare two or more datasets?
+    - Can I compare two or more datasets in a single visualization?
+    - Is it possible to compare two or more datasets in one visualization?
+    - Is it possible to compare multiple datasets with a single visualization?
+    - Is it possible to compare two or more datasets in a single graph?
+    - Is there a way to compare two or more datasets in a single visualization?
+    - Is a single visualization capable of comparing multiple datasets?
+    - Is a single visualization capable of comparing two or more datasets?
+    - Is it possible to compare multiple datasets in one graph?
+    - Is it possible to compare two or more datasets in one visual?
+    - Is it possible to graph the comparison of two or more datasets in one graph?
+    - Is it possible to compare two or more datasets in a single visual?
+    - Is it possible to compare two or more datasets within the same visualization?
+    - Is it possible to compare two or more datasets with a single visualization?
+    - Is it possible to compare two or more datasets in one graph?
+    - Is it possible to use a single visualization to compare multiple datasets?
+    - Is it possible to compare several datasets using a single visualization?
+    - Is it possible to compare several datasets in one visualization?
+
+
+- intent: faq-visualisation-b5/How-many-maximum-number-locations-select-which-creating-graph #176
+  examples: |
+    - Is there any minimum location which I should select to make a graph?
+    - what location should i select ?
+    - It is important to select more than one locattion?
+    - It is necessary to select location always?
+    - Necessary to select location always?
+    - Manadatory to select location but how much should i?
+    - Manadatory to select location but how much should i on IDP
+    - here is it Manadatory to select location but how much should i?
+    - indian data portal Manadatory to select location but how much should i?
+    - How many maximum number of locations can I select at a time which creating a graph
+    - When making a graph, is there a limit to how many locations I can select at once?
+    - How many locations can I graph at once?
+    - Is there a limit to the number of locations I can graph at the same time?
+    - How many locations can I graph at the same time?
+    - How many locations can I choose at once to make a graph?
+    - When creating a graph, is there a limit to the number of locations I can select at once?
+    - Is there a limit to how many locations I can choose at once when creating a graph?
+    - Is there a limit to how many graph locations I can choose at once?
+    - What is the maximum number of locations I can graph at the same time?
+    - When creating a graph, is there a limit to how many locations I can select at once?
+    - Is there a limit to how many locations I can select at once when creating a graph?
+    - How many graph locations can I choose at once?
+    - How many graph locations can I select at once?
+    - Is there a limit to how many locations I can select at once when making a graph?
+    - Is there a limit to how many locations I can graph at once?
+    - Is there a limit to the number of locations I can select at once when creating a graph?
+    - Is there a limit to how many places I can graph at once?
+    - To make a graph, how many locations can I select at once?
+    - How many locations can I select at a time to create a graph?
+    - Is there a limit to how many places I can graph at the same time?
+    - Is there a limit to the number of places I can graph at the same time?
+    - How many places can I graph at the same time?
+    - Is there a limit to the number of locations I can choose at once when creating a graph?
+    - Is there a limit to how many locations I can select at a time when creating a graph?
+    - How many places can I choose at once to make a graph?
+    - How many locations can I select at once to make a graph?
+    - How many places can I graph at once?
+    - How many locations can I choose at once for a graph?
+
+- intent: faq-visualisation-b5/How-many-visualisations-create-single-selected-data #177
+  examples: |
+    - What are the different types of graph?
+    - is there a bar chart?
+    - how to seelct a pie chart?
+    - what kind of visualizations are available?
+    - Help me to find ways to build graphs
+    - How many visualisations can I create for a single selected data
+    - How many visualisations can I create if i select single dataset
+    - but what if i select a single dataset what number of graphs cann i make
+    - but what if i select a single dataset what number of graphs can i make here
+    - How many different visualizations can I make out of a single set of data?
+    - From a single set of data, how many different visualisations can I make?
+    - How many different visualizations can I produce for a single set of data?
+    - For a single set of data, how many different visualizations can I make?
+    - Is there a limit to how many visualisations I can create for a single set of data?
+    - From a single set of data, how many visualizations can I create?
+    - Is there a limit to how many visualisations I can make for a single set of data?
+    - From a single set of data, how many visualisations can I create?
+    - how many different visualisations can I make from a single set of data?
+    - For a single set of data, how many visualizations can I make?
+    - For a single set of data, how many visualizations can I create?
+    - From a single set of data, how many different visualizations can I create?
+    - Is there a limit to how many visualizations I can make from a single set of data?
+    - How many visualizations can I create from a single set of data?
+    - For a single set of data, how many visualisations can I create?
+    - How many different visualisations can I make for a single set of data?
+    - For a single set of data, how many visualisations can I make?
+    - From a single set of data, how many visualizations can I make?
+    - How many different visualisations can I make out of a single set of data?
+    - How many different visualizations can I create from a single set of data?
+    - For a single set of data, how many different visualizations can I create?
+    - How many different visualizations can I make from a single set of data?
+    - For a single set of data, how many different visualisations can I create?
+    - How many visualisations can I make from a single set of data?
+    - How many different visualizations can I make for a single set of data?
+    - From a single set of data, how many visualizations can I produce?
+    - How many different visualizations can I create for a single set of data?
+    - From a single set of data, how many visualisations can I make?
+    - How many visualisations can I create for a single set of data?
+    - How many visualisations can I make for a single set of data?
+    - How many visualisations can I create from a single set of data?
+
+- intent: faq-visualisation-b5/max-datasets-compare #180
+  examples: |
+    - You can compare a maximum of 2 datasets at a time
+    - while on IDP how many db can i compare
+    - hey can i know how many datasets i can comapre
+    - hey can i know how many datasets i can comapre on IDP
+    - hey can i know how many datasets i can comapre on indian data portal
+    - while on idp how many datasets i can comapre
+    
+
+
+- intent: faq-visualisation-b5/what-dimension #160
+  examples: |
+    - what is dimension
+    - what is dimension in IDP
+    - india data poortal i found something called dimensiojn what is it ?
+    - dim?
+    - dim.?
+    - dimesnion
+    - dimmesnion what is it ?
+    - what are dimensions
+    - dimension?
+    - what is dimension in visualisation
+    - what is dimension?
+
+- intent: faq-visualisation-b5/whatis-indiapulse #156
+  examples: |
+    - what is IPulse
+    - what is indian pulse
+    - what the heck is india pulse on indp
+    - what the heck is india pulse on idp
+    - what the heck is india pulse on india data portal
+    - india pulse ?
+    - india pulse what the thing is this ?
+    - india pulse ahmm can you pls tell me
+    - i fpumd this india pulse here
+    - ahmm india pulse ?
+    - I have no idea what India Pulse is.
+    - What exactly is India Pulse and how does it function?
+    - What is India Pulse, and how does it differ from other pulses?
+    - How does India Pulse compare to other pulses?
+    - India Pulse is a name I'm unfamiliar with.
+    - What is India Pulse, and how is it different from other pulses?
+    - What is India Pulse?
+    - How does India Pulse work?
+    - What makes India Pulse stand out from other pulses?
+    - What is India Pulse, exactly, and how does it differ from other pulses?
+    - What exactly is India Pulse?
+    - What is India Pulse, and how does it work?
+    - What is the difference between India Pulse and other pulses?
+    - What distinguishes India Pulse from other pulses?
+    - So, what is India Pulse all about?
+    - What sets India Pulse apart from the rest of the pulse family?
+    - What exactly is India Pulse, and how does it compare to other pulses?
+    - What exactly is India Pulse, and how does it function?
+    - What makes India Pulse different from other pulses?
+    - I'm not familiar with India Pulse.
+    - How does India Pulse differ from other pulses?
+    - What is India Pulse, exactly?
+    - So, what is India Pulse, exactly?
+    - I'm not sure what India Pulse is.
+    - So, what exactly is India Pulse?
+
+- intent: faq-visualisation-b5/tables-instead-vis #179
+  examples: |
+    - Can I create tables instead of visualization
+    - Can I create tables instead of visualization here
+    - on IDP can we cretes tables without vizz
+    - im in a project can i create table without viz
+    - on indiandataportal can we create tables without Visualisations
+    - creating table without viz? is this feature availabel
+    - can i get this facility where i can cretae viz without making tables on here
+    - Is it possible to make tables instead of graphs?
+    - Can tables be used instead of visualizations?
+    - Is it possible to replace graphs with tables?
+    - Is it possible to substitute tables for graphs?
+    - Can tables be used in place of graphs?
+    - Is it possible to create tables instead of visualizations?
+    - Is it possible to make tables instead of visualizations?
+    - Is it possible to use tables instead of visualizations to create a table?
+    - Can tables be used instead of graphs?
+    - Is it possible to create a table by using tables rather than visualizations?
+    - Is it possible to create tables using tables instead of visualizations?
+    - Is it possible to create tables using tables rather than visualizations?
+    - Is it possible to use tables rather than visualizations to create tables?
+    - Is it possible to substitute tables for visualizations?
+    - Can tables be substituted for graphs?
+    - Is there a way to create tables instead of visualizations?
+    - Is it possible to use tables instead of graphs?
+    - Is it possible to make tables rather than visualizations?
+    - Is it possible to create a table using tables rather than visualizations?
+    - Is it possible to use tables instead of visualizations to create tables?
+    - Is it feasible to create tables rather than graphs?
+    - Is it possible to replace visualizations with tables?
+    - Is it possible to create tables rather than visualizations?
+    - Is it feasible to create tables rather than visualizations?
+    - Is it possible to create tables without using visualizations?
+    - Is it possible to use tables instead of visualizations?
+    - Is it possible to create a table without using visualizations?
+
+
+- intent: faq-visualisation-b5/why-no-jpeg #178
+  examples: |
+    - Why dont I have the option to download the image in jpeg format
+    - Why don’t I have the option to download the image in jpeg format
+    - jpeg format why i cna't i donwload ?
+    - can i download my work in jpeg
+    - grpahs i made can be downloaded in JPEG right?
+    - output can be downloaded in JPEG ?
+    - anyway to download work in jpeg ?
+
+- intent: faq-visualisation-b5/create-indicator-with-assigned-units #181
+  examples: |
+    - Can I create my own indicator with assigned units
+    - Can I create my personal indicator with assigned units
+    - i wanna create personal indicator withh assigned units?
+    - my research needs personal indicator withh assigned units can i make?
+    - my jornalism report needs personal indicator withh assigned units can i make?
+    - Is it possible for me to create a custom indicator with my own units?
+    - Is it possible for me to create my own indicator with assigned units?
+    - Is it possible for me to make a unit indicator of my own design?
+    - Is it possible for me to create my own indicator, complete with units?
+    - Is it possible for me to create my own unit-based indicator?
+    - Is it possible for me to make my own indicator with units assigned?
+    - Is it possible for me to create my own indicator that is based on units?
+    - Is it possible for me to create my own indicator with units assigned?
+    - Is it possible for me to create an indicator that is unit-based?
+    - Is it possible for me to create my own indicator with units?
+    - Is it possible for me to create a unit-based indicator?
+    - Is it possible for me to create an indicator that is based on units?
+    - Is it possible for me to create my own indicator that includes units?
+    - Is it possible for me to make an indicator that is based on units?
+    - Is it possible for me to make my own unit-based indicator?
+    - Is it possible for me to create a indicator that is based on units?
+    - Is it possible for me to make my own indicator that is based on units?
+    - Is it possible for me to create a unit-based indicator on my own?
+    - Is it possible for me to make an indicator that is based on a unit?
+    - Is it possible for me to make my own indicator with units?
+    - Is it possible for me to create a custom indicator with units?
+    - Is it possible for me to create my own indicator that is based on a unit?
+    - Is it possible for me to make a unit-based indicator?
+    - Is it possible for me to create my own unit indicator?
+    - Is it possible for me to make a unit indicator on my own?
+    - Is it possible for me to make a unit indicator of my own?
+    - Is it possible for me to make a unit-based indicator of my own?

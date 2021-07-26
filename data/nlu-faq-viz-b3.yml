@@ -1,0 +1,1190 @@
+version: "2.0"
+nlu:
+- intent: faq-visualisation-b3/why-add-dataset  #79
+  examples: |
+    - use of adding more data?
+    - usecase of appending data?
+    - why adding dataset will be useful?
+    - will it be useful if a add dataset?
+    - how inserting new dataset will gonna help me?
+    - Why should we include a new dataset?
+    - Why should i inculcate a new dataset?
+    - why am i supposed to add the new dataset?
+    - what is the benefit of adding new dataset?
+    - what are the advantages of adding new dataset?
+    - Why should a new dataset be added?
+    - What are the benefits of adding a new dataset?
+    - Why do we need to add a new dataset?
+    - What exactly is the point of including a dataset?
+    - What are the benefits of including a dataset in your project?
+    - What are the advantages of incorporating a dataset?
+    - What are the benefits of using a dataset?
+    - What are the benefits of utilizing a dataset?
+    - Why is it necessary to include more dataset?
+    - What are the benefits of incorporating a dataset into your project?
+    - Why would you want to add additional dataset to your project?
+    - What are the benefits of having more than one dataset?
+    - Why would i have to incorporate supplementary dataset?
+    - What benefit does supplementary dataset provide?
+    - What's the point of adding supplementary dataset to your visualisation?
+    - Why is it necessary to have auxiliary dataset?
+    - What is the purpose of adding a dataset?
+    - What is the advantage of a dataset?
+    - What is the need for a dataset?
+    - advantages of having more than one dataset
+    - What good is it to include a dataset?
+    - What is the advantage of incorporating a dataset?
+    - What are the benefits of using more than one dataset in your project?
+    - What is the benefit of including additional dataset?
+    - What are the benefits of having more than one dataset in your collection?
+    - purpose of having more than one dataset
+    - What does it mean to add a dataset?
+    - Why is it necessary to add a dataset?
+    - how adding more dataset will help me?
+    - what else we can do if we have additional dataset?
+    - what can i do if i am having more than one dataset?
+    - what can i do if i am selecting more than one dataset?
+    - What is the point of including a dataset?
+    - What is the point of putting auxiliary dataset in there?
+    - What is the purpose of including a dataset?
+    - What is the benefit of using more than one dataset?
+    - What exactly is the point of adding additional dataset?
+    - What does it mean to include a dataset?
+    - Why is additional dataset required?
+    - benefits of additional dataset
+    - advantages of additional dataset?
+    - why should i add new dataset?
+  
+- intent: faq-visualisation-b3/options-to-make-chart-builder  #80, 78
+  examples: |
+    - How many options should we select on chart builder?
+    - What are the options on chart builder?
+    - Which icons to be clicked on chart builder?
+    - Can I choose only one indicator and multiple crops in chart builder?
+    - Can I choose multiple options on chart builder?
+    - What are minimum options required to build chart?
+    - I get below message "No Data for filters applied. Please modify filters and try again!" How do I create chart using chart builder?
+    - What are mandatory options required to build a chart?
+    - I applied all options still there is no chart built, please help.
+    - How to build chart?
+    - Chart not built, how to make a chart?
+    - on the chart builder, how many options should we choose?
+    - how many options should we pick, on the chart builder?
+    - On the chart builder, how many choices should we select?
+    - How many choices should we choose from the chart builder?
+    - How many options should we choose on the chart builder?
+    - How many options should we choose in the chart builder?
+    - how many options can i choose in chart builder?
+    - in chart builder how many options one can select?
+    - is there any limit to choose options in chart builder
+    - How many options from the chart maker can we choose?
+    - On the chart builder, how many options we can select?
+    - From the chart creator, how many options should we choose?
+    - i want to make a plot out of filter data how many options i can choose from build your chart?
+    - i want to make a visual out of filter data how many options i can select from build your chart?
+    - In the chart builder, how many options should we select?
+    - How many chart builder options should we choose?
+    - from buid your chart dialogue box how many filters we can choose?
+    - is there any limit to filters in build your chart?
+    - are there any constraints on selecting options from chart builder?
+    - On the chart builder, how many options should we pick?
+    - How many options from the chart creator should we choose?
+    - How many options should we pick from the chart builder?
+    - From the chart builder, how many options should we choose?
+    - How many options should we select from the build your chart dialogue box?
+    - How many options should we select from the chart builder?
+    - How many options should we select in the chart builder?
+    - How many options from the chart builder should we choose?
+    - In the chart builder, how many options should we pick?
+    - is there any limit to select options from chart builder?
+    - do we need to select some specific options from chart builder in order to make chart?
+    - are there any restrictions on number of options to be selected?
+    - How many options should we select to visualise? 
+
+- intent: faq-visualisation-b3/to-create-state-level-chart  #81
+  examples: |
+    - How do we create state level chart?
+    - Can I select all states to make a chart?
+    - I selected few states but chart is not made, what do I do?
+    - Please help me create state level chart
+    - State level chart
+    - Options to choose for state level chart
+    - State chart options
+    - Documentation on state level chart
+    - How do we make a state-level map?
+    - How can we make a state-level chart?
+    - how am i supposed to make a state level chart?
+    - how state level chart is created?
+    - How do we make a state-level graph?
+    - how to generate state level chart?
+    - What is the best way to create a state level graph?
+    - How can we create a graph at the state level?
+    - What's the best way to build a state-level graph?
+    - How do you make a state-by-state map the best way possible?
+    - What's the most efficient way to make a state-by-state map?
+    - How do we make a state-level graph?
+    - What's the best way to make a state-level graph?
+    - How should a state-level graph be created?
+    - What is the most efficient way to make a state level visual?
+    - What is the best method for creating a state-by-state graph?
+    - What is the suggested method for creating a state-level chart?
+    - How do we make a state-by-state chart?
+    - Which method for creating a state-level graph is the most efficient?
+    - How should a state-by-state chart be created?
+    - What is the most efficient method for creating a state-level graph?
+    - What is the most effective method for creating a state-by-state map?
+    - How should a state-level graph be constructed?
+    - What is the best way to make a state-by-state plot?
+    - What's the ideal way to make a state-by-state map?
+    - At the state level, how do we make a graph?
+    - how am i supposed to construct a plot at state level?
+    - How should a state-by-state map be created?
+    - What is the most effective method for building a state level graph?
+    - What is the best method for constructing a state-by-state map?
+    - How do you make a state-level graph the best way possible?
+    - What is the best way to build a state-level plot?
+    - how am i supposed to construct a chart at state level?
+    - What is the best way to create a state-by-state map?
+    - How do we create a graph at the state level?
+    - What's the efficient way to make a state-level graph?
+    - What is the best way to make a state-level graph?
+    - What is the ideal way to create a state-level graph?
+    - What is the quickest way to make a state-level graph?
+    - What is the procedure for creating a state level graph?
+    - tell me how state level visual can be made?
+    - can you help me with making chart at state level?
+    - guide me to make state level plot.
+    - steps to create state level chart
+    - let meknow how to create state level chart?
+    - process of creating state level chart?
+
+
+- intent: faq-visualisation-b3/to-create-district-level-chart #82
+  examples: |
+    - How do we create district level chart?
+    - Can I select all districts to make a chart?
+    - I selected few districts but chat is not made, what do I do?
+    - Please help me create district level chart
+    - district level chart
+    - Options to choose for distict level chart
+    - district chart options
+    - Documentation on distrct level chart
+    - How do we make a distrct-level map?
+    - How can we make a distrct-level chart?
+    - how am i supposed to make a distrct level chart?
+    - how distrct level chart is created?
+    - How do we make a distrct-level graph?
+    - how to generate distrct level chart?
+    - What is the best way to create a distrct level graph?
+    - How can we create a graph at the distrct level?
+    - What's the best way to build a distrct-level graph?
+    - What is the best way to make a graph at the district level?
+    - How can we make a chart at the district level?
+    - How do we make a chart at the district level?
+    - What is the procedure for creating a chart at the district level?
+    - What is the procedure for creating a district-level chart?
+    - How do we make a district-level graph?
+    - How do I make a chart at the district level?
+    - At the district level, how do we make a graph?
+    - What is the procedure for making a chart at the district level?
+    - How do we create a chart at the district level?
+    - At the district level, how do we make a chart?
+    - At the district level, how do you make a chart?
+    - What is the most efficient way to create a district-level graph?
+    - How do we create a graph at the district level?
+    - How do we make a graph at the district level?
+    - How do we create a district-level graph?
+    - How do we make a district-level chart?
+    - What is the procedure for creating a district chart?
+    - What's the best way to make a district-level graph?
+    - How do you create a district-level chart?
+    - What is the process for creating a district-level chart?
+    - What is the best way to make a district-level graph?
+    - How do you create a chart for a district?
+    - How do you make a district-level chart?
+    - How do you make a chart at the district level?
+    - What is the procedure for creating a district-level graph?
+    - how am i supposed to construct chart at district level?
+    - tell me how district level visual can be made?
+    - can you help me with making chart at district level?
+    - guide me to make district level plot.
+    - steps to create district level chart
+    - let meknow how to create district level chart?
+    - process of creating district level chart?
+
+- intent: faq-visualisation-b3/why-select-crops #83
+  examples: |
+    - Why crops should be selected
+    - Is crops mandatory selection?
+    - Can I skip crop selection?
+    - Can I choose all crops?
+    - can I clear all filters on crops?
+    - I selected few crops but chart was not created, what do I do?
+    - Help me selct crops for chart
+    - Why should crops be chosen?
+    - What are the reasons for choosing crops?
+    - Why is it important to choose crops?
+    - Why should crops be selected?
+    - Why is it essential select crops?
+    - Why should crops be chosen?
+    - why am i supposed to select the crop?
+    - why crop should be selected?
+    - What drives crop choice?
+    - What is crop selection and why is it important?
+    - Why is it necessary to select crops?
+    - What factors have an impact on crop selection?
+    - What does crop selection mean?
+    - What are the benefits and drawbacks of different types of crops?
+    - Is crop selection so important?
+    - why crop selection is required?
+    - What drives crop selection?
+    - What are the motivations behind crop selection?
+    - What factors influence crop selection?
+    - What makes crop selection so important?
+    - Why is it important to choose crops?
+    - What are the factors that influence crop selection?
+    - Why should crops be chosen?
+    - What is the purpose of crop selection?
+    - What are the advantages of crop selection?
+    - What makes crop selection so crucial?
+    - What factors play a role in crop selection?
+    - What is the significance of crop selection?
+    - Why is crop selection necessary?
+    - What are the reasons for choosing crops?
+    - why am i supposed to select crops?
+
+
+- intent: faq-visualisation-b3/why-farm-size-category #84
+  examples: |
+    - Why farm size category should be selected
+    - What is farm size category?
+    - Can the farm size field be skippd?
+    - Can I build the chart without field size category?
+    - Is there any other way than selecting size category of field?
+    - Form size category
+    - Form size cat.
+    - What is Form size option?
+    - Why should the farm size category be chosen?
+    - Why should you choose a farm size category?
+    - Why should a farm size category be selected?
+    - So why would a farm size category be chosen?
+    - i want to see farm size, what should i do?
+    - what i have to do in order to see farm size?
+    - to see farm size what is to be done?
+    - what am i supposed to do in order to see farm size?
+    - tell me how can i select farm size? 
+    - tell me how can i pick farm size of my choice?
+    - method to slect farms by their size?
+    - how can i enter the farm size?
+    - Why is it necessary to select a farm size category?
+    - Why must a farm size category be chosen?
+    - Why should a farm size category be chosen?
+    - What is the purpose of choosing a farm size category?
+    - What makes the importance of a farm size category so critical?
+    - Why was the farm size category selected?
+    - What are the benefits of selecting a farm size category?
+    - What is the purpose of selecting a farm size category?
+    - What factors did you consider when deciding on the farm size category?
+    - why should i select farm size category
+    - What are the benefits of categorizing farms according to their size?
+    - What prompted you to select the farm size category?
+    - What are the advantages of categorizing farms according to their size?
+    - What are the benefits of having a category for farm size?
+    - What is the significance of a farm size category?
+    - Why is it necessary to choose a farm size category?
+    - What are the advantages to choosing a farm size category?
+    - Why should the farm size category be chosen?
+    - Why should you choose a farm size category?
+    - What is the point of choosing a farm size category?
+    - Why must a farm size category be selected?
+    - What factors influenced the size of the farm?
+    - What is the significance of the farm size category?
+    - What are the benefits of having a farm size classification?
+    - What are the advantages of having a farm size category?
+    - What factors led to the selection of the farm size category?
+    - What are the benefits of categorizing farms by size?
+    - What are the advantages of picking a farm size category?
+    - Why did you select the category of farm size?
+    - Why did you choose the farm size category?
+    - Why did you decide on the farm size category?
+    - What factors influenced your choice of farm size?
+    - What makes a farm size category so important?
+    - What are the advantages of categorizing farms by size?
+    - how can i see the farm sizes?
+
+- intent: faq-visualisation-b3/why-crop-type-selected #85
+  examples: |
+    - Why crop type should be selected
+    - What crop should I select?
+    - Can new crop be selected?
+    - Can a new crop be added and then selected?
+    - Why should I choose crp type in chart builder?
+    - Crop type
+    - Crop typ
+    - tupe crop selection
+    - assist in choosing crop type
+    - Error after selecting crop type
+    - Why should a certain crop type be chosen?
+    - Why should a particular crop type be chosen?
+    - why specific crop type is to be selected?
+    - why we ahve to pick specific crop type?
+    - Why is it important to choose a crop type?
+    - Why is it important to pick a crop type?
+    - Why should you choose a crop type?
+    - Why is it crucial to choose a crop type?
+    - Why should you choose a crop type?
+    - What makes crop type selection so crucial?
+    - What makes crop type selection so critical?
+    - What makes picking a crop type so important?
+    - What are the advantages of selecting a crop?
+    - Why is it critical to choose a crop type?
+    - Why is crop type selection so important?
+    - What are the benefits and drawbacks of various crop types?
+    - What are the advantages and disadvantages of different crop types?
+    - What are the benefits of picking a crop type?
+    - Why is picking a crop type so important?
+    - What are the benefits and drawbacks of various crop varieties?
+    - What are the advantages of deciding on a crop type?
+    - What makes choosing a crop type so important?
+    - What makes crop type selection so important?
+    - What is the significance of choosing a crop type?
+    - Why is it important to select a crop type?
+    - Why is it so important to choose a crop type?
+    - Why is it crucial to select a crop type?
+    - What makes picking a crop type so crucial?
+    - Why is it important to pick a crop type?
+    - Why is it important to choose a crop type?
+    - What are the benefits and drawbacks of various types of crops?
+    - What are the advantages of choosing a particular crop type?
+    - in what scenario selection of crop type is necessary?
+
+
+- intent: faq-visualisation-b3/why-social-grp-selected  #86
+  examples: |
+    - Why social group should be selected
+    - What social should I select?
+    - Can new sociale grp be selected?
+    - Can a new spocial group be added and then selected?
+    - Why should I choose social group in chart builder?
+    - social group
+    - socal group
+    - social group selection
+    - assist in choosing social group
+    - Error after selecting social group
+    - Why should a social group be chosen?
+    - What are the advantages of choosing a social group?
+    - Why is it important to choose a social group?
+    - Why should a social group be picked?
+    - Why should a particular social group be chosen?
+    - Why is it necessary to choose a social group?
+    - why should a certain social group should be chosen?
+    - why should i select social group?
+    - why social group should be selected?
+    - why social group should be chosen?
+    - What are the benefits of choosing a social group?
+    - What advantages does it have to join a social group?
+    - What are some of the advantages of joining a social group?
+    - What are the benefits of joining a social group?
+    - What makes deciding on a social group so crucial?
+    - What are the advantages of joining a social group?
+    - What are some of the benefits of being a part of a social group?
+    - Why is it critical to select a social group?
+    - What makes selecting a social group so important?
+    - What makes picking a social group so important?
+    - What makes choosing a social group so crucial?
+    - advantages of selecting social group
+    - What are the benefits of becoming a member of a social club?
+    - Why social group should be chosen?
+    - What is the point of selecting a social group?
+    - Why is it so important to choose a social group?
+    - Why is it crucial to select a social group?
+    - tell me why should i pick social group?
+    - Why is it important to join a social group?
+    - What are the advantages of being a member of a social group?
+    - Why is it important to pick a social group?
+    - in what scenario selection of social group is necessary?
+
+
+- intent: faq-visualisation-b3/what-happens-if-we-select-all-on-chart-builder #87
+  examples: |
+    - What happens if we select all the options on chart builder
+    - can I slect all optins on chat builder?
+    - can I select all options on chart builder?
+    - may I choose all options on chart buuilder?
+    - May I choice every option on chart builder?
+    - May I choose all options on bisualizer?
+    - May I choose all options on Visualizer?
+    - Help me select all options on visualiser
+    - All options of chart buuilder
+    - all options on chrt builder
+    - eevery option on chart buukder
+    - What happens if we pick all of the chart builder options?
+    - What happens if we pick all of the choices on the chart builder?
+    - What happens if we use the chart builder and select all of the options?
+    - What happens if we set all of the chart builder options?
+    - if i will choose all of the chart builder options what will happen?
+    - What happens if you choose all of the chart-building options?
+    - What if we use every chart builder option available?
+    - What happens if we select all of the chart builder options?
+    - What if we use the chart builder to select all of the options?
+    - What happens if we use every chart builder option?
+    - What happens if you select all of the chart builder options?
+    - What if we use all of the chart builder options?
+    - What happens if we use the chart builder to choose all of the options?
+    - What if we select all of the options using the chart builder?
+    - What happens if all of the chart builder options are chosen?
+    - What if we used the chart builder to select all of the options?
+    - How about if we use the chart builder to select all of the options?
+    - What happens if all of the chart builder options are selected?
+    - What if we choose all of the options using the chart builder?
+    - What if we use every chart builder feature?
+    - What happens if we select all of the options with the chart builder?
+    - What happens if we select all of the options using the chart builder?
+    - What happens if we choose all of the options using the chart builder?
+    - What happens if you choose all of the chart builder options?
+    - What happens if you select every option in the chart builder?
+    - What happens if we use the chart builder to select all of the options?
+    - What if we use the chart builder to choose all of the options?
+    - What if we select all of the options with the chart builder?
+    - what will happen if i will select all the options chart builder having
+    - what will it lead towards if everything from chart builder is selected.
+
+- intent: faq-visualisation-b3/why-farm-size-class-selected   #88
+  examples: |
+    - Why farm size class should be selected
+    - what is farm size?
+    - why farm size?
+    - what selection for farm size?
+    - error in farm size selection
+    - help for farm sizeselect
+    - help required in fam size selection
+    - how to select farm size?
+    - form size selecttion
+    - Why should the farm size class be chosen?
+    - Why should a farm size class be picked?
+    - Why choose a farm size class?
+    - Why should a farm size class be selected?
+    - Why should you pick a farm size class?
+    - why am i supposed to pick farm size class?
+    - Why should the farm size class be opted?
+    - What is the purpose of selecting a farm size class?
+    - Why farm size class is to be chosen?
+    - What is the purpose of choosing a farm size class?
+    - Why is it necessary to select a farm size class?
+    - What are the benefits of opting for the farm size class?
+    - What factors led to the selection of the farm size class?
+    - Why is it important to select a farm size class?
+    - What are the advantages of choosing farm size class?
+    - What are the benefits of going with a farm size class?
+    - What are the advantages of taking a farm size class?
+    - Why farm size class is to be selected?
+    - What are the advantages of choosing a farm size class?
+    - Why is it necessary to choose a farm size class?
+    - What are the advantages of choosing the farm size class?
+    - What are the benefits of choosing a farm size class?
+    - What are the benefits of a farm size class?
+    - Why should i choose a farm size class?
+    - Why should the farm size class be chosen?
+    - What is the point of selecting a farm size class?
+    - What factors led to the selection of the farm size class?
+    - What are the benefits of selecting the farm size class?
+    - What factors went into the selection of the farm size class?
+    - Why should a farm size class be chosen?
+    - Why should you pick a farm size class?
+    - Why is it important to choose a farm size class?
+    - What factors went into the selection of the farm size class?
+    - What is the significance of choosing a farm size class?
+    - in what scenario selecting a farm size class will help me?
+    - can you tell me how selecting a farm size class will help me out?
+    - picking a farm size class will be beneficial in which case?
+
+
+- intent: faq-visualisation-b3/how-access-full-data   #89
+  examples: |
+    - How can I access the full data?
+    - Fool data access
+    - full data visualize
+    - can I check full data in dataset/
+    - can I see fukl data?
+    - can you tell me how to access full data?
+    - Guide in checking full data
+    - how can i get access of full data?
+    - Access issue with full data view
+    - not able to access full dataset
+    - data full view
+    - how cam i get hold of full data
+    - how am i supposed to get full data
+    - How can I get complete access to the data?
+    - What is the best way for me to get all of the information regarding data?
+    - How do I get access to all of the data?
+    - How can I get full access to the data?
+    - What is the most efficient method for me to gather all of the data?
+    - What is the most effective way for me to gather all of the data?
+    - What is the most efficient method for me to get all of the data?
+    - What's the best way for me to get complete access to the data?
+    - What is the most efficient method for me to collect all of the data?
+    - What is the most efficient way for me to obtain complete access to the data?
+    - How can I gain access to all of the data?
+    - How do I get full access to the data?
+    - How do I get access to all of the data?
+    - What is the most efficient way for me to get access to all of the data?
+    - What is the best way for me to get all of the data?
+    - What is the most efficient way for me to get all of the data?
+    - What is the most efficient way for me to gain access to all of the data?
+    - What is the most efficient way for me to collect all of the data?
+    - What's the best way for me to get full access to the data?
+    - How can I get all of the data?
+    - What is the best way for me to gain access to all of the data?
+    - What is the most efficient way for me to gather all of the data I require?
+    - What is the most efficient way for me to obtain all of the data?
+    - How can I gain complete access to the data?
+    - What is the most efficient method for me to obtain all of the data?
+    - How can I get complete access to the data?
+    - What is the most efficient way for me to get all of the data I require?
+    - How do I gain complete access to the data?
+    - What's the most efficient way for me to get complete access to the data?
+    - What is the most effective way for me to collect all of the data?
+    - What is the most efficient way for me to gain complete access to the data?
+    - What is the most efficient way for me to obtain all of the necessary data?
+    - What is the best way for me to get full access to the data?
+    - What is the most efficient way for me to get all of the data I need?
+    - will it be possible to get full data?
+    - is full data accessible through portal?
+
+
+- intent: faq-visualisation-b3/how-to-create-indicators   #90
+  examples: |
+    - How to create new indicators?
+    - Create new indicators
+    - Help create new indicator
+    - Indictor creation
+    - How do I make new indicator?
+    - Making new indicator
+    - can I add new indicator?
+    - How do I create a new indicator
+    - How do you come up with new indicators?
+    - how am i supposed to create new indicators?
+    - how new indicators are generated?
+    - how new indicators are produced?
+    - How would you look for new indicators?
+    - How do you make new indicators?
+    - How do you develop new indicators?
+    - How new indicators can be built up?
+    - What's the best way to create new indicators?
+    - What is the best way to make new indicators?
+    - What is the most effective method for developing new indicators?
+    - What is the most efficient way to create new indicators?
+    - how can i come up with new indicator?
+    - how can i generate new indicator?
+    - What is the most effective method for creating new indicators?
+    - How should i come up with new indicators?
+    - What methods i need to use in order to create new indicator?
+    - steps for developing new indicators?
+    - What steps i need to employ when coming up with new indicator?
+    - What method i should use to create new indicators?
+    - tell how to come up with new indicators?
+    - What is the best method for creating new indicators?
+    - how to developing new indicators?
+    - What strategies i should employ when developing new indicators?
+    - What is the most efficient way to develop new indicators?
+    - What is the most effective way to generate new indicators?
+    - What is the most efficient way to generate new indicators?
+    - What strategies i need to use to create new indicators?
+    - What methods do you employ when developing new indicator?
+    - How can i come up with new indicator?
+    - What is the most effective way to create new indicators?
+    - How do you come up with new indicator? What method do i use?
+    - How do you come up with new indicator? What steps should i follow?
+    - What is the best way to create new indicators?
+    - What is the most efficient way of creating new indicators?
+    - How can i go about creating new indicators?
+    - procedure for creating new indicators?
+    - steps for creating new indicators?
+
+
+- intent: faq-visualisation-b3/where-is-graph   #91
+  examples: |
+    - I can't see anything. Where is the graph?
+    - graph not coming
+    - there is error in graph, it is not coming up whateevr selection I do
+    - help my graph is not coming up
+    - Guide how to see the graph, there is no data
+    - Whatever selection I do, graph doesn’t come up
+    - How to troubleshoot graph not seen?
+    - Graph not generated
+    - Graph has a problem
+    - graph has issue
+    - Nothing is visible to me. What happened to the graph?
+    - i am not able to see anything, where is the graph?
+    - There is nothing visible to me. Where can I find the diagram?
+    - Nothing is visible to me. What happened to the graph?
+    - There's nothing visible to me. Something happened to the graph?
+    - I'm unable to see anything. Is the graph still missing?
+    - Nothing is visible to me. I can't find the graph.
+    - Nothing is visible to me. Where can I get the diagram?
+    - where is my visuals? i can't see anything?
+    - where are my plots help me locating them?
+    - I'm trying to locate the graph but can't seem to locate it.
+    - The graph is nowhere to be found.
+    - Were are the graphs if I can't see it?
+    - What is the location of the graph that I can't seem to find?
+    - I can't seem to find the graph anywhere.
+    - I can't seem to find the graph I'm looking for.
+    - If I can't see it, where is the graph?
+    - I'm looking for the graph, but it's nowhere to be found.
+    - Where can I find the graph that I can't seem to find?
+    - I can't seem to find the graph; where is it?
+    - I'm having trouble finding the graph.
+    - Where is the graph if it isn't visible to me?
+    - If I can't see the graph, where can I find it?
+    - I can't seem to locate the graph; could you please direct me to it?
+    - Where is the graph if I can't see it?
+    - Can you tell me where the graph is?
+    - Where is the graph that I can't seem to locate?
+    - I can't seem to locate the graph; could you please point me in the right direction?
+    - If I can't see the graph, where is it?
+    - What should I do if I can't see the graph?
+    - Where is the graph if I can't find it?
+    - I can't seem to locate the graph; can you tell me where it is?
+    - Where can I find the graph if I can't see it?
+    - I can't seem to find the graph; can you tell me where it is?
+    - I can't seem to locate the graph.
+    - Where is the graph, I can't seem to find it.
+    - I can't seem to find the graph; could you point me in the right direction?
+    - I'm looking for the graph but can't seem to find it.
+    - I'm having trouble finding the graph; could you tell me where it is?
+    - Where can I look for the graph if I can't see it?
+    - help me in locating graph?
+
+
+- intent: faq-visualisation-b3/what-to-select-first   #92
+  examples: |
+    - What do I select first?
+    - First step to visualize dataset
+    - steps to make chart
+    - how to use this chart builder?
+    - chart buuld help
+    - chart build help required ?
+    - selection help can you help me 
+    - what to select?
+    - auto select possible?
+    - New to IDP, how to navigate?
+    - what am i supposed to select first?
+    - What should I choose first?
+    - What should I go for first?
+    - What do I use first?
+    - I'm not sure what should i be selecting firstly
+    - first and formostly what should we be selecting?
+    - I'm not sure what I'm going to do first.
+    - Which path should I take first?
+    - Which one should I start with?
+    - Which of the following options should I choose first?
+    - Which of the two options should I choose first?
+    - Which one should I go with first?
+    - I'm not sure which path to take first.
+    - What should I do first?
+    - I am not sure which option I'll go with first.
+    - I'm not sure what I'm going to choose first.
+    - Which option should I pursue first?
+    - What should I pick first?
+    - Which one should I pick first?
+    - Which of the options should I choose first?
+    - I'm not sure what to choose first.
+    - What I'm going to do first is a mystery to me.
+    - I'm undecided about which route to take first.
+    - I'm undecided as to what I'll do first.
+    - I'm undecided about what I'm going to do first.
+    - I'm undecided about which to start with.
+    - Which of the options should I pick first?
+    - I'm undecided about which path I'll take first.
+    - I am undecided about which to tackle first.
+    - I'm undecided about which to do first.
+    - I amundecided about what I'll do first.
+    - Which option should I choose first?
+    - I'm undecided about which route I'll take first.
+    - What should I choose first?
+    - I'm undecided about which path to pursue first.
+    - I am undecided about which path to take first.
+    - Which should I choose first?
+    - I'm not sure which option to pick first.
+    - Which course of action should I take first?
+    - Which option should I take first?
+    - I'm not sure what I'll do first.
+    - tell me what i have to select first on the portal?
+
+
+- intent: faq-visualisation-b3/how-can-select-graph   #93
+  examples: |
+    - how to Visualize using different style of graph
+    - How to change visualization of datset?
+    - I want another type of graph. How can I select my graph type?
+    - Where do I import different graph type?
+    - how can i slect my grpah type i wnat another type of graph
+    - I'd like to see a different sort of graph. What options do I have for choosing my graph type?
+    - Another graph is what I'm looking for. What options do I have for choosing a graph type?
+    - How can I choose my graph type? I'd want to see a different kind of graph. 
+    - I would like to see a new type of graph. What alternatives do I have for picking a graph type?
+    - I want to see a different type of graph. How do I choose a graph type?
+    - I'd want to see a distinct kind of graph. How do I choose the type of graph I want?
+    - What options do I have for choosing a different graph type?
+    - What should I do if I'd like to use a different graph type?
+    - What i have to do if I want to make a graph of a different type?
+    - What should I think about when choosing a graph type?
+    - How do I use a different graph type?
+    - How do I change the graph type?
+    - What should I do if I want to make a different type of graph?
+    - What is the best way to use a different graph type?
+    - What is the procedure for changing the graph type?
+    - How do I use a different type of graph?
+    - What is the best way to use a different type of graph?
+    - What is the best way for me to use a different graph type?
+    - How do I change the type of graph I'm working with?
+    - What should I do if I want to use a different type of graph?
+    - How do I change the graph type I'm using?
+    - If I want to use a different type of graph, what should I do?
+    - I would like to change the type of graph I'm using; how do I do that?
+    - What's the best way to use a different graph type?
+    - What is the procedure for altering the graph type?
+    - What should I do if I want to make a graph that isn't like the others?
+    - How do I select a different graph type?
+    - I want to choose a different graph type; how do I do that?
+    - there is a need to use different type of graph; how do I do that?
+    - What are the different graph types and how do I use them?
+    - What are the options for changing the graph type?
+    - What should I do if I want to change the type of graph I'm using?
+    - If I want to make a different type of graph, what should I do?
+    - What do I do if I want to use a different graph type?
+    - How do I choose a different type of graph?
+    - How do I change the type of graph I'm using?
+
+- intent: faq-visualisation-b3/diff-bw-crop-and-crop-type   #95
+  examples: |
+    - What is the difference between crop and crop type?
+    - What is a crop and crop type?
+    - Difference between crop and type
+    - how is crop and crop type different?
+    - why are there crop and crop types?
+    - types of crop and crop, difference?
+    - What exactly is the distinction between a crop and a crop type?
+    - what is the distinguishing factor between crop and crop type?
+    - diff bw crop and crop type?
+    - whats the difference among crop and crop typpe?
+    - What clearly is the distinguishing between a crop and a crop type?
+    - What's the difference b/w a crop and a sort of crop?
+    - What is the distinction between a crop and a crop type?
+    - What is the diff between a crop and a crop type, and how do you distinguish between the two?
+    - What makes a crop different from a crop type?
+    - What exactly is the distinction between a crop and a crop type?
+    - What is the difference between a crop and a crop type?
+    - How do you distinguish between a crop and a crop type?
+    - What's the diff between a crop and a crop type, and how do you tell the two apart?
+    - What exactly is the difference between a crop and a crop type?
+    - What's the difference between a crop and a crop type?
+    - How do you tell the difference between a crop and a crop type?
+    - What is the distinction between a crop and a crop type?
+    - What precisely is the distinction between a crop and a crop type?
+    - What's the distinction between a crop and a crop type?
+    - What is the difference between a crop and a crop type, and how do you distinguish between them?
+    - Is there a difference between a crop and a crop type?
+    - What's the distinction b/w a crop and a crop type, exactly?
+    - What's the difference between a crop and a crop type, exactly?
+    - Is there a distinction between a crop and a crop type?
+    - What's the diff bw a crop and a type of crop?
+    - What exactly is the distinction between crop and crop type?
+    - tell me how crop is different from crop type?
+    - differentiate b/w crop and crop type
+    - how is crop type different from crop?
+    - differentiate bw crop type and crop.
+
+
+- intent: faq-visualisation-b3/how-change-color-of-chart
+  examples: |
+    - How can I change the colours of the chart?
+    - Skin colour change for the chart
+    - How do I change background of chart?
+    - Can I change color of chart?
+    - Help me pick color for chatbox
+    - asist me in choosing colour for chart
+    - what is the step to change background colour of chart?
+    - FAQ on colour change of chaat.
+    - how to change the color of my chart?
+    - How do I alter the chart's colours?
+    - How can I alter the colours of the chart?
+    - how am i supposed to alter the charts color
+    - What are the options for changing the chart's colours?
+    - How can I modify the chart's colours?
+    - how i am supposed to change color of the plot?
+    - tell me how color of the chart can be changed
+    - How do I change the chart's colors?
+    - What are the options for changing the color scheme of the chart?
+    - What options are there for changing the color scheme of the chart?
+    - What are the options for changing the colors of the chart?
+    - What color schemes are available for the chart?
+    - What colors can be used on the chart?
+    - How do I alter the chart's colors?
+    - What are the chart's color options?
+    - What options are there for changing the chart's colors?
+    - What colors can the chart be changed to?
+    - How do I change the colors of the chart?
+    - What are the color options for the chart?
+    - What colors does the chart come in?
+    - What colors are available for the chart?
+    - What color options do you have for the chart?
+    - What options do I have for changing the chart's colors?
+    - What options are there for changing the chart's color scheme?
+    - How can I change the chart's colors?
+    - What are the options for changing the chart's colors?
+    - help me in changing color of the chart
+
+
+- intent: faq-visualisation-b3/share-viz-of-personal-proj   #102
+  examples: |
+    - Can I use this visualisation for my personal project?
+    - It is possible to use this visualisation for my personal project?
+    - Can I use this visualisation for my personal use?
+    - It is valid to use this visualisation for my personal project?
+    - Can we use india data portal's visualisation for our personal project?
+    - Does India data portal publicly allow the use of visualisation?
+    - can this visuals be utilized for personal projects?
+    - for personal projects can we inculcate these graphs?
+    - is it possible to use these diagrams in personal projects?
+    - Is it possible for me to use this visualisation for a personal project?
+    - Is it possible for me to utilise this visualisation for my own project?
+    - Is it okay if I use this visualisation for my own project?
+    - Can I use this visualisation for a personal project?
+    - Is it possible for me to use this visualization for my own project?
+    - Is it possible for me to apply this visualization to my own project?
+    - Is it appropriate for me to use this visualization for a personal project?
+    - Is it legitimate to use visualization for a personal project?
+    - Is it permissible for me to use this visualization for a personal project?
+    - am i allowed to use this illustration for a personal project?
+    - Tell me this visualization I can use for a project I'm working on?
+    - Is it possible for me to incorporate this visualization into my own project?
+    - tell me if its possible that, this visualization I could apply to my own project?
+    - this visualization free to use for a personal project?
+    - Is it possible for me to use this visualization for a project of my own?
+    - will it bother idp if i will utilize this visualisation for personal project?
+    - will it be okay if I use this visualization for my own project?
+    - Is it okay if I use this visualization in my own project?
+    - Is it okay if I use this visualization for a personal project?
+    - can this visual be used for my own project?
+    - Is it okay if I use this illustration in my own project?
+    - will it be acceptable by idp if use this visualization in my own project?
+    - Is it permissible for me to use this visualization in my own project?
+    - Is it okay if I incorporate this visualization into my own project?
+    - Is it okay if I use this visualization in a project I'm working on?
+    - Is it possible for me to apply this visualization to a personal project?
+    - Is it acceptable for me to use this visualization for my own project?
+    - Is this image appropriate for a personal project?
+    - Is this a good choice for a personal project?
+    - Is it acceptable for me to use this visualization for a personal project?
+    - Is it possible for me to use this visualization for a personal project?
+    - Is this a good visualization for a personal project?
+    - Is this an appropriate visualization for a personal project?
+    - can i use this visulaisation for some other task?
+
+
+- intent: faq-visualisation-b3/give-credit-to-idp   #103
+  examples: |
+    - Do I have to cite/give credit to IDP?
+    - Is it necessary to cite/give credit to India data portal?
+    - Do I have to cite/give credit to India data portal?
+    - will i have to give credit to idp for my wok ?
+    - do i have to give credit to idp?
+    - Is it necessary for me to credit or cite IDP?
+    - Is it necessary for me to cite or credit india data portal?
+    - Is it essential for me to credit IDP or cite it?
+    - Is it mandatory for me to credit/cite IDP?
+    - Is it necessary for me to credit or mention IDP?
+    - Is it needed to mention or credit idp?
+    - Is it required that I give IDP credit or a citation?
+    - Is it required that I give IDP credit or cite it?
+    - Is it necessary for me to give IDP credit or cite them?
+    - Is it necessary that I credit or cite indian data portal?
+    - Is crediting or citing IDP a requirement?
+    - Is it required that I credit or cite this webiste?
+    - after i have used this will i need to give creedit to Indian data portal
+    - after we have done our work i will you ask or credits
+    - credits will i have to give ?
+    - i will give credits but once i ma done is it ok 
+    - is it ok to not to give credits to you guys
+    - will indian data portal ask me about credits once i am done 
+    - done with work indian data portal will ask me for credits in future?
+    - Is it necessary for me to credit IDP or cite it?
+    - Is it necessary for me to give IDP credit?
+    - do i need to give credit to portal everytime?
+    - Is it necessary for me to credit/cite indiadataportal?
+    - Is it necessary to credit or cite IDP?
+    - Is it necessary for me to credit or cite induian data portal?
+    - Is it mandatory that I credit or cite IDP?
+    - Is it necessary for me to credit IDP or to cite it?
+    - Is it mandatory that I credit/cite webiste ?
+    - Is it necessary for me to give this website credit or cite it?
+    - Is it required that I credit/cite this portal?
+    - Is crediting or citing IDP required?
+    - tell me will i have to give credits while sharing the visuals?
+
+- intent: faq-visualisation-b3/can-i-share-my-viz   #104
+  examples: |
+    - Can I share Visualisation on my blog/website?
+    - Can we share Visualisation on our blog/website?
+    - It is valid to share visualisation on my  blog/website?
+    - Can we have permission to share this visualisation on our personal blog/website?
+    - Can I share this Visualisation publicly?
+    - It is possible to share visualisation on my personal blog/website?
+    - Does India data portal allow us to use visualisation on personal blog/website?
+    - does iDp provides me with the sevice that i can share viz on my blog
+    - does iDp provides me with the sevice that i can share viz on my webiste
+    - can i share my visuals?
+    - can i share my visualisations? if yes then how?
+    - Is it okay if I share my visualisations? If that's the case, what's the best way to go about it?
+    - Is it okay if I show my visualisations to others? If that's the case, what's the best way to go about doing it?
+    - Can I show you my visualisations? If so, how so?
+    - Can I share my visualisations? If so, how?
+    - Can I show you my visuals? If so, how do you go about doing it?
+    - Can I exhibit anyone my visualisations? If so, how so?
+    - Is it permissible for me to include Visualization on my website or blog?
+    - Is it okay if I put Visualization on my blog or website?
+    - will it be legal for me to put Visualization on my blog or website?
+    - Is it okay if I share Visualization on my blog or website?
+    - Is it permissible for me to include Visualization on my blog or website?
+    - Is it okay if I post Visualization on my blog or website?
+    - will it be acceptable for me to include Visualization on my website or blog?
+    - Is it permissible for me to use Visualization on my website or blog?
+    - Is it permissible for me to post Visualization on my blog or website?
+    - tell me Is it acceptable for me to include Visualization on my blog or website?
+    - Is it appropriate for me to post Visualization on my blog or website?
+    - Is it okay if I use Visualization on my blog or website?
+    - will it be okay if I put Visualization on my website or blog?
+    - Is it okay if I put Visualization up on my blog or website?
+    - Is it permissible for me to incorporate Visualization into my blog or website?
+    - tell me is it acceptable for me to post Visualization on my blog or website?
+    - Is it OK if I put Visualization on my blog or website?
+    - am i allowed to share my visualisation?
+
+
+- intent: faq-visualisation-b3/change-axis-of-graph #105
+  examples: |
+    - How can I change the axis of my graph?
+    - is there any to change axis of graph
+    - Any way i can change axis of graph
+    - I wanted to change axis of my visulaisation in IDP
+    - can i alter axis of graphs on Indian data portal
+    - How do I alter the axis of my graph?
+    - How do I modify the axis of my graph?
+    - How do I modify my graph's axis?
+    - What are the options for changing the graph's axis?
+    - How do I tweak the graph's axis?
+    - How can I tweak the graph's axis?
+    - How can I edit the axis of the graph?
+    - What options do you have for changing the graph's axis?
+    - How do I change the axis of the graph?
+    - What options are there for changing the axis of the graph?
+    - What's the best way to change the graph's axis?
+    - What are your options for changing the graph's axis?
+    - What is the procedure for changing the axis of the graph?
+    - What are your options for altering the graph's axis?
+    - What are your options for changing the axis of the graph?
+    - What are the options for changing the axis of the graph?
+    - How do you alter the graph's axis?
+    - How can I change the axis of the graph?
+    - How do I alter the graph's axis?
+    - How do I change the graph's axis?
+    - What are the options for changing the graph's axis?
+    - What options are there for changing the graph's axis?
+    - Is there a way to change the graph's axis?
+    - What is the procedure for changing the graph's axis?
+    - How can I change the graph's axis?
+    - What is the procedure for altering the graph's axis?
+    - What are the options for altering the graph's axis?
+    - help me with changing graphs axis
+    - guide me to change graphs axis
+    - steps for changing graphs axis?
+    - procedure for changing the graphs axis.
+    - tell me how am i supposed to change graphs axis?
+
+- intent: faq-visualisation-b3/how-tochange-chart-not-liked-first-one   #107
+  examples: |
+    - I don't like my chart. How can I get another chart?
+    - How can I replace my chart with new one?
+    - How can I use another chart if i don't like my present chart?
+    - How can I get new chart in India data portal?
+    - What steps i have to follow to get another chart?
+    - How can i get more than one chart?
+    - The procedure of geting another chart?
+    - How can we move to another chart?
+    - How can i get two charts?
+    - My graph does not appeal to me. What is the best way for me to acquire a new chart?
+    - My graph irritates me. What is the procedure for obtaining a new chart?
+    - My graph isn't to my liking. What is the best way for me to obtain a new chart?
+    - how am i supposed to change the chart?
+    - I don't like my chart. how am i supposed to get new one?
+    - How do I obtain another chart as my graph does not appeal to me?
+    - If I don't like the one I have, how can I get a new one?
+    - How do I get a new chart if I don't like my current one?
+    - How can I get a new chart if I don't like the one I have?
+    - How do I get a new one if I don't like the one I have?
+    - How do I get a new one if the one I have isn't up to my standards?
+    - How can I get a different chart if I don't like mine?
+    - How do I get a new chart if I don't like the one I'm using right now?
+    - How can I get a new one if the one I have isn't to my liking?
+    - How can I get a different chart if I don't like my current one?
+    - How can I get a new chart if I don't like the one I'm using now?
+    - How can I get another if I don't like the one I have?
+    - How can I get a new chart if I don't like the one I have right now?
+    - If I don't like my current chart, how can I get a new one?
+    - How do I get a new chart if I don't like the one I have now?
+    - How can I get a new one if the one I have isn't up to par?
+    - How can I get a new chart if I don't like the one I have now?
+    - How can I get a different chart if I don't like the one I have now?
+    - If the one I have isn't to my liking, how can I get a new one?
+    - How can I get a new chart if I don't like my current one?
+    - How can I get a new one if I don't like the one I have?
+    - If I don't like my current chart, how can I get a different one?
+    - If I don't like my current chart, how do I get a new one?
+    - i want to get new chart, i don't like the current one. How  am i supposed to do that?
+    - i want the new chart as the current one is not according to my taste.
+
+- intent: faq-visualisation-b3/graphs-diff-after-download   #108
+  examples: |
+    - Why does the graph look different after downloading?
+    - my grph is diff after i have downloaded
+    - after doenload i found my graphs looks diffrent
+    - is there any reasons why my grpah is diff as compared to on platform
+    - is there any reasons why my grpah is diff when i downloaded
+    - why does the graph look different while downloading?
+    - Why does the graph appear to be different after it has been downloaded?
+    - What happened to the graph after it was taken offline?
+    - Why does the graph have a different appearance after it has been downloaded?
+    - after downloading the appearance of graph seems to me changed.
+    - appearance of graph is altered after downloading it. why so?
+    - Why does it appear that the graph has changed since it was downloaded?
+    - Why does the graph appear to have changed after being downloaded?
+    - Why does the graph appear to be different after it has been downloaded?
+    - After it was downloaded, what happened to the graph?
+    - Why does the graph look different after being downloaded?
+    - Why does the graph change appearance after it is downloaded?
+    - Why does the graph have a different appearance after it has been downloaded?
+    - What happened to the graph after it was downloaded?
+    - After the graph was downloaded, what happened to it?
+    - Why does the graph change appearance after it has been downloaded?
+    - Why has the graph changed since it was taken offline?
+    - What happened to the graph once it was downloaded?
+    - What happened to the graph after you downloaded it?
+    - What happened with the graph once it was downloaded?
+    - Why does the graph now appear to be different after being downloaded?
+    - Why does the graph look different now that it's been downloaded?
+    - Why does the graph change after it's been taken offline?
+    - Why does the graph appear to have changed after it has been downloaded?
+    - Why does the graph now appear to be different after it has been downloaded?
+    - Why does the graph look different once it's been downloaded?
+    - Why does the graph now have a different appearance after being downloaded?
+    - When the graph was downloaded, what happened to it?
+    - So, what happened to the graph after it was downloaded?
+
+
+- intent: faq-visualisation-b3/bar-graphs-too-wide    #109
+  examples: |
+    - My bar graph is too wide. How can I make it fit in one screen?
+    - How can I manage my bar graph?
+    - How can I manage width of bar graph?
+    - How can i set my bar graph in one screen?
+    - How can I fit my bar graph in one screen?
+    - How can i adjust length/width of my bar graph?
+    - How can I adjust bar graph in one screen?
+    - My bar graph is excessively wide. I'm not sure how I'm going to fit it all on one screen.
+    - The width of my bar graph is excessive. I'm not sure how I'm going to fit it all on a single screen.
+    - My bar graph is a little too long. I'm not sure how I'm going to get it all on one screen.
+    - My bar graph is very broad. I'm not sure how I'm going to fit it all on one screen.
+    - how size of bar grah can be modified
+    - If my bar graph is too wide, how can I make it fit on a single screen?
+    - What's the best way to make my bar graph fit on a single screen?
+    - What's the best way to fit my bar graph onto one screen?
+    - How do I make my bar graph fit on one screen?
+    - What options do I have if my bar graph is too big to fit on a single screen?
+    - How can I fit my bar graph onto one screen if it's too big?
+    - What can I do if my bar graph is too large to fit on one screen?
+    - If my bar graph is too wide to fit on one screen, what can I do?
+    - How can I make my bar graph fit on a single screen if it's too big?
+    - What is the best way to fit my bar graph onto a single screen?
+    - How do I get my bar graph to fit on a single screen?
+    - If my bar graph is too large, how can I fit it on a single screen?
+    - How can I fit my bar graph on a single screen if it's too big?
+    - How am I going to fit my bar graph on one screen if it's too big?
+    - How can I fit my bar graph on one screen if it's too big?
+    - I'm having trouble fitting my bar graph onto a single screen.
+    - What's the most efficient way to fit my bar graph onto a single screen?
+    - How can I make my bar graph fit on one screen if it's too wide?
+    - How could I make my bar graph fit on a single screen if it's too large?
+    - How can I fit my bar graph onto a single screen if it's too big?
+    - How could I make my bar graph fit on one screen?
+    - How can I fit my bar graph on a single screen if it's too wide?
+    - How am I going to fit my bar graph on a single screen if it's too big?
+    - How can I fit a large bar graph on a single screen if it's too wide?
+    - How can I make my bar graph fit on a single screen if it's too wide?
+    - What can I do if my bar graph is too large to fit on a single screen?
+    - What's the best way to make my bar graph fit on one screen?
+    - What is the most efficient way to fit my bar graph onto a single screen?
+    - If my bar graph is too large to fit on one screen, how can I make it fit?
+    - What's the best way to get my bar graph to fit on a single screen?
+    - If my bar graph is too wide to fit on one screen, how can I make it fit?
+    - How can I fit my bar graph on a single screen?
+    - If my bar graph is too large, how can I fit it on one screen?
+    - How can I make my bar graph fit on one screen if it's too big?
+    - my bar graph is too wide how can i resize it?
+    - can i resize my bar plot?
+    - is there any provision to resize my plot?
+    - do you provide functionality to resize the charts?
+
+- intent: faq-visualisation-b3/not-able-to-understand-viz
+  examples: |
+    - I am not able to understand my visualisation.
+    - I can not understand my visualisation.
+    - My visulization is not understandble what can i do?
+    - How can i understand my visulization?
+    - I am not able to understand my visualisation. what can i do now?
+    - Is there any way to understand my visulization?
+    - Help me to understand my visulization?
+    - I'm having trouble comprehending what I'm seeing.
+    - i am not able to interpret my visuals?
+    - how to interpret my graph?
+    - how can we interpret the diagrams?
+    - My visualisation is eluding me.
+    - I don't understand what I'm seeing.
+    - I don't understand what I'm seeing in my visualisation.
+    - I am unable to comprehend my visualisation.
+    - My visual is eluding me.
+    - My visualisation is eluding me.
+    - I'm having trouble visualizing what I want to do.
+    - What I'm seeing is perplexing to me.
+    - I have no idea what I'm seeing.
+    - What I'm seeing gives me a lot of trouble.
+    - I'm having a hard time picturing what I want to do.
+    - I'm having trouble comprehending what I'm seeing.
+    - What I'm seeing baffles me
+    - What I'm seeing is perplexing me.
+    - What I'm seeing perplexes me.
+    - I don't understand what I'm seeing.
+    - What I'm seeing is difficult for me to comprehend.
+    - I'm baffled by what I'm seeing.
+    - I'm perplexed by what I'm seeing.
+    - What I'm seeing is perplexing.
+    - I'm puzzled by what I'm seeing.
+    - I'm having trouble making sense of what I'm seeing.
+    - I have no idea what I'm looking at.
+    - What I'm seeing is causing me a lot of confusion.
+    - I'm having a hard time understanding what I'm seeing.
+    - I can't seem to get my visualization to work.
+    - My visualization technique isn't working.
+    - I'm having trouble understanding what I'm seeing.
+    - My visualization isn't helping me at all.
+    - I'm not sure what I'm seeing.
+    - What I'm witnessing perplexes me.
+    - What I want to do is difficult for me to visualize.
+    - I can't seem to visualize what I want to do.
+    - What I'm seeing confuses me.
+    - My visualization isn't working for me.
+    - I'm having a hard time making sense of what I'm seeing.
+    - help me in understanding this visual
+    - having trouble in interpreting the plots
+    - facing difficulty in understanding this visualisation

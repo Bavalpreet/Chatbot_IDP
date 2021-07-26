@@ -1,0 +1,1037 @@
+version: "2.0"
+nlu:
+- intent: faq-portal-b1/find-dataset # 369
+  examples: |
+    - I'm looking for datasets but don't know where to start looking.
+    - I'm looking for data, but I'm not sure where to begin.
+    - I'm looking for data, but I'm not sure where to start.
+    - I'm trying to find datasets but don't know where to start.
+    - I'm looking for datasets, but I'm not sure where to look.
+    - I'm trying to find datasets, but I'm not sure where to start.
+    - I'm looking for datasets, but I don't know where to look.
+    - I'm looking for datasets but don't know where to look.
+    - I'm looking for datasets, but I'm not sure where to begin.
+    - I'm looking for datasets but have no idea where to begin.
+    - I'm looking for datasets but am unsure where to start.
+    - I'm on the lookout for datasets but have no idea where to start.
+    - I'm trying to find datasets but don't know where to begin.
+    - I'm looking for data but don't know where to begin.
+    - I'm looking for datasets but am unsure where to begin.
+    - I'm looking for datasets, but I'm not sure where to start.
+    - I'm looking for datasets but don't know where to start.
+    - I'm looking for datasets but don't know where to begin.
+    - I'm looking for datasets, but I'm not sure where to look for them.
+    - I'm looking for datasets but have no idea where to start.
+    - I'm looking for datasets but have no idea where to start looking.
+    - where can i find datasets
+- intent: faq-portal-b1/new-graphic-portal #370
+  examples: |
+    - What kind of news and graphics are available on the portal?
+    - What are the most recent news and graphics from the portal?
+    - What are the most recent news and graphics on the portal?
+    - What are the most recent updates and graphics on the portal?
+    - What are the latest news and graphics on the portal?
+    - What's new on the portal, in terms of news and graphics?
+    - What is the most up-to-date information and graphics on the portal?
+    - What are the most recent graphics and updates on the portal?
+    - What are the most recent updates to the portal's news and graphics?
+    - What's new on the portal in terms of graphics and news?
+    - What news and graphics can you find on the portal?
+    - What are the portal's latest news and graphics?
+    - What is the portal's most up-to-date information and graphics?
+    - On the portal, what are the latest news and graphics?
+    - What are the latest graphics and updates on the portal?
+    - What kinds of news and graphics are available on the portal?
+    - What are the most recent portal updates and graphics?
+    - What are the most recent changes to the portal's graphics and updates?
+    - What's new on the portal in terms of news and graphics?
+    - What are the latest updates and graphics on the portal?
+    - What is the portal's most up-to-date data and graphics?
+    - What is the status of the portal's graphics and news?
+    - What is the most recent information and graphics from the portal?
+    - What are the portal's news and graphics?
+    - What are the portal's most recent news and graphics?
+    - What are the most recent additions to the portal's graphics and updates?
+    - What are the latest graphics and news on the portal?
+    - What are the most recent portal news and graphics?
+    - What is the most recent news and graphics on the portal?
+    - On the portal, what kind of news and graphics can you find?
+    - What are the most recent graphics and information on the portal?
+    - What is the portal's most recent news and graphics?
+    - What is the most recent information and graphics on the portal?
+    - What are the most recent graphics and news on the portal?
+    - What is the portal's most recent data and graphics?
+    - What are News and graphics on the portal
+- intent: faq-portal-b1/type-new-cover-idp #371
+  examples: |
+    - What types of new are covered by IDP?
+    - What new topics does the IDP address?
+    - What kinds of news does IDP report on?
+    - What types of news does IDP cover?
+    - What kinds of new are covered by IDP?
+    - IDP covers what kinds of innovations?
+    - What kinds of new items are covered by the IDP?
+    - IDP covers what kinds of news?
+    - What types of innovations does IDP cover?
+    - What sort of news does IDP report on?
+    - What are some of the new topics covered by the IDP?
+    - What kind of news does IDP report on?
+    - What types of innovations are covered by IDP?
+    - What kinds of innovations does IDP cover?
+    - IDP covers what kinds of new?
+    - What new items does the IDP cover?
+    - What kind of news does IDP cover?
+    - What types of news does IDP report on?
+    - What kinds of new do you cover at IDP?
+    - What kinds of new items does the IDP cover?
+    - What kind of new is covered by IDP?
+    - What kind of new does IDP cover?
+    - What are the new topics covered by the IDP?
+    - What types of new do IDP cover?
+    - What new items are covered by the IDP?
+    - What types of new items does the IDP cover?
+    - What types of new are covered by the IDP?
+    - What types of new items are covered by the IDP?
+    - What are the different types of new that IDP covers?
+    - IDP covers what kind of news?
+    - What type of new are covered under IDP
+
+- intent: faq-portal-b1/necesari-signup-use-dataset #372
+  examples: |
+    - Is it required to create an account in order to access any datasets?
+    - Is it necessary to register in order to use any of the datasets?
+    - Is registration required to view the datasets?
+    - Is it necessary to register before accessing any datasets?
+    - Is it required to register in order to access any datasets?
+    - Is it necessary to create an account before accessing any datasets?
+    - Is it required to register before using any datasets?
+    - Is it necessary to sign up before using any datasets?
+    - Is registration required before using any datasets?
+    - Is it necessary to create an account before you can access any datasets?
+    - Is it required to register before accessing any datasets?
+    - Is it necessary to register before using any datasets?
+    - Is registration required before gaining access to any datasets?
+    - Is it necessary to register before being able to access any datasets?
+    - Is it necessary to register in order to access any datasets?
+    - Is registration required in order to access the datasets?
+    - Is it necessary to register in order to view any datasets?
+    - Is it necessary to register in order to access the datasets?
+    - Is registration required to access the datasets?
+    - Is there a requirement to register before accessing any datasets?
+    - Is it necessary to register before you can access any datasets?
+    - Is registration required before accessing any datasets?
+    - is it necesary to signup before using any datasets
+
+- intent: faq-portal-b1/make-viz-without-log #373
+  examples: |
+    - Is it possible to make a visualization without having to log in?
+    - Is there a way to make a visualization without logging in?
+    - Is it possible to make a viz without having to sign in?
+    - Is there a way to make a viz without logging in?
+    - Is it possible to create a visualization without first logging in?
+    - Is it possible to make a visualization without logging in?
+    - Is it possible to make a visualization without having to log in first?
+    - Is it possible to create a viz without having to log in?
+    - Is it possible to create a visualization without registering?
+    - Is it possible to generate a visualization without logging in?
+    - Is there a way to create a visualization without logging in?
+    - Is it possible to make a visualization without having to sign in?
+    - Is it possible to create a viz without having to sign in?
+    - Is it possible to create a viz without logging in?
+    - Is it possible to make a viz without logging in?
+    - Can I make a visualization without logging in?
+    - Is a visualization possible without logging in?
+    - Is it possible to build a visualization without logging in?
+    - Is it possible to create a visualization without logging in?
+    - Is it possible to make a visualization without having to first log in?
+    - Is it possible to create a visualization without having to log in?
+    - Can I create a visualization without logging in?
+    - Is it possible to make a visualization without logging in first?
+    - can i make viz without logging in?
+
+- intent: faq-portal-b1/app-idp #374
+  examples: |
+    - Is IDP a program that can be downloaded?
+    - Is it possible to get an app for IDP?
+    - Is it possible to submit an application for IDP?
+    - Is there an app for IDPs?
+    - Is there a mobile IDP app?
+    - Is there a mobile app for IDP?
+    - Is there a mobile application for IDPs?
+    - Is there a IDP-related app?
+    - IDP has a mobile app, but I'm not sure if it's available yet.
+    - Is there an application for IDP?
+    - Is there a special app for people who are internally displaced?
+    - Is there a program for IDP?
+    - Is there an IDP program?
+    - Is there a specific app for IDPs?
+    - Is it possible to apply for IDP?
+    - Is there a program for people with IDP?
+    - Is it possible to apply for the International Development Program (IDP)?
+    - IDP has a mobile app, right?
+    - Is there an app available for IDPs?
+    - Is an IDP app available?
+    - Is there a software version of IDP?
+    - Is IDP available as a mobile application?
+    - Is IDP available as a software program?
+    - Is there a IDP app?
+    - Is there a mobile app for people who are internally displaced?
+    - Is IDP a software program?
+    - Is there an app designed specifically for IDPs?
+    - Is there an app for IDP?
+    - Is there a special app designed for IDPs?
+    - Is it possible to apply for an Individual Development Plan (IDP)?
+    - Is there such a thing as an IDP program?
+    - Is IDP available as a mobile app?
+    - Is there an IDP app?
+    - is there any app for IDP
+
+- intent: faq-portal-b1/one-one-convers-idp-team #375
+  examples: |
+    - Can we talk to the IDP team on a one-on-one basis?
+    - Is it possible to meet with the IDP team one-on-one?
+    - Is it possible for us to have a one-on-one meeting with the IDP staff?
+    - Is it possible for us to speak with a member of the IDP team one-on-one?
+    - Is it possible for us to have a one-on-one meeting with a member of the IDP team?
+    - Is it possible to meet with the IDP team on a one-on-one basis?
+    - Is it possible for us to speak with the IDP team on a one-on-one basis?
+    - Is it possible to have a one-on-one meeting with the IDP team?
+    - Is it possible for us to speak one-on-one with a member of the IDP team?
+    - Can we meet with the IDP team on a one-on-one basis?
+    - Is it possible for us to meet with the IDP team one-on-one?
+    - Is it possible for us to speak with the IDP team one-on-one?
+    - Is it possible for us to meet with the IDP team on a one-on-one basis?
+    - Is a one-on-one meeting with the IDP team possible?
+    - Is it possible for us to have a one-on-one conversation with the IDP team?
+    - Is it possible for us to have a one-on-one conversation with a member of the IDP team?
+    - Is it possible for us to speak with a member of the IDP team on a one-on-one basis?
+    - Can we have a one-on-one meeting with the IDP team?
+    - Is it possible to meet with a member of the IDP team one-on-one?
+    - Is it possible for us to have a one-on-one meeting with the IDP team?
+    - Is it possible for us to speak with a member of the IDP team individually?
+    - Is it possible to meet with the IDP team on an individual basis?
+    - Is it possible to meet one-on-one with a member of the IDP team?
+    - can we have ONE to ONE conversation with IDP team
+
+
+- intent: faq-portal-b1/vizualis-interact #381
+  examples: |
+    - Is it possible to interact with the graphics in any way?
+    - Is there any way to interact with the visualizations?
+    - Can the visualisations be interacted with?
+    - Do the visualizations allow me to interact with them?
+    - Is it possible to interact with the visualisations in any way?
+    - Is it possible to interact with the visualizations?
+    - Can the visualizations be interacted with?
+    - Is it possible to interact with the graphics?
+    - Is there any way to interact with the visuals?
+    - Can the visuals be interacted with?
+    - Can you interact with the visualisations?
+    - Is there any way to interact with the visualisations?
+    - Can you interact with the visualizations?
+    - Is interacting with the visualizations possible?
+    - Is it possible for me to interact with the visualizations?
+    - Is it possible to interact with the visualizations in any way?
+    - Is it possible to engage with the graphics in some way?
+    - Is it possible to engage with the visualizations?
+    - Is there a way to interact with the graphics?
+    - Is it possible to engage with the visuals?
+    - Is there a way to interact with the visualizations?
+    - Is it possible to interact with the visualisations?
+    - Is it possible to interact with the visuals?
+    - Can I interact with the visualizations?
+    - are the vizualisations interactive ?
+
+- intent: faq-portal-b1/chang-languag-portal-affect-dashboard-inform-present-portal-also-translat # 386
+  examples: |
+    - Is it only the dashboard that is affected when we change the language on the portal, or does it affect all of the information?
+    - Does changing the language on the portal only affect the dashboard, or does it also translate the information on the portal?
+    - When we change the language on the portal, does it only affect the dashboard or does it also translate the information on the portal?
+    - When we change the language on the portal, does it only affect the dashboard, or does it also affect the information on the portal?
+    - Is it only the dashboard that is affected when we change the language on the portal, or does all of the information on the portal get translated as well?
+    - Is it only the dashboard that is affected when we change the language on the portal, or is the information on the portal also translated?
+    - Does it only affect the dashboard when we change the language on the portal, or does it also translate the information on the portal?
+    - Is it only the dashboard that is affected when we change the language on the portal, or does it also translate the information on the portal?
+    - Is it only the dashboard that is affected when we change the language on the portal, or does it also affect the information?
+    - Is it only the dashboard that is affected when we change the language on the portal, or does it affect all of the information on the portal?
+    - Is it only the dashboard that is affected when we change the portal's language, or does it also translate the portal's information?
+    - Is it only the dashboard that is affected when we change the portal's language, or does it affect all of the portal's information?
+    - When we change the portal's language, does it only affect the dashboard, or does it affect all of the information on the portal?
+    - When we change the portal's language, does it just affect the dashboard, or does it affect all of the information?
+    - When we change the portal's language, does it only affect the dashboard, or does it affect all of the information as well?
+    - Is it only the dashboard that changes when we change the language on the portal, or does it also affect the information on the portal?
+    - When we change the language on the portal, does it only affect the dashboard, or does it affect all of the information on the portal?
+    - When we change the portal's language, does it only affect the dashboard, or does it affect all of the information?
+    - When we change the portal's language, does it only affect the dashboard, or does it also translate the portal's information?
+    - Is it only the dashboard that is affected when we change the language on the portal, or is all of the information on the portal translated as well?
+    - Is it only the dashboard that is affected when we change the language on the portal, or does it also affect the information on the portal?
+    - Does changing the portal's language only affect the dashboard, or does it also translate the information?
+    - When we change the language on the portal, does it only affect the dashboard, or does it also translate the portal's information?
+    - When we change the language on the portal, does it only affect the dashboard, or does the information on the portal also get translated?
+    - When we change the portal's language, does it only affect the dashboard or does it also translate the portal's information?
+    - Is it only the dashboard that changes when we change the language on the portal, or does it affect all of the information on the portal?
+    - When we change the language on the portal, does it only affect the dashboard, or does it also translate the information on the portal?
+    - Is it just the dashboard that is affected when we change the portal's language, or is all of the information also translated?
+    - Is it only the dashboard that changes when we change the portal's language, or does it affect all of the information on the portal?
+    - Is it only the dashboard that is affected when we change the language on the portal, or does the information on the portal also get translated?
+    - When we change the portal's language, does it only affect the dashboard, or does it also translate the portal's content?
+    - Is it only the dashboard that is affected when we change the portal's language, or does it affect all of the information on the portal?
+    - when we change the language on the portal does it only affects the dashboard or the information present on portal is also translated
+
+- intent: faq-portal-b1/dataset-filter-featur-availabel-dataset #390
+  examples: |
+    - Is there a way to filter datasets across all of them?
+    - Is there a way to combine datasets from all of them into a single filter?
+    - Is the dataset filtering feature available for all datasets?
+    - Does the dataset filtering feature work with all datasets?
+    - Is it possible to apply filters to all of them?
+    - Is there a way to apply filters to all of them?
+    - Is it possible to use a dataset filtering feature to filter all datasets?
+    - Is there a way to combine all of their datasets into a single filter?
+    - Is it possible to filter all datasets using a dataset filtering feature?
+    - Is it possible to combine all of the datasets into a single filter?
+    - Is it possible to filter all datasets at the same time?
+    - Is it possible to filter all datasets with a dataset filtering feature?
+    - Is there a way to filter all datasets?
+    - Is it possible to use the dataset filtering feature to filter all datasets?
+    - Is there a dataset filtering feature for all datasets?
+    - Do all datasets have access to dataset filtering?
+    - Is it possible to apply filters to each and every one of them?
+    - Is it possible to apply filters to all of them at once?
+    - Is it possible to combine all of their datasets into a single filter?
+    - Is a dataset filtering feature capable of filtering all datasets?
+    - Is it possible to filter all datasets?
+    - Is it true that the dataset filtering feature is available for all datasets?
+    - Is dataset filtering a feature that is available to all datasets?
+    - Is dataset filtering a feature available to all datasets?
+    - Is dataset filtering a feature that is available for all datasets?
+    - Is the feature of dataset filtering available for all datasets?
+    - Is it possible to apply filters to all of them at the same time?
+    - Is it possible to filter datasets across them all?
+    - Is dataset filtering a feature that all datasets have access to?
+    - Is it possible to filter all datasets at once?
+    - Is it possible to use a single filter to apply to all datasets?
+    - Is dataset filtering a feature that all datasets have?
+    - Is it true that dataset filtering is a feature that all datasets have?
+    - is dataset filtering feature availabel for all the datasets?
+
+
+- intent: faq-portal-b1/suppos-fill-indic-name # 396
+  examples: |
+    - I'm not sure what I should call the indicator.
+    - I'm not sure what I'm supposed to put in the indicator's name.
+    - The name of the indicator is a mystery to me.
+    - What is the name of the indicator I'm supposed to finish?
+    - What is the name of the indicator that I must complete?
+    - What am I supposed to put in the indicator's name?
+    - What is the name of the indicator I must complete?
+    - I'm not sure what the indicator's name should be.
+    - What's the name of the indicator I'm supposed to finish?
+    - What is the name of the indicator that I need to fill out?
+    - I'm not sure what the name of the indicator should be.
+    - What is the name of the indicator I need to complete?
+    - What's the name of the indicator supposed to be?
+    - What is the name of the indicator I need to fill out?
+    - What am I supposed to put in the name of the indicator?
+    - What is the name of the indicator?
+    - What's the name of the indicator I'm supposed to fill in?
+    - I'm not sure what the name of the indicator is supposed to be.
+    - In the indicator's name, what am I supposed to put?
+    - What's the name of the indicator I need to complete?
+    - What's the name of the indicator I'm supposed to fill out?
+    - I'm undecided about the name for the indicator.
+    - What is the best name for the indicator?
+    - What do you think the name of the indicator should be?
+    - What is the name of the indicator that I need to complete?
+    - I'm undecided about the name of the indicator.
+    - What should the name of the indicator be?
+    - What should the indicator's name be?
+    - I'm not sure what the indicator should be called.
+    - what am i supposed to be filling in indicators name?
+
+- intent: faq-portal-b1/indic-select-mean-unit # 397
+  examples: |
+    - In the context of indicator selection, what does UNITS mean?
+    - What exactly does the term UNITS imply in terms of indicator selection?
+    - In terms of indicator selection, what does UNITS imply?
+    - What does the term UNITS mean when it comes to indicator selection?
+    - What does the term UNITS mean in terms of indicator selection?
+    - What does UNITS imply in terms of indicator selection?
+    - What does UNITS mean in the context of indicator selection?
+    - What exactly does the term UNITS mean in terms of indicator selection?
+    - What does the term UNITS imply in terms of indicator selection?
+    - What does UNITS mean when it comes to indicator selection?
+    - What does UNITS mean in terms of indicator selection?
+    - What does UNITS denote in terms of indicator selection?
+    - In the context of indicator selection, what does the term UNITS mean?
+    - What does the term UNITS mean in the context of indicator selection?
+    - What does UNITS stand for in terms of indicator selection?
+    - In the context of indicator selection, what does the term UNITS imply?
+    - In terms of indicator selection, what does the term UNITS mean?
+    - In terms of indicator selection, what does UNITS mean?
+    - under indicator selection what is the meaning of UNITS
+
+
+- intent: faq-portal-b1/abl-see-indic-indic-select-page #401
+  examples: |
+    - Why can't I see any indicators on the indicator selection page?
+    - On the indicator selection screen, why can't I see any of the indicators?
+    - Why am I unable to see any indicators on the indicator selection page?
+    - Why do none of the indicators appear on the indicator selection page?
+    - Why can't I find any indicators on the indicator selection page?
+    - Why do none of the indicators appear on the indicator selection screen?
+    - Why are there no indicators available on the indicator selection page?
+    - Why aren't any of the indicators available for selection on the indicator page?
+    - Why aren't any of the indicators available to choose from on the indicator selection page?
+    - Why aren't any of the indicators available for selection on the indicator selection page?
+    - Why aren't any of the indicators visible on the indicator selection page?
+    - Why aren't any of the indicators on the indicator selection page visible to me?
+    - Why don't I see any indicators on the indicator selection page?
+    - Why aren't there any indicators to choose from on the indicator page?
+    - On the indicator selection page, why can't I see any indicators?
+    - Why can't I see any of the indicators on the indicator selection page?
+    - On the indicator selection page, why can't I see any of the indicators?
+    - Why am I unable to see any of the indicators listed on the indicator selection page?
+    - Why am I unable to find any indicators on the indicator selection page?
+    - Why aren't there any indicators on the indicator picker page?
+    - Why don't there appear to be any indicators on the indicator selection page?
+    - Why are none of the indicators visible on the indicator selection screen?
+    - Why can't I see any of the indicators on the indicator selection screen?
+    - On the indicator selection page, why don't I see any indicators?
+    - Why am I unable to see any of the indicators on the indicator selection page?
+    - why am i not being able to see any indicator on indicator selection page?
+
+- intent: faq-portal-b1/indic-select-add-one-dataset # 403
+  examples: |
+    - Is it possible to choose indicators from a variety of datasets?
+    - Can the indicator selection process include multiple datasets?
+    - Is it possible to select indicators from multiple datasets during the indicator selection process?
+    - Is it possible to combine more than one dataset in the indicator selection process?
+    - Is it possible to incorporate multiple datasets into the indicator selection process?
+    - Is it possible to include more than one dataset in the indicator selection process?
+    - Can we add more than one dataset to the indicator selection process?
+    - Is it possible to add multiple datasets to the indicator selection process?
+    - Is it possible to choose indicators from a number of different datasets?
+    - Can we add multiple datasets to the indicator selection process?
+    - Is it possible to select indicators from multiple datasets?
+    - Is it possible to use indicators from multiple datasets to create a single indicator?
+    - Is it possible to use multiple datasets to choose indicators?
+    - Is it possible to select indicators from more than one dataset during the selection process?
+    - Is it possible to choose indicators from multiple datasets?
+    - Is it feasible to choose indicators from multiple datasets?
+    - Is it possible to use multiple datasets when choosing indicators?
+    - Is it possible to include more than one dataset in the indicator selection procedure?
+    - Is it possible to include multiple datasets in the indicator selection process?
+    - Is it possible to combine multiple datasets when choosing indicators?
+    - Is it possible to select indicators from more than one dataset?
+    - Is it possible to use more than one dataset when choosing indicators?
+    - Is it possible to use more than one dataset in the indicator selection process?
+    - Is it possible to use multiple datasets in the indicator selection process?
+    - Can the indicator selection process include more than one dataset?
+    - Is it possible to use several datasets in the indicator selection process?
+    - while doing indicator selection can we add more than one datasets
+
+- intent: faq-portal-b1/even-select-dataset-abl-select-unit #404
+  examples: |
+    - Even after selecting the dataset, I'm unable to select the units.
+    - I can't choose the units even after I've chosen the dataset.
+    - After choosing the dataset, I'm unable to choose the units.
+    - After selecting the dataset, I am unable to select the units.
+    - I'm still unable to select the units after choosing the dataset.
+    - I'm unable to select the units after selecting the dataset.
+    - I'm unable to select units even after selecting the dataset.
+    - I am unable to select units even after selecting the dataset.
+    - I'm unable to select the units even after selecting the dataset.
+    - I am unable to select the units after choosing the dataset.
+    - Even after selecting the dataset, I am unable to select the units.
+    - I'm unable to select units after selecting a dataset.
+    - I'm still unable to select units after selecting the dataset.
+    - I am unable to select the units after selecting the dataset.
+    - After selecting the dataset, I'm unable to select the units.
+    - I'm unable to select units after selecting the dataset.
+    - Even after selecting the dataset, I am unable to select units.
+    - After choosing the dataset, I am unable to choose the units.
+    - I'm unable to select the units after choosing the dataset.
+    - even after selecting the dataset i am not able to select the units
+
+- intent: faq-portal-b1/write-new-indic-formula #405
+  examples: |
+    - How do you come up with new indicators?
+    - how to make a new indicator's formula
+    - how to make a formula for a new indicator
+    - what is the formula for a new indicator
+    - What formula is used to calculate the new indicator?
+    - What is the formula for the new indicator?
+    - Creating a New Indicator Formula
+    - how to write a formula for new indicators
+    - What is the new indicator formula?
+    - What is the formula for the creation of new indicators?
+    - What's the formula for coming up with new indicators?
+    - What's the formula for the new indicator?
+    - What is the new indicator's formula?
+    - how to create a formula for new indicators
+    - What is the new formula for the indicator?
+    - how to make a new formula for an indicator
+    - how to make your own indicator formula
+    - how to create a formula for a new indicator
+    - how to create a new indicator's formula
+    - how to create a new formula for an indicator
+    - how to create a new indicator formula
+    - What is the procedure for developing new indicators?
+    - how to make a new indicator formula
+    - What exactly is the new formula for calculating the indicator?
+    - what is the formula for new indicators?
+    - how to write new indicators formula
+
+- intent: faq-portal-b1/indic-creat-succes-see #406
+  examples: |
+    - After the indicator has been successfully created, where can I find it?
+    - After the indicator has been created successfully, where can I find it?
+    - Where can I find the indicator after I've successfully created it?
+    - Where can I find the indicator once it's been created successfully?
+    - When the indicator has been successfully created, where can I find it?
+    - Where can I find the indicator once it's been successfully created?
+    - Where can I find the indicator after it has been created successfully?
+    - After I've successfully created the indicator, where can I find it?
+    - Where can I find the indicator once it's been created?
+    - Where can I find the indicator once it has been successfully created?
+    - Where can I find the indicator once I've created it?
+    - Where can I see the indicator after it has been successfully created?
+    - Where can I find the indicator after it has been successfully created?
+    - Where can I find the indicator after it's been created successfully?
+    - after indicator is created succesfully , where can i see that?
+
+- intent: faq-portal-b1/modifi-detail-indic #407
+  examples: |
+    - Is it possible to alter the indicator's specifics?
+    - Is it possible to alter the indicator's details?
+    - Is it possible to change the parameters of the indicator?
+    - Is it possible to change the information about the indicator?
+    - Is it possible to customize the details of the indicator?
+    - Is it possible to alter the details of the indicator?
+    - Is it possible to customize the indicator's details?
+    - Is it possible to change the specifics of the indicator?
+    - Is it possible to change the indicator's specific details?
+    - Is it possible to change the indicator's characteristics?
+    - Is it possible to modify the indicator's properties?
+    - Is it possible to change the characteristics of the indicator?
+    - Is it possible to alter the indicator's characteristics?
+    - Is it possible to change the indicator's specifics?
+    - Is it possible to change the indicator's details?
+    - Is it possible to change the details of the indicator?
+    - Is it possible to modify the details of the indicator?
+    - can i modify the details of indicator
+
+- intent: faq-portal-b1/clear-visualis-histori #409
+  examples: |
+    - how to see your previous visualisations clearly
+    - how to get a clear picture of your previous work in visualisation
+    - How can you see your visualization history in detail?
+    - how to display the history of visualizations
+    - What can be done to increase the visibility of visualization's history?
+    - What's the most effective way to learn about visualization's history?
+    - how to make the history of visualizations visible
+    - how can the history of visualization be made more visible?
+    - What can be done to increase the visibility of visualization's past?
+    - how to decipher the visualisation history
+    - What is the best way to learn about the history of visualization?
+    - What is the best way to decipher the history of visualization?
+    - how to decipher visualisation's history
+    - how to visualize the history of visualizations
+    - How can you get a clear picture of your previous visualizations?
+    - What's the best way to see your visualization history in detail?
+    - How can the history of visualizations be made more visible?
+    - how to figure out the history of visualization
+    - how to make the history of visualizations more visible
+    - How do you get a clear picture of your previous visualizations?
+    - What's the best way to learn about visualization's history?
+    - how to decipher the history of visualisation
+    - What is the best way to learn about visualization's history?
+    - How can you get a clear picture of your visualization history?
+    - What can be done to make the history of visualization more visible?
+    - how to get a clear picture of your visualisation history
+    - How do you get a clear picture of your previous visualization work?
+    - how to get a clear picture of your previous work in visualization
+    - How can the history of visualizations be made visible?
+    - how to decipher the history of visualization
+    - how to get a clear picture of your previous visualisations
+    - how to get a clear picture of your previous visualisation work
+    - How can you see your visualization history clearly?
+    - How can the history of visualization be made more visible?
+    - how to make the visualisation history clear
+    - how to clear visualisation history
+
+
+- intent: faq-portal-b1/benefit-share-social-profil-idp #411
+  examples: |
+    - Is there any advantage to sharing my social media profiles with IDP?
+    - Is there any benefit to IDP knowing about my social media profiles?
+    - Is it beneficial for me to share my social media accounts with IDP?
+    - Is there any benefit to letting IDP know about my social media accounts?
+    - Is there any advantage to giving IDP access to my social media accounts?
+    - Is it beneficial to IDP to have access to my social media accounts?
+    - Is there any benefit to sharing my social media accounts with IDP?
+    - Is it beneficial to give IDP access to my social media profiles?
+    - Is there any advantage to sharing my social media accounts with IDP?
+    - Is it beneficial for IDP to be aware of my social media profiles?
+    - Is there a benefit to sharing my social media accounts with IDP?
+    - Is there a benefit to allowing IDP access to my social media accounts?
+    - Is it beneficial to allow IDP access to my social media accounts?
+    - Is there any advantage to sharing my social profile with IDP?
+    - Is it necessary for IDP to be aware of my social media accounts?
+    - Are there any advantages to sharing my social media profiles with IDP?
+    - Is there any reason for IDP to have access to my social media profiles?
+    - Is there any advantage to allowing IDP access to my social media accounts?
+    - Is there any benefit to allowing IDP access to my social media profiles?
+    - Is granting IDP access to my social media accounts advantageous?
+    - Is it necessary for IDP to be aware of my social media profiles?
+    - Is it advantageous to give IDP access to my social media accounts?
+    - Is it beneficial for IDP to have access to my social media accounts?
+    - are there any benefits if i share my social profile with IDP
+
+
+- intent: faq-portal-b1/live-demo-protal-use-idp #415
+  examples: |
+    - Is there a protal with a live IDP demonstration?
+    - Is there a protal video of IDP in action?
+    - Is there a live demonstration of IDP on the proton?
+    - Is there a real-time IDP demo on the Protal?
+    - Is there a live demonstration of IDP in action on the protal?
+    - Is there a way to see a live IDP demonstration on the Protal?
+    - Is there a live demo of IDP on the protal?
+    - Is there a live demonstration of IDPs on the protal?
+    - Is the Protal equipped with a real-time IDP demo?
+    - Is it possible to see IDP in action on the protal?
+    - Is a live IDP demonstration on the Protal possible?
+    - Is a live demonstration of IDP on the protal available?
+    - Is there any way to see IDP in action on the protal?
+    - Is there a video on the protal of IDP in action?
+    - Is there a way to see IDP in action on the protal?
+    - Is there a live demonstration of IDP on the protal?
+    - Is a live demonstration of IDP on the Protal possible?
+    - Is it possible to see a live demonstration of IDP on the Protal?
+    - Is there a live IDP demonstration on the Protal?
+    - Is there a video of IDP in action somewhere on the internet?
+    - Is there a live demonstration of IDP on the Protal?
+    - Is there a live IDP demonstration on the protal?
+    - Is there a real-time IDP demonstration on the protal?
+    - Is the protal hosting a live IDP demonstration?
+    - Is there a real-time IDP demo on the protal?
+    - Is it possible to observe IDP at work on the protal?
+    - Is there a video of IDP in action on the protal?
+    - is there any live demo on the protal for using IDP
+
+
+- intent: faq-portal-b1/add-data-card # 419
+  examples: |
+    - What's the most effective way to incorporate a data card into your presentation?
+    - Inserting a Data Card
+    - Adding a Data Card is a straightforward procedure.
+    - Incorporating a Data Card into the Mix
+    - how to insert a data card
+    - What is the most effective way to incorporate a data card?
+    - How should you incorporate a data card into your presentation?
+    - Including a Data Card
+    - How should a data card be inserted?
+    - Adding a Data Card to a Presentation
+    - what is the procedure for inserting a data card
+    - How do you insert a data card?
+    - Adding a Data Card is a simple procedure.
+    - Adding a Data Card to the Mix
+    - how to include a data card
+    - What is the best way to include a data card?
+    - What is the most efficient way to insert a data card?
+    - What is the best way to include a data card in your presentation?
+    - Adding a Data Card
+    - Incorporating a Data Card
+    - What is the most effective method for including a data card?
+    - how to put a data card in
+    - How to Insert a Data Card
+    - What is the most effective way to incorporate a data card into a presentation?
+    - Placing a Data Card
+    - incorporating a data card into a presentation
+    - what is the best way to put a data card in?
+    - Adding a Data Card is a relatively simple process.
+    - It's relatively easy to add a Data Card.
+    - How should a data card be included?
+    - Data Card Insertion
+    - how to insert a data card into a slide show
+    - how to include a data card in a presentation
+    - How do you put a data card in?
+    - Putting a Data Card in
+    - How do you insert a data card the most effectively?
+    - What is the best method for inserting a data card?
+    - how to add data card
+
+- intent: faq-portal-b1/indiapuls-isb #420
+  examples: |
+    - What is the meaning of Indiapulse@isb?
+    - What does indiapulse@isb stand for, and what does it imply?
+    - What exactly is Indiapulse@isb?
+    - What is Indiapulse@isb, exactly?
+    - What does indiapulse@isb stand for?
+    - what does indiapulse@isb stand for?
+    - What exactly is indiapulse@isb?
+    - What is Indiapulse@isb all about?
+    - What does Indiapulse@isb mean and imply?
+    - What is the meaning of indiapulse@isb?
+    - What exactly is Indiapulse@isb and how does it function?
+    - How does Indiapulse@isb work?
+    - What does Indiapulse@isb stand for?
+    - What does Indiapulse@isb stand for, and what does it imply?
+    - What does the email address indiapulse@isb stand for, and what does it mean?
+    - What is the meaning of the email address indiapulse@isb?
+    - What is Indiapulse@isb?
+    - What does Indiapulse@isb mean exactly?
+    - What exactly is the meaning of the email address indiapulse@isb?
+    - I'm not sure what Indiapulse@isb is.
+    - What does the email address indiapulse@isb stand for?
+    - What does the email address indiapulse@isb mean, and what does it imply?
+    - What's the deal with Indiapulse@isb?
+    - What is Indiapulse@isb, and how does it work?
+    - What is the purpose of Indiapulse@isb?
+    - What does Indiapulse@isb mean?
+    - What does indiapulse@isb mean?
+    - What does the term Indiapulse@isb mean, and what does it imply?
+    - what is indiapulse@isb and what does it mean?
+    - What exactly is Indiapulse@isb, and how does it function?
+    - what is indiapulse@isb
+
+- intent: faq-portal-b1/intern-comparison-avail-indiapuls-isb #421
+  examples: |
+    - Do you have any international comparisons for indiapulse@isb.org?
+    - Is there a global parallel at indiapulse@isb?
+    - Are there any international parallels at indiapulse@isb.org?
+    - At indiapulse@isb, do you have any international comparisons?
+    - Do you have any international comparisons to send to indiapulse@isb.org?
+    - Is there anything at indiapulse@isb.org that compares to other countries?
+    - Are there any international comparisons at indiapulse@isb?
+    - Is there anything comparable to other countries at indiapulse@isb.org?
+    - Are there any international parallels at indiapulse@isb?
+    - Is there anything at indiapulse@isb.org that compares to what's going on in other countries?
+    - at indiapulse@isb.org, are there any international comparisons?
+    - At indiapulse@isb.org, do you have any international comparisons?
+    - Is there anything at indiapulse@isb that compares to the rest of the world?
+    - Are there any international comparisons to be made at indiapulse@isb.org?
+    - Are there any international comparisons at indiapulse@isb.org?
+    - at indiapulse@isb, are there any international comparisons?
+    - At indiapulse@isb, are there any international parallels?
+    - are there any international comparisons at indiapulse@isb.org?
+    - At indiapulse@isb, are there any international comparisons?
+    - Is there anything at indiapulse@isb.org that compares to what's happening in other countries?
+    - At indiapulse@isb, are there any global comparisons?
+    - At indiapulse@isb, do you have any global comparisons?
+    - At indiapulse@isb, do you have any international parallels?
+    - Are there any global comparisons at indiapulse@isb?
+    - Are there any international comparisons you could send to indiapulse@isb.org?
+    - At indiapulse@isb.org, are there any international comparisons?
+    - Is there anything at indiapulse@isb that compares to other countries?
+    - are any international comparisons available at indiapulse@isb
+
+- intent: faq-portal-b1/idp-compar-demograph-countri #422
+  examples: |
+    - Is it possible to compare demographics in different countries using IDP?
+    - Is it feasible to compare demographics between countries using IDP?
+    - Is it possible to compare IDP's demographics to those of other countries?
+    - Is it possible to use IDP to compare demographics across countries?
+    - Is it possible to compare demographics across countries using IDP?
+    - Is it possible to compare IDP demographics to those from other countries?
+    - Is IDP useful for comparing demographics between countries?
+    - Is it possible to compare the demographics of different countries using IDP?
+    - Is it possible to compare demographics between countries using IDP?
+    - Is it possible to compare demographics with any other country on IDP?
+    - Is it possible to compare demographics on IDP with demographics from other countries?
+    - Is it possible to use IDP to compare demographics between countries?
+    - Can we compare demographics with any other country using IDP?
+    - Is it possible to compare demographics in one country with those in another?
+    - Is it possible to compare demographics on IDP to those of any other country?
+    - Is it possible to compare demographics on IDP with those of any other country?
+    - Is it possible to use IDP to compare demographics with other countries?
+    - Is it possible to compare IDP demographics to those of other countries?
+    - Is it possible to compare demographics with any other country using IDP?
+    - Can we use IDP to compare demographics with any other country?
+    - Is it possible to compare IDP demographics to those in other countries?
+    - Is it possible to compare IDP demographics with those of other countries?
+    - Is the International Demographic Profile (IDP) useful for comparing demographics across countries?
+    - Is it possible to compare the demographics of countries using IDP?
+    - Is it possible to use IDP to compare demographics with any other country?
+    - Is it possible to compare the demographics of any country using IDP?
+    - Is the International Demographic Profile (IDP) useful for comparing demographics between countries?
+    - on IDP can we compare demographics with any other country
+
+- intent: faq-portal-b1/donload-imag-datacard #423
+  examples: |
+    - What is the best way to download an image from a datacard?
+    - How do we get an image from a datacard?
+    - What is the most efficient method for extracting an image from a datacard?
+    - What's the fastest way to get an image off a datacard?
+    - What is the fastest way to download images from a datacard?
+    - How can I get images from a datacard in the most efficient way?
+    - What's the most efficient way to get an image from a datacard?
+    - What is the best way to download images from a datacard?
+    - What is the most efficient method for obtaining an image from a datacard?
+    - How do you get an image from a datacard in the most efficient way possible?
+    - Which method is the most efficient for downloading images from a datacard?
+    - What is the quickest way to extract an image from a datacard?
+    - What is the best method for obtaining a picture from a datacard?
+    - How can I get an image from a datacard in the most efficient way possible?
+    - What's the best way to get images off a datacard?
+    - What's the fastest way to get images from a datacard?
+    - How can I get images from a datacard as quickly as possible?
+    - What's the best way to get a picture from a datacard?
+    - How can I get the most images from a datacard in the shortest amount of time?
+    - What is the most effective method for obtaining a picture from a datacard?
+    - What is the best method for obtaining an image from a datacard?
+    - What's the best way to get an image from a datacard?
+    - What is the most efficient way to retrieve an image from a datacard?
+    - What is the most efficient way to get images from a datacard?
+    - What is the most efficient method for downloading images from a datacard?
+    - What is the most effective method for downloading images from a datacard?
+    - I'm trying to get an image from a datacard, but I'm not sure how to do it.
+    - What is the fastest way to get an image from a datacard?
+    - What is the most efficient method for downloading an image from a datacard?
+    - What is the best way to get an image from a datacard?
+    - What is the most efficient way to extract images from a datacard?
+    - How can I get an image from a datacard?
+    - What is the most efficient method for obtaining a picture from a datacard?
+    - how can we donload image from datacard
+
+- intent: faq-portal-b1/made-datacard-use-multipl-dataset # 424
+  examples: |
+    - Is it possible to make a datacard out of multiple datasets?
+    - Is it possible to make a single datacard out of multiple datasets?
+    - Is it possible to create a single datacard from multiple datasets?
+    - Is it possible to create a datacard that incorporates multiple datasets?
+    - Is it possible to make a datacard with multiple datasets on it?
+    - Is it possible to create a datacard that contains multiple datasets?
+    - Is it possible to combine multiple datasets into a datacard?
+    - Is it possible to make a datacard with multiple datasets?
+    - Is it possible to combine multiple datasets into a single datacard?
+    - Is it possible to create a datacard that includes multiple datasets?
+    - Is it possible to build a datacard that contains multiple datasets?
+    - Is it possible to create a datacard that contains several datasets?
+    - Is it possible to create a datacard containing multiple datasets?
+    - Can multiple datasets be combined into a single datacard?
+    - Is it possible to create a datacard with multiple datasets?
+    - Is it possible to create a datacard with multiple datasets on it?
+    - Is it possible to create a datacard that includes several datasets?
+    - Is it possible to create a datacard from multiple datasets?
+    - Is it possible to make a datacard that contains several datasets?
+    - Can we made datacard using multiple datasets
+
+- intent: faq-portal-b1/incorpor-multipl-dataset-datacard # 425
+  examples: |
+    - What method should be used to combine multiple datasets into a datacard?
+    - How do I combine multiple datasets into a single datacard?
+    - What's the best way to make a datacard with multiple datasets?
+    - What is the best method for making a datacard with multiple datasets?
+    - How do I make a datacard with multiple datasets?
+    - How can I combine multiple datasets into a single datacard?
+    - What is the best way to make a datacard out of multiple datasets?
+    - How do I put multiple datasets together into a datacard?
+    - What's the most efficient way to make a datacard with multiple datasets?
+    - How do I create a datacard from a collection of datasets?
+    - What is the best method for creating a datacard with multiple datasets?
+    - What is the best method for creating a datacard that contains multiple datasets?
+    - What is the most efficient method for creating a datacard with multiple datasets?
+    - How do I combine multiple datasets into a datacard?
+    - How do I make a single datacard out of multiple datasets?
+    - What is the best way to create a datacard with multiple datasets?
+    - What is the best way to combine multiple datasets into a datacard?
+    - What is the best way to create a datacard that contains multiple datasets?
+    - How do I make a datacard that contains multiple datasets?
+    - How should multiple datasets be combined into a datacard?
+    - What's the best way to make a datacard out of multiple datasets?
+    - What is the best way to make a datacard with multiple datasets?
+    - How do I make a datacard out of multiple datasets?
+    - What's the most efficient way to combine multiple datasets into a datacard?
+    - What's the best way to make a datacard that contains multiple datasets?
+    - What is the best method for combining multiple datasets into a datacard?
+    - What is the best way to combine multiple datasets into one datacard?
+    - What's the best way to combine multiple datasets into one datacard?
+    - How do I create a datacard with multiple datasets?
+    - What's the best way to combine multiple datasets into a datacard?
+    - What is the most efficient way to create a datacard that contains multiple datasets?
+    - How do you make a datacard with multiple datasets?
+    - how to incorporate multiple datasets into datacard?
+
+- intent: faq-portal-b1/function-provid-datacard #426
+  examples: |
+    - What services does datacard offer?
+    - What are the services offered by datacard?
+    - What are the advantages of having a datacard?
+    - Do you have access to any of the datacard's options?
+    - What are the services that datacard offers?
+    - What are the features of datacard?
+    - What are the benefits of using a datacard?
+    - What kind of services does datacard provide?
+    - Which datacard features do you have access to?
+    - What kind of services does datacard offer?
+    - What datacard options do you have access to?
+    - Are you able to use any of the datacard's features?
+    - What are the advantages of a datacard?
+    - What benefits does datacard provide?
+    - Do you have access to any datacard features?
+    - What datacard features are you able to use?
+    - What services does datacard provide?
+    - What are datacard's services?
+    - Are there any datacard features that you have access to?
+    - What are the advantages of using a datacard?
+    - What are the benefits of using datacard?
+    - What are the advantages of owning a datacard?
+    - What are the advantages of datacard usage?
+    - What features does datacard have to offer?
+    - What are the characteristics of a datacard?
+    - What datacard features are available to you?
+    - What is the scope of datacard's services?
+    - What options do you have for datacard features?
+    - What are the services provided by datacard?
+    - What distinguishes a datacard from other types of cards?
+    - What datacard features do you have access to?
+    - What datacard features do you have?
+    - what functionalities are provided by datacard?
+
+- intent: faq-portal-b1/use-datacard #427
+  examples: |
+    - What is the function of a datacard?
+    - What use is a datacard if you have no idea what you're supposed to do with it?
+    - What good is a datacard if you have no idea what it's for?
+    - What is a datacard's purpose?
+    - What's the point of a datacard?
+    - What use is a datacard if you don't know what you're supposed to do with it?
+    - What exactly is a datacard and what does it do?
+    - What good is a datacard if you don't know what it's for?
+    - What good is a datacard if you have no idea what you should do with it?
+    - What is the purpose of a datacard?
+    - What exactly is a datacard, and how does it work?
+    - What exactly is the purpose of a datacard?
+    - What good is a datacard if you have no idea what to do with it?
+    - What is a datacard and what does it do?
+    - What good is a datacard if you don't know what you're supposed to use it for?
+    - What good is a datacard if you don't know what to do with it?
+    - What good is a datacard if you don't know what you're supposed to do with it?
+    - What are the uses of a datacard?
+    - What good is a datacard if you have no idea how to use it?
+    - What are the functions of a datacard?
+    - What exactly is a datacard's purpose?
+    - What exactly is a datacard and how does it work?
+    - what is the use of datacard?
+
+- intent: faq-portal-b1/compar-multipl-datacard-portal # 428
+  examples: |
+    - Is it possible to use the portal to compare several datacards?
+    - Is the portal capable of comparing multiple datacards?
+    - Is it possible to compare multiple datacards with the portal?
+    - Is there a way to use the portal to compare multiple datacards?
+    - Is there a way to compare multiple datacards using the portal?
+    - Is it possible to compare multiple datacards through the portal?
+    - Is it possible to compare multiple datacards using the portal?
+    - Can we use the portal to compare multiple datacards?
+    - Is it possible for the portal to compare multiple datacards?
+    - Is there a way to compare multiple datacards through the portal?
+    - Is it possible to compare multiple datacards via the portal?
+    - Can we compare multiple datacards using the portal?
+    - Is it possible to use the portal to compare multiple datacards?
+    - Is it possible to compare several datacards using the portal?
+    - Can we compare multiple datacards on the portal?
+
+- intent: faq-portal-b1/upload-datacard-sourc-idp #429
+  examples: |
+    - Is it possible to import a datacard from another source into idp?
+    - Is it possible to use idp to upload datacards from different sources?
+    - Is it possible to import datacards from other sources using idp?
+    - Is it possible to import data into idp from a different source?
+    - Is it possible to import data into idp from another source?
+    - Is it possible to upload datacards from any other source to idp?
+    - Is it possible to use idp to upload datacards from other places?
+    - Is it possible to import datacards into idp from any other source?
+    - Is it possible to upload datacards from other sources using idp?
+    - Is it possible to upload a datacard from another source to idp?
+    - Is it possible to bring data into idp from another source?
+    - Can I use idp to upload datacards from other sources?
+    - Is it possible to import data from a different source into idp?
+    - Is it possible to import datacards from a different source into idp?
+    - Is it possible to upload a datacard to idp from a different source?
+    - Can I upload datacards from other sources using idp?
+    - Is it possible to upload datacards to idp from another source?
+    - Is it possible to import datacards from another source into idp?
+    - Is it possible to upload a datacard from a different source to idp?
+    - Is it possible to import datacards from other sources into IDP?
+    - Is it possible to upload datacards from a different source to idp?
+    - Is it possible to import datacards into idp from an external source?
+    - Is it possible to use idp to import datacards from other sources?
+    - Is it possible to import datacards from outside sources into IDP?
+    - Is it possible to import datacards into idp from another source?
+    - Is idp capable of importing datacards from other sources?
+    - Is it possible to import a datacard from another source and upload it to idp?
+    - Is it possible to use idp to upload datacards from other sources?
+    - Is it possible to use IDP to upload datacards from other sources?
+    - Is it possible to import datacards into IDP from another source?
+    - Is it possible to upload a datacard to idp from another source?
+    - Is it possible to import a datacard from a different source into idp?
+    - Is it possible to import datacards from other sources into idp?
+    - can i upload datacard from any other source on idp?
+
+- intent: faq-portal-b1/idp-provid-function-cross-compar-differ-site #430
+  examples: |
+    - Is it possible to compare datasets and datacards from different sites using IDP?
+    - Is there a way to compare datasets/datacards from different sites using IDP?
+    - IDP allows you to compare datasets/datacards from different sites.
+    - Is it possible to compare datasets/datacards from different sites with idp?
+    - Is it possible to use idp to compare datasets/datacards from different sites?
+    - Is it possible to use IDP to compare datasets/datacards from various sites?
+    - Is idp capable of comparing datasets/datacards from different sites?
+    - Is it possible to compare datasets/datacards from various websites using IDP?
+    - Is there a way to compare datasets/datacards from different sites with idp?
+    - Is it possible to compare datasets/datacards from different websites using idp?
+    - Is it possible to compare datasets/datacards from various sites using IDP?
+    - You can compare datasets/datacards from different sites with IDP.
+    - Is it possible to compare datasets/datacards from various sites with idp?
+    - Is it possible to use idp to compare datasets/datacards from various sites?
+    - Is there a way to use idp to compare datasets/datacards from different websites?
+    - You can compare datasets/datacards from different sites using IDP.
+    - Is it possible to compare datasets/datacards from different websites with idp?
+    - Is there a way to compare datasets/datacards from different sites using idp?
+    - Is it possible to compare datasets/datacards from different sites with IDP?
+    - Is it possible to use IDP to compare datasets/datacards from different sites?
+    - Is it possible to compare datasets/datacards from various sites using idp?
+    - Is it possible to compare datasets/datacards from various websites using idp?
+    - Is it possible to compare datasets/datacards from different websites using IDP?
+    - Is it possible to compare datasets/datacards from different sites using idp?
+    - You can compare datasets/datacards from various sites using IDP.
+    - Is it possible to compare datasets/datacards from different sites using IDP?
+    - is idp providing a functionality to cross compare datasets/datacards from different sites
+
+- intent: faq-portal-b1/add-custom-indic-datacard #431
+  examples: |
+    - In datacards, how do I add custom indicators?
+    - How can I add custom indicators to datacards?
+    - What's the best way to make custom datacard indicators?
+    - What is the best way to add custom indicators to datacards?
+    - How do I make my own custom indicators for datacards?
+    - What's the best way to incorporate custom indicators into datacards?
+    - How do I add custom indicators to datacards?
+    - In datacards, how do I make custom indicators?
+    - What is the procedure for adding custom indicators to datacards?
+    - How do I make my own datacard indicators?
+    - What is the most effective method for adding custom indicators to datacards?
+    - What's the most efficient way to include custom indicators in datacards?
+    - How can I include custom indicators in datacards in the most efficient way possible?
+    - What is the most efficient way to add custom indicators to datacards?
+    - How can I quickly add custom indicators to datacards?
+    - How do I make datacards with custom indicators?
+    - What is the most effective method for incorporating custom indicators into datacards?
+    - What's the most efficient way to add custom indicators to datacards?
+    - What's the best way to add custom indicators to datacards?
+    - How do I make custom datacard indicators?
+    - Which method for adding custom indicators to datacards is the most efficient?
+    - How do I add my own indicators to datacards?
+    - In datacards, how do I make my own indicators?
+    - How do I insert custom indicators into datacards?
+    - How do I create custom indicators in datacards?
+    - How do I create custom indicators for datacards?
+    - How can I add custom indicators to datacards in the most efficient way possible?
+    - In datacards, how can I add custom indicators?
+    - How can i add custom indicators in datacards?
+    
+

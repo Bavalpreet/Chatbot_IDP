@@ -1,0 +1,114 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq-visualisation-b5:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_faq-visualisation-b5/why-not-add-two-datasets: #141
+  - text: As of now you can add only two datasets at one 
+
+  utter_faq-visualisation-b5/help-understand-indicators: #143
+  - text: As of now we dont have a detailed description of the indicators
+
+  utter_faq-visualisation-b5/tutorial-making-graphs-visualisations: #145
+  - text: Yes we have a tutorial for making graphs and visualization. click on training tab on the top right corner and then go to online training. Here in this page you will find the tutoial videos. Page can be directly opened at the link 'https://indiadataportal.com/workshop?w_tab=pills-training-tab&tab=all&language=English&location=Punjab'
+
+  utter_faq-visualisation-b5/only-see-states-find-district-village: #146
+  - text: On the left side of the location popup window you can see the districts tab.
+
+  utter_faq-visualisation-b5/graph-not-see-loading: #152
+  - text: Please make sure that you have not missed any pop-ups and your device is connected to the internet  
+
+  utter_faq-visualisation-b5/How-change-title: #154
+  - text: Once you have created a visualisation, click on the small pencil icon on the bottom left portion of the existing title to edit 
+
+  utter_faq-visualisation-b5/What-numbers-in-brackets: #155
+  - text: The number in brackets while creating a visualisation indicated the number of selection you have made in the particular category 
+
+  utter_faq-visualisation-b5/Do-have-select-filters: #156
+  - text: Yes, you have to select filters to make a visualisation
+
+  utter_faq-visualisation-b5/What-JumpStartIndia-ISB: #157
+  - text: Please visit this link to know more about JumpStartIndia@ISB 'https://www.isb.edu/en/research-thought-leadership/research-centres-institutes/bharti-institute-of-public-policy/JSI.html' 
+
+  utter_faq-visualisation-b5/Can-zoom-chart: #158
+  - text: Currently, we do not have an option to zoom into the chart 
+
+  utter_faq-visualisation-b5/what-dimension: #161
+  - text : A dimension is a descriptive attribute or characteristic of an object that can be given different values.
+  
+  utter_faq-visualisation-b5/Should-select-location-always: #161
+  - text: No it's not mandatory to select location always
+
+  utter_faq-visualisation-b5/How-many-indicators-select-at-time: #162
+  - text: You can compare a maximum of 2 data sets at a time
+
+  utter_faq-visualisation-b5/How-select-two-datasets-visualizing-together: #163
+  - text: Once you are in the visualise page, there will an option towards the left side of your screen to add a data set under the data set tab
+
+  utter_faq-visualisation-b5/what-kind-datasets-i-compare: #165
+  - text: You can compare datasets that have similar temporal and spatial distribution.
+
+  utter_faq-visualisation-b5/What-you-mean-time: #166
+  - text: The time varible lets you filter out specific time periods 
+
+  utter_faq-visualisation-b5/Why-click-options-popping-out-in-Build-Chart: #167
+  - text: These options will further let you diversify the visualisation that you are trying to build 
+
+  utter_faq-visualisation-b5/How-many-ways-create-graph: #168
+  - text: You can create a chart in almost infinite number of ways
+
+
+  utter_faq-visualisation-b5/How-multiple-colours-available-Select-at-time: #169
+  - text: You can select one color palette from the option provided. Each color palatte will have multiple colors
+
+  utter_faq-visualisation-b5/how-change-units-entity: #170
+  - text: You cannot change units for data uploaded from government sources. But you can always create new indicators and specify the units of your choice. 
+
+  utter_faq-visualisation-b5/How-change-different-colours-bar: #171
+  - text: You can choose from the various color scheme options available 
+
+  utter_faq-visualisation-b5/how-change-color-graph: #172
+  - text: On top left corner of the visualisation, there is a icon with gear and pencil which enable you to change the color pallet of visualisations
+  
+
+  utter_faq-visualisation-b5/How-many-ways-download-graph: #173
+  - text: You can download your visualisation in SVG and PNG format
+
+  utter_faq-visualisation-b5/Can-share-graphs-on-social-media: #174
+  - text: Yes, you can share your visualisation in social media using the share icon on the top right corner of your visualisation 
+
+  utter_faq-visualisation-b5/compare-more-datasets-single-visualization: #175
+  - text: You can compare upto 2 data sets in a single visualisation
+
+  utter_faq-visualisation-b5/How-many-maximum-number-locations-select-which-creating-graph: #176
+  - text: You can select upto the number of locations available in the data set for creating your visualisation
+
+  
+  utter_faq-visualisation-b5/How-many-visualisations-create-single-selected-data: #177
+  - text: You can create as many visualisation - explore the options on the India Data Portal
+
+  utter_faq-visualisation-b5/why-no-jpeg: #178
+  - text: SVG and PNG formats are available
+  
+  utter_faq-visualisation-b5/tables-instead-vis: #179
+  - text: Tabular view of the data would be available soon on the Portal, meanwhile you can view the data and download the same at your end
+ 
+  utter_faq-visualisation-b5/max-datasets-compare: #180
+  - text: You can compare a maximum of 2 datasets at a time
+
+  utter_faq-visualisation-b5/create-indicator-with-assigned-units: #181
+  - text: The user can assign any units of choice on the user created indicator
+
+  utter_faq-visualisation-b5/whatis-indiapulse: #156
+  - text: Please visit this link to know more about IndiaPulse@ISB https://www.isb.edu/en/research-thought-leadership/research-centres-institutes/bharti-institute-of-public-policy/JSI.html 
+
+actions: []
+forms: {}
+e2e_actions: []

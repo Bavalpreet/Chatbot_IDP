@@ -1,0 +1,137 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq-portal-b0:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_faq-portal-b0/about_idp: #2
+  - text: IDP is Your one-stop destination for open-access data on agriculture, rural development and financial inclusion in India.The portal contains a data repository with processed and documented public datasets on related themes. For agriculture, these include crops, water, livestock, public investments, etc at levels such as districts, tehsils, and villages with a largely rural focus and socio-economic characteristics in both rural and urban areas at granular spatial scales like district, town and ward spanning the entire country.
+  
+  utter_faq-portal-b0/why_idp: #3
+  - text: IDP is Your one-stop destination for open-access data on agriculture, rural development and financial inclusion in India.The portal contains a data repository with processed and documented public datasets on related themes. For agriculture, these include crops, water, livestock, public investments, etc at levels such as districts, tehsils, and villages with a largely rural focus and socio-economic characteristics in both rural and urban areas at granular spatial scales like district, town and ward spanning the entire country.
+  utter_faq-portal-b0/types-visualisation-portal: #5
+  - text: More than 30 types of visualizations are available on India Data portal, which includes bar chart, pie chart, line chart, histogram, tree map, etc. 
+  utter_faq-portal-b0/frequency-data-upload: #10
+  - text: India Data Portal has data from various government sources and once the data is uploaded on the source, it is updated on the portal within a short time
+
+  utter_faq-portal-b0/server-error: # 11
+  - text: Sorry for the inconvinience due to technical issue, which is resolved now. 
+
+  utter_faq-portal-b0/not-able-search-dataset-with-keywords: #15
+  - text: You can search for the dataset name, indicator name or location separately
+
+  utter_faq-portal-b0/help-technical-issues-portal: #24
+  - text: Just mail to us idp@isb.edu
+
+  utter_faq-portal-b0/not-able-compare-datasets: #25
+  - text: You can compare two datasets provided there is data on the same locations across both the datasets, e.g. either state or district level data
+
+  utter_faq-portal-b0/trust-data-sourced-from-government-agencies: #26
+  - text: We have collected the data from reliable government sourcs You can also see the links in the about dataset page in the source link section
+
+  utter_faq-portal-b0/materials-videos-different-visualization-posted-website: #27
+  - text: Yes we will be uploading new training videos in our portal
+
+  utter_faq-portal-b0/different_langauges_availability: #29
+  - text: India Data Portal is available in six languages which includes English and other Indian languages like Hindi, Bengali, Marathi, Oriya and Telegu
+
+  utter_faq-portal-b0/visualisations-made-downloaded-other-languages: #30
+  - text: Yes the visualisations can be made and downloaded in the languages available in the Portal
+
+  utter_faq-portal-b0/paid_service_or_not: #31
+  - text: Till now it is not a paid service and is completely open source
+
+  utter_faq-portal-b0/what-is-indicator: # 33
+  - text: Indicator is a variable whose value is of interest to the user of the portal
+
+  utter_faq-portal-b0/compare-datasets-on-idp: #34
+  - text: Go to the visualize page, and on the left hand side, you will see the Add Dataset option. You can add upto 2 datasets one by one for comparison
+  utter_faq-portal-b0/count-of-datasets: #4
+  - text: There are more than 35+ dataset available at IDP, across various sectors like agriculture, rural development, soci-economic, financial inclusion, economic activity, etc.
+ 
+  utter_faq-portal-b0/part-available-data: #14
+  - text: India Data portal covers multiple domains like Agriculture, Financial Inclusion, Rural Development, Economy, Socio- economic, Climate etc
+  
+  utter_faq-portal-b0/Why-not-see-all-selected-language: #150
+  - text: We are working on converting all the text into the selected language and in some cases there are technical difficuilties for the translation.
+  
+  utter_faq-portal-b0/most-recent-data: #245
+  - text: For some datasets youll find data available from last month on the portal. Data is updated on the portal after it is made available by the Indian Government 
+
+  utter_faq-portal-b0/recent-data-available: #246
+  - text: India Data portal updates its data from the Govt sources. As soon as the Govt updates its data we also updates our data within few days
+ 
+  utter_faq-portal-b0/employment-data-available: #247
+  - text: Employment data is available on the portal. We have NSSO employment and MGNREGA employment data
+  
+  utter_faq-portal-b0/agriculture-data-available: #249
+  - text: India Data Portal extensively covers Agriculture data starting from Agricensus, Agri Marketing, Area Production Yield, Fertilizers sales, Cost of Cultivation. To find more go to Food and Agriculture Tab
+
+  utter_faq-portal-b0/Is-data-reliable: #323
+  - text: Our data is completely reliable since we extract our data only from government sources.
+  
+  utter_faq-portal-b0/How-portal-useful:  #324
+  - text: IDP helps you in creating different visualization which you can add in your stories making your stories enriched with data and attractive
+
+  utter_faq-portal-b0/Why-need-data:   #325
+  - text: Journalists need data as a supporting evidence for their stories. IDP will help them in creating data rish stories with simple visualizations
+
+
+  utter_faq-portal-b0/data-updation:  #326
+  - text: India Data portal updates its data from the Govt sources. As soon as the Govt updates its data we also updates our data within few days
+  utter_faq-portal-b0/data-download-provision:  #327
+  - text: Yes you can download the data either in csv or xlsx format. There is an option in the top right corner to download the dataset.
+  utter_faq-portal-b0/data-use-for-research:  #328
+  - text: You can use this data for your research
+  utter_faq-portal-b0/portal-maintainence:  #329
+  - text: This portal is maintained by the Indian School of Business
+  utter_faq-portal-b0/potal-maintainence-by-goi:  #330
+  - text: This portal is maintained by the Indian School of Business
+  utter_faq-portal-b0/data-age-how-old: #331
+  - text: Various distoric datasets are available on the portal, please visit the dataset section of the portal for details
+  utter_faq-portal-b0/data-update-mail-alerts:  #332
+  - text: Until now, we do not have that feature. Thanks for the feedback, well include this in the product roadmap.
+  # utter_faq-portal-b0/feature-update-mail-alerts: #333
+  # - text: Until now, we do not have that feature. Tanks for the feedback, we'll include this in the product roadmap.
+  utter_faq-portal-b0/hindi-illustrations:  #335
+  - text: Yes, India Data portal is available in 6 languages
+  # utter_faq-portal-b0/other-lang-illustrations: #336
+  # - text: Yes, India Data portal is available in 6 languages
+  utter_faq-portal-b0/different-languages:  #337
+  - text: India Data Portal is available in English, Hindi, Telugu, Bengali, Marathi and Oriya
+  utter_faq-portal-b0/portal-came-to-existance: #338
+  - text: The project started in 2019 and the first version of the portal was launched in January 2020
+  utter_faq-portal-b0/user-count-on-portal: #339
+  - text: The portal has a vibrant group of users including journalists, researchers, academia, students, corporates, etc. 
+  utter_faq-portal-b0/portals-impact: #340
+  - text: The portal helps journalists with easy access to data, accompanied with visualizations that they can immediately use for publication
+  utter_faq-portal-b0/news-and-graphics:  #342
+  - text: News is a space where one can see the news article created using IDP and the Graphic gallery lets one view the graphics shared publically by the user
+  utter_faq-portal-b0/uploading-news: #343
+  - text: Please send the content to us at idp@isb.edu
+  utter_faq-portal-b0/frequency-of-data-updation: #345
+  - text: India Data Portal updates data as soon as the source updates them
+  utter_faq-portal-b0/data-change-notifications: 
+  - text: As of now, we do not have custom notifications  
+  utter_faq-portal-b0/data-sourced-from-gov-sites:  #346
+  - text: The data is sourced from reliable publically available sources
+  utter_faq-portal-b0/hyperlink-to-source-data: #348
+  - text: The source of the data can be found at the bottom of the image that is downloaded which can be accessed through the informations section of the dataset 
+  utter_faq-portal-b0/idp-training: #349
+  - text: India Data Portal offers Masterclasses and Workshops 
+  utter_faq-portal-b0/fellowship-with-idp: #359
+  - text: Yes, India Data Portal offers fellowships collaborating with Newslaundry. The first phase of the fellowship consists of a four-week programme to familiarize the fellows with datasets on India Data Portal, attend exclusive masterclasses and get research support from the Indian School of Business, and publish data-driven stories. Please write to us at idp@isb.edu for more information.
+  utter_faq-portal-b0/whats-on-portal: #366
+  - text: India Data Portal has various datasets starting from agriculture, Financial Inclusion, Rural Development, Socio economic etc. You can interact with the data and visualize information by creating various graphs and charts
+  utter_faq-portal-b0/data-citation: #367
+  - text: We have collected the data from government websites. You can also see the source links in the 'about dataset' page of a dataset. In any chart in the below you can see the sources from where the data has been referenced.
+  utter_faq-portal-b0/is-data-reliable:  #369
+  - text: We have collected the data from reliable government sources. You can also see the source links in the 'about dataset' page of a dataset
+  utter_faq-portal-b0/data-sources:  #370
+  - text: We have collected the data from government websites. You can also see the source links in the 'about dataset' page of a dataset

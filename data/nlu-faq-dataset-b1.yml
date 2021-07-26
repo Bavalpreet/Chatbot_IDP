@@ -1,0 +1,226 @@
+version: "2.0"
+nlu:
+  
+- intent: faq-dataset-b1/search-dataset-use-demograph # 383
+  examples: |
+    - Is it feasible to search datasets using demographics?
+    - Is it possible to locate datasets based on demographic information?
+    - Is it possible to conduct a demographics-based search on datasets?
+    - Is it possible to do a demographics-based dataset search?
+    - Is it possible to search datasets for demographic information?
+    - Is it possible to search datasets based on demographics?
+    - Is it possible to find datasets using demographics?
+    - Can we use demographics to search datasets?
+    - Is it possible to search datasets using demographics?
+    - Is it possible to search datasets based on demographic criteria?
+    - Is a demographic search of datasets possible?
+    - Is it possible to use demographics to search datasets?
+    - Is it possible to locate datasets using demographic information?
+    - Is it possible to locate datasets by using demographic information?
+    - Is it possible to conduct a demographic search on a dataset?
+    - Is it possible to conduct a demographic search of datasets?
+    - Is it possible to conduct demographic searches on datasets?
+    - Is it possible to conduct a demographics-based search on a dataset?
+    - Is it possible to conduct a demographic search across multiple datasets?
+    - Is it possible to conduct a demographics-based search of datasets?
+    - Is it possible to search datasets for demographics?
+    - can we search datasets using demographics
+
+
+- intent: faq-dataset-b1/select-multipl-dataset-one-indic-one-go #402
+  examples: |
+    - Is it possible to choose from a variety of datasets for a single indicator?
+    - Is it possible to choose multiple datasets at once for a single indicator?
+    - Is it possible to select multiple datasets for a single indicator at the same time?
+    - Is it possible to choose multiple datasets for a single indicator in one go?
+    - Is it possible to select multiple datasets for a single indicator in one go?
+    - Is it possible to select multiple datasets for a single indicator all at once?
+    - Is it possible to select multiple datasets for a single indicator?
+    - Is it possible to select multiple datasets for a single indicator at once?
+    - Is it possible to select multiple datasets for one indicator at the same time?
+    - Is it possible to choose multiple datasets for a single indicator at the same time?
+    - Is it possible to select multiple datasets at once for a single indicator?
+    - Is it possible to choose multiple datasets for a single indicator at once?
+    - Is there a way to choose multiple datasets for a single indicator?
+    - Is it possible to choose from several datasets for a single indicator?
+    - Is it possible to select multiple datasets at the same time for a single indicator?
+    - Is it possible to select multiple datasets in one go for a single indicator?
+    - Is it possible to choose multiple datasets for one indicator at the same time?
+    - Is there a way to select multiple datasets for a single indicator at the same time?
+    - Is it possible to choose multiple datasets for a single indicator all at once?
+    - Is it possible to choose from multiple datasets for a single indicator at the same time?
+    - Is it possible to pick multiple datasets for a single indicator at once?
+    - can we select multiple datasets for one indicator in one go
+
+
+- intent: faq-dataset-b1/chang-decim-point-across-diff-column-singl-dataset #410
+  examples: |
+    - Is it possible to change decimal points in a single dataset across columns?
+    - Is it possible to change the decimal points in a single dataset across columns?
+    - Is it possible to change decimal points in a single dataset for multiple columns?
+    - Is it possible to change decimal points across columns in a single dataset?
+    - Is it possible to change decimal points in different columns in a single dataset?
+    - Is it possible to change decimal points across multiple columns in a single dataset?
+    - Is it possible to change decimal points in a single dataset's columns?
+    - Is it possible to change the decimal points in a single dataset's multiple columns?
+    - Is it possible to change decimal points in multiple columns within a single dataset?
+    - Is it possible to change the decimal points in a single dataset across multiple columns?
+    - Is it possible to change the decimal points in a dataset's multiple columns?
+    - Is it possible to change the decimal point in a single dataset's columns?
+    - Is it possible to change decimal points in different columns of a single dataset?
+    - Is it possible to change decimal points in multiple columns of the same dataset?
+    - Is it possible to change the decimal points in multiple columns of the same dataset?
+    - Is it possible to change the decimal points in different columns within the same dataset?
+    - Is it possible to change decimal points in a single dataset across different columns?
+    - Is it possible to change the decimal points in a single dataset's columns?
+    - Is it possible to change decimal points in multiple columns of a dataset?
+    - Is it possible to change decimal points in multiple columns in the same dataset?
+    - Is it possible to change the decimal points in different columns of a dataset?
+    - Is it possible to switch decimal points between columns in a single dataset?
+    - Is it possible to change decimal points in a single dataset across multiple columns?
+    - Is it possible to change the decimal points in different columns of a single dataset?
+    - Is it possible to change the decimal points in multiple columns of a single dataset?
+    - can we change decimal points across diff columns in a single dataset
+
+- intent: faq-dataset-b1/download-data-set-excel-format #412
+  examples: |
+    - Is it possible to obtain Excel data sets?
+    - Is it possible to get Excel-formatted data sets?
+    - Is there a way to get data sets in Excel format?
+    - Is it possible to get Excel data files?
+    - Is there a way to obtain Excel data sets?
+    - Is it possible to get Microsoft Excel data sets?
+    - Is it feasible to obtain data sets in Excel format?
+    - Is there a way to get Excel data sets?
+    - Is there a way to get data sets in Microsoft Excel format?
+    - Is it possible to get data in Excel format?
+    - Is it possible to obtain data sets in Excel format?
+    - Is there a way to get data sets in Excel?
+    - Is it possible to get Excel data sets?
+    - Is obtaining data sets in Excel possible?
+    - Is it possible to get Excel-format data sets?
+    - Is it possible to get data sets in Excel format?
+    - Is it possible to obtain data files in Excel format?
+    - Is it possible to obtain data in Excel format?
+    - Is it possible to acquire Excel data sets?
+    - Are Excel data sets available?
+    - Is it possible to download data sets in Excel format?
+    - Is it possible to obtain data sets in Microsoft Excel format?
+    - Is it possible to obtain data sets in Excel?
+    - can i download data sets in excel format 
+
+- intent: faq-dataset-b1/differ-format-support-dataset-download #413
+  examples: |
+    - What are the various dataset types that can be downloaded?
+    - What data-downloading formats are supported?
+    - What data-downloading formats are available?
+    - What are the different dataset download formats?
+    - What are the different formats for downloading datasets?
+    - What file formats can I use to download datasets?
+    - For dataset downloads, what file formats are supported?
+    - What are the different types of datasets that you can download?
+    - What are the supported dataset download formats?
+    - What are the different dataset download formats available?
+    - What are the different types of dataset download formats?
+    - What file types can I use to download datasets?
+    - What are the file formats for downloading datasets?
+    - What kinds of datasets are available for download?
+    - For dataset downloads, what formats are supported?
+    - What are the dataset download formats that are supported?
+    - What formats are available for downloading datasets?
+    - What are the different types of datasets that can be downloaded?
+    - What are the various types of datasets available for download?
+    - What are the available dataset download formats?
+    - What file types are available for data download?
+    - What are the various dataset download formats that can be used?
+    - What formats are supported for dataset downloads?
+    - What formats are supported for downloading datasets?
+    - What file formats are available for downloading datasets?
+    - What formats are available for dataset downloads?
+    - What file formats are supported for dataset downloads?
+    - What dataset download formats are supported?
+    - What are the different dataset download formats that are supported?
+    - what different formats are supported for dataset downloads?
+
+- intent: faq-dataset-b1/download-data-set-csv-format #414
+  examples: |
+    - Is it possible to get data sets in CSV format?
+    - Are CSV data sets available?
+    - Are the data sets available in CSV format?
+    - Is it possible to obtain CSV files?
+    - Is it possible to get CSV files of the data sets?
+    - Are CSV files for the data sets available?
+    - Are there any CSV data sets available?
+    - Is it possible to get CSV files of data?
+    - Is it possible to download data sets in CSV format?
+    - Is it possible to obtain CSV files of the data sets?
+    - Can I get CSV files of the data sets?
+    - Is it possible to get CSV data sets?
+    - Is it possible to get CSV files of data sets?
+    - Is it possible to obtain data sets in CSV format?
+    - Are CSV files of the data sets available?
+    - Is it possible to obtain CSV files for the data sets?
+    - Is there a way to get CSV data sets?
+    - Is it possible to obtain data in CSV format?
+    - Is it possible to obtain data set CSV files?
+    - Is it possible to obtain data in the form of CSV files?
+    - Is it possible to obtain CSV data sets?
+    - Is it possible to get the data sets in CSV format?
+    - Is it possible to get CSV files?
+    - Is there a CSV version of the data sets?
+    - Is it possible to get the data sets as CSV files?
+    - Is it possible to obtain the data sets' CSV files?
+    - Is it possible to get data in CSV format?
+    - Is there a CSV format for the data sets?
+    - can i download data sets in CSV format
+
+- intent: faq-dataset-b1/combin-datset-diff-sector #416
+  examples: |
+    - Is it possible to combine data sets from different industries?
+    - Is it possible to mix and match data sets from various industries?
+    - Is combining data sets from different industries possible?
+    - Is it possible to combine data sets from a number of different industries?
+    - Is it possible to combine data sets from a variety of industries?
+    - Is it possible to mix data sets from various industries?
+    - Is it possible to combine data sets from different sectors?
+    - Is it possible to bring together data sets from various industries?
+    - Is it possible to bring together data sets from different industries?
+    - Is it possible to blend data sets from various industries?
+    - Is it possible to combine data from different industries?
+    - Is it possible to combine data sets from various sectors?
+    - Is it possible to combine data from various industries?
+    - Is it possible to combine data sets from various industries?
+    - Is it feasible to combine data sets from various industries?
+    - Is it possible to mix and match data sets from different industries?
+    - Is it feasible to combine data sets from different industries?
+    - can i combine datsets from diff sectors
+
+- intent: faq-dataset-b1/datacard-signifi # 418
+  examples: |
+    - What is a "datacard" and what does it mean?
+    - What is the definition of "datacard"?
+    - What is a "datacard" exactly?
+    - What exactly is a datacard, and what does it mean?
+    - What does "datacard" mean?
+    - What does the term "datacard" mean?
+    - What is a datacard, exactly, and what does it imply?
+    - What is a "datacard," exactly?
+    - What does "datacard" mean exactly?
+    - What does it mean to have a "datacard"?
+    - What is a datacard exactly, and what does it imply?
+    - What is the meaning of the term "datacard"?
+    - What exactly does "datacard" imply?
+    - What exactly does the term "datacard" mean?
+    - What exactly does the term "datacard" imply?
+    - What exactly is a datacard, and what does it imply?
+    - What does it mean when you say "datacard"?
+    - What exactly is a datacard?
+    - What does having a "datacard" imply?
+    - What exactly is a "datacard"?
+    - What does the term "datacard" imply?
+    - What does the term datacard mean?
+    - What is a "datacard," and how does one get one?
+    - What is a datacard, exactly, and what does it mean?
+    - What is the meaning of the term datacard?
+    - When you say "datacard," what do you mean?
+    - what does datacard signifies?

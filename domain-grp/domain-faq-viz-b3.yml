@@ -1,0 +1,90 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq-visualisation-b3:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_faq-visualisation-b3/why-add-dataset: #79
+  - text: We can add datasets in order to compare between the two datasets
+  
+  utter_faq-visualisation-b3/options-to-make-chart-builder: #80, 78
+  - text: We can select as many options on chart builder as per our need
+  
+  utter_faq-visualisation-b3/to-create-state-level-chart: #81
+  - text: On clicking build your chart button you can see an option 'How detailed should the analysis be? Select state level or/and district level' and below which there is a checkbox named 'state'
+  
+  utter_faq-visualisation-b3/to-create-district-level-chart:  #82
+  - text: On clicking build your chart button you can see an option 'How detailed should the analysis be? Select state level or/and district level' and below which there is a checkbox named 'district'
+  
+  utter_faq-visualisation-b3/why-select-crops:  #83
+  - text: If you select the crops in the same category in order to view them in the graphs/chart you have to select crops in the build your chart
+  
+  utter_faq-visualisation-b3/why-farm-size-category:  #84
+  - text: If you want to see what are the farm sizes large or small then you can select farmsize category
+  
+  utter_faq-visualisation-b3/why-crop-type-selected:  #85
+  - text: If you select two or multiple crops of different categories then to see their visualization you have to select crop type
+  
+  utter_faq-visualisation-b3/why-social-grp-selected: #86
+  - text: If you want to know the social group of the farmers whether its institutional or others then select social group
+  
+  utter_faq-visualisation-b3/what-happens-if-we-select-all-on-chart-builder:  #87
+  - text: Most frequently a tree map will appear, it is advisable to select the the option one by one. 
+  
+  utter_faq-visualisation-b3/why-farm-size-class-selected:  #88
+  - text: If the user wants to see the disaggregated data accross the farm size category they should select this option.
+  
+  utter_faq-visualisation-b3/how-access-full-data:  #89
+  - text: You can access the full data everytime in our portal
+
+  utter_faq-visualisation-b3/how-to-create-indicators:  #90
+  - text: On the top right corner of the indicator popup you will see create new indicator button. Click it and then you will get another popup and there is a dropdown named dataset and after that there is a section to select the indicators. After selecting the indicators use the mathematical icons to define the relationship between the selected indicators. Then name the new indicator and name its unit and click on create indicator.
+
+  utter_faq-visualisation-b3/where-is-graph:  #91
+  - text: First select a dataset and then select the indicators and dimensions with location and time. Then select 'Build your chart' for the visualization.
+
+  utter_faq-visualisation-b3/what-to-select-first:  #92
+  - text: If you want to visualize any dataset then go to visualize by clicking on the top tab dataset and then visualize. then add the dataset by clicking on the plus sign and then select the desired dataset from the list.
+
+  utter_faq-visualisation-b3/how-can-select-graph:  #93
+  - text: As of now you cannot select a graph of your own choice. But for visualization if you press the build your chart button then there are multiple chart which would come. Just view the chart which you are more comfortable with.
+
+  utter_faq-visualisation-b3/diff-bw-crop-and-crop-type:  #96
+  - text: you have to select crop if you are selecting crops of same category like tea and coffee. Crop type is that when you have selected crops of different categories.
+
+  utter_faq-visualisation-b3/how-change-color-of-chart:  #100
+  - text: On the top left side of the visualisation there is a button after clicking which you will get the colour palette from which you can choose colours of your choice
+
+  utter_faq-visualisation-b3/share-viz-of-personal-proj: #102
+  - text: Yes you can definitely use this visualisation for personal use. Only do credit us while publishing
+
+  utter_faq-visualisation-b3/give-credit-to-idp: #103
+  - text: Yes it is good if you cite or credit IDP whenever you are sharing visualisation from our portal
+  
+  utter_faq-visualisation-b3/can-i-share-my-viz: #104
+  - text: Yes you can share the visualizaion by clicking on the share option which is on the top right corner on the page of visualisation
+
+  utter_faq-visualisation-b3/change-axis-of-graph: #105
+  - text: On right hand side, top corner there is a drop down menu from where the user can select to switch axis. 
+  
+  utter_faq-visualisation-b3/how-tochange-chart-not-liked-first-one: #107
+  - text: If you visualize a dataset there are multiple charts that will come. Choose a chart which you like most and would depict the information according to your need.
+
+  utter_faq-visualisation-b3/graphs-diff-after-download: #108
+  - text: There might be a loss in clarity after downloading the chart.
+
+  utter_faq-visualisation-b3/bar-graphs-too-wide: #109
+  - text: As of now there is no provision of adjusting the chart size
+
+  utter_faq-visualisation-b3/not-able-to-understand-viz: #110
+  - text: Please check the indicators and dimensions and relate to what story you need to find and then click on build your chart. If you dont understand one chart look for the other ones.
+  
+actions: []
+forms: {}
+e2e_actions: []

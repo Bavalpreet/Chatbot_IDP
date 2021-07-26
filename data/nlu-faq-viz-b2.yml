@@ -1,0 +1,1256 @@
+version: "2.0"
+nlu:
+- intent: faq-visualisation-b2/delete-visualisation-from-graphic-gallery
+  examples: |
+    - How i delete visualisation from graphics gallery?
+    - how can i delete visulaisations from graphics gallery?
+    - how am i supposed to remove visuals from graphics gallery?
+    - do i delete a visualisation ?
+    - how am i able to delete graphs from graphics gallery?
+    - deleteing visualisations from graphics gallery?
+    - am i allowed to delete visualisations from graphics gallery?
+    - is it possible to delete the visualisations?
+    - Is it possible to remove the visuals from the system?
+    - Can i remove visualisation and how?
+    - Is there a way to get rid of the visualisations?
+    - How visualization from graphics gallery is deleted?
+    - Can i delete visualisation from graphics gallery and how?
+    - will you assist me to delete the visualisation?
+    - is visualisation deleted?
+    - do i erase the visualisation from the graphics gallery?
+    - How do I delete a visualisation from graphics gallery
+    - what's the way to delete visualisations from here
+    - once i have made vizualisations here how can i delete them
+    - how to delete?
+    - delete viz how ?
+    - delete viz ?
+    - how do i delete my works i have made here
+    - how can i remove my work from here
+    - how to permannatly delete work from here
+    - remove work forever from here
+    
+
+- intent: faq-visualisation-b2/possible-share-live-visualisation
+  examples: |
+    - do i share interactive / live visualisation
+    - how am i supposed to share live visualisations.
+    - is it possible to share live visualisations.
+    - Is it possible to distribute live visualisations?
+    - Is it feasible to share real-time visualisations with others?
+    - how am i supposed to share interactive visuals
+    - is it possible to share an interactive/live visualisation
+    - how live visualisation can be shared?
+    - which link is used to share the live /interactive visualisation?
+    - is live /interactive visualisation possible?
+    - do i share  an interactive/live visualisation?
+    - share the interactive visualisation.
+    - steps to share the live /interactive visualisation.
+    - will you assist me in share an interactive /live visualisation.
+    - Can I share an interactive / live visualisation
+    - Can I share an interactive visualisation
+    - Is it okay if I share the live visualisations I've made here?
+    - can i share live visualisations createed here
+    - Is it okay if I share the live visualisations I've created here?
+    - Is it OK if I show you a visualisation that you can interact with?
+    - Is it feasible for me to distribute an interactive visualisation?
+    - Is it possible for me to share a visualisation that is interactive?
+    - Is it all OK if I show you a visualisation that you can interact with?
+    - Is it okay if I show you a visualisation that you can interact with?
+    - Is it feasible for me to share an interactive visualisation with other people?
+    - Is it feasible for me to share an interactive visualisation?
+    - Is it feasible for me to send an interactive visualisation to someone else?
+    - Is it okay if I show you an interactive visualisation?
+    - Is it possible for me to share a graphs that is interactive?
+    - Is it possible for me to share an interactive diagrams?
+    - Is it all right if I show you a graphical representation that you can interact with?
+    - Is it possible for me to provide an interactive visualisation to others?
+    - Is it possible for me to share an interactive visualisation with other people?
+    - Is it feasible for me to distribute an interactive visualisation?
+    - Is it okay if I show you a graphical representation that you can interact with?
+    - Is it possible for me to make an interactive diagrams and distribute it?
+    - Is it possible for me to share a multi-user interactive visualisation with others?
+    - Is it possible for me to make an interactive visualisation that I can share with others?
+    - Is it okay if I show you a visualisation with which you can interact?
+    - Is it possible for me to send an interactive visualisation to someone else?
+    - Is it possible to share an interactive graphs with others?
+    - Is it possible for me to make an interactive diagrams available to the public?
+    - Is it possible for me to email someone an interactive data visuals?
+    - Is it feasible for me to share an interactive viz.?
+    - Is it possible for me to email someone else an interactive vizualisation?
+    - Is it all OK if I show you a visualisation you can interact with?
+    - Is it all right if I show you a visualisation with which you can interact?
+    - Is it possible for me to share a visualisation that is interactive?
+    - Is it possible for me to share the real-time visualisations I've generated on this website?
+    - Is it possible to share the real-time visualisations I've created?
+    - ahmmm can i share my real time work here
+    - Is it okay if I share the live visualisations I made on this site?
+    - Is it all OK if I share the live visualisations I've created here?
+    - does IDP allows like Is it all right if I share the live visualisations I've created here?
+    - does indian data portal allows like Is it possible for me to share the live visualisations I've made here?
+    - while on IDP Is it possible for me to share the live visualisations I've created on this site?
+    - when i am on this website Is it possible for me to post the live visualisations I've created here?
+    - Is it all right if I put my real-time visualisations here?
+    - Is it possible to share the real-time visualisations I've made here?
+    - Is it possible for me to upload my live visualisations here?
+    - Is it possible for me to share the live visualisations I've generated on this site with others?
+
+
+
+- intent: faq-visualisation-b2/login-create-visualisation
+  examples: |
+    - is it important to login first to create the visualisation?
+    - do i need to login for creating visualisations?
+    - assist me to create the visualisation.
+    - what if i can't login before creating the visualisation?
+    - steps to login for visualisations
+    - login to create any visualisation steps?
+    - procedure to login to create any visualisation.
+    - Do I have to be logged in to create a visualisation
+    - do i have to be logged in to create a visualization?
+    - Do I have to login in order to create a visualization?
+    - to create visuals login is required?
+    - login is necessary for making visuals?
+    - do we have to login first to initiate plot making?
+    - is it necessary to login first to make graphs?
+    - can i make visuals without logging in?
+    - Is a login required to create visuals?
+    - Is a username and password required to create visuals?
+    - Is it necessary to log in to create visuals?
+    - Is a login required to create visualisations?
+    - Is a login required for constructing visuals?
+    - Is it necessary for me to be logged in in order to make a visualisation?
+    - Is it necessary for me to be logged in before I can make a visualisation?
+    - Do I have to be logged in to create a visualisation
+    - Is it required that I be logged in in order to create a visualisation?
+    - Is it required that I be logged in to create a visualisation?
+    - for this portal will i be supposed toI log in before I can create a visualisation?
+    - Is it required for me to be logged in in order to create a visualisation?
+    - Is it required that I be logged in before I can create a visualisation?
+    - Is it required for me to be logged in before I can create a visualisation?
+    - Is it necessary for me to be logged in before I can make a visualisation?
+    - Is it necessary for me to be logged in in order to make a visualisation?
+    - for this webiste will i be supposed to log in before I can make a visualisation?
+    - Is logging in required before I can build a outputs?
+    - Is it necessary for me to log in before I may build a data viz?
+    - Is it necessary for me to be logged in before I can make a graphs?
+    - Is it necessary for me to be logged in in order to make a visualisation?
+    - on this webiste do i have to log in before I may make a visualisation?
+    - do i have to log in before creating a visualisation?
+    - logged in to make a visualisation? Necessary ?
+    - data viz not possible before login
+    - data visuals. not possible before login
+
+
+- intent: faq-visualisation-b2/shared-visualisation-link-not-seen
+  examples: |
+    - is login required to see any visualisation?
+    - how can i see my friend shared visualisation link?
+    - i was unable to see my friend's shared link, how do i?
+    - i am not able to see my friend's shared link .how do i do ?
+    - what if i can't login ,is it possible to see my friend's work?
+    - My friend shared visualisation link, but I am not able to see it
+    - i am not able to see any visuals?
+    - I'm not seeing any visualisations?
+    - i can't seem to see any visuals?
+    - Why can't I see any visuals?
+    - I can't seem to find any images?
+    - I can't locate any graph plots?
+    - I simply can not find any visualisations?
+    - why i am not able to see any plots?
+    - i wonder why am i not able to see visuals on this shared link
+    - I'm curious as to why I can't view the graphics on this linked link.
+    - I'm wondering as to why I can't see the visualisations on this shared link.
+    - not able to see any visualisations via shared link
+    - I received a url to a visualisation from a friend, but I am unable to view it.
+    - I received a url to a visualisation from a buddy, but I'm unable to access it.
+    - I received a link to a data-visualisation from a buddy, but I can't find it.
+    - I received a link to a datadriven-visualisation from a buddy, but I am unable to locate it.
+    - I received a link to a data visualisation from a friend, but I am unable to access it.
+    - I received a link to a dta visualisation from a buddy, but I'm unable to view it.
+    - My friend sent me a link to a visualisation, but I can't find it.
+    - My friend sent me a link to a grpahs, but I am unable to view it.
+    - My friend sent me a link to a graphs, but I can't view it.
+    - A friend sent me a link to a diagrams, but I can't seem to locate it.
+    - A friend sent me a link to a visuals, but I can't get into it.
+    - A friend sent me a link to a flow charts, but I can't find it.
+    - A friend forwarded me a link to a bar charts, but I can't seem to find it.
+    - I got a link to a visualisation from a friend, but I can't access it.
+    - I got a link to a visualisation from a friend, but I can't go into it.
+    - A friend sent me a link to a visualisation, but I can't access it.
+    - I received a link to a visualisation from a buddy, but I can't find it.
+    - I got a link to a pie charts from a friend, but I can't see it.
+    - A friend sent me a link to a visualisation, but I'm unable to view it.
+    - A friend sent me a link to a visualisation, but I'm unable to access it.
+    - A friend sent me a link to a visualisation, but I'm unable to open it.
+    - I got a link to a visualisation from a friend, but I can't seem to find it.
+    - A buddy sent me a link to a visualisation, but I am unable to view it.
+
+
+- intent: faq-visualisation-b2/automatically-redirect-shared-visualisation-link-after-login
+  examples: |
+    - after we login will it automatically redirect to shared visualisation link?
+    - is it automatically redirect to shared visualisation link?
+    - do i automatically redirect to shared visualisation link?
+    - can i automatically redirect  to visualisation link shared by others?
+    - how can i do the redirect to visualisation link after login?
+    - will i be automatically redirect towards visuals after logging in successfully?
+    - Will i be rightaway redirected to the shared visualisation link once we log in?
+    - Will we be instantly redirected to the shared visualisation URL once we log in?
+    - Will i be sent directly to the shared graph image URL after logging in?
+    - after login will i be redirected to graphs url?
+    - after filling credentials successfully will i be immediately redirected towards graph images url?
+    - once successfully logged in will i be automatically redirected towards visualization link?
+    - After we log in, will it instantly redirect to the shared visualisation link?
+    - After we log in, will it instantly redirect us to the shared visualisation link?
+    - Will the shared visualisation link be automatically redirected after we log in?
+    - Would we be redirected to the shared visualisation link right after we log in?
+    - After we log in, would it instantly redirect us to the shared visualisation link?
+    - Will we be redirected to the shared visualisation link as soon as we log in?
+    - Would it automatically send us to the shared visualisation URL once we log in?
+    - Would it immediately send us to the shared visualisation URL once we check in?
+    - Will we be redirected to the shared diagrams link as soon as we log in?
+    - Will the shared visualisation link be graphs redirected after we log in?
+    - Would it immediately send us to the shared data-visualisation URL once we check in?
+    - Would it automatically send us to the shared data driven visualisation URL once we log in?
+    - Would we be redirected to the shared outputs link right after we log in?
+    - After we log in, will it instantly redirect us to the shared diagrms link?
+    - After we log in, will it instantly redirect to the shared visuals link?
+    - After we log in, would it instantly redirect us to the shared visualisation link?
+    - When we log in, will we be taken to the shared visualisation link?
+    - Would we be immediately taken to the shared visualisation URL after logging in?
+    - When we log in, will it instantly take us to the shared visualisation URL?
+    - Would we be immediately taken to the shared visuals link after logging in?
+    - Would we be automatically taken to the shared visualisation URL after we log in?
+    - When we check in, will it direct us to the shared visualisation URL?
+    - When we log in, will we be redirected to the shared visualisation link?
+    - When we log in, will it take us to the shared visualisation URL?
+    - Will we be instantly taken to the shared visualisation URL after we log in?
+    - Will we be instantly taken to the shared visualisation URL once we log in?
+    - When we check in, will it take us straight to the shared visualisation URL?
+    - When we check in, will it take us to the shared visualisation URL right away?
+    - When we log in, will we be sent to the shared visualisation link?
+
+
+
+- intent: faq-visualisation-b2/select-all-indicators-together
+  examples: |
+    - all the indicators are selected together ?
+    - is it valid to select all the indicsators together?
+    - is it fine if we select the indicators one by one?
+    - can i select all the indicators together?
+    - how i select the indicators together?
+    - how all the indicators are selected  together?
+    - Do we have to select all the indicators together?
+    - Is it required to pick all indicators at the same time?
+    - Is it needed pick all indicators at the very same time?
+    - Is it necessary to select all indicators at once?
+    - Is it required to choose all of the indicators at the same time?
+    - Is it required to choose all of the indicators at once?
+    - Is it necessary pick all indicators at a same moment?
+    - do i need to pick all the indicators in one go?
+    - Do we have to choose all of the indicators at the same time?
+    - Do we have to select all the indicators together?
+    - Do we have to select all of the indicators at once?
+    - ahmm is it that necessary to choose all indicators at the same time?
+    - Is it required to select all of the indicators simultaneously?
+    - Is it required to choose all indicators at the same time?
+    - Is it required to select all indicators at once?
+    - Is it necessary to select all of the indicators at once?
+    - Do we have to choose all of the indicators at the same time?
+    - Is it necessary to choose all of the indicators at the same time?
+    - Do we have to choose all of the indicators at the same time?
+    - required to pick all of the indicators at once?
+    - required to select all indicators simultaneously?
+    - Is it required to choose all the indicators at the same time?
+    - Is it required to choose all of the indicators at the same time?
+    - Is it so necessary to choose all of the indicators at the same time?
+    - necessary to choose all indicators at the same time?
+    - while on IDP necessary to choose all indicators at once?
+    - while here necessary to pick all of the indicators at the same time?
+    - Is it required to select all indicators at once?
+
+
+
+- intent: faq-visualisation-b2/add-indicators-from-other-datasets
+  examples: |
+    - can i add indicators from other datasets?
+    - add indicators from other datasets.
+    - how indicators are added from other datasets?
+    - can we add indicators ?
+    - from other datasets can we add indicators?
+    - how can i add indicators from other datasets?
+    - add indicators from other datasets,how?
+    - others datasets are helpful to add indicators.
+    - will you assist me to add indicators from other datasets?
+    - is indicators added from other datasets?
+    - add the indicators from other datasets.
+    - steps to add indicators from others datasets
+    - indicators are added from other datasets?
+    - can i add indicators from other datasets, if yes then how?
+    - Is it possible to include indicators from other datasets? If that's the case, what's the best way to go about it?
+    - Can I include indicators from other datasets, if so, how?
+    - Can I incorporate indicators from other datasets, and if so, how?
+    - Is it possible to include indicators from other databases, if yes then how?
+    - Is it possible to incorporate indicators from other datasets, and if so, how?
+    - can i insert indicators via different datasets?
+    - What's the best way to incorporate the indicators from the other datasets?
+    - What's the best approach to incorporate the other datasets' indicators?
+    - ahmm but the best way to incorporate the indicators from the other datasets?
+    - How will the data from the other databases be incorporated?
+    - How are the indicators from the other datasets going to be added?
+    - What is the best approach to incorporate the other datasets' indicators?
+    - What is the best method for incorporating the data from the other datasets?
+    - How will the data from the other databases be incorporated?
+    - What is the most effective method for incorporating the data from the other datasets?
+    - What's the best approach to incorporate the other datasets' indicators?
+    - xWhat is the most effective method for incorporating the information from the other datasets?
+    - How will the information from the other datasets be incorporated?
+    - What is the best approach to incorporate the other datasets' indicators?
+    - What is the best method for incorporating the data from the other datasets?
+    - How will the other datasets' indicators be incorporated?
+    - What's the best way to incorporate the indicators from the other datasets?
+    - on this webiste What is the best way to incorporate the indi-cators from the other datasets?
+    - on this webiste How are the indi-cators from the other datasets going to be added?
+    - What is the best way to incorporate the indi-cators from the other datasets?
+    - What is the most efficient approach for combining the data from the other datasets?
+    - What is the most efficient way to combine the data from the other datasets?
+    - What is the most efficient way to combine the data from the various datasets?
+    - What will happen with the data from the other datasets?
+    - What's the best way to incorporate the indis from the other datasets?
+    - at is the best way to combine data from different datasets?
+    - What is the most efficient way to combine data from the other datasets?
+    - on this portal What is the most effective method for incorporating the indis from the other datasets?
+    - How will the data from the other datasets be used?
+    - What is the best method for incorporating the indis from the other datasets?
+    - What is the best way to combine the data from the various datasets?
+    - What will be done with the data from the other databases?
+    - How will the information from the other datasets be incorporated?
+    - What method will be used to incorporate data from the other databases?
+    - What methods will be used to include the other datasets' indicators?
+    - What method will be used to incorporate data from other databases?
+    - What will be done with the data from the other datasets?
+    - on indian data portal How will the indis from the other datasets be incorporated?
+    - on IDP What is the most efficient way to combine data from different datasets?
+
+
+
+- intent: faq-visualisation-b2/create-new-indicator
+  examples: |
+    - new indicator.
+    - create new indicator
+    - how new indicator is created?
+    - create a new indicator
+    - steps to create a new indicator
+    - how can i create a new indicator?
+    - is it possible to create a new indicator?
+    - assist me to create a new indicator.
+    - how to create a new indicator?
+    - how am i supposed to be creating new indicator?
+    - guide me to create new indicator?
+    - whats the procedure to create new indicator?
+    - What is the best way to make a brand new indicator?
+    - How can i make a new indicator?
+    - How can a new indicator be created?
+    - on this webiste how can i generate new indicator?
+    - how new indicators are added?
+    - how to generate new indicator?
+    - What's the most efficient way to create a new indicator?
+    - What's the best way to make a new indicator?
+    - How do you make a new indicator?
+    - on this webiste How do I make a new indicator?
+    - What is the procedure for creating a new indicator?
+    - How should a new indi be created?
+    - What is the best method for creating a new indicator?
+    - iDP ?What is the procedure for making a new indicator?
+    - How to create a new indicator?
+    - How do you go about creating a new indicator?
+    - What is the best method for creating a new indicator?
+    - How do I make a new indicator?
+    - indian data portal ?How do you make a new indicator?
+    - How do you go about generating a new indicator?
+    - What's the most efficient way to create a new indicator?
+    - How should a new indica-tor be created?
+    - What is the procedure for creating a new indicator?
+    - What's the best way to make a new indicator?
+    - What is the procedure for making a new indicator?
+    - on this portal How do you create a new indicator?
+    - What is the most efficient way to create a new indicator?
+    - i wnated to ask What's the best way to create a new indicator?
+    - hey What is the most efficient method for developing a new indicator?
+    - What is the most effective method for creating a new indicator?
+    - but what the hell is the best way to establish a new indica-tor?
+    - What is the best way to make a new indicator?
+    - What's the best way to make a new indicator?
+    - on indian data portal  What is the best way to make a new indica-tor?
+    - can you tell What's the most efficient way to make a new indicator?
+    - but What's the best way to create a brand-new indicator?
+    - like What is the quickest way to make a new indicator?
+    - can you tell What is the procedure for creating a new indicator?
+    - What are the steps for creating a new indicator?
+    - on indian data portal What's the best way to make a new indica-tor?
+
+
+
+- intent: faq-visualisation-b2/create-new-visualizations-using-new-indicator-two-different-datasets
+  examples: |
+    - can  i create new visualizations using new indicator from two different datasets?
+    - how we create  new visualizations using new indicator from two different datasets?
+    - is it possible to create new visualization using new indicator from two different datasets?
+    - create new visualizations using new indicator from two different datasets
+    - create new visualizations using new indicator from two different datasets ,how?
+    - do i create new visualizations using new indicator from two different datasets?
+    - Can we create new visuals by combining new indicators from various datasets?
+    - using new indicatores from different datasets can we create visuals?
+    - can we create plots using new indicators from different datasets?
+    - is it possible to create plots with different datasets using new indicators?
+    - Can we generate new visualisations by combining indicators from different datasets?
+    - Can we build new visuals by combining new indicators from other datasets?
+    - new visualisations from different datasets using newly created indicators
+    - Is it possible to create new visualisations by merging two datasets and adding a new indicator?
+    - Is it feasible to combine two datasets with new indicators to create new drwaings?
+    - Is it possible to make new graphs by mixing two datasets and a new metric?
+    - how the fuck it is possible to create new data visualisations by integrating two datasets and introducing new indicators?
+    - how is this  possible to create new data visuals by merging two datasets and adding new indicators?
+    - how the hell is this  feasible to make new diagrams by combining two datasets and adding a new indicator?
+    - Is it possible to make new diag. by combining two datasets and adding new indicators?
+    - can we  to generate new drawings by combining two datasets with new indicators?
+    - can we  make new viz by combining two datasets with new indicators?
+    - Is it possible to generate new vizz by combining two datasets and a new indicator?
+    - pls tell can we  combine two datasets and add new indicators to make new visuals?
+    - ahmm i wnated to ask can we to create new visuals by merging two datasets and adding a new metric?
+    - Is it possible to combine two datasets and add a new indicator to make new visualisations?
+    - on indian data portal  Is it feasible to combine two datasets and a new metric to create new visualisations?
+    - while on IDP Is it feasible to combine two datasets and add new indicators to produce new data-visualisations?
+    - Is it possible to construct new visuals by combining two datasets with new indicators?
+    - my team wants to know do can we construct new visualisations by combining two datasets and using new indicators?
+    - while on Indian data portal Is it ever possible to generate new visualisations by combining two datasets and adding new indicators?
+    - tell me combine two datasets and add a new indicator to produce new data-aided visuals?
+    - Is it possible to combine two datasets and introduce new indicators to build new visualisations?
+    - Is it feasible to create new visualisations by combining two datasets and introducing a new metric?
+    - ahmmm i have a query is it possible combine two datasets and a new metric to create new visualisations?
+    - while on Indian data portal  Is it evenfeasible to combine two datasets and add new indicators to generate new viz?
+    - while on this webiste Is it possible to combine two datasets and create new data-aided visuals by adding new indicators?
+    - on this webpage Is it possible to combine two datasets and add a new indicator to produce new data-aided visuals?
+
+
+
+- intent: faq-visualisation-b2/new-indicators-added-visualization
+  examples: |
+    - add new indicators in visualization
+    - what the maximum count of indicators that can be inserted in a graph
+    - what the maximum count of indicators that can be inserted in a viz
+    - on this portal what the maximum count of indicators that can be inserted in a graph
+    - what number of indicators are added in a viz.?
+    - in a visualisation at max how many indicators i can add
+    - can i add new indicators in a visualization?
+    - do i add new indicators in a visualization?
+    - is it possible to add new indicators in a visualization?
+    - new indicators are added in a visualization, how?
+    - how many indica from a dataset i can add
+    - at max how many indic. from a dataset can be added?
+    - how many indicators from a dataset can I include
+    - how many indicators can I add from a dataset
+    - Is there a restriction to how many indicators from a dataset I can add?
+    - I am scrambling to find out how many indicators I can add from a dataset.
+    - I'm trying to figure out how many indicators I can add from a dataset.
+    - In a drwaing, how many new indica-tors can you add?
+    - How many new indicators can you add to a visualisation?
+    - How many more indicatoors can be added to a graph we generated here?
+    - Is there a restriction to how many new indicators can be added to a visualisation?
+    - What is the maximum number of new indicators that can be added to a visualisation?
+    - Is there a boundation on how many new indicators can be added to a visualisation?
+    - In a output, how many new indica-tors can be added?
+    - How many new indicator can be added to a drawing?
+    - what amount of new indicators can i add ?
+    - what exactly is the count of indicators i can add to a visuals
+    - ahmm what amount of indiactors we can add here
+    - What is the most that a visualisation can have in terms of new indicators?
+    - How many new indicators can you add to a visualisation?
+    - How many new indica-tors can you add to a visualisation?
+    - Is there a boundation on how many new indicators can be added to a visuals?
+    - How many new indicators can be added to a data-aided visuals?
+    - Is there a bound to how many new indicators can be added to a visualisation?
+    - In a visualisation, how many new indica-tors can you add?
+    - In a visualisation, how many new indica-tors can be added?
+    - What is the maximum number of new indicators that can be added to a visuals?
+    - What is the maximum number of new indicators that can be added to a chart?
+    - Is there a cap on the number of new indicators that can be added to a visuals?
+    - How many more indicators can you put to a chart?
+    - Is there a bound to the number of additional indicators that can be added to a visuals?
+    - How many additional indicators can you include in a data-aided visuals?
+    - What is the maximum number of new indica-tors that a visualisation can have?
+    - In a visualisation, how many additional indica-tors can you include?
+    - What is the maximum number of indicators that can be included to a visualisation?
+    - like What is the maxi number of new indicators that a visualisation can have?
+    - can you tell Is there a range to how many additional indica-tors a visualisation can have?
+    - iwanted to know What is the max number of new indica-tors a visuals can have?
+    - but i have a doubt What is the max. number of new indicators that can be added to a visualisation?
+    - In a visualisation, how many new indicators can you add?
+    - What is the max number of new indicators you may add to a data-aided visuals?
+    - How many more indica-tors can a visualisation have?
+    - hey just wanted to knoew How many more indicators can you add to a visuals?
+    - while on IDP What is the maximum number of indicators that can be added to a graph?
+
+
+
+- intent: faq-visualisation-b2/create-new-indicators
+  examples: |
+    - create new indicators
+    - how are we supposed to create new indicators?
+    - do i prefer to create new indicators?
+    - how am i supposed to create new indicator?
+    - guide me to create new indicator?
+    - how are new indicators being created?
+    - how these indicators are generated?
+    - How are new indica-tors supposed to be created?
+    - How are we going to come up with new indicators?
+    - How are we supposed to come up with new indicators?
+    - How are we supposed to develop new indicators?  
+    - How are new indica-tors to be produced?
+    - Why are we working on a new indicator? Is it obligatory?
+    - Why are we developing a new indicator? Is it definitely required?
+    - Why is it necessary to create a new indicator? Is it something that everyone should have?
+    - What motivates us to create a new indicator? Is this a must-have item?
+    - What exactly is the point of creating a new indicaator? Is this a must-have accessory?
+    - Why are we creating a new indicaator? Is it a must-have item?
+    - Why are we coming up with a new indic.? Is it necessary?
+    - Why are we working on a new indic. in the first place? Does it have to be there?
+    - What is the point of coming up with a new indi? Is it a must-have accessory?
+    - Why are we developing a new indi? Is it required?
+    - the sole purpose of developing a new indicators? Is it a must-have item?
+    - Why are we making a new indicator? Is it absolutely necessary?
+    - What makes us want to develop a new indicators in the first place? Is this anything that you absolutely must have?
+    - can you pls tell Why are we coming up with a new indica-tor? Is it absolutely necessary?
+    - What's the aim of inventing a new indica-tor in the first place? Is this an item that you absolutely must have?
+    - In the first place, why are we developing a new indica-tor? Is it absolutely necessary that it be present?
+    - can you tell Why are we inventing a new indicator in the first place? Is it actually required?
+    - Why are we coming up with a new indicator? Is this a must-have accessory?
+    - the sole purpose of developing a new indicator in the first place? Is it required?
+    - Why does a new indicator need to be created? Is it a must for everyone?
+    - chey can you tell me Why are we developing a new indicator in the first place? Does it have to be done?
+    - while on IDP Why are we developing a new indicator? Is it a requirement?
+    - while on Indian data portal What's the aim of inventing a new indicator in the first place? Is it an essential piece of clothing?
+    - but i want to know Why are we creating a new indicator? Is it absolutely necessary?
+    - What's the aim of creating a new indicator? Is it a must-have item?
+    - What makes us want to establish a new statistic in the first place? Is this something you absolutely must have?
+    - What justifies the creation of a new metric? Is it a must-have item for everyone?
+    - like the sole purpose of developing a new metric? Is it required?
+    - i have a query Why are we inventing a new statistic in the first place? Is it a must-have accessory?
+    - What is the need for a new metric? Is it a must-have for everyone?
+    - i have a doubt Why are we working on a new metric in the first place? Is this a must-have?
+    - What is the point of developing a new statistic in the first place? Is it required to be present?
+    - Why are we developing a new metric? Is it really necessary?
+    - ahmmm What drives us to come up with a new metric? Is this an item that you absolutely must have?
+    - while on IDP What is the objective of inventing a new metric in the first place? Is this a must-have piece of jewellery?
+    - What is the objective of inventing a new metric in the first place? Is it a must-have piece of jewellery?
+    - on this website main purpose of developing a new metric? Is this a must-have piece of clothing?
+    - on this portla Why are we coming up with a new metric in the first place? Is it something that everyone should have?
+    - on this portal Why are we working on a new metric? Is it a must-have?
+
+
+- intent: faq-visualisation-b2/define-unit-new-indicator
+  examples: |
+    - unit of a new indicator.
+    - define unit of a new indicator
+    - steps to define unit of a new indicator.
+    - assist me to define the unit of a new indicator
+    - how i define the unit of a new indicator?
+    - how can i define the unit of a new indicator?
+    - how can we setup unit for new indicator?
+    - How can we configure a unit for a new indicator?
+    - How do we configure a new indicator's unit?
+    - How do we set up a new indicator's unit?
+    - What is the best way to set up a new indicator's unit?
+    - What really is the right approach to set up a new indicator's unit?
+    - What is the preferred route to set up a new indicator's unit?
+    - how am i supposed to setup units for new indicator?
+    - how to setup new indicators unit?
+    - how new indicators unit are needed to be setup?
+    - what's the guidlines to setup new indicators unit?
+    - What is the best way to define the unit of a new indicator?
+    - on this portal What is the best way to define a new indicator's unit?
+    - but What's the best way to specify a new indicator's unit?
+    - while on this page What should the unit of a new indica-tor be?
+    - How should a new indicator's unit be defined?
+    - How may the unit of a new indicator be defined?
+    - IDP ?What is the best method for defining the unit of a new indicator?
+    - india data portal What is the best way to define a new indicator's unit?
+    - buttt How may a new indicator's unit be defined?
+    - hey can you tellWhat is the best way to define the unit of a new indicator?
+    - What is the best way to define the unit of a new indicator?
+    - i have a query What's the best way to specify a new indicator's unit?
+    - i am doubtful What is the best approach to specify the unit of a new indicator?
+    - What is the best way to define the unit of a new indicator?
+    - What should the unit of a new indicator be?
+    - What is the best way to define the unit for a new indicator?
+    - How should a new indicator's unit be specified?
+    - on this cool website do you guys tell ?How may a new indicatior's unit be defined?
+    - buttt What's the best approach to specify the unit of a new indicator?
+    - What should a new indicator's unit be?
+    - What is the most effective approach for defining a new indicator's unit?
+    - What is the best approach for defining a new indicator's unit?
+    - What should a new indicator's unit of measurement be?
+    - How should the unit of a new indicator be defined?
+    - How should a new indicator's unit be defined?
+    - What is the best way to define a new indicator's unit?
+    - but Wat is the best method for defining the unit of a new indicator?
+    - heyyy What should a new indicator's unit be?
+
+
+- intent: faq-visualisation-b2/necessity-select-dimensions-Visualisation-option
+  examples: |
+    - is it necessary to select dimensions visualisation options?
+    - why we select  dimensions on visualisation option?
+    - is it essential to select dimensions on visualisation option?
+    - why do we select dimensions on visualization option?
+    - is it important to create select dimensions on visualisation option?
+    - do i prefer to select dimensions on visualisation option?
+    - is it necessary to select dimensions to view visuals?
+    - Is it vital to choose dimensions when looking at visuals?
+    - Is it important to choose dimensions when looking at visualisations?
+    - To display graphics, is it essential to choose dimensions?
+    - To display plots, is it mandatory to choose dimensions?
+    - To view visuals, is it necessary to choose dimensions?
+    - Is it essential to choose dimensions in order to view visuals?
+    - Is it a requirement to choose dimensions in order to see visuals?
+    - Is it even-necessary to select dimensions while using the Visualization option?
+    - Is the fuck necessary to select dimensions in the Visualization tab?
+    - buddy i wnat to know When using the Visualization option, is it necessary to set dimensions?
+    - quick response pls Is it required to select dimensions while utilising the Visualization feature?
+    - quick pls When using the Visualisation option, is it required to select dimensions?
+    - while i am here Is it required to select dimensions while utilising the Visualisation feature?
+    - while i am this webiste Is it necessary to use the Visualization option's dimensions?
+    - while i am on IDP Is it necessary to select dimensions while using the Visualization tool?
+    - while i am on Idp Is it necessary to select dimensions while utilising the Visualization feature?
+    - while i am on Indian data portla Is it necessary to choose dimensions while using the Visualisation option?
+    - while i am on Indian data portal Is it required to choose dimensions while using the viz option?
+    - Is it required to choose dimensions in the viz option?
+    - When using the viz tool, is it necessary to choose dimensions?
+    - When utilising the data-visuals tool, is it required to choose dimensions?
+    - Is it required to use the dim tab in the visuals tab to pick dimensions?
+    - When using the visuals tool, is it necessary to select dimensions?
+    - Is it even necessary to use the visuals tab to pick dimensions?
+    - how the fuck is it necessary to choose dim. while using the drawings tool?
+    - really is that necessary  to select dimensions while utilising the Visualisation feature?
+    - Is it necessary to use the Dimensions option in the drawings option?
+    - Is it necessary to select dimensions while utilising the Visualisation option?
+    - Is it required to choose dimensions while utilising the graphs feature?
+    - Is it necessary to use the dimensions of the vizz option?
+    - Is it required to use the vizz option while selecting dimensions?
+    - but is that even necessary to select dimensions while using the viz option?
+    - tell me Is it required to use the dimensions of the viz option?
+    - on this weviste Is it required to use the viz tool while selecting dimensions?
+    - does this tool allows When using the viz option, is it required to set dimensions?
+    - When utilising the Visualization tool, is it required to select dimensions?
+    - Is it necessary to use the Visualization tab to choose dimensions?
+    - Is it necessary to choose dimensions before using the Visualization feature?
+    - Is it required to set dimensions while utilising the Visualization option?
+    - Is it required to specify dimensions while utilising the Visualization option?
+    - necessary? to choose dimensions while using the Visualization feature?
+    - Is it required to set dimensions while utilising the Visualization feature?
+
+
+- intent: faq-visualisation-b2/any-dimension-not-selected
+  examples: |
+    - is it necessary to select the dimensions?
+    - What happens if no dimension is chosen?
+    - if we can't select any dimensions then what happens?
+    - is selection of any dimension required?(#wrong)
+    - what had happened if we can't select any dimensions?
+    - if dimension is not selected what will happen?
+    - consequences of not selecting a dimension while making visualisation?
+    - what will happen if no dimension is selected?
+    - What tends to happen if no dimension is picked?
+    - if no dimension is chosen what will happen?
+    - What happens if you don't choose a dimension?
+    - if someone is not choosing any dimension than what will happen?
+    - if no dimension is selected, what will happen?
+    - consequences of not selecting a dimension?
+    - What are the ramifications of not choosing a dimension?
+    - What are the consequences of neglecting to specify a dimension?
+    - What are the repercussions of not selecting a dimension?
+    - What are the effects of failing to choose a dimension?
+    - What are the implications of failing to pick a dimension?
+    - What if none of the dimensions are chosen?
+    - What happens if you don't choose any of the dimensions?
+    - What if we don't pick any dimensions at all?
+    - What if we don't make any decisions about dimensions at all?
+    - What happens if we don't specify any dimensions?
+    - What if we don't pick any dimensions?
+    - but tell me What if you don't choose any of the dimensions?
+    - hey What if we don't have any dimensions to choose from?
+    - on this portal What if we don't choose any dimensions?
+    - on this website What if we don't choose any dimensions at all?
+    - What happens if none of the dimensions are selected?
+    - What if you don't pick any of the dimensions?
+    - What if there aren't any available dimensions?
+    - can you guys tell What if none of the dimensions are chosen?
+    - What if we don't mention any dimensions at all?
+    - What happens if none of the dimensions are chosen?
+    - What if we don't have any options for dimensions?
+    - What happens if none of the dimensions are selected?
+    - pls tell What if we don't choose any dimensions?
+    - heya What if we don't even choose any dimensions?
+    - What if we don't make any measurements judgments at all?
+    - What happens if we leave the dimensions blank?
+    - What if none of the dimensions are chosen at all?
+    - wow that's cool webiste but What happens if you don't pick any of the dimensions?
+    - What if there aren't any dimensions available?
+    - tada What if none of the dimensions are selected?
+    - What if why ? we don't decide on any dimensions at all?
+    - What if we don't make any dimensions decisions?
+    - What if we don't choose any dimensions at all?
+    - What happens if no dimensions are specified?
+    - What happens if we don't choose any dimensions at all?
+
+
+- intent: faq-visualisation-b2/save-new-indicators-how
+  examples: |
+    - how to save the new indicators ?
+    - is the new indicators saved automatically?
+    - do we save the new indicator?how?
+    - how do i save the new indicators?
+    - can i save the new indicators?
+    - save the new indicator.
+    - are we able to save the new indicators?
+    - how to save newly created indicators?
+    - How can the new indicators be saved?
+    - How do I preserve the new indicators?
+    - What is the best way to save the new indicators?
+    - What really is the ideal way to save the new indicators?
+    - What is the best way to preserve the newly created indicators?
+    - What is the key to saving the newly created indicators?
+    - What is the best method to save the newly created indicators?
+    - Is there a way to save the new metric? If that's the case, how should you go about doing so?
+    - Is the new indicators feasible to save? If that's the case, what should you do?
+    - while on IDp Is there any way to save the new indicators? If that's the case, how do you go about going about it?
+    - on indian data portal Is the new indicator possible to keep? If that's the case, what steps should you take?
+    - Is it even possible to keep the new indicators? If that's the case, how do you go about achieving it?
+    - Is keeping the new indicator possible? If that's the case, what should you do?
+    - Is the new indicator possible to keep? If that's the case, what's the best way to go about it?
+    - Is there a way to keep the new indicator? If that's the case, how would you go about achieving it?
+    - Is there any way to keep the new indicator? If that's the case, how should you go about doing it?
+    - like was that possible to keep the new indicator? If so, how should you go about it?
+    - to preserve the new indicator? If so, how do you go about doing it?
+    - possible to store the new indicators? If so, how should you go about doing it?
+    - possible to save money with the new indicator? What should you do if this is the case?
+    - Is it feasible to preserve the new indicator? What steps should you take if this is the case?
+    - Is it possible to maintain the new indicator? How would you go about accomplishing this if that is the case?
+    - how Is it possible to preserve the new indicator? What should you do if this is the case?
+    - hows Is it possible to retain the new indicator? How would you go about accomplishing this if that's the case?
+    - anyway Is it possible to keep the new indicator? How would you go about doing that if that's the case?
+    - anyway Is it possible to maintain the new indicator? What should you do if that's the case?
+    - feasible to preserve the new indicator? What's the best approach to go about it if that's the case?
+    - feasible to preserve the newly added indicator? What steps should you take if that is the case?
+    - possible to preserve the new indicaator? What should you do if that's the case?
+    - Is it possible to save money with the new indicator? What should you do if that's the case?
+    - Is there a way to save the new unit of measurement? If that's the case, what's the best way to go about it?
+    - my team wants to know Is it possible to keep the new indicator? What should you do if that's the case?
+    - Is it possible to store the new indicator? What should you do if that's the case?
+    - i have query Is it feasible to preserve the new indicator? How should you go about accomplishing that if that's the case?
+    - Is it feasible to preserve the newly added indicator? What would be the best course of action if this is the case?
+    - i wnat to know Is it possible to keep the new indicator? What are your options if this is the case?
+    - IDP supoorts or?Is there a way to preserve the new indica-tor? How do you go about attaining this if that's the case?
+    - here Is it possible to store the newly created indica-tor? How should you proceed if this is the case?
+    - on this website Is there any way to preserve the new indica-tor? How do you go about doing that if that's the case?
+    - on this portal Is it feasible to preserve the new indicator? What should you do if this is the case?
+    - on this webiste Is it possible to store the new indica-tor? How do you go about doing that if that's the case?
+    - but Is it feasible to preserve the new unit of measurement? How do you go about obtaining that if that's the case?
+    - Is it possible to keep the new indic? What's the best approach to proceed if that's the case?
+    - Is it possible to keep the new indic? How should you go about doing so if that's the case?
+    - Is it possible to preserve the new indicator? How would you go about obtaining that if that's the case?
+
+
+- intent: faq-visualisation-b2/remove-created-new-indicators
+  examples: |
+    - how to remove new indicators?
+    - remove new indicators
+    - do we remove the new indicators?
+    - assist me to remove the new indicators.
+    - will i remove a new indicators?
+    - how can i remove  a new indicators.
+    - how new indicators are removed?
+    - can we remove the created new indicators.
+    - how to remove an indicator?
+    - how can I remove an indicator?
+    - How do I get rid of the newly added indicators?
+    - How do I get rid of the new indicators that I've made?
+    - How can I get rid of the freshly produced indicators?
+    - what should i do to remove new indicators?
+    - remove newly created indicators
+    - remove newly added indicators
+    - how to get rid of new indicators
+    - can i remove newly added indicators?
+    - What is the most effective technique to remove a recently inserted indicator?
+    - on idp What's the most effective technique to remove a recently inserted indicator?
+    - What is the best way to get rid of a recently installed indicator?
+    - What is the best way to get rid of a recently created indicator?
+    - on idp What is the best way to get rid of a recently developed indicator?
+    - on indian data portal What is the best way to get rid of a newly created indicator?
+    - does this webiste supports removal of newly established indicator?
+    - How can we get rid of a newly produced indicator?
+    - What is the best way to get rid of a newly added indicator?
+    - What's the best way to get rid of a newly put indicator?
+    - the most effective method for removing a freshly made indicator?
+    - What is the most effective method for removing a newly formed indicator?
+    - What is the most effective technique to remove a newly created indicator?
+    - What is the most effective method of removing a recently installed indicator?
+    - What is the most effective method for removing a newly produced indicator?
+    - can you tell the best way to get rid of a recently put indicator?
+    - can you utter What is the most effective method for removing a recently added indicator?
+    - the most efficient way to get rid of a recently placed indicator?
+    - the most effective technique to remove a newly developed indicator?
+    - What is the most effective method for getting rid of a newly developed indicator?
+    - What's the best way to get rid of a recently put indicator?
+    - the most effective method of removing a newly produced indicator?
+    - the most effective technique to remove a freshly made indicator?
+    - what is the most effective method for removing a newly installed indicator?
+    - What's the best way to get rid of a recently added indicator?
+
+- intent: faq-visualisation-b2/select-maximum-number-dimensions-for-visualization
+  examples: |
+    - Give the maximum number of dimensionsthat can be selected for visualisation.
+    - For visualisation,what is the maximum number of dimensions selected?
+    - I want to select the maximum number of dimensions ,do i?
+    - what is the maximum number of dimensions that can be selected for visualisation?
+    - how many max. number of dimensions  are selected?
+    - ways to select  maximum number of dimensions at a time.
+    - whats the maximum number of dimensions one can select for visuals?
+    - What is the maximum number of dimensions that may be chosen?
+    - from particular dataset whats the max no of dimensions that can be chosen?
+    - What is the maximum number of dimensions that a user may choose from?
+    - Is there a range to how many dimensions one may choose?
+    - Is there a limitation on how many dimensions one could select?
+    - Is there a limit to how many dimensions one can choose?
+    - How many dimensions can be visualised at once?
+    - What is the maximum number of dimensions that can be visualised?
+    - Is there a limit to the number of dimensions that can be selected for visualisation?
+    - How many dimensions can be visualised?
+    - How many visual dimensions are there to choose from?
+    - Is there a limit to the number of dimensions that can be visualised?
+    - What is the maximum number of dimensions that can be specified for visualisation?
+    - What is the maximum number of dimensions that can be selected for visualisation?
+    - Is there a limit to how many dimensions can be visualised?
+    - What is the maximum number of dimensions that can be visualised?
+    - How many dimensions can be chosen for visualisation?
+    - For visualisation, what is the maximum number of dimensions that can be chosen?
+    - How many dimensions can be visualised at once?
+    - What is the most number of dimensions that can be visualised?
+    - maximum number of dimensions that can be seen at once?
+    - max number of dimensions that can be visualised?
+    - Is there a maximum number of dimensions that can be visualised?
+    - Is there a limit to how many dimensions can be displayed?
+    - How many dimensions are there that can be visualised?
+    - What is the maximum number of dims that can be visualised at the same time?
+    - Is there a limit to the number of dims that can be displayed?
+    - How many visual dims are there?
+    - Is there a limit to how many dimension can be chosen for visualisation?
+    - What is the maximum number of dimen-sion that can be seen?
+    - Is there a limit to the number of dimen-sion that can be seen?
+    - How many visual dimen-sion do you have to work with?
+    - Is there a constarint to the number of new dimensions that can be visualised?
+    - Is there a limit to how many dimensions may be given for visualisation?
+    - Is there a constarint to how many dimensions can be visualised?
+    - What is the total number of visual dimensions available?
+    - What is the maximum number of visualisation dimensions that can be specified?
+    - How many dimensions may be seen at the same time?
+    - Is there a constarint to how many dimensions can be visualised at once?
+    - Is there a constarint to the number of dimensions that can be used for visualisation?
+    - Is there a constarint on how many dimensions may be given for visualisation?
+
+
+- intent: faq-visualisation-b2/How-search-dimension
+  examples: |
+    - search for a dimensions
+    - can we do a search for dimensions?
+    - how can i do search for dimensions?
+    - steps to search a dimensions.
+    - procedure for dimension's search.
+    - will i search for dimensions?
+    - How do we search for a dimension?
+    - How do we go about finding a dimension?
+    - What's the best way to look for a dimension?
+    - where should i look for a dimension
+    - How should we go around seeking for a dimension?
+    - How should we look around for a dimension?
+    - How do we find a dimension?
+    - How do we look for a dimension?
+    - how am i supposed to find a dimension?
+    - How should I search for a dimension?
+    - How do we find a dimension?
+    - What is the best method for locating a dimension?
+    - What's the best way to figure out what dimension we're looking for?
+    - What is the most effective method for locating a dimension?
+    - What's the best way to find a dimension?
+    - What is the procedure for determining a dimension?
+    - What is the procedure for locating a dimension?
+    - How do we go about finding a dimension?
+    - What's the best way to look for a dimension?
+    - How do we go about looking for a dimension?
+    - What's the best way to find a measurement?
+    - What are the methods for determining a dimension?
+    - What is the most effective method for determining dimension?
+    - What is the best method for determining a dimension?
+    - How do you determine a dimension?
+    - What is the method for calculating a dimension?
+    - How do you find a dimension?
+    - What is the most effec method for determining a dimension?
+    - What is the most coolest method for determining the dimension we require?
+    - What's the best method for determining the dimension we're looking for?
+    - What's the most efficient means of determining the dimension we're looking for?
+    - What is the procedure for determining a dimension?
+    - How do I go about finding a dimension?
+    - hat's the coolest way to look for dimensions?
+    - What is the best way to look for a dimension?
+    - What's the best way to find a dimension?
+    - What is the best way to find a dimension?
+    - How do you calculate a dimension?
+    - How do you go about finding a dimension?
+    - What's the most efficient way to find a measurement?
+    - How do you find a measurement?
+    - What is the most efficient way to find a dimension?
+    - What is the most effective way to find a dimension?
+    - What is the most efficient way to find a measurement?
+
+
+- intent: faq-visualisation-b2/edit-dimensions-selected-for-visualization
+  examples: |
+    - edit the dimensions selected for visualization
+    - selected dimensions are edited for visualization,how?
+    - can  we edit the dimensions selected for visualization?
+    - How can i edit the dimensions selected for visualization?
+    - steps to edit the dimensions selected for visualization.
+    - how am i supposed edit dimension selected for a visualisation?
+    - how am i supposed update dimension selected for visuals?
+    - How do I change a dimension that has been chosen for a visualisation?
+    - How can I change a dimension that has been selected for a visualisation?
+    - How can I modify the dimension for a diagram that I've chosen?
+    - How can I update dimension of a plot that I've chosen?
+    - How am i supposed to alter the dimension of a visualisation that I've selected?
+    - What options do we have for modifying the visualisation dimensions we've selected?
+    - How do we make modifications to the visualisation dimensions we've chosen?
+    - ahmmHow can we alter the visualising dimensions we've chosen?
+    - anyway What options do we have for altering the visualisation dimensions we've chosen?
+    - What are the options for changing the visualisation dimensions we've chosen?
+    - What options do we have for changing the visualisation dimensions we've chosen?
+    - How do we alter the visualisation dimensions we've selected?
+    - What are the options for changing the visuals dimensions we've selected?
+    - How do we alter the visualising dimensions we've chosen?
+    - How can we make changes to the visuals dimensions we've chosen?
+    - How do we make changes to the visuals dimensions we've chosen?
+    - how do we make changes to the dimensions we've chosen for data-visuals?
+    - what choices do we have for changing the dimensions of the data-visuals we've chosen?
+    - what are our alternatives for changing the data visuals dimensions we've chosen?
+    - What are the options for changing the data visuals dimensions we've chosen?
+    - What is the best way to change the visualising dimensions we've chosen?
+    - How do we change the proportions of the diagrams we've chosen?
+    - What alternatives do we have for modifying the diagrams dimensions we've selected?
+    - What choices do we have for altering the diags dimensions we've chosen?
+    - on idp How can we change the dimensions of the diags we've chosen?
+    - while here How can we change the graphs dimensions we've chosen?
+    - india data portal What alternatives do we have for altering the graphs dimensions we've chosen?
+    - What are the options for changing the visualising dimensions we've selected?
+    - while im here What are the options for modifying the graphical outputs dimensions we've chosen?
+    - What are the options for changing the visuals  dimensions we've chosen?
+    - What are the options for modifying the graphical outputs dimensions we've selected?
+    - What options do we have for changing the outputs dimensions we've chosen?
+    - What are our alternatives for modifying the outputs dimensions we've selected?
+    - What choices do we have for modifying the outputs dimensions we've chosen?
+    - What are our alternatives for altering the visualisation dimensions we've selected?
+    - What alternatives do we have for altering the visualisation dimensions we've selected?
+    - What choices do we have for modifying the dimensions of the visualisation we've chosen?
+    - What are our alternatives for changing the visualisation dimensions we've selected?
+    - How do we change the dimensions of the visualisation we've chosen?
+
+- intent: faq-visualisation-b2/selecting-time-necessary #73
+  examples: |
+    - on idp Is picking a time frame crucial?
+    - necessary to pick a time?
+    - Is deciding on a time necessary?
+    - Is that even necessary to select a time?
+    - Is it crucial to pick a time frame?
+    - urgent to pick a specific time?
+    - critical to pick a precise time?
+    - Is it critical to pick a time frame?
+    - even is this necessary to pick a particular time?
+    - why it required to choose a time?
+    - important to choose a time frame?
+    - like why it is  important to choose a specific time?
+    - Is deciding on a time necessary?
+    - like why it is  critical to choose a time frame?
+    - but why important to choose a specific time?
+    - but why required to select a specific time?
+    - Is it necessary to choose an exact time?
+    - Is deciding on a time frame necessary?
+    - Is it required to choose a specific time?
+    - Is it required to choose a time?
+    - Is it necessary to schedule a meeting?
+    - Is it important to schedule a meeting at a specified time?
+    - Is it necessary to pick a time?
+    - Is it absolutely vital to choose a precise time?
+    - Is there a need to choose a specific time?
+    - essential to choose a time frame?
+    - Is it necessary to choose a time?
+    - necessary to choose a timeframe?
+    - Is it important to choose a time frame?
+    - Is it required to set a time?
+    - Is it required to schedule an appointment?
+    - Is it necessary to pick a specific time?
+
+
+- intent: faq-visualisation-b2/How-visualize-trend    #74
+  examples: |
+    - visualize a trend
+    - how do i visualise a trend?
+    - can we visualise a treend?
+    - is it possible to visualise a trend?
+    - visualising a trend ,how?
+    - How could the trend be viewed?
+    - How should the trend be depicted?
+    - do i visualise the trend?
+    - How to visualize a trend?
+    - What is the best way to visualise the trend?
+    - How may the trend be shown graphically?
+    - How can the trend be visualised?
+    - how can we see the trend on the portal?
+    - how can we see the ongoing trend via visualisation charts?
+    - What's the best way to portray a trend?
+    - How should a trend be graphically represented?
+    - What is the best approach to graphically portray a trend?
+    - How should a trend be visualised?
+    - What's the most effective technique to visualise a trend?
+    - What is the most effective approach of visualising a trend?
+    - What is the most effective technique to graphically illustrate a trend?
+    - What is the best way to portray a trend?
+    - What is the best way to represent a pattern?
+    - How do you depict a trend?
+    - What is the best way to represent a trend graphically?
+    - hat is the best way to visualise a trend?
+    - What is the most efficient way to visualise a trend?
+    - How should a trend be depicted graphically?
+    - What's the best way to visualise a trend graphically?
+    - What is the most efficient method for visualising a trend?
+    - on this webiste the best way to portray a trend?
+    - on this webiste the best way to represent a trend?
+    - on this portal the best way to depict a trend graphically?
+    - on this portal the most effective way to graphically depict a trend?
+    - on this portal the most effective method for illustrating a trend graphically?
+    - on this portal the most effective technique to depict a pattern?
+    - What's the best way to visualise a trend?
+    - on this portal the most effective way to visualise a trend graphically?
+    - What graphic representation should a trend have?
+    - What's the most efficient way to visualise a trend?
+    - on this portal the most efficient way to graphically depict a trend?
+    - Which method for visualising a trend is the most effective?
+    - How should a pattern be represented?
+    - ahmm but the most effective technique to depict a trend?
+    - What's the most effective technique to depict a trend?
+    - What's the most effective technique to depict a pattern?
+    - ahmm but the best way to visualise a trend?
+    - how should a trend be depicted?
+
+- intent: faq-visualisation-b2/select-location  #75
+  examples: |
+    - select a location
+    - how to select a location?
+    - is it important to select a location first?
+    - selection of loc is necessary?
+    - how can i select a loc?
+    - is it necessary to select loaction
+    - is it necessary to select location button
+    - Should I select the location button always
+    - Is it necessary to choose a location on the dataset?
+    - Is it required to select a place on the dataset?
+    - Is it required to include a location from the dataset to visualise?
+    - Is it important to choose a dataset location to see it on visuals?
+    - Is choosing a place required?
+    - necessary to select a location?
+    - amm Is it required to choose a location?
+    - ahmm Is picking a place required?
+    - but why Is it required to pick a location?
+    - why Is it important to choose a location?
+    - Is picking a location necessary?
+    - like Is it required to choose a location?
+    - can you tell Is it required to pick a location?
+    - Is choosing a place required?
+    - Is it necessary to select a location?
+    - to choose a location? required
+    - Is it crucial to pick a location?
+    - Is it required to pick a location?
+    - Is picking a place required?
+    - necessary to decide on a location?
+    - mandatory to choose a location?
+    - important to choose a location?
+    - deciding on a place critical?
+    - critical to pick a location?
+    - picking a location necessary?
+    - specifying a location is necessory?
+
+
+- intent: faq-visualisation-b2/donot-select-location-possible-visualization #76
+  examples: |
+    - visualisation is possible without location?
+    - without location is it possible to visualise?
+    - is it possible to see a visualization without location?
+    - can we visualise without location?
+    - how can i see the visualization without location?
+    - what to do to see the visualisation withou location?
+    - can i see the visualization without location?
+    - steps to visualise without location
+    - visualise without location
+    - do I need to select location for visualization?
+    - If we do not select a location, can we visualize?
+    - Can we visualise if we don't choose a location?
+    - Can we visualise without choosing a location?
+    - without selecting a location can we visulaise?
+    - Can we envision if we don't choose a location?
+    - Can we visualise if we don't pick a location?
+    - Is it possible to visualise if we don't choose a location?
+    - Is it possible to visualise if we don't pick a location?
+    - Is it possible to visualise without deciding on a location?
+    - Can you picture what would happen if we didn't pick a location?
+    - Consider what would happen if we didn't pick a location.
+    - Is it possible to imagine if we don't choose a location?
+    - Is it possible to visualise without a specific location in mind?
+    - What if we don't pick a location?
+    - Is it possible to imagine something without a specific location in mind?
+    - Can we visualise if we don't pick a location?
+    - Can we visualise without choosing a location?
+    - Can we imagine if we don't choose a location?
+    - Is it feasible to imagine what might happen if we don't pick a location?
+    - Is it possible to picture something without having a precise location in mind?
+    - Think about what would happen if we didn't choose a location.
+    - Is it possible to imagine anything without picturing it in a specific location?
+    - What happens if we don't choose a location?
+    - is it feasible to visualise if we don't have a specific location in mind?
+    - feasible to visualise without a location?
+    - possible to visualise without picturing a specific location?
+    - feasible to imagine what will happen if we don't pick a location?
+    - Can you picture what would happen if we didn't pick a location?
+    - Consider the consequences if we didn't choose a site.
+    - Is it feasible to visualise without having to choose a location?
+    - Consider what would happen if we didn't choose a location.
+    - Is it feasible to visualise without deciding on a location?
+    - Is it possible to imagine something without having a precise location in mind?
+    - Imagine if we didn't choose a location.
+    - Take a look at what might happen if we didn't choose a place.
+    - Is it feasible to visualise without first deciding where you want to go?
+    - Is it possible to picture anything without picturing it at a specific location?
+    - Imagine what would happen if we didn't choose a location.
+    - Is it possible to visualise without deciding where you want to go?
+    - Is it possible to imagine anything without picturing it in a specific place?
+    - What happens if we don't decide on a location?
+
+
+- intent: faq-visualisation-b2/select-Districts-after-states-necessary    #77
+  examples: |
+    - Is it important to select Districts after states?
+    - select Districts after states
+    - steps to select Districts after states
+    - Is it necessary to select Districts after states?
+    - do we need to select Districts after states?
+    - we need to  select states first?
+    - states are selected first isn't?
+    - districts are selected after states isn't?
+    - Do we have to select districts after selecting states?
+    - Is it required to choose district after states?
+    - Is it necessary to choose distrcit after selecting States?
+    - Is it necessary to order the Districts once we selected state
+    - am i only supposed to select the Districts after the States?
+    - Is it necessary to select Districts after states?
+    - Is it necessary to select discrits after selecting States?
+    - like is that mandatory to select districts after states?
+    - like is that necessary to select districts after states?
+    - ahmm but is  necessary to select districts after deciding on states?
+    - ahmm but is that required to designate discrits after States?
+    - but is that necessary to select discrits after selecting states?
+    - but is that important to pick Districts after deciding on States?
+    - why it is important to designate Districts after deciding on the States?
+    - why it is required to choose Districts after states?
+    - why it is required to choose districts after states?
+    - ahmm but is that necessary to choose Districts after selecting States?
+    - why it is necessary to designate Districts once the States have been chosen?
+    - why it is important to pick districts after deciding on states?
+    - even is it  important to choose Districts after deciding on a state?
+    - even is it  required to choose Districts after selecting States?
+    - Is it important to choose Districts after States?
+    - Is it necessary to choose districts once the states have been chosen?
+    - even is this necessaryy to choose districts after determining states?
+    - what makes it  necessaryy to choose districts once the states have been decided?
+    - Is selecting districts after states a requirement?
+    - is it necesary to name the districts after the states?
+    - what makes it  mandatory to name Districts after States?
+    - what makes it  important to choose Districts after deciding on the states?
+    - what makes it essential to assign Districts once the States have been determined?
+    - what makes it essential to assign dists once the States have been decided?
+    - Is it necessary to select dists once the States have been chosen?
+    - Is it required to choose districts after states?
+    - Is it required to pick districts after states?
+    - Is it necessary to name the dists once we selected state
+    - Is it required to choose dists after states?
+    - Is it necessary to choose districts once states have been decided?
+    - Is it important to choose districts after deciding on states?
+    - Is it necessary to choose district after choosing States?
+    - Is it important to choose city after you've decided on States?
+    - Is it necessary to choose city after determining States?
+    - Is it important to choose city after deciding on States?
+    - choosing district after the state is necessary?
+
+- intent: faq-visualisation-b2/add-dataset    #79
+  examples: |
+    - add datasets why?
+    - datasets are added?
+    - can we add datasets?
+    - why should i add more than 1 dataset
+    - how we add datasets?
+    - can you assist me to add datasets?
+    - steps to add datasets.
+    - how add data
+    - why am i supposed to add datasets.
+    - Why are datasets being added?
+    - What are the benefits of including datasets?
+    - What's the point of adding datasets?
+    - Why are datasets being added?
+    - Why include datasets?
+    - Why upload datasets?
+    - why should i upload dataset?
+    - main purpose of including a dataset?
+    - Why would you want to add a dataset to your project?
+    - Why would you want to add a dataset to your collection?
+    - Why is a dataset required?
+    - What are the advantages of incorporating a dataset?
+    - What is the advantage of a dataset?
+    - main purpose of adding a dataset?
+    - What is the advantage of including a dataset?
+    - What is the point of including a dataset?
+    - Why is it necessary to include a dataset?
+    - What is the benefit of including a dataset?
+    - Why would you want to add a dataset?
+    - What are the benefits of utilising a dataset?
+    - What does it mean to add a dataset?
+    - What good is it to include a dataset?
+    - What is the benefit of including a dataset in your presentation?
+    - What benefit does a dataset provide?
+    - main purpose of adding a dataset to your collection?
+    - What is the benefit of including a dataset?
+    - What good is a dataset if it's not used?
+    - What are the benefits of incorporating a dataset into your project?
+    - What is the point of putting a dataset in there?
+    - What are the benefits of including a dataset in your project?
+    - What are the benefits of using a dataset in your project?
+    - what's the point of having a dataset?
+    - What does it mean to include a dataset?
+    - What are the benefits of adding a dataset to your collection?
+    - What exactly is the point of adding a dataset?
+    - Why is it necessary to have a dataset?
+    - What is the need for a dataset?
+    - Why would you want to incorporate a dataset into your work?
+    - What good is a dataset if it isn't used?
+    - What's the point of adding a dataset to your collection?
+    - What is the benefit of using a dataset?
+    - Why is it necessary to add a dataset?
+    - What exactly is the point of including a dataset?
+    - What are the benefits of a dataset?
+    - What are the benefits of using a dataset?
+    - what can be done after adding a dataset?
+

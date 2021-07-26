@@ -1,0 +1,95 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq-dataset-b0:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+
+  utter_faq-dataset-b0/alternate-sources-data: #19
+  - text: Data on the India Data Portal is sourced from government websites and you may visit the source websites mentioned as alternate data sources
+  
+  utter_faq-dataset-b0/upload-datasets-platofrm: #21
+  - text: It is not possible to upload a data set into the India Data Portal 
+  
+  utter_faq-dataset-b0/multiple-data-sets-same-parameter: # 23
+  - text: The datasets on IDP are sourced from governments sources. There are multiple surveys, data collection activities by the government those have common parameters for data collection which is usually the mandat of data collection objective. So, as a result there can be similar indicators but with different data collection methods. As far as their usability is concerned, this type comparison has not been considered yet but is part of our long term plan.
+
+  utter_faq-dataset-b0/financial-data-available: #246
+  - text: India Data Portal has financial data which includes credit by Bank, Agri wages, Debt and investment, Deposits with bank and many more!! Just go to Financial inclusion tab in our dataset to find more
+
+  utter_faq-dataset-b0/socioeconomic-data-available-portal: #248
+  - text: India Data Portal consists of socio-economic data which has datasets like  mission antodaya, household AMneties. Check the socio-economic tab for more
+
+  utter_faq-dataset-b0/data-Ministry-Agriculture: #249
+  - text: We always source our data from government sources which includes Ministry of Agriculture
+
+  utter_faq-dataset-b0/data-Ministry-Statistics: #250
+  - text: We always source our data from government sources which includes Ministry of Statistics
+
+  utter_faq-dataset-b0/National-Survey-data-available: #251
+  - text: Yes we have the NSSO data
+
+  utter_faq-dataset-b0/data-Rural-Development: #252
+  - text: India Data Portal has rural development data which includes MGNREGA and Misson Antodaya data Just go to rural development tab in our dataset to find more
+
+  utter_faq-dataset-b0/data-available-CMIE:  #296
+  - text: As of now, India Data Portal has data made available from government sources. In future, private data sources would be incorporated on the portal
+
+  utter_faq-dataset-b0/foreign-trade-data:  #297
+  - text: This data is available on the India Pulse section of the India Data Portal at https://indiadataportal.com/IndiaPulse
+
+  utter_faq-dataset-b0/RBI-data:  #298
+  - text: As of now, we have Credit by banks an deposit with banks datasets from the RBI
+
+  utter_faq-dataset-b0/Petrol-Data:  #299
+  - text: This data is available on the India Pulse section of the India Data Portal at https://indiadataportal.com/IndiaPulse
+
+  utter_faq-dataset-b0/e-way-bills-data:   #300
+  - text: This data is available on the India Pulse section of the India Data Portal at https://indiadataportal.com/IndiaPulse
+
+  utter_faq-dataset-b0/electricity-data: #301
+  - text: This data is available on the India Pulse section of the India Data Portal at https://indiadataportal.com/IndiaPulse
+
+  utter_faq-dataset-b0/data-related-energy:  #302
+  - text: This data is available on the India Pulse section of the India Data Portal at https://indiadataportal.com/IndiaPulse
+
+  utter_faq-dataset-b0/data-micro-ATM:  #303
+  - text: This data is available on the India Pulse section of the India Data Portal at https://indiadataportal.com/IndiaPulse
+
+  utter_faq-dataset-b0/unemployment-data:   #304
+  - text: This data is available on the India Pulse section of the India Data Portal at https://indiadataportal.com/IndiaPulse
+
+  utter_faq-dataset-b0/data-UIDAI:   #305
+  - text: This data is available on the India Pulse section of the India Data Portal at https://indiadataportal.com/IndiaPulse
+
+  utter_faq-dataset-b0/Aadhar-data:   #306
+  - text: This data is available on the India Pulse section of the India Data Portal at https://indiadataportal.com/IndiaPulse
+  
+  utter_faq-dataset-b0/monthly-data-sets:  #307
+  - text: The data sets where the sources put out monthly information
+
+  utter_faq-dataset-b0/daily-datasets:  #308
+  - text: The data sets where the sources put out information on a daily basis
+
+  utter_faq-dataset-b0/old-data-available: #311
+  - text: We can provide data from public sources across the years where it is available  
+
+  utter_faq-dataset-b0/historical-data:  #312
+  - text: Various distoric datasets are available on the portal, please visit the dataset section of the portal for details
+
+  utter_faq-dataset-b0/COVID-data:  #313
+  - text: You can find Covid19 data set at https://indiadataportal.com/jsi
+
+  utter_faq-dataset-b0/any-industry-data-question: #314
+  - text: This data is available on the India Pulse section of the India Data Portal at https://indiadataportal.com/IndiaPulse
+
+  utter_faq-dataset-b0/Why-India-data-portal-create:  #316
+  - text: The “India Data Portal” was created to provide a one-stop open-access portal for journalists to access, interact with, and visualize information, data and knowledge related to agriculture and financial inclusion, while also aiding other beneficiaries – researchers, students, policy makers, administrators, NGOs, and entrepreneurs. To know more, visit this link- https://indiadataportal.com/about?language=English&location=India
+
+

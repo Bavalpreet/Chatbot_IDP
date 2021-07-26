@@ -1,0 +1,33 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+- faq-dataset-b1:
+    use_entities: true
+    
+entities: []
+slots: {}
+responses:
+    utter_faq-dataset-b1/search-dataset-use-demograph: #383
+    - text: Our dynamic search bar allows you to search with almost any key words
+    utter_faq-dataset-b1/select-multipl-dataset-one-indic-one-go: #402
+    - text: As of now IDP doesn't have this feature
+    utter_faq-dataset-b1/chang-decim-point-across-diff-column-singl-dataset: #410
+    - text: As of now IDP doesn't have this feature
+    utter_faq-dataset-b1/download-data-set-excel-format: #412
+    - text: Yes you can download the data in excel format. On the top right corner of the visualization you will find save icon where there is an option to save the data.
+    utter_faq-dataset-b1/differ-format-support-dataset-download: #413
+    - text: As of now only .xlsx format is available for the data download
+    utter_faq-dataset-b1/download-data-set-csv-format: #414
+    - text: As of now you can't save the data in csv format
+    utter_faq-dataset-b1/combin-datset-diff-sector: # 416
+    - text: Yes you can combine and compare datasets from different sectors.
+    utter_faq-dataset-b1/datacard-signifi: #418
+    - text: Datacard consists of one dataset with visualization. In one page we can have 4 datacards with 4 different visualizations
+actions: []
+forms: {}
+e2e_actions: []

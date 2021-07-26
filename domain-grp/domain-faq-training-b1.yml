@@ -1,0 +1,21 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+- faq-train-b1:
+    use_entities: true
+    
+entities: []
+slots: {}
+
+responses:
+  utter_faq-train-b1/often-workshop-arrang: #379
+  - text: Workshops are arranged frequently. You can see all of the updates in our social media handles and our website.
+  utter_faq-train-b1/onlin-train-curriculum: #417
+  - text: In IDP we have various online training curriculam like workshops, fellowships etc. Kindly write to us at idp@isb.edu to know more.
+  
+

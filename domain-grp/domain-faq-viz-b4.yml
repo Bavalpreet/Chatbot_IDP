@@ -1,0 +1,102 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq-visualisation-b4:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+
+  utter_faq-visualisation-b4/not-understand-viz: # 109
+  - text: Please check the indicators and dimensions and relate to what story you need to find and then click on build your chart. If you dont understand one chart look for the other ones.
+
+  utter_faq-visualisation-b4/add-indicator-from-diff-dataset: #110
+  - text: Yes you can add the indicators from other datasets. Just click on  the datasets tab on top and go to create new indicator. Now a popup will show up which includes a dropdown of dataset where you can choose across datasets and their indicators to create a new indicator
+
+  utter_faq-visualisation-b4/how-many-datasets-compare: #111
+  - text: As of now You can compare atmost two datasets at a time
+
+  utter_faq-visualisation-b4/sort-data-in-graph-how: #112
+  - text: You can do sorting by clicking on the top right button named 'sort' on your chart page. You can do sorting by indicator value ascending or descending or by alphabetical order
+
+  utter_faq-visualisation-b4/upload-my-data: #113
+  - text: You can write to us in the mail that you have found a source of data. Kindly share the link of the datasource and we will look into it.
+
+  utter_faq-visualisation-b4/how-many-options-select-chart-builder: #114
+  - text: You can select every option in the chart builder. But as per your requirements you may not have to select all the options.
+
+  utter_faq-visualisation-b4/cannot-see-district-state-in-legend: #116
+  - text: When the filters are not applied states and districts on the legend will not show up.
+
+  utter_faq-visualisation-b4/why-data-available-for-some-years: #117
+  - text: We extract data from the governemt datasources. If the goernment source does not have the data for a particular year or years then we cannot have that data.
+
+  utter_faq-visualisation-b4/how-add-labels: #118
+  - text: Yes you can only edit the title of the graph by clicking the pencil button near to the chart title.
+
+  utter_faq-visualisation-b4/what-my-graphics: #119
+  - text: My graphics is a space in the portal where you can see your past graphs. You can save a particular visualization by clicking on to the save to button on the top right corner of the visualization page and select 'my graphics'
+
+  utter_faq-visualisation-b4/what-graphics-gallery: #120
+  - text: Graphics gallery is a public section where you can view all the visualizations created by other users in this portal. Your graph can be viewed by other users if you publish it to graphic gallary. 
+
+  utter_faq-visualisation-b4/diff-bw-mygraphics-graphics-gallery: # 122
+  - text: In my graphics only you can see your past saved visualizations after logging in. But in graphics gallary your published visualizations can be seen by other users also.
+
+  utter_faq-visualisation-b4/why-personal-info-to-publish-graphs: #123
+  - text: Users can view your graphs which are saved by your name only. There is no other private information that is shared.
+
+  utter_faq-visualisation-b4/where-is-data-coming-from: #124
+  - text: We have collected the data from reliable government sourcs. You can also see the links in the 'about dataset' page in the source link section
+
+  utter_faq-visualisation-b4/will-update-affect-my-saved-graphics: #125
+  - text: Yes if you update the dataset another new graphics will be saved to my graphics not updating thre old one
+
+  utter_faq-visualisation-b4/how-add-shapes-icons-on-graph: #126
+  - text: As of now you cannot add shapes and icons to your graphs
+
+  utter_faq-visualisation-b4/how-change-legend-of-graph: #127
+  - text: As of now you cannot change the legends of the graph
+
+  utter_faq-visualisation-b4/cannot-see-title-after-downloading-graph: #128
+  - text: As of now you cannot see the title of your chart.
+
+  utter_faq-visualisation-b4/what-is-svg: #129
+  - text: Scalable Vector Graphics(SVG) is an Extensible Markup Language-based vector image format for two-dimensional graphics with support for interactivity and animation.
+
+  utter_faq-visualisation-b4/diff-bw-svg-png: #130
+  - text: A png (Portable Network Graphics) file is a raster or bitmap image file format. A svg (Scalable Vector Graphics) file is a vector image file format.
+  
+  utter_faq-visualisation-b4/assist-me-in-graph: #131
+  - text: Please write to us. we will definitely assist you. We have masterclass and workshop tutorials every month attending which you can get a very clear idea about the portal
+
+  utter_faq-visualisation-b4/can-you-connect-me-with-team: #132
+  - text: Please write to us. we will definitely connect you to our team
+
+  utter_faq-visualisation-b4/can-add-three-datasets: #133
+  - text: As of now you only can add two datasets.
+
+  utter_faq-visualisation-b4/can-see-30-datasets: #134
+  - text: The respective graphs will appear with the choice of selections the users make.
+  
+  utter_faq-visualisation-b4/selecte-district-no-result: #137
+  - text: Please check if you have selected time dimension and one indicator atleast from the indicator list.
+
+  utter_faq-visualisation-b4/chart-wrong: #138
+  - text: If you have any doubt on the chart kindly see the indicators and the dimensions of the dataset first. Then check the time frame that you have selected. Also refer to other charts that are coming
+
+  utter_faq-visualisation-b4/download-all-treemaps: #138
+  - text: You can download tree maps by clinking on the three dots button on the top left corner of the visualization page
+
+  utter_faq-visualisation-b4/remove-all-selections-once: #139
+  - text: You can remove all the selections by clicking on 'clear all' button on the top of any popup window
+
+
+ 
+actions: []
+forms: {}
+e2e_actions: []

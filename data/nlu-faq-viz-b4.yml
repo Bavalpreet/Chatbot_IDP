@@ -1,0 +1,784 @@
+version: "2.0"
+nlu:
+
+- intent: faq-visualisation-b4/not-understand-viz # 109
+  examples : |
+    - I am not able to understand my visualisation.
+    - i have made some grphs but what do they depict
+    - made some work here but laughingly not able to undertsnad it even 
+    - not able to grasp what you made in front of me
+    - relly annoyed with what i have made can you pls explain it
+    - no updates what the hell haas been made by you over here
+    - can you pls tell what I have drawn using this website
+    - can you pls tell what I have drawn using this platformm
+    - can you pls tell what I have drawn using this webbiste
+    - i am not able to understand my visuals, what am i supposed to do?
+    - What should I do if I am unable to comprehend my visuals?
+    - as i am not able to comprehend my visuals what should i do?
+    - what i have to do in order to understand the visuals?
+    - to understand the visuals what is to be done?
+    - help me in understanding the graph
+    - help me in analysing my visualisation?
+    - guide me how to grasp the visuals?
+    - how am i supposed to understand the visualisations?
+    - how one can comprehend the visuals?
+    - tell me how to understand the visuals?
+    - tell me how should i acknowledge the visualisation?
+    - how visualisations are acknowledged?
+    - how visuals are supposed to be understood?
+    - how a newcomer supposed to comprehend the visuals?
+    - help required in understanding visuals
+    - comprehend visual
+    - understand diagram
+    - what steps i need to follow in order to understand the visualisations
+    - what i have to do for understanding the visuals?
+
+- intent: faq-visualisation-b4/add-indicator-from-diff-dataset #110
+  examples: |
+    - I want to add an indicator from another dataste to this graph. How? 
+    - wanna add additional indicators from another dataset to this graphs?
+    - can i make extra indicators from another data set to current grpah
+    - while working with graph can i add indicators from another data corpus
+    - I was working with a project where demand was to add indicator from another dataset to current graph
+    - is this even possible to add an indicator from  datasat i am not using to current graph
+    - is this feature present iwth IDP that i can add an indicator from another dataste to current graph
+    - can i know  that i can add an indicator from diff dataste to current graph
+    - can i know  that i can add an indicator from  dataset i used previously to current graph
+    - is it possible that i can add an indicator from  dataset i used previously to current bar grpah
+    - is it possible that i can add an indicator from  dataset i used previously to current bar graph
+    - is it possible that i can add an indicator from  dataset i used previously to current pie chart
+    - I want to add indicator from other dataset to this graph. How? 
+    - how am i supposed to add indicator from other dataset?
+    - how indicatores from other datasets can be inserted?
+    - i want to use indicator from another dataset, how to do that?
+    - tell me how can i used indicator of other dataset?
+    - can i add indicator from other dataset?
+    - is it possible to add indicator from other dataset?, if yes then how?
+    - is it feasible to insert indicator from other dataset?, if yes then direct me?
+    - can i use indicator from dataset other than this?
+    - Please confirm that I would be permitted to insert indicators from other collections. If so, please tell me.
+    - can i insert indicator? if so then tell me how to do that?
+    - can you confirm that is it possible to add indicator from different dataset?
+    - need help i want to know can i add indicator from other dataset?
+    - indicator from dataset other then this can be added?
+    - please confirm can i insert indicator from other dataset? if yes then guide me.
+    - so can i add indicator from some other dataset?
+    - firstly confirm can i add dataset from other dataset? and if yes then how? 
+    - Please confirm that am i allowed to insert indicators from other datasets. If so, please guide me.
+    - hey help me with inserting indicators from other datasets.
+    - Please ensure that I am able to input an indicator from a different dataset. If this is the case, please assist me.
+    - Is it possible to insert an indication from a different dataset? If this is the case, please guide me.
+
+- intent: faq-visualisation-b4/how-many-datasets-compare #111
+  examples: |
+    - How many datasets can I compare at a time?
+    - How much dataset i can compare at a time?
+    - what Number of dataset compare at a time?
+    - At a time How many dataste we can compare?
+    - can i comapre 2 and more dataset at a time?
+    - Is it possible to compare all dataset at a time?
+    - How many datasets can I compare at a time
+    - Can I compare 2 or more datasets in a single visualization
+    - can i comapre 2 and more data sets at a time?
+    - at a time how many datasets are compared?
+    - How many datasets may be compared at once?
+    - How many datasets can be compared in one go?
+    - How many datasets could be compared simultaneously?
+    - simultaneously how many datasets can be compared?
+    - how many datasets can be collated?
+    - how many datasets can be juxtapose?
+    - What is the maximum number of datasets that may be compared at any given time?
+    - how many datsets will i be able to compare?
+    - maximum no of datasets which can be compared?
+    - tell me the count of datasets that can be compred in one go?
+    - hey whats the count of datasets that can be collated?
+    - hey how many datasets i could juxtapose?
+    - can you tell me much datasets participate in comparison on this portal?
+    - how much datasets this portal supoorts for comparison?
+    - whats the count of dataset supported by this portal for comparison?
+    - tell me how much datasets i can compare?
+    - as of now how much dataset i can compare at a time? 
+    - How many datasets can I compare at once right now?
+    - How much data can I compare at one time right now?
+    - How many datasets can I compare at the moment?
+    - How many datasets can I currently compare at once?
+    - currently how many datasets can be collate?
+    - right now how many datasets i can compare?
+    - tell me how many datasets can be juxtapose right now?
+
+
+- intent: faq-visualisation-b4/sort-data-in-graph-how # 112
+  examples: |
+    - How can I sort data in my graph?
+    - Procedure of sorting data in y graph?
+    - can i sort data inmy graph,how?
+    - How can i sort data?
+    - sort Data in Inda data portal?
+    - How oragnise data in my graph?
+    - Arrange data in graphs?
+    - sort data in graph
+    - how can I sort my chart?
+    - how cna i sort my vizes
+    - how can i sort the bar graphs i made
+    - can i sort the pie  charts i made
+    - how am i supposed to do sorting?
+    - how sorting of data is to be done in graph?
+    - in graph how sorting is to be done?
+    - tell me how can i do data sorting in graph?
+    - guide me how to sort data in graph
+    - what steps do i need to follow in order to sort data on graph
+    - how sorting of data can be done on graph?
+    - What is the best way to sort data in my graph?
+    - What is the appropriate way to sort data in my graph?
+    - What is the optimal way of sorting data in my graph?
+    - ideal method of sorting data in my graph?
+    - please guide how to do data sorting on graph
+    - How am I meant to sort data?
+    - How am I expected to do data sorting?
+    - how to perform data sorting?
+    - help me in sorting the data
+    - help me in data sorting on graph
+    - on graph how can i sort data please guide?
+    - what steps i need tro follow in order to sort data on graph
+    - data sorting on graph?
+    - how data sorting is to be performed?
+    - enlight me with the process of data sorting
+    - please enlight the data sorting process
+
+- intent: faq-visualisation-b4/upload-my-data #113
+  examples: |
+    - I want to add my dataset for visualisation. How can I upload data?
+    - is there any way to upload data i wnat to use my datasets for vizz
+    - for vizualisation purposes i want to add my dataset is there any way
+    - can i upload my data so that i can use it for visuaalisation
+    - how can I upload my data?
+    - how many datasets i can upload
+    - how many datasets i can put in for doing work here
+    - i wanna do some work how can i upload my personal data set from local pc
+    - i wanna use this webiste for some project how can i add my own datasets stored in another server
+    - if i know the source how can i upload the data?
+    - if i am having a data how am i supposed to upload it?
+    - how am i supposed to upload a data?
+    - tell me how can i upload a data?
+    - guide me how data is to be uploaded?
+    - can you help me with uploading data?
+    - how data is to be uploaded on the portal?
+    - i need your help in data uploading process?
+    - is it possible to upload data on the portal?
+    - what steps do i need to follow in order to upload a dataset
+    - how uploading of data can be done on portal?
+    - What is the best way to upload data?
+    - What is the appropriate way to upload dataset
+    - What is the optimal way of uploading data
+    - ideal method of uploading data on idp
+    - please guide how to do data uploading on portal
+    - How am I meant to upload data?
+    - How am I expected to do data uploading?
+    - how to perform data uploading?
+    - help me in uploading the data
+    - help me in data uploading on idp
+    - on portal how can i upload data please guide?
+    - what steps i need tro follow in order to upload data
+    - data uploading on portal?
+    - how data uploading is to be performed?
+    - enlight me with the process of data uploading
+    - please enlight the data uploading process
+    - what procedure is needed to be followed in order to upload a data
+    - procedure to upload a dataset
+    - what is the procedure for adding data on the portal?
+    - procedure to add personal data on portal?
+    - on portal how can i add my data?
+    - How can I go about uploading a dataset?
+    - How should I go about uploading the dataset? 
+
+
+- intent: faq-visualisation-b4/how-many-options-select-chart-builder #114
+  examples: |
+    - How many options can I select in the chart builder?
+    - exact number of options that i can select in chart builder feature
+    - How many options one can select in the chart builder?
+    - what is the no of features i can select in the chart builder in IDP
+    - what is the no of features i could select under the chart builder on idp
+    - what is the no of features i can select in the chart builder in india data portal
+    - in chart bulder how many options i can select?
+    - how many option from chart builder can be selected?
+    - from chart builder how many options can be selected?
+    - In the chart builder, how many options do I have?
+    - how many options from chart builder i can pick?
+    - from given choices how many i can pick under chart builder?
+    - under chart builder choices how many can be picked up?
+    - In the chart builder, how many choices can I pick?
+    - tell me how many choices i can select from chart builder?
+    - guide me out of given choices under chart builder what maximum i can select ?
+    - max count of choices i can select from from chart builder?
+    - from chart builder at max how much choices can be selected?
+    - under chart builder from given options how much i can select?
+    - How many options do I have in the chart builder?
+    - well how many options i can select from chart builder?
+    - guide me how many options can be selected under chart builder?
+    - enlight me at max how much options from chart builder can be selected? 
+    - from given option How many are available for selection in the chart builder?
+    - tell me how many options i can select from chart builder?
+    - how many options i can select from chart builder?
+
+- intent:  faq-visualisation-b4/cannot-see-district-state-in-legend #116
+  examples: |
+    - I cannot see all the states/districts in the legend. Why?
+    - cannot see all the states/districts in the legend. Why?
+    - I cannot see all the states in the legend. Why? 
+    - while using idp I cannot see all the states/districts in the legend. Why?
+    - while using indian data portal I cannot see all the states/districts in the legend. Why?
+    - i am here but I cannot see all the districts in the legend. Why?
+    - why I cannot see all the districts in the legend. Why?
+    - I cannot see all the states/districts in the legend of the graphs i made here. Why?
+    - I cannot see all the states/districts in the legend of the work i made here. Why?
+    - I cannot see all the districts or states in the legend of the pie chart i made on IDP. Why?
+    - I cannot see all the districts in the legend. Why? 
+    - why am i not able to see states in the legends?
+    - tell me why states are not visible in legends?
+    - please let me know why states are not appearing in the legends?
+    - why am i not able to see districts in the legends?
+    - tell me why districts are not visible in legends?
+    - please let me know why districts are not appearing in the legends?
+    - In the legends, I can't see all of the states. why?
+    - In the legends, I am unable to see all of the states. why?
+    - In the legends, I am unable to view all of the states. why?
+    - why i am unable to see states in the legends?
+    - In the legends, I can't see all of the districts. why?
+    - In the legends, I am unable to see all of the districts. why?
+    - In the legends, I am unable to view all of the districts. why?
+    - why i am unable to see districts in the legends?
+    - why states not in legends?
+    - why districts are not present in legends?
+    - I can't see all of the states in the legends. why?
+    - why i can't witness all of the states in the legends.
+    - I can't see all of the districts in the legends. why?
+    - why i can't witness all of the districts in the legends.
+  
+- intent: faq-visualisation-b4/why-data-available-for-some-years #117
+  examples: |
+    - Why is data availble only for some years?
+    - Is there any reason data deleted after some years?
+    - why data is deleted after some years?
+    - what is the reason behind some years avability of data?
+    - What is the reason that data is deleted after some years?
+    - why india data portal don't have data after some years?
+    - what happend after some year of data in india data portal?
+    - data avalaible for some years
+    - why is data available only for some years?
+    - here why only some years of data is availabe
+    - on platform i am using why i only see data fro some years
+    - on indian data portal i only see few years of data why 
+    - i am on project can i know why you have only few years of data
+    - why data is only avaialble for some years only?
+    - i want to know why we have data for limited years only?
+    - why limited data is reciding on the portal?
+    - why portal is having only limited data?
+    - why portal is having data for few number of years?
+    - why data for few no of years is only available here?
+    - can you tell me why we are having limited data?
+    - please elaborate why only few years data is present?
+    - is there only few years data present ?
+    - why this portal is containing data from few year?
+    - why we are having few years data here?
+    - Why is data only available for a few years?
+    - tell me why onlu few years data is present?
+    - whats the reason behind having data from limited years only?
+    - why idp is only containing limited data?
+    - why for few datasets idp have data of few years only?
+    - Why is data only available for a limited number of years? 
+    - Why does idp only have data from a few years for a few datasets?
+    - Why do IDP only have data from a few years for a few datasets?
+    - Why only have data from a few years for a few datasets?
+    - Why does IDP only contain data from a few years for a few datasets?
+    - why does this portal contain data from limited number of years?
+
+
+- intent: faq-visualisation-b4/how-add-labels #118
+  examples: |
+    - How can I add labels to my graph?
+    - procedure of adding labels on graph?
+    - adding labels on my graph it is possible?
+    - How can i modify labels on my graph?
+    - give me steps of adding labels to my graph?
+    - how can i make changes on lable on my graph?
+    - Is there any way to add label to my graph?
+    - Can i add labels to my graph,how?
+    - how should i insert labels into my graph?
+    - is this feature present here that i add labels to my work piece
+    - is this feature present here that i add labels to my work piece made here
+    - is this feature present here that i add labels to my work piece made on this platform
+    - while on indian data portaal can i add labels to my grpah
+    - elaborate the process of adding labels to graph?
+    - tell me how can i add labels to my graph?
+    - how am i supposed to insert labels into my graph?
+    - in my graph how can i add labels?
+    - how to inculcate labels into my graph?
+    - What is the best way to add labels to my graph?
+    - ideal way to add labels in graph?
+    - what is the ideal method to insert labels on the graph?
+    - What is the best way to label my graph?
+    - How do I add labels to my graph?
+    - how labels should be added to the graph?
+    - How do I include labels in my graph?
+    - how i am supposed to include labels in my graph?
+    - What is the ideal way to add labels 
+    - in my graph what would be the idela way to insert labels?
+    - How should the graph's labels be added?
+    - How should the chart's labels be added?
+    - how to insert labels in the plot?
+    - how can a plot be verified with the labels?
+    - How should the graph's labels be applied?
+    - What method should be used to add labels to the graph?
+    - How should the graph's labels be placed?
+
+- intent: faq-visualisation-b4/what-my-graphics #119
+  examples: |
+    - what does that mean by graphics?
+    - Graphics?
+    - Give me information about graphics?
+    - I waant to know about graphics?
+    - Meaning of graphics?
+    - Defination of graphics?
+    - what is graphics
+    - my grpahis what is this ?
+    - my grphisc what is this thing on IDP
+    - i am very curious about this my graphics fetaure on indian data portal
+    - i am very cyrious about this my graphics fetaure on IDP
+    - does it conatin all the graphs i have made till now
+    - does it conatin all the work i have made till now
+    - where is all the work stored on IDP  is that my graphics gallery
+    - tell me what is my graphics?
+    - please enlight my graphics?
+    - what do you mean by my graphics?
+    - what am i supposed to understand by my graphics?
+    - please explain what does my graphics mean?
+    - whats there in my graphics?
+    - tell me about my graphics?
+    - hey what's my graphics?
+    - what's the purpose of my graphics?
+    - aim of adding my graphics?
+    - why do you have my graphics on the portal?
+    - what does my graphics contain?
+    - what's the significance of my graphics?
+    - elaborate about the my graphics?
+    - tell me why my graphics is on the portal?
+    - why i am seeing my graphics here?
+    - explain me what is my graphics?
+    - Please tell me what my graphics are.
+    - What are my graphics, please?
+    - kindly let me know what my graphics are?
+
+
+- intent: faq-visualisation-b4/what-graphics-gallery #120
+  examples: |
+    - What is graphics gallery?
+    - meaning of graphics gallery?
+    - What do you mean by graphics gallery?
+    - What contain graphics gallery?
+    - Graphics gallery?
+    - Give me information about graphics gallery?
+    - I wanna know about graphics gallery?
+    - my grpahis gallery what is this ?
+    - my graphics gallery what is this thing on IDP
+    - i am very curious about this graphics gallery fetaure on indian data portal
+    - i am very cyrious about this graphics gallery fetaure on IDP
+    - gallery conating all grpahics is this graphics gallery?
+    - tell me what is graphics gallery?
+    - please enlight graphics gallery?
+    - what do you mean by graphics gallery?
+    - what am i supposed to understand by graphics gallery?
+    - please explain what does graphics gallery mean?
+    - whats there in graphics gallery?
+    - tell me about graphics gallery?
+    - hey what's graphics gallery?
+    - what's the purpose of graphics gallery?
+    - aim of adding graphics gallery?
+    - why do you have graphics gallery on the portal?
+    - what does graphics gallery contain?
+    - what's the significance of graphics gallery?
+    - elaborate about the graphics gallery?
+    - tell me why graphics gallery is on the portal?
+    - why i am seeing graphics gallery here?
+    - explain me what is graphics gallery?
+    - Please tell me what graphics gallery are.
+    - What are graphics gallery, please?
+    - kindly let me know what graphics gallery are?
+
+    
+- intent: faq-visualisation-b4/diff-bw-mygraphics-graphics-gallery #122
+  examples: |
+    - What is the difference between my graphics and graphic gallery?
+    - How graphics different from graphics gallery?
+    - How graphics and graphic galary seprated to each other?
+    - What is graphic and graphic gallery?
+    - Is graphics gallery unique from graphics,how?
+    - is graphics and graphics gallery same?
+    - Tell me about both graphic and graphic gallery?
+    - What's the distinction between my graphics and a graphic gallery?
+    - What are differences between my graphics and graphic gallery?
+    - What's the difference between my graphics and those in a graphic gallery?
+    - tell me how graphics gallery is different from my gallery?
+    - please help me with differentiating among my graphics and graphics gallery.
+    - enlight differences between my graphics and graphics gallery
+    - let me know what is the core difference between my graphics and graphics gallery?
+    - please tell me how my gallery is different from my graphics gallery?
+    - help me with understanding the diff b/w graphics gallery and my gallery.
+    - Please assist me in comprehending the differences b/w graphics gallery and my gallery.
+    - Please assist me in recognizing the variations between the graphics gallery and my graphics.
+    - Please explain the differences between my gallery and graphics gallery.
+    - Please help me in comprehending the distinctions between the graphics gallery and my graphics.
+    - difference between my graphics and graphics gallery?
+    - distinction b/w graphics gallery and my graphics?
+    - differentiate among my graphics and graphics gallery?
+    - how graphics gallery and my graphics are different?
+    - how my graphics is different from graphics gallery?
+    - my graphics and graphics gallery are same?
+    - do graphics gallery and my graphics have any difference?
+    - can you tell me how my graphics is not same as graphics gallery
+    - whats the purpose of my graphics and how it is different from graphics gallery?
+    - what's the use of graphics gallery, how is it different from my graphics? 
+
+- intent: faq-visualisation-b4/why-personal-info-to-publish-graphs #123
+  examples: |
+    - Why should I give personal information to publish graphs in graphic gallery?
+    - Why i give personol information to publish graphs in gallery?
+    - Is there any reason to give my personol information to publish graphs in graphic gallery?
+    - Is there any point to provide personol information to publish graphs in graphic gallery?
+    - Does IDP makes it mandatory to share peronal info to make grpahics in grpahics gallery?
+    - Does indian data portal makes it mandatory to share peronal info to make grpahics in grpahics gallery?
+    - personal info is not necessary to give in graphic gallery?
+    - personal information to public graphs in graphic gallery is required but why?
+    - Why personal information is required to publish graphs in graphic gallery?
+    - To publish graph in graphic gallery why should I give personal information?
+    - why is it necessary to give personal info inorder to publish a graph?
+    - why am i supposed to share personal information in order to publisha graph in graphics gallery?
+    - to publish graph in graphic gallery why am i supposed to provide personal information?
+    - why i have to give personal info to publish a graph?
+    - for publishing a graph why personal info is required?
+    - for publishing a graph why i have to provide the personal information?
+    - for publishing a graph why is it mandatory to provide personal info?
+    - Why should I enter personal info to publish graphs in graphic gallery?
+    - Why should I provide personal information in order to have graphs published in a graphic gallery?
+    - why am i supposed to provide personal info in order to get graphs published in a graphic gallery?
+    - Why should I divulge personal information in order to have graphs published in a graphic gallery?
+    - to publish visuals in graphic gallery why should i divulge personal info?
+
+- intent: faq-visualisation-b4/where-is-data-coming-from #124
+  examples: |
+    - Where is the data coming from?
+    - From where we get the data?
+    - how the data is coming?
+    - how we track the path for data ?
+    - how we approach the data?
+    - from where we get the arrival of data?
+    - how we come to know the data location?
+    - not able to see the data coming from
+    - how we fetch the data location?
+    - how can I find the source of this dataset?
+    - all the data on IDP is from ?
+
+- intent: faq-visualisation-b4/will-update-affect-my-saved-graphics #125
+  examples: |
+    - I saved my graph in my graphics. Will it change if you update the dataset?
+    - after saving the graphs in my graphics will i make the changes in the datasets?
+    - i want to make the changes in my saved dataset will it gonna be updated?
+    - i had done the changes in dataset will it be updated after saving
+    - after the successful saving of graphs in my graphics .Will it change if you update the dataset?
+    - I saved my work in my graphics. Will it change if you update the dataset?
+    - I saved my graph in my graphics. Will it change if you update the data ?
+    - we saved our graphs in my graphics. Will it change if you update the dataset?
+    - we saved our graphs ouptput in my graphics. Will it change if you update the dataset?
+    - afterward  the saving of graphs in my graphics will it make change if you update the datasets?
+    - ahh, we worked on idp and even we saved our work in my graphics gallery but i have a doubt Will it change if you update the dataset?
+    - My team worked on idp and even we saved our work in my graphics gallery but i have a doubt Will it change if you update the dataset?    
+
+- intent: faq-visualisation-b4/how-add-shapes-icons-on-graph #126
+  examples: |
+    - How can I add shapes and icons to my graph?
+    - how shapes and icons are added to my graphs?
+    - what are the ways to add shapes and icons in my graphs?
+    - how different shapes and icons are added  in my graphs?
+    - i want to add shapes and icons in my graphs but how?
+    - how to add shapes and icons in my graphs?
+    - how i add figures and images in my graphs?
+    - how i add configurations  and potraits in  my graphs?
+    - how i add dimensions and images in my graphs?
+
+- intent: faq-visualisation-b4/how-change-legend-of-graph #127
+  examples: |
+    - How can I change the legends of the graph?
+    - how can i make the change in the legends of graph?
+    - how legends of the graphs are changed?
+    - steps to change the legends of graphs.
+    - i want to change the legends of the graphs but how?
+    - change the legends in graphs
+    - methods to change the legends.
+    - how the legends of graphs are changed?
+    - can i change the legends of graphs but how?
+    - can I change the legends of the graph?
+
+- intent: faq-visualisation-b4/cannot-see-title-after-downloading-graph #128
+  examples: |
+    - Why can't I see the title after downloading my graph?
+    - why  my title  is not  visible after downloading my graphs?
+    - even after downloading my graphs .why can't i see the title?
+    - why i can't see the title even after offloading my graphs?
+    - why i can' t spot the title even after  downlink my graphs?
+    - After downloading my graphs .why i can't find the glimpse of the title?
+    - why i am not able to see title after downloading the graph?
+
+- intent: faq-visualisation-b4/what-is-svg #129
+  examples: |
+    - Define SVG
+    - what is SVG
+    - Explain SVG.
+    - What do you meant by SVG?
+    - Describe the term SVG.
+    - What does SVG mean?
+    - SVG?
+    - what are SVG's?
+    - Brief description of SVG
+    - What is SVG?
+    - svg what is this ?
+    - tell me what is svg?
+    - what do you mean by svg?
+    - what does svg signify?
+    - elaborate svg?
+    - can you tell me what svg means?
+    - What exactly is svg?
+    - Scalable Vector Graphics?
+    - Brief description of scalable vector graphics
+    - What is scalable vector graphics?
+    - scalable vector graphics what is this ?
+    - tell me what is scalable vector graphics?
+    - what do you mean by scalable vector graphics?
+    - what does scalable vector graphics signify?
+    - elaborate scalable vector graphics?
+    - can you tell me what scalable vector graphics means?
+    - What exactly is scalable vector graphics?
+    - What exactly is SVG?
+    - What exactly is scalable vector graphics?
+    - what does svg stands for?
+
+- intent: faq-visualisation-b4/diff-bw-svg-png #130
+  examples: |
+    - What is the difference between SVG and PNG?
+    - Explain the variation between SVG and PNG.
+    - Show the distinction between my SVG and PNG
+    - Differentiate between my SVG and PNG.
+    - Show some contradiction between SVG and PNG.
+    - difference in SVG and PNG.
+    - compare SVG and PNG.
+    - Gulf between SVG and PNG.
+    - svg  jpeg png what is diff
+    - png and svg what is diff bw both of them
+    - What's the distinction between svg and a png?
+    - What are differences between svg and png?
+    - What's the difference between svg and those in a png?
+    - tell me how graphics gallery is different from svg?
+    - please help me with differentiating among svg and png.
+    - enlight differences between svg and png
+    - let me know what is the core difference between svg and png?
+    - please tell me how png is different from svg?
+    - help me with understanding the diff b/w png and svg.
+    - Please assist me in comprehending the differences b/w svg and png.
+    - Please assist me in recognizing the variations between the png and svg.
+    - Please explain the differences between svg and png.
+    - Please help me in comprehending the distinctions between the svg and png.
+    - difference between png and svg?
+    - distinction b/w svg and png?
+    - differentiate among png and svg?
+    - how svg and png are different?
+    - how png is different from svg?
+    - png and svg are same?
+    - do svg and png have any difference?
+    - can you tell me how png is not same as svg
+    - whats the purpose of png and how it is different from svg?
+    - what's the use of svg, how is it different from png? 
+    - whats the purpose of svg and how it is different from png?
+
+- intent: faq-visualisation-b4/assist-me-in-graph #131
+  examples: |
+    - Can you assist me in making this graph?
+    - can you help me in making the graphs?
+    - can you aid me in making this graphs?
+    - do some favour in making this graph?
+    - can you please help me out in making this graphs?
+    - please help me in making this graph.
+    - steps for graph making
+    - steps to make a graphs
+    - how to make a graph?
+    - can you assist me in making the graph?
+
+- intent: faq-visualisation-b4/can-you-connect-me-with-team #132
+  examples: |
+    - Can you connect me to your team?
+    - can you join me to your team?
+    - make a link with your team.
+    - can i create a connection with your team?
+    - please can you  connect me to your team?
+    - add me to your team
+    - is your team happy if i add?
+    - How can i catchup with IDP team
+
+- intent: faq-visualisation-b4/can-add-three-datasets #133
+  examples: |
+    - Can I add three datasets?
+    - I want to add 3 datasets, can I?
+    - add 3 datasets.
+    - How can I add 3 datasets?
+    - Is it possible to add 3 datasets?
+    - What is the procedure to add 3 datasets?
+    - Can 3 datasets be added?
+    - can i add more than 2 datasets here ?
+    - i have an ambiguity can this be possible if i add more than 3 datasets on IDP
+    - i have an ambiguity can this be possible if i add more than 3 datasets on Indian data portal?
+
+- intent: faq-visualisation-b4/can-see-30-datasets #134
+  examples: |
+    - Why can't I see all the 30+ graphs for all datasets?
+    - can't see all the 20+ graphs for datasets
+    - can't see all the 20+ graphs for datasets here
+    - can't see all the 40+ graphs for dataset on INDIAN DATA PORTAL
+    - just a question can i see all the 30 plus graphs for every dataset present on idp
+    - just a question can i see all the 30 plus graphs for every dataset present on indian data portal
+    - Why can't I see all of the datasets' 30+ graphs?
+    - Why am I unable to view all of the datasets 30+ graphs?
+    - Why am I not able to see all of the datasets 30+ graphs?
+    - Why am I unable to see all of the dataset's 30 plus graphs?
+    - why am i reluctant to view all 30 plus plots for all datasets?
+    - still unable to view all plots for all datasets?
+    - still not able to view all plots for datasets?
+    - tell me why i am not able to view all the plots for all the dataset
+
+- intent: faq-visualisation-b4/selecte-district-no-result #137
+  examples: |
+    - I have selected district but nothing is coming up. Why?
+    - selected distrcit no results
+    - No results after selecting district
+    - I have selected district but no output
+    - AFter selecting district we have no reslyts
+    - distrcict is slected but no output
+    - distrcict is slected but no output here
+    - really frustrating district is selected but no output here
+    - when i select district nothing comes up why?
+    - nothing comes up when i select the district?
+    - i selected district but nothing appears what am i supposed to do?
+    - help me as nothing appears on slecting a district.
+    - I chose a district, but nothing appears. Why?
+    - I picked a district, but nothing displays. Why?
+    - I entered a district, but nothing showed. Why?
+    - I picked a district, but nothing seems to change. Why?
+    - why nothing appears even after entering a district?
+    - why nothing displayed even after picking up a district?
+    - why even after chosing a district nothing appears?
+    - nothing was shown even after chosing a district why so?
+    - help me as nothing appeared even after picking up a district
+    - tell me why nothing appears even after entering a district.
+    - whats the problem why nothing comes up even after entering a district.
+    - no output is shown after selecting the district what should i do?
+    - I've chosen a district, but nothing appears. Why?
+    - I picked a district, but nothing seems to appear. Why?
+    - I picked a district, but nothing seems to happen. Why?
+    - I choose a district, but nothing emerges. Why?
+
+- intent: faq-visualisation-b4/chart-wrong #138
+  examples: |
+    - The chart is not correct.
+    - The chart is wrong
+    - There are mistakes in chart.
+    - i find a wrong chart.
+    - how much chart is wrong.
+    - The chart is inaccurate.
+    - my chart is full of errors.
+    - The chart is incorrect.
+    - i suspect that chart is not correct
+    - i think that there is something wrong with my chart
+    - can you help me with my chart, there is something wrong i guess
+    - it feels like there is something wrong with my chart
+    - i doubt if my chart is incorrect
+    - i think my chart is incorrect
+    - i am not sure but it feels like there is a provlem with my chart
+    - there is something wrong with my chart
+    - according to me there is something which is not right in chart
+    - chart is incorrect
+    - chart is not foolproof
+    - The graph is incorrect.
+    - the chart is incorrect
+    - The graph is inaccurate.
+    - The graph is erroneous.
+    - i feel like the plot is erroneous
+    - There is an error in the graph.
+
+
+
+- intent: faq-visualisation-b4/download-all-treemaps #138
+  examples: |
+    - How can I download all the treemaps?
+    - How to download all the treemaps?
+    - How all the treemaps can be downloaded?
+    - I want to download all the treemaps, how?
+    - How is it possible to download all the treemaps?
+    - How can i downlink all the treemaps?
+    - How offloading of all the treemaps can be done?
+    - can we download treemaps from here ?
+    - how all tree maps can be downloaded?
+    - how am i supposed to download all the tree maps?
+    - in order to download all the tree maps what i have to do?
+    - what i have to do in order to download all the tree maps?
+    - tell me how can i download all the tree map in one go?
+    - how can we download all tree maps in single go?
+    - instructions to download all the tree maps once?
+    - guidelines to download tree maps all in once.
+    - hell me to download all the tree maps
+    - steps to download all the tree maps
+    - how do i download all the tree maps?
+    - How do I get all of the treemaps?
+    - how do i get hold of all the tree maps?
+    - How do I get all of the treemaps to download?
+    - How can I obtain a complete set of treemaps?
+    - How can I acquire a whole set of treemaps?
+    - How can I access an entire set of tree maps?
+    - How do I download all of the treemaps?
+    - how do i access all of the tree maps offline?
+    - download treemaps 
+    - can we download tree maps local system
+    - can we some how download all treemas locally
+    - i wanted to know how can i download all maps making trees
+    - is there any way i can download all ot the tree maps
+
+
+- intent: faq-visualisation-b4/remove-all-selections-once #139
+  examples: |
+    - How can I remove all my selections at once?
+    - How my all selections are removed at once?
+    - All my selections are removed at once but how?
+    - Can i remove all my selections at once and how?
+    - How my all selections are erased at once?
+    - Can i delete all my selections at once and how?
+    - will you assist me to remove my all selections?
+    - is  my all selections are removed at once?
+    - how can I remove my selections?
+    - how am i supposed to remove all the selections in one go?
+    - can can all selections be remove at once?
+    - How can I get rid of all of my choices at once?
+    - How can I get ahold of all of my selections at once?
+    - how to get ahold of all the selections ?
+    - in one go how can we get rid of all the selections?
+    - how to get rid of all the selections in go?
+    - how to deselect all the selections?
+    - in order to ahold all the selections what should i do?
+    - how am i supposed to deselect all the selction?
+    - help me in deselection of all the selections made earlier.
+    - what should i do in order to remove all selection in one go.
+    - to remove all the slection what i have to do?
+    - can you help me with remove all the selections?
+    - guide me how to get rid of all the selctions in one go?
+    - Is there a way to delete all of my choices at once?
+    - How do I delete all of my choices at once?
+    - How can I get rid of all of my selected options at once?
+    - how can I erase all of my selected options at once?
+    - how all of the selected options can be removed?
+
+

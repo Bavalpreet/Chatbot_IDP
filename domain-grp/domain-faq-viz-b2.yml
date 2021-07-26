@@ -1,0 +1,96 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+
+
+- faq-visualisation-b2:
+    use_entities: true   
+
+entities: []
+slots: {}
+responses:
+  utter_faq-visualisation-b2/delete-visualisation-from-graphic-gallery: #55
+  - text: As of Now we cannot delete a visualization from graphics gallary
+
+  utter_faq-visualisation-b2/possible-share-live-visualisation: #56
+  - text: yes you can share the visualisation by clicking on the share link
+
+  utter_faq-visualisation-b2/login-create-visualisation: #57
+  - text: for now login is required to create any visualisation
+
+  utter_faq-visualisation-b2/shared-visualisation-link-not-seen: #58
+  - text: May be you are not logged in which is why you are not able to see the visualization
+
+  utter_faq-visualisation-b2/automatically-redirect-shared-visualisation-link-after-login: #59
+  - text: Yes it will automatically redirect to visualisation link once you logged in
+
+  utter_faq-visualisation-b2/select-all-indicators-together: #60
+  - text: No it is not necessary to select all the indicators. select one which you want to see in the visualisation
+
+  utter_faq-visualisation-b2/add-indicators-from-other-datasets: #61
+  - text: Yes we can add the indicators from other datasets. Just click on the datasets tab on top and go to create new indicator. Now a popup will show up which includes a dropdown of dataset where you can choose across datasets and their indicators to create a new indicator
+
+  utter_faq-visualisation-b2/create-new-indicator: #62
+  - text: On the top right corner of the indicator popup you will see create new indicator button. Click it and then you will get another popup and there is a dropdown named dataset and after that there is a section to select the indicators. After selecting the indicators use the mathematical icons to define the relationship between the selected indicators. Then name the new indicator and name its unit and click on create indicator.
+
+  utter_faq-visualisation-b2/create-new-visualizations-using-new-indicator-two-different-datasets: #63
+  - text: Yes we can create new visualization using new indicator from different datasets.
+
+  utter_faq-visualisation-b2/new-indicators-added-visualization: #64
+  - text: You can add all the indicators that are there in a dataset
+
+  utter_faq-visualisation-b2/create-new-indicators: #65
+  - text: No its not necessary.If you want to see a visualization from a new indicator that could be derived from the exisiting indicators then you can create a new indicator and view visualization from it.
+
+  utter_faq-visualisation-b2/define-unit-new-indicator: #66
+  - text: The unit of a new indicator can be derived from the existing indicators. If you create a new indicator by using area and production then the unit of the new indicator should be area/production
+
+  utter_faq-visualisation-b2/necessity-select-dimensions-Visualisation-option: #67
+  - text: Yes it is necessory to select dimensions to see the visualization.
+
+  utter_faq-visualisation-b2/any-dimension-not-selected: #68
+  - text: It will give you an error that please select atleast one dimension
+
+  utter_faq-visualisation-b2/save-new-indicators-how: #69
+  - text: The new indicator is automatically saved in the dataset's indicator panel
+
+  utter_faq-visualisation-b2/remove-created-new-indicators: #70
+  - text: Till now we cannot remove any new indicators  
+
+  utter_faq-visualisation-b2/select-maximum-number-dimensions-for-visualization: #71
+  - text: You can select all the dimensions in a dataset. No limit  
+
+  utter_faq-visualisation-b2/How-search-dimension: #72
+  - text: In the dimensions popup in the page visualise you can search for a dimension. Also you can search dimensions in our home page search bar
+
+  utter_faq-visualisation-b2/edit-dimensions-selected-for-visualization: #73
+  - text: You can edit by clicking on Clear all button which is on the top of the dimensions popup 
+
+  utter_faq-visualisation-b2/selecting-time-necessary: #73
+  - text: If there is only one year in the dataset then no need to select time. But if there are multiple years in a dataset and you have to select a time
+  
+
+  utter_faq-visualisation-b2/How-visualize-trend: #74
+  - text: if you have selected two dimensions and want to see their postion over time. ft then a trend chart can be obtained
+
+  utter_faq-visualisation-b2/select-location: #75
+  - text: Yes its necessary to select a location in a dataset to visualize
+
+  utter_faq-visualisation-b2/donot-select-location-possible-visualization: #76
+  - text: It will give you an error that please select atleast one location
+
+  utter_faq-visualisation-b2/select-Districts-after-states-necessary: #77
+  - text: Yes you have to select a district after selecting a state
+  
+  utter_faq-visualisation-b2/add-dataset: #79
+  - text: We can add datasets in order to compare between the two datasets
+
+
+
+actions: []
+forms: {}
+e2e_actions: []

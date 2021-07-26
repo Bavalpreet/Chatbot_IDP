@@ -1,0 +1,1170 @@
+version: "2.0"
+nlu:
+
+- intent: faq-portal-b0/types-visualisation-portal # 5
+  examples: |
+    - What are the types of visualizations available on the India Data Portal?
+    - What kinds of visualisations are available on the India Data Portal?
+    - And which kinds of visualisations are available on the India Data Portal?
+    - And which kinds of visuals are available on the India Data Portal?
+    - And which types of visuals are available on the India Data Portal?
+    - And which types of graphs are available on the India Data Portal?
+    - And which types of visuals are available here?
+    - here what kind of visuals can i see ?
+    - What kinds of graphics might I expect to see here?
+    - What sorts of graphics might I expect to see here?
+    - What sorts of images might I expect to see here?
+    - What sorts of images might I anticipate to see on this platform
+    - Which sorts of images might I anticipate to see here?
+    - Which types of images might I expect to see here?
+    - Which types of images might I expected to be seen here?
+    - Which types of images might I expected to see in this?
+    - And what sorts of visuals may be seen on the India Data Portal?
+    - And what sorts of infographics may be seen on the India Data Portal?
+    - And what sorts of infographics may be seen here?
+
+
+- intent: faq-portal-b0/frequency-data-upload #10
+  examples: |
+    - How frequently is the data updated?
+    - How often is the data updated?
+    - When was the data updated?
+    - How often is the information updated?
+    - Since when was the information updated?
+    - And how soon is the information updated?
+    - How quickly is the data updated?
+    - How quickly is really the data updated?
+    - So how frequently is really the data updated?
+    - So how quickly is really the data updated?
+    - on this webiste after how much days data is updated
+    - How routinely is just the data updated?
+    - How frequent is just the data updated?
+    - How soon is just the data updated?
+    - How soon is really the data updated? 
+    - And how usually is the data updated?
+    - And how commonly is the data updated?
+    - And how commonly is the info updated?
+    - how quickly your team updates data ?
+
+- intent: faq-portal-b0/server-error #11
+  examples: |
+    - There is server 503 error that appears when we click the source link....probably backend issue
+    - When we visit the source link, we get a server 503 error...this is most likely due to a backend problem.
+    - When we visit the source link, we have a server 503 error...this is most likely due to a backend problem.
+    - When you visit the source link, we have a server 503 error...this is most likely due to a backend problem.
+    - When you visit the source link, we have a server 503 error...this is most probably due to a backend problem.
+    - Whenever you visit the source link, we have a server 503 error...this is most probably due to a backend problem.
+    - Whenever you visit the source link, we have a server 503 error...this is most probably due to a backend issue.
+    - After you visit the source link, we have a server 503 error...this is most probably due to a backend issue.
+    - Even before you visit the source link, we have a server 503 error...this is most probably due to a backend issue.
+    - When we tap on the source link, we receive a server 503 error...this is most likely due to a backend issue.
+    - We have a server 503 problem even before you reach the source link...this is most likely due to a backend issue.
+    - We have a server 503 problem even before you reach the source link...this is most probably due to a backend issue.
+    - We have a server 503 problem even before you reach the source link...this is most probably due to a server issue.
+    - We have just a server 503 problem even before you reach the source link...this is most probably due to a server issue.
+    - We have just a server 503 issue even before you reach the source link...this is most probably due to a server issue.
+    - We have just a server 503 errors even before you reach the source link...this is most probably due to a server issue.
+    - We have just a server 503 errors even before you reach the link to the source is most probably due to a server issue.
+    - We have just a server 503 errors even before you reach the proper link is most probably due to a server issue.
+    - We have just a server 503 problem even before you reach the proper link is most probably due to a server issue.
+    - We have one server 503 problem even before you reach the proper link is most probably due to a server issue.
+
+- intent: faq-portal-b0/not-able-search-dataset-with-keywords #15
+  examples: |
+    - Without specific key phrases, it is impossible to search for data.
+    - Not able to search for data without exact key words
+    - Without specific key phrases, it is difficult to search for data.
+    - Without precise key words, it is difficult to search for data.
+    - Absent precise key words, it is difficult to search for data.
+    - Absent accurate key words, it is difficult to search for data.
+    - Absent accurate key words, it is difficult to search for information.
+    - Absent accurate stock terms, it is difficult to search for information.
+    - No accurate stock terms, it is difficult to search for information.
+    - It is tough to find data without certain key words.
+    - It is tough to find data without specific key words.
+    - It is tough to find data without such key words.
+    - It is tough to find data without those key words.
+    - It is rare to find data without those key words.
+    - It is pretty hard to find data without those key words.
+    - It is pretty difficult to find data without those key words.
+    - It is near impossible to find data without its key words.
+    - It really is near impossible to find data without its key words.
+    - It really is near impossible to find information without its key words.
+    - It really is near impossible to find material without its key words.
+    - It really is near impossible to find material without its key words.
+    - It really is near impossible to find material without its key phrases.
+    - It really is near impossible to find material without its trigger words.
+    - It really is near impossible to find material without its specific keywords.
+    - This is near impossible to find material without its specific keywords.
+    - This is pretty hard to find data without its specific keywords.
+
+- intent: faq-portal-b0/help-technical-issues-portal #24
+  examples: |
+    - How can I report any technical issues with the portal?
+    - How can i report a issue?
+    - help with tecnical isseue
+    - have a problem with portal, i need help
+    - how i can contact you?
+    - i need help i am facing isseu
+    - how can I report an issue?
+    - how can I get help?
+    - how can I report a bug?
+    - how can i report an issue?
+    - how can i suggest changes?
+    - how can I get in touch with idp i ahve some issue?
+    - Can I speak to someone
+    - can I get a phone number?
+    - how can I get in touch with idp?
+    - What is the best way for me to report any technical issues with the portal?
+    - What is the surest option for me to report any portal technical issues?
+    - how can i report any technical problems with the portal?
+    - What is the best way for me to report any technical issues with the portal?
+    - How do I report technical problems with the portal?
+    - How do I report any technical issues with the portal?
+    - What should I do if I encounter any technical problems with the portal?
+    - i came up with technical glitch what should i do?
+    - What can I do if I have any technical issues with the portal?
+    - How can I report technical problems with the portal?
+    - How can I report technical glitches with the portal?
+    - how can technical glitches be reported?
+    - to whom i should write about technical problems?
+    - with whom i should have word about glitches?
+    - who will be the right person to solve technical problems?
+    - with whom i should have word about technical problem?
+
+
+- intent: faq-portal-b0/not-able-compare-datasets #25
+  examples: |
+    - Not able to compare datasets. 
+    - It is not valid to compare datasets.
+    - It is not fair to quantify datasets.
+    - It is not possible to compare datasets .
+    - It is not able to match datasets while Im here.
+    - It is not able to match data set on this website.
+    - That is not able to match data set here.
+    - It is just not able to match datasetss.
+    - It is also not able to match data set.
+    - It is also not able to compare data set on IDP.
+    - It is also  difficult to compare data set.
+    - It is also incapable of matching data sets.
+    - It is indeed unable of matching datasets.
+    - It is also unable to find a match in the data set.
+    - It seems to be unable to find a match in the data set.
+    - This seems to be unable to find a match in the data set.
+    - This is still unable to find a match in the data set.
+    - This is still unable to find a connection in the data set.
+
+- intent: faq-portal-b0/trust-data-sourced-from-government-agencies  #26
+  examples: |
+    - How do we trust this data since the data is sourced from government agencies?
+    - How can we trust this data when it comes from government agencies?
+    - How can we trust this data when that comes from government agencies?
+    - How can we trust this data when that comes from federal agencies?
+    - How can we trust this data when that comes from government departments?
+    - How can we believe this data when that comes from state agencies?
+    - How the fuck can we believe this data when that comes from state agencies?
+    - How the fuck can we believe this data when that comes from govt agencies?
+    - How then can we believe this data when that comes from govt agencies?
+    - How might we believe this data when that comes from govt agencies?
+    - How might we believe this data when that comes from government bodies?
+    - How might we believe this data but when comes from government bodies?
+    - why we trust this data?
+    - where is refrence of this data
+    - can i trust this source
+    - is this data reliable?
+    - how can we trust this data?
+    - Why do we believe this data?
+    - Why would we embrace this data?
+    - Why do we believe this information?
+    - Why should we place our faith in this information?
+    - why do we have faith in this data?
+    - how am i supposed to believe that this data is correct?
+    - how can we say this data is accurate?
+    - Why do we have faith in this details?
+    - why should i believe this info is correct?
+    - why should i rely on the data?
+
+- intent: faq-portal-b0/materials-videos-different-visualization-posted-website  #27
+  examples: |
+    - Will additional training materials/videos for different visualization scenarios be posted on the website?
+    - meririal or videos of visualization posted on website?
+    - metarial/videos of visualization is regularly posted on portal?
+    - portal is contuniously uploaded visulization videos?
+    - visulixation senerio regularly uploaded?
+    - are training materials available?
+    - Are there any training resources available?
+    - Are there any training resources?
+    - on idp Are there any training resources?
+    - on this webiste Are there any training resources?
+    - can is see Are there any training resources?
+    - Why are there no training resources?
+    - Have there been any training resources?
+    - Will there be further training resources available on the website for various visualisation scenarios?
+    - Will there be further training resources posted on the site for diverse visualisation scenarios?
+    - any Additional material on training will be there?
+    - will there be more training resources posted on the site for different visualisation scenarios?
+    - will there be any new training videos in coming future?
+    - in coming future will there pe any new traing videos on portal?
+    - any plans for training videos on portal?
+    - can we expext new traing videos ?
+    - will there be any new material?
+    - Will there be further training resources for various visualisation situations accessible on the website?
+    - Will there be further training resources for various visualisation instances accessible on the website?
+    - Would there be further training resources for various visualisation scenario accessible on the website?
+    - Maybe there will be further training resources for various visualisation scenario accessible on the website?
+    - Maybe there will be further training resources for various representation scenario published on the website?
+    
+
+- intent: faq-portal-b0/different_langauges_availability #29
+  examples: |
+    - Is it available in other Indian languages? If yes, which ones?
+    - possible to see IDP in other indian langs like bengali,telugu oriya etc
+    - can i see indian data portal in other indic languages
+    - Indian data portal can be accessed in other regional languages
+    - how can i access IDP in my regional languages
+    - Does this provide support for major indian language except English
+    - how many langs suport do you give
+    - What diff langs you support
+    - how many langauges on IDP ?
+    - how many langs aere on INDIAN DATA PORTAL PRESENT?
+    - presently you suppport which indina langs?
+    - is the portal available in hindi?
+    - Can I write the title in my Local Language
+    - what different lang are present on the portal?
+    - What languages are available on the portal?
+    - What diff lang can be found on the portal?
+    - diff lang supported by this website?
+    - What are the various languages available on the portal?
+    - What languages is the portal available in?
+    - What langs are featured on the portal?
+    - Is it available in other Indian languages? If yes, which ones? 
+    - What are the foreign dialects that are available on the portal?
+    - Is it offered in other Indian languages as well? If so, which ones are they?
+    - Is it offered in other Indigenous languages as well?
+    - Is it offered in other Indigenous languages here too?
+
+- intent: faq-portal-b0/visualisations-made-downloaded-other-languages #30
+  examples: |
+    - Can the visualisations be made and downloaded in other languages?
+    - visulization support other languages?
+    - visulisation run in other languages?
+    - visulisation creted in other languade?
+    - can we download visualization in different language?
+    - present viz in different languages
+    - does this portal allows to make visuals in other languages?
+    - can we download visuals in other languages?
+    - Is it possible to create and download visualisations in other languages?
+    - Is it possible to build and export visuals in other languages?
+    - Is it possible to create and export graphs in other languages?
+    - Is it feasible to create and export diagrams in other languages?
+    - Is it possible to produce and download visualisations in other languages?
+    - Can the visualisations be created and downloaded in other languages?
+    - Are the visualisations available in other languages and can they be downloaded?
+    - Are the visuals accessible in several other languages and could they be downloaded?
+    - Is it feasible to create and export graphics in languages other than English?
+    - i speak hindi Is it feasible to create and export graphics in languages in it
+    - i speak punjabi Is it feasible to create and export graphics in languages in it
+    - i speak oriya Is it feasible to create and export graphics in languages in it
+    - i speak telugu Is it feasible to create and export graphics in languages in it
+    - i speak marathi Is it feasible to create and export graphics in languages in it
+    - i speak biari Is it feasible to create and export graphics in languages in it
+    - i speak tamil Is it feasible to create and export graphics in languages in it
+    - Is it possible to create and export graphics in languages other than English?
+    - Is it possible to create and export graphics in native langs
+    - Is it feasible to design and export graphics in local languages?
+    - Is it feasible to develop and export graphics in local languages?
+    - Is that really feasible to develop and export graphics in local languages?
+    - Is that really imperative to produce and export graphics in local languages?
+    - Will it be imperative to produce and export graphics in local languages?
+  
+    
+
+- intent: faq-portal-b0/paid_service_or_not #31
+  examples: |
+    - is it a paid service?
+    - Do I have to pay to use this platform
+    - how much i have to pay to use this website
+    - does IDP charge any money
+    - is it completely free
+    - are there any monthly or yearly subsciptions
+    - Monthly cost ?
+    - yearly fee ?
+    - is this platform have any fees ?
+    - any monthly subsciption fee?
+    - any type of money do you charge?
+    - is idp free?
+    - is idp paid?
+    - does idp have any paid features?
+    - Is IDP paid or free?
+    - Are datasets and visuals on idp paid?
+    - Is it true that datasets and images on idp are paid?
+    - Is it true that datasets and graphics on idp are paid?
+    - Is it true that idp datasets and visualisations are not free?
+    - Is it true that the datasets and visuals on idp are paid?
+    - Is this a for-profit service?
+    - Is this a commercial service?
+    - Is it just a commercial service?
+    - Is it just a premium company?
+    - Was it a premium company?
+    - Is this a service that you have to pay for?
+    - Is it a for-profit service?
+    - Is it a fee-based service?
+    - Is there a fee for this service?
+    - am i supposed to pay for this service?
+    - Is it a price service?
+    - Is it necessary to pay for datasets and graphics on idp?
+    - Is it essential to spend for datasets and graphics on idp?
+    - Would that be essential to spend for datasets and graphics on idp?
+    - Might it be essential to spend for datasets and graphics on idp?
+    - Is that really essential to spend for datasets and graphics on idp?
+    - Is there anything I need to pay for here?
+    - Is there anything I would need pay for here?
+    - Is there anything I would need pay for in this?
+    - Is there anything I would need pay for instead?
+    - Is there anything I really have to pay for with this?
+
+- intent: faq-portal-b0/compare-datasets-on-idp #34
+  examples: |
+    - how can we compare datasets on IDP?
+    - how datasets are compared here?
+    - is there any way to comapre datasets on IDP
+    - Is it possible to compare datasets on the Indian Data Portal?
+    - Can we compare information on the Indian Data Portal?
+    - Can we compare data on the Indian Data Portal?
+    - Can we contrast data on the Indian Data Portal?
+    - any path way to comapre datasets on IDP
+    - can i ask is there any way to diffrentiate bw diffrents data sets on platform?
+    - any way we can make a contrast on dissimilar datasets on IDP
+    - can we comapre datasets on IDP?
+    - how do we compare the datasets on idp?
+    - how do you compare datasets in idp?
+    - how can we compare datasets on indian data porttal
+    - can you list the datasets that compare data on indian data portal
+    - can you list the datasets that compare data on idp?
+    - is there way to make distinction between diff. datasets ?
+    - how to differentiate between two datasets.
+    - how to diff b/w two datasets
+    - how we can compare datasets?
+    - is it possible to compare datasets here?
+    - dataset comparision feasible?
+    - Is it possible to distinguish between different datasets?
+    - Is it important to distinguish between different datasets?
+    - Is it possible to determine between different datasets?
+    - 
+
+- intent: faq-portal-b0/about_idp #1
+  examples: |
+    - can you tell me something about idp.
+    - What is idp?
+    - hey quickie about indian data portal
+    - wanted to have quick info about india data portal
+    - will you be able to tell me something about IDP
+    - what about idp
+    - could you pls get me brief info about IDP
+    - anything you can tell me iDP
+    - Can I know something about idp
+    - what is IDP
+    - Idp
+    - what is iDP
+    - what is idp?
+    - idp?
+    - How do I Learn about the portal?
+    - How do I find out more about the portal?
+    - more about portal
+    - How can I get more about the platform?
+    - what is this portal?
+    - What exactly is this portal?
+    - What precisely is this portal?
+    - What precisely is this platform?
+    - What exactly is IDP?
+    - How do I find out more about IDP?
+    - How can I find out a little more about IDP?
+    - How can I find out more from IDP?
+    - How then can I find out more from IDP?
+    - How might I find out more from IDP?
+    - anything more about portal?
+    - anything more about this IDP portal
+    - more about IDP
+    - How do I find out more about IDP?
+    - How do I learn about IDP?
+    - what is this this
+    - why here?
+    - what is indian data portal
+    - what is idp
+    - idp
+    - can you talk to me about IDP
+    - I want to learn about IDP
+    - What is India Data Portal used for?
+    - What is IDP?
+    - What is India Data Portal?
+    - what is india data portal?
+    - What really is the India Data Portal?
+    - What actually is the India Data Portal?
+
+- intent: faq-portal-b0/why_idp #2
+  examples: |
+    - how can idp help me
+    - how can indian data portal help
+    - how this portal can help me
+    - how will this portal assist me
+    - Why should I use IDP?
+    - What is the main reason that i should choose idp
+    - What is USP of Indian data portal
+    - unique speciality about idp can you tell
+    - how indian data portal is best for me ?
+    - why only Indian DP?
+    - why should i use it?
+    - whys should I use idp?
+    - Can journalists use the portal?
+    - How do I learn about India Data Portal?
+    - How do I learn about IDP?
+    - What features are available in IDP?
+    - What are the major reasons why I should go with idp?
+    - What are the key reasons why I should go with idp?
+    - What are the big factors why I want to go with idp?
+    - But what were the big factors why I want to go with idp?
+    - What are the benefits of using idp?
+    - What are the benefits of just using IDP?
+    - What are the advantages of just using IDP?
+    - What are the perks of just using IDP?
+    - why should i use this platform
+    - why should i use IDP
+    - What is India Data Portal used for?
+    - what is IDP used for 
+    - what is the use of this webiste
+    - what is the use of this platform
+    - IDP why should i use it
+    - indian data portal why should i use 
+    - Why should I utilise a data portal in India?
+    - Why should I visit this website?
+    - Why should I check the website?
+
+    
+- intent: faq-portal-b0/count-of-datasets
+  examples: |
+    - how many datasets avaibale on IDp
+    - count of datsets on indina data portal available
+    - can i know what amount of data i will get from here
+    - how many datasets comprise here?
+    - i want some datsets how many can i get from here
+    - if i wnat some datatsets how many will i get and from which field
+    - if i wnat some datatsets how many will i get and from which domain
+    - If I want certain datatsets, how many will I get and from which field will I obtain them?
+    - If I want additional datatsets, how much more will I get and from which field will I obtain them?
+    - If I want additional datatsets, how much more will I get and from which field will I get them?
+    - how many datasets are there on IDp?
+    - Can you tell me how much data I'll acquire from this site?
+    - Can you tell me how much data I'll get from this site?
+    - Would you tell me how much data I'll get from this site?
+    - Would u tell me how much data I'll get from this site?
+    - Would u tell me how many data I'll get from this site?
+    - Will u tell me how many data I'll get from this site?
+    - Will u tell exactly how many data I'll get from this site?
+
+- intent: faq-portal-b0/what-is-indicator
+  examples: |
+    - what is indicator
+    - What exactly is an indicator?
+    - What precisely is an indicator?
+    - What precisely is just an indicator?
+    - what is the meaning of indicator
+    - what the indicator thing on IDP
+    - What is the IDP indicator?
+    - What exactly is an indicatorr? I noticed it on Indianportal.
+    - What actually is an indicatorr? I noticed it on Indianportal.
+    - I found this indicator when browsing the datasets tab.
+    - on indianportal i saw something called as indicatorr what is this
+    - i was using datasets tab i found this indicator ?
+    - indicator what ?
+    - indicator  is what ?
+    - I found this indicator when exploring the datasets tab.
+    - I found this indicator when exploring the dataset page.
+    - I discovered this indicator when exploring the dataset page.
+    - I noticed this indicator when exploring the dataset page.
+    - I encountered this indicator when exploring the dataset page.
+    
+- intent: faq-portal-b0/part-available-data
+  examples: |
+    - What are the sectors of available data?
+    - what part of available data?
+    - name of parts of available data
+    - what type of data available on india data portal
+    - parts of available data?
+    - name of sectors of data on india data portal
+    - What sectors are covered in IDP?
+    - Domains covered in the portal
+    - The portal's covered domains
+    - Domains covered by the portal
+    - What domains are covered in IDP?
+    - What sectors are covered in the portal?
+    - What are the categories of data available?
+    - What are these 20 datasets?
+    - Is there data on agriculture?
+    - Is there Financial Inclusion data on the portal?
+    - What are the data sectors that are available?
+    - What are the data fields that are available?
+    - What are the data fields that are obtainable?
+    - What are all the data fields that are obtainable?
+    - What are all the data fields that are present here
+    - And what were the data fields that are residing here
+    - But what were the data fields that are available on this portal
+    - So what were the data fields that are readily accessible?
+    - How are the data fields that are easily available
+    - How are the data bits that are readily accessible?
+    - How are the data regions that are present on webiste?
+    - from which sectors data is coming
+
+- intent: faq-portal-b0/Why-not-see-all-selected-language #150
+  examples: |
+    - why am i not able to see all the text in selected language ?
+    - why i cannot see all the text in selected language ?
+    - I am not able to see all the text in selected language
+    - It is not showing all the text in the selected language
+    - Text in selected language is not showing
+    - There is incomplete text in selected language
+    - Why cannot I see all the text in the selected language?
+    - Why can't I see all of the text in the language I've chosen?
+    - Why i am not able to see all of the text in my preferred language?
+    - Why can't I see the entire text in the language I've chosen?
+    - Why can't I see the entire text in the language I've selected?
+    - Why can't I see the full text in the language I selected?
+    - Why am I unable to see the entire text in the selected language?
+    - tell me why can't I see all of the text in the language of my choice?
+    - Why can't I see all of the text in the language I want?
+    - Why can't I see the entire text in the language of my choice?
+    - Why can't I see all of the text in the language I prefer?
+    - Why is it that I can't see all of the text in the language I've chosen?
+    - Why can't I see all of the text in the language that I've chosen?
+    - Why am i not able to see all of the text in my chosen language?
+    - Why can't I see the entire text in the language I chose?
+    - explain Why can't I see the entire text in the selected language?
+    - Why can't I see the entire text in my chosen language?
+    - hey why can't I see all of the text in the selected language?
+    - Why am I unable to view the entire text in the language I've chosen?
+    - Why can't I see the entire text in my preferred language?
+    - Why am I unable to see all of the text in the language I have selected?
+
+  
+- intent: faq-portal-b0/most-recent-data
+  examples: |
+    - What is the most recent data on IDP?
+    - Recant data on idp?
+    - wht is recantly updated on idp?
+    - what is recently uploaded data on India data portal?
+    - Newly uploaded data ?
+    - What is recent data on india data portal?
+    - What is the most recent data on the India Data Portal?
+    - Which is the most recent data on the India Data Portal?
+    - Which is the most latest information on the India Data Portal?
+    - Which is the most recent figures on the India Data Portal?
+    - Which is the most recent evidence on the India Data Portal?
+    - Is there any new info on idp?
+    - Is there really any new info on idp?
+    - Would there be any new info on idp?
+    - Is there any new information on the website?
+    - data that was recently posted
+    - data that was posted recently
+    - data that has been posted recently
+    - Which of the following is the most current evidence on the India Data Portal?
+    - Is there any fresh information on idp?
+    - Is there any fresh info on idp?
+    - Is there any additional info on idp?
+    - tell me about recent data on this portal
+    - tell me about recent data on this webiste
+    - can you tell me most closest data you have
+    - most recent you have with you
+    - like any data that is most recently updated here
+
+- intent: faq-portal-b0/recent-data-available
+  examples: |
+    - Is recent data avilable on the portal?
+    - Is recent data is uploaded on idp?
+    - is recent data up on the portal?
+    - recent data is available on idp?
+    - When recent data is upload?
+    - recent data is available on inida data portal?
+    - Is the most recent data available on the India Data Portal?
+    - Is there any recent data provided on the India Data Portal?
+    - Would there be any recent data provided on the India Data Portal?
+    - Would there be any recent data posted on the India Data Portal?
+    - There seems to be no recent data posted on the India Data Portal?
+    - When is the most recent information uploaded?
+    - When is the most recent information updated?
+    - When is the most existing knowledge updated?
+    - When is the most latest data updated?
+    - So when is the most latest data updated?
+    - So when is the most latest figs updated?
+    - - So when is the most latest figures updated?
+
+- intent: faq-portal-b0/employment-data-available
+  examples: |
+    - Is employment data available on IDP?
+    - Employment data available?
+    - Employment data present on idp?
+    - IS employment data uploaded on idp?
+    - employment data is present on the portal?
+    - portal has employment data?
+    - Is there employment statistics on IDP?
+    - Is there employment info on IDP?
+    - There is employment info on IDP?
+    - Could there be employment statistics on the Indian data portal?
+    - Whether there employment statistics on the Indian data portal?
+    - If there is employment statistics on the Indian data portal?
+    - If there is employment figures on the Indian data portal?
+    - Can there be employment figures on the Indian data portal?
+    - Would there be any employment statistics on the portal?
+    - IDP has employment data ?
+    - Is there another employment statistics on the portal?
+
+- intent: faq-portal-b0/agriculture-data-available
+  examples: |
+    - What type of Agriculture  data is available on IDP?
+    - Agriculture data present on India data portal?
+    - Portal has Agriculture data?
+    - any agriculture data is available.
+    - What kinds of agricultural data can I find on IDP?
+    - What types of agricultural data can I find on IDP?
+    - All types of agricultural data can I find on IDP?
+    - All types of agricultural data can I obtain on IDP?
+    - What kinds of agricultural data may be found on the Indian data portal?
+    - What sorts of agricultural data may be found on the Indian data portal?
+    - What sorts of agricultural data may be discovered on the Indian data portal?
+    - Is there any agricultural data available here?
+    - Is there any farming data available here?
+    - Is there any farm data available here?
+    - Is there really any farm data available here?
+    - Is there really any farm information available here?
+    - Is there really any agronomic information available here?
+    - Is there another agronomic information available here?
+
+- intent: faq-portal-b0/Is-data-reliable
+  examples: |
+    - Is the data reliable?
+    - how we find data is reliable?
+    - reliability of data.
+    - data is reliable?
+    - data from here is reliable
+    - how we figure out the reliability of the fdata?
+    - is data reliable for user?
+    - Is the information trustworthy?
+    - Is the data trustworthy?
+    - Is the data dependable?
+    - How can we determine whether or not data is reliable?
+    - The information provided here is trustworthy.
+    - The evidence released here is trustworthy.
+    - The information presented here is credible.
+    - The information presented here is genuine.
+    - The data supplied here is genuine.
+    - The details available here is accurate.
+    - All details available here is genuine.
+    - All details available here is accurate.
+    - All details available here is reliable.
+    - All evidence given here is reliable.
+    - This evidence given here is reliable.?
+    - This evidence given here is authentic.
+
+- intent: faq-portal-b0/How-portal-useful
+  examples: |
+    - How is the portal useful?
+    - portal is useful.
+    - is portal useful?
+    - is this useful
+    - any usefullness of it ?
+    - how portal is useful for us?
+    - how IDPortal works better for us?
+    - IDP portal is useful . how?
+    - What is the portal's purpose?
+    - What is the portal's objective?
+    - How can we make IDPortal function better for us?
+    - What is the portal's function?
+    - Is there any use for it?
+    - What is the portal's value to us?
+    - What then is the portal's value to us?
+    - What then is the website's value to us?
+    - What then is the portal's significance to us?
+    - So what was the portal's significance to us?
+    - Then what was the portal's significance to us?
+    - But what's the portal's significance to us?
+
+- intent: faq-portal-b0/Why-need-data
+  examples: |
+    - Why do we need data?
+    - why data is required?
+    - what is need of data?
+    - why data is needed ?
+    - what is the necessity of data?
+    - how much data is needed?
+    - necessity of data.
+    - need of data.why?
+    - Why do we require data?
+    - Why do we take information?
+    - Why is data required?
+    - i have a query why do we need data here
+    - is there any need of data here if yes why
+    - why this website need data
+    - why this portal needs data
+    - why this portal needs info
+    - why this portal needs information
+    - why this website need info.
+    - information why do we need it
+    - info? why do we need it
+    - can you tell why eactly do you need data
+
+
+- intent: faq-portal-b0/data-updation
+  examples: |
+    - How often is the data updated?
+    - how oftenly idp updates the data?
+    - at what frequency the data is updated?
+    - How regularly is the data updated?
+    - At what intervals is the data on the idp site updated?
+    - At what time interval the the data on idp portal is updated?
+    - usually after how much time the data is upgraded?
+    - After how much time the data on the portal is re-equiped?
+    - At what periods is the data on the idp webpage updated?
+    - At what periods is the data on the idp webpage informed?
+    - At what periods is the data on the idp webpage revised?
+    - At what frequency is the data on the idp webpage revised?
+    - At what frequency is the content on the idp webpage revised?
+    - How long does it normally take for data to be upgraded?
+    - How long would it normally take for data to be upgraded?
+    - How soon would it normally take for data to be upgraded?
+    - How soon would it normally take for data to be improved?
+    - How long does it take for data to be upgraded?
+    - How long would it take for data to be upgraded?
+    - How long would it take for data to be improved?
+    - How long is it going for material to be improved?
+    - How long is it going that material to be improved?
+    - How long is it going that content to be improved?
+
+- intent: faq-portal-b0/data-download-provision
+  examples: |
+    - can we get the data downloaded?
+    - provision for download is available?
+    - Is there a way to download data?
+    - would data be available for download purposes?
+    - is it possible to download the data?
+    - Can i download the data?
+    - Is it able to copy data?
+    - Is it able to copy information?
+    - Is it easy to download information?
+    - Is it easy to download info?
+    - Is it easy to download statistics?
+    - Is there a method to download data?
+    - Is it possible to save data?
+    - Is it possible to save data locally
+    
+- intent: faq-portal-b0/data-use-for-research
+  examples: |
+    - can one use it for research purposes?
+    - Is it possible for me to utilise the data in my research?
+    - can we legally use this data for ongoing research?
+    - can this data be utilised for personal research work?
+    - Can i use the data for my research?
+    - Is it possible to utilise it for research?
+    - Is it possible to implement it for research?
+    - Is it possible to implement it for investigation?
+    - Is that really possible to implement it for investigation?
+    - Would that be possible to produce it for investigation?
+    - Would that be possible to produce it for survey?
+    - Would that be possible to produce it for findings
+    - Would that be possible to produce it for study?
+    - Would that be possible to produce it for data analysis?
+  
+- intent: faq-portal-b0/portal-maintainence
+  examples: |
+    - Who maintains the portal?
+    - Who is in charge of the portal?
+    - Who is taking care of the portal?
+    - By whom this portal is managed?
+    - who is responsible for maintaining a portal?
+    - Who looks after the portal?
+    - Who is in charge of the portal's upkeep?
+    - Who is in charge of the portal's ongoing maintenance?
+    - Who has been in charge of the portal's ongoing maintenance?
+    - Who has been in responsibility of the portal's ongoing maintenance?
+    - Who has been in control of the portal's maintaining?
+    - Who has been in command of the portal's maintaining?
+    - Who is in charge of keeping a portal up to date?
+    - Who is in charge of maintaining a website?
+    - Who is in charge of overseeing a website?
+    - Who is in responsible to maintain a website?
+    - indian data portal who's mantaining it ?
+    - ahmmm i wnated to know who's behind mantaining it
+    - Who is in charge of protecting a website?
+
+- intent: faq-portal-b0/potal-maintainence-by-goi
+  examples: |
+    - Is this portal maintained by the government of India?
+    - is this portal maintained by indian government?
+    - Is the Indian government responsible for this website?
+    - this portal is gov of india undertaking?
+    - is the portal run by the government of india?
+    - government of india is taking incharge of this portal?
+    - portal maintain by gov of india?
+    - Is this portal maintained by the Govt?
+    - Is this portal maintained by the Indian state?
+    - Is this portal maintained by the Goi?
+    - Is this page maintained by the Goi?
+    - Is all this page maintained by the Goi?
+    - Is all this webpage maintained by the Goi?
+    - Is all this webpage maintained by the Government of india?
+
+- intent: faq-portal-b0/data-age-how-old
+  examples: |
+    - How old data can I find here?
+    - how much old data we can find on the portal?
+    - what is the oldest data i can find here?
+    - how old data is available here?
+    - to what extent oldest data is residing here?
+    - how many year old data is preserved here?
+    - how old is data here?
+    - How old is the data available here?
+    - How old is the information available here?
+    - What old is the information available here?
+    - What old is the information presented here?
+    - How old is the info here?
+    - How old is the information here?
+    - How old is the stuff here?
+    - How ancient is the stuff here?
+    - How old is the info on this site?
+    - How old is the info on the this site?
+    - How ancient is the info on the this site?
+  
+- intent: faq-portal-b0/data-update-mail-alerts
+  examples: |
+    - Can I get email alerts when data has been updated?
+    - Can I receive email notifications when data is updated?
+    - can i be informed of the latest update by email?
+    - can i get an alert email when data is updated?
+    - Is it possible to receive email notifications when data is updated?
+    - will you send me an email when data will be updated?
+    - email notification for updated is available?
+    - Can I receive email notifications when data is updated?
+    - Can I receive email alerts when data is updated?
+    - Can I obtain email alerts when data is updated?
+    - Can I recieve email alerts when data is updated?
+    - Can I recieve email alerts when updates are made?
+    - Can I recieve email alerts when data is processed?
+    - Can I get notifications when data is processed?
+    - Can I get text alerts when updates are made?
+    - Do I get text alerts when updates are made?
+
+# - intent: faq-portal-b0/feature-update-mail-alerts
+#   examples: |
+#     - can i get a mail when latest data is uploaded on the portal?
+#     - would it be possible to receive email notifications when new data is uploaded?
+#     - Can I get email notifications when new data is uploaded?
+#     - can i get an alert email when newest data is updated?
+#     - is email notify feature available for new data updates?
+#     - Can I get email alerts when data latest data has been uploaded?
+
+- intent: faq-portal-b0/hindi-illustrations
+  examples: |
+    - Can i have illustrations in hindi?
+    - Can you provide me with illustrations in Hindi?
+    - Could you provide some me with illustrations in Hindi?
+    - Will you provide me with the illustrations in Hindi?
+    - illustrations in Hindi are available?
+    - is it possible to get illustrations in hindi?
+    - Are there any illustrations in Hindi?
+    - Hindi can i get some illustrations in it?
+    - Can I obtain some drawings in Hindi?
+    - Would I obtain some visuals in Hindi?
+    - Would I obtain some visuals in Indian languages?
+    - Would I obtain some visuals in Punjabi?
+    - Can I receive some graphics in Punjabi?
+    - Can I receive some graphics in Tamil?
+    - Can I receive some graphics in Sanskrit?
+    - Can I receive some graphics in Urdu?
+    - is there a provision for illustrations in other languages?
+    - Can you provide me with illustrations in other languages?
+    - is it possible to have illustrations in other languages?
+    - would it be feasible to get illustrations in other languages?
+    - how much different languages are supported by illustrations?
+    - Is it possible to get illustrations in other languages?
+    - Is it possible to get illustrations in other language groups?
+    - Is it feasible to get visuals in other language groups?
+    - Is it feasible to get artwork in other language groups?
+
+# - intent: faq-portal-b0/other-lang-illustrations
+#   examples: |
+#     - is there a provision for illustrations in other languages?
+#     - Can you provide me with illustrations in other languages?
+#     - is it possible to have illustrations in other languages?
+#     - would it be feasible to get illustrations in other languages?
+#     - how much different languages are supported by illustrations?
+- intent: faq-portal-b0/different-languages
+  examples: |
+    - what different languages we have?
+    - Which languages are there?
+    - What languages do we have available for portal?
+    - what different languages india data portal support?
+    - what languages does idp support?
+    - how many different languages do we have?
+    - How many distinct languages do we have?
+    - How many various cultures do we have?
+    - What other different dialects do we have?
+    - How so many different dialects do we have?
+    - How so many separate languages do we have?
+    - However many separate languages do we have?
+    - How many separate languages would we have?
+    - How many distinct languages might there be?
+    - How many distinct languages will there be?
+
+- intent: faq-portal-b0/portal-came-to-existance
+  examples: |
+    - when this portal came to existance?
+    - When was this portal constructed?
+    - when this portal was created?
+    - when was this portal made?
+    - when is this portal created?
+    - When was this portal made?
+    - When did this portal come into being?
+    - When does this portal come into being?
+    - When does this portal spring into being?
+    - When does this portal enter into being?
+    - When was this portal built?
+    - When was this portal created?
+    - When was this portal developed?
+    - When was this website built?
+    - What is an IDP?and when was it made
+    - IDP? When was it created?
+    
+- intent: faq-portal-b0/user-count-on-portal
+  examples: |
+    - how many users this portal had so far?
+    - how many people use this portal?
+    - what variety of users are on this portal?
+    - what variety of users access this website?
+    - What kind of people use this website?
+    - How many users does this portal have
+    - How many people have used this portal so far?
+    - How many users has this portal had thus far?
+    - How many people have accessed this portal thus far?
+    - How many people have used this portal to date?
+    - How many people have used this website to date?
+    - Number of times people have visited this site thus far?
+    - How many times have people viewed this site so far?
+
+- intent: faq-portal-b0/portals-impact
+  examples: |
+    - what's the influence of this portal?
+    - can you list the advantages of this portal?
+    - what impact does this platform have on the society?
+    - can you list the benefits of this website?
+    - after the potal came to existance what impression it creates?
+    - what is the impact that this portal has created?
+    - What is the impact of this portal?
+    - What is the significance of this portal?
+    - What is the purpose of this portal?
+    - And what's the goal of this website?
+    - What is the objective of this portal?
+    - And what was the objective of this portal?
+    - What really is the objective of this portal?
+    - What really is the goal of this portal?
+    - What really is the intention of this portal?
+    - What really is the aim of this portal?
+    - What really is the function of this portal?
+    - And what's the function of this portal?
+    - And what's the function of this platform?
+    - And what's the function of this dashboard?
+    - And what's the function of this app?
+
+- intent: faq-portal-b0/news-and-graphics
+  examples: |
+    - What exactly are news and graphics?
+    - what do news and graphics mean?
+    - what does news and graphics signifies?
+    - what does news and graphics comprises of?
+    - What do the terms news and graphics mean?
+    - difference between news and graphics
+    - news what is that?
+    - What are news and graphics?
+    - What is the difference between news and graphics?
+    - What are news and graphics, exactly?
+    - What exactly do the terms "news" and "graphics" mean?
+    - What are the definitions of the terms news and graphics?
+    - What exactly is news?
+    
+- intent: faq-portal-b0/uploading-news
+  examples: |
+    - how can we upload news here?
+    - what is the underlying procedure for uploading news?
+    - what steps do i need to follow to upload news here?
+    - How can I post the news here?
+    - What is the best way for me to post the news here?
+    - how should i upload the news here?
+    - how news can be uploaded?
+    - What is the fundamental process for uploading news?
+    - What is the underlying technique for uploading news?
+    - What is the underlying method for uploading news?
+    - What is the underlying method for publishing news?
+
+- intent: faq-portal-b0/frequency-of-data-updation
+  examples: |
+    - How frequently is the data on IDP updated with the most recent figures?
+    - How soon is the data provided on IDP updated with the most recent figures?
+    - how often is the idp data updated with the latest figures?
+    - when idp udates the data on the portal
+    - how regular is idp in data updation?
+    - How often is the IDP data updated with the most recent figures?
+    - Since when is the IDP data updated with the most recent figures?
+    - How often is the data available on IDP updated with the latest figures?
+    - How frequently is the data on IDP updated with the most recent figures?
+    - How frequently is the data on the Indian Data Portal updated with the most recent figures?
+    - How frequently is the data accessible on the Indian Data Portal updated with the most recent figures?
+    - How frequently is the data provided on the Indian Data Portal updated with the most recent figures?
+    - How regularly is the data provided on the Indian Data Portal updated with the most recent figures?
+    - So regularly is the data provided on the Indian Data Portal updated with the most recent figures?
+
+- intent: faq-portal-b0/data-change-notifications 
+  examples: |
+    - If the data/numbers for a graph that I have downloaded is changed overnight by the Centre/State/District, will I be notified by IDP? 
+    - if someday data from gov is changes will i get some alert
+    - if someday data from gov is changes will i get some notifications
+    - if someday data from gov is changes will i get some notified
+    - will i be informed if data from IDP is changed by local agencies
+    - if agencies change data will i get text notifications
+    - ahmmm wanted to know do you support alerts service if any info is changed by government agencies
+    - notification will be provided if data is changed by gov
+    - alerts will be sent if data is changed by authority
+    - if the government alters the data, you will be notified.
+    - if  the government modifies the data, will i be notified
+    - If the government changes the data, the public will be notified.
+    
+- intent: faq-portal-b0/data-sourced-from-gov-sites
+  examples: |
+    - Is the data only sourced from Government websites?
+    - Is the data derived solely from government websites?
+    - is the data gathered from official government websites?
+    - are the data sourced from the government websites?
+    - does government sites sourcing this data?
+    - this data is coming from government websites?
+    - from where data is coming
+    - Is the information obtained from official government websites?
+    - Is the data derived from official government websites?
+    - Is the results extracted from official government websites?
+    - Is the data generated from official government websites?
+    - Is the information derived from official government websites?
+    - Is the info derived from official government websites?
+
+- intent: faq-portal-b0/hyperlink-to-source-data
+  examples: |
+    - Is there a hyperlink on the graph that could take me to the source of the data?
+    - Is there a link on the graph that will take me to the data source?
+    - Is there a link on the graph that will direct me to the source of the data?
+    - where do i should locate on graph to get data's original source?
+    - is there a link on the graph that leads to the data source?
+    - Is there a link on the graph that will lead me to the data's source?
+    - any hyperlink that could lead to data source
+    - any hyperlink that could lead to source of data
+    - Is there a link on the graph that will direct me to the data source?
+    - Is there a link on the graph that will direct me to the source of the data?
+    - Is there a link on the graph that will take me to the data's original source?
+    - Is there a link on the graph that will direct me to the originating source of the data?
+    - Could there be a link on the graph that will direct me to the originating source of the data?
+    - Will there be a link on the graph that will direct me to the originating source of the data?
+    - Will there be a connection on the graph that will direct me to the originating source of the data?
+
+- intent: faq-portal-b0/idp-training
+  examples: |
+    - is there any training program available by idp?
+    - does idp provides any guided paths to operate the potal?
+    - Is training available through India Data Portal?
+    - are there any training programs provided by idp?
+    - does idp come up with any training?
+    - does india data portal deliver any training?
+    - idp provides any training?
+    - any tarining is provided by idp?
+    - this potal provides any training?
+    - Is there a training programme offered by idp?
+    - Is there a training course offered by idp?
+    - Is there really a training course offered by idp?
+    - Would there be a training course offered by idp?
+    - idp Would there be a training course offered by you
+    - Should there be a training course offered by idp?
+    - Should there be a programme offered by idp?
+
+- intent: faq-portal-b0/fellowship-with-idp
+  examples: |
+    - Is there a fellowship programme at India Data Portal?
+    - do you have ay fellowships available?
+    - Are there any fellowships available through India Data Portal?
+    - have there been any fellowships associated with idp?
+    - does idp offeres any fellowship?
+    - any fellowship available?
+    - Does India Data Portal have any fellowships?
+    - Is the India Data Portal offering a fellowship programme?
+    - Is there an internship programme at India Data Portal?
+    - Is there a fellowship available?
+    - Is there an internship available?
+    - Is there a communion available?
+    - does it provides any support program?
+
+- intent: faq-portal-b0/whats-on-portal
+  examples: |
+    - What information can I find on the Portal?
+    - What will I discover on the Portal?
+    - What information can I access on the Portal?
+    - What info can I get on the Portal?
+    - what content is available on portal?
+    - What information can be found on the Portal?
+    - whats here for me?
+    - Which information can be found on the Portal?
+    - Which information can be found on the Gate?
+    - Which information can be found on the Website?
+    - Which content is known on the Website?
+    - Which details are available on the Website?
+    - Which info is accessible on the Website?
+
+- intent: faq-portal-b0/data-citation
+  examples: |
+    - How do you cite data?
+    - How do you credit data?
+    - How do you describe data?
+    - How do you make a reference to data?
+    - How do you define the data reference?
+    - How do you reference data?
+    - how idp reference data?
+    - how idp provide citation?
+    - How do you cite information?
+    - How do you cite info?
+    - How does idp refer to data?
+    - How does idp refer to information?
+    - How else does idp refer to information?
+    - how did idp refer to information?
+    - How does the Indian Data Portal refer to data?
+    
+- intent: faq-portal-b0/is-data-reliable
+  examples: |
+    - Is the information supplied accurate?
+    - Is the information supplied accurate and trustworthy?
+    - Is the data provided accurate?
+    - Is the data supplied credible?
+    - does data on the idp is authentic?
+    - Is the data which is provided, reliable?
+    - data which you are providing is reliable?
+    - data provided by idp is reliable?
+    - Is the information provided accurate?
+    - Is the information provided correct
+    - Is the information supplied accurate?
+    - That's the information supplied accurate?
+    - Would be the information supplied accurate?
+    - Would be the details supplied accurate?
+    - Would be the evidence gives accurate?
+
+- intent: faq-portal-b0/data-sources
+  examples: |
+    - What are the data's sources?
+    - What data sources are being used?
+    - What data sources have been used?
+    - Where did the data come from?
+    - What are the data's origins?
+    - from where data is used here
+    - data present here is collected from ?
+    - data sources on portal?
+    - What are the sources of the data?
+    - What are the information's sources?
+    - Where did the information come from?
+

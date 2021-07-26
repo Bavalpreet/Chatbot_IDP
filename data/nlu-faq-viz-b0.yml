@@ -1,0 +1,303 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hi bro what's up
+    - Hi
+    - ਹਾਂ bai
+    - Hii
+    - Hello
+    - hiiii
+    - Hiii
+    - hanji
+    - hnaji bai
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Bye
+- intent: ok
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - perfectly said
+    - hey thanks
+    - Ok
+    - OK sure
+    - ok
+    - okay
+    - done
+    - its over form my side
+    - Done
+    - yes its' over
+    - okay its done
+
+- intent: idp_bot_intro
+  examples: |
+    - are you a bot?
+    - can you tell me something about yourself
+    - am I talking to a bot?
+    - What about you
+    - who are you
+    - Who developed you
+    - Hlo how are you
+    - who made you
+
+- intent: faq-visualisation-b0/count_of_datasets
+  examples: |
+    - what are the number of datasets supported on IDP?
+    - How many datasets are available on Indian Dta portal
+    - How many datasets are available on the IDP?
+    - count of Data sets on idpp
+    - how many datasets are listed on india data portal
+    - What datasets are available on IDP
+    - how many datasets are available in idp?
+    - What datasets are available on IDP?
+    - What datasets are available on the portal?
+    - How many datasets are available on the India Data Portal?
+    - i just wanted to know how many db can i upload here
+    - if there is a facaility that i can upload my personal datasets on here
+    - on IDP how many datasets i can upload ?
+    - can you tell me how can i upload datasets on indian data portal
+    - how i am supposed to upload datasets while i am here
+    - how many datasets are accessible on the India Data Portal
+    - how many datasets are provided on the India Data Portal
+    - how many datasets are mentioned on the Indian Data Portal
+    - What datasets can I discover on IDP?
+    - What datasets may be found on the Indian Data Portal?
+    - What information may be found on the Indian Data Portal?
+    - And which information may be found on the Indian Data Portal?
+    - And which information may be found on the Indian Portal Website?
+    - And which information may be found on the Indian Online Website?
+    - how many datasets are on this webiste
+    - this webiste contains how many datasets
+    - And which information may be found on the National Portal Website?
+    - how many datasets may even be found on the India Data Portal
+    - how many datasets might well be found on the India Data Portal
+    - how many records might well be found on the India Data Portal
+    - how many records might well be retrieved on the India Data Portal
+    - how many records might well be obtained on the India Data Portal
+
+- intent: faq-visualisation-b0/type_of_viz
+  examples: |
+    - what type of visulaisations are suuported by India data portal
+    - Unique vizulations present on IDP are?
+    - what type of visulaisations are present by Indian data portal
+    - various vis. that can be seen on IDP?
+    - IDP supports how many diffrent or unique visulaisations
+    - can i see diff vis on this platform
+    - What visualizations can I create on IDP?
+    - What visualizations are possible on IDP?
+    - what graphics are possible on IDP?
+    - What graphics are available?
+    - What graphics are possible?
+    - What visualizations are possible on IDP?
+    - What visualizations are possible?
+    - What kinds of visuals does India Data Portal support?
+    - What kinds of infographics does India Data Portal encourage?
+    - What kinds of visualisation does India Data Portal encourage?
+    - What kinds of graphics does India Data Portal encourage?
+    - What sorts of graphics does India Data Portal encourage?
+    - How many sorts of graphics does India Data Portal encourage?
+    - What sorts of analytics does India Data Portal encourage?
+    - india data portal supports what sort of visuals
+
+
+- intent: faq-visualisation-b0/source_of_data #already present
+  examples: |
+    - What is the source of the data?
+    - What is the source of the data present on indian data portal
+    - from where data is coming on IDP
+    - various sources that have been considered for taking data present here
+    - Are all sources presnt here legit?
+    - what are the sources ?
+    - Is there any private data on the portal?
+    - What is the source of the information?
+    - Where does the data on IDP come from?
+    - Where would the data on IDP come from?
+    - Where would the data on IDP derive from?
+    - What is the source of the information on the Indian Data Portal?
+    - What is the source of the data on the Indian Data Portal?
+    - And what was the source of the data on the Indian Data Portal?
+    - What really is the source of the data on the Indian Data Portal?
+    - And what's the source of the data on the Indian Data Portal?
+    - And what's the source of the data on the Indian Portal Website?
+    - Then what was the source of the data on the Indian Portal Website?
+    - But what's the source of the data on the Indian Portal Website?
+
+- intent: faq-visualisation-b0/will_addtional_sources_be_added  #already present
+  examples: |
+    - Will additional training materials/videos for different visualization scenarios be posted on the website?
+    - in future can i expect to see more datasets on this platform
+    - will this platform be updated in future?
+    - do any data-sets will be coming on this website in near future
+    - In future are there any chances that i will see different repos over here
+    - in coming future will more data be presnt on here.
+    - how can I get training to use idp?
+    - Can I expect to see more datasets on this platform in the coming years?
+    - Can I expect to see more datasets on this platform in the years ahead?
+    - Can I anticipate to see more data on this site in the years ahead?
+    - Can I expecting to see more data on this site in the years ahead?
+    - Could I expecting to see more data on this site in the years ahead?
+    - Could I expecting to see more data on this site in the longer term?
+    - Could I assume to see more data on this site in the longer term?
+    - Could I assume to see even more data on this site in the longer term?
+    - Would I anticipate to see even more data on this site in the longer term?
+    - can I predict to see even more data on this site in the longer term?
+    - Are there any chances that I'll see various repos in the future?
+    - Are there any chances that I'll see different repos in the future?
+    - If there are any chances that I'll see different repos in the future?
+    - Are there other chances that I'll see different repos in the future?
+    - Have there been any chances that I'll see different repos in the future?
+    - Have there been any chances that I'll see different repos in the long run?
+    - Have there been any chances that I'll see different repos in the long run?
+    - Have there been any chances that I'll see different directories in the long run?
+  
+
+
+
+- intent: faq-visualisation-b0/frequently-data-updated  #10
+  examples: |
+    - When data updated
+    - how many time data updated in a year?
+    - is data update in quaterly basis
+    - when next time data updating
+    - when we can update data on india data portal
+    - frequency of uploading data on IDP in a year
+    - How frequently is the data updated?
+    - How often is the information updated?
+    - How often is the information refreshed?
+    - What is the frequency of data updates?
+    - How many times does data get updated in a year?
+    - How many times does information get changed in a year?
+    - How several times does information get changed in a year?
+    - How many times does information get changed annually?
+    - How many times does information get changed each year?
+    - How many instances does information get changed each year?
+    - In a year, how frequently do you upload data to IDP?
+    - In a year, how frequently do you upload data to the Indian data portal?
+    - In a year, how often would you upload data to the Indian data portal?
+    - In a year, when would you upload data to the Indian data portal?
+    - In a year, how the fuck do you upload data to the Indian data portal?
+    - In a year, since when do you upload data to the Indian data portal?
+
+
+
+
+- intent: faq-visualisation-b0/share-upload-dataset #21
+  examples: |
+    - How do I share/ upload a dataset from IDP
+    - steps of share dataset
+    - how i can share dataset
+    - how i can upload dataset
+    - procedure of share/upload dataset
+    - how can i share dataset file
+    - What is the procedure for uploading a dataset to IDP?
+    - What is the procedure for submitting a dataset to IDP?
+    - What is the process for uploading a dataset to IDP?
+    - process for uploading a dataset here?
+    - can ewe upload a dataset here?
+    - does this portal support uploading a dataset from external source?
+    - uploading a dataset facility is available here?
+    - How can I submit a dataset to IDP?
+    - How do I submit a dataset to IDP?
+    - How do I upload a dataset to IDP?
+    - can we upload a dataset on this portal?
+
+- intent: faq-visualisation-b0/multiple-data-set-same-parameters-which-useful #23
+  examples: |
+    - how can we know which dataset has been found more useful by users?
+    - would there be multiple data sets for the same parameters?
+    - Since this is an Open Source initiative, would there be multiple data sets for the same parameters? If yes, how can we know which dataset has been found more useful by users?
+    - in multiple data sets which dataset is more useful
+    - how user know about more useful dataset in multiple datasets
+    - List the datasets covered on the portal
+    - Will there be several data sets for the same parameters because this is an Open Source initiative? If this is the case, how can we determine which dataset consumers have found to be most useful?
+    - Will there be different datasets for the same parameters since this is an Open Source initiative? If this is the case, how can we determine which dataset consumers have found to be most useful?
+    - Will there be multiple data sets for the same parameters since this is an Open Source initiative? If this is the scenario, how can we identify which dataset consumers have found to be most useful?
+    - Would there be multiple data sets for the same parameters because this is an Open Source initiative?
+    - As this an open source initiative, will there be multiple datasets for same parameters?
+    - how can we know which dataset is found more useful by the users?
+    - How can we tell which dataset is more useful to users?
+    - How can we determine which dataset is more useful to users?
+    - How can we determine which dataset is more user - friendly?
+    - How can we determine which dataset is more helpful?
+    - How else can we determine which dataset is more helpful?
+    - How else can we determine which information is more helpful?
+    - How else can we determine which source is more helpful?
+    - How else can we discern which source is more helpful?
+    - How else can we discern which information is more helpful?
+    - how am i supposed to know which is the most liked dataset by the user?
+
+
+
+
+- intent: out_of_scope
+  examples: |
+    - can i see you in india
+    - where is my food
+    - what is jeremy
+    - where is ATM
+    - what is ISSR
+    - where is my pizza
+    - where are toilets
+    - who's India's president
+    - what is programming
+    - visual studio code ?
+    - 9
+    - what is databreeze
+    - what is databses
+    - 677020239
+    - ewdjskds
+    - 9+0
+    - j&k
+    - 5/9
+    - Pizzaa
+    - Fuddi hai
+    - Wah ji wah
+    - Can I see siri
+    - Are you mad??
+    - Physiotherapy
+    - ??
+    - interpret my credntials
+    - Can you tell me something about physiotherapy?
+    - Pls u want to see maps
+    - Blabla
+    - let's meet at aprty
+    - I want to buy some bins and trash cans
+    - what about cool things
+    - can you pls help up
+    - who is prime minister of india?
+    - CAN I GET SOME PIZZA
+    - where is my phone
+    - where is my charger
+    - how many datasets i can out in
+    - where is rasa x
+    - how many datasets i can upload to IDP
+    - how can i know more about the competitions?

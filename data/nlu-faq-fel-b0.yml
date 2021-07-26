@@ -1,0 +1,140 @@
+version: "2.0"
+nlu:
+- intent: faq-fel-b0/info-about-fellowship
+  examples: |
+    - how can we accumulate more about the fellowship program?
+    - What can I do to learn more about the fellowships?
+    - How can I discover more about the fellowships?
+    - how one can be aware of fellowship programs?
+    - how can an individual acknowledge more about fellowships?
+    - information about fellowships?
+    - where can i get information about fellowships
+    - I want to learn more about fellowships but don't know where to start.
+    - I'd like to learn more about fellowships but don't know where to begin.
+    - I'm curious about the fellowships, but I'm not sure where to start.
+    - I'd like to learn more about fellowships but don't know where to start.
+    - What is the most effective way for me to learn more about the fellowship opportunities?
+    - What is the best way for me to learn more about fellowships?
+    - What's the best way for me to learn more about the fellowships?
+    - What are my options for learning more about the fellowships?
+    - I'd like to learn more about the fellowships, but I'm not sure where to start.
+    - What are some good places to go to learn more about the fellowships?
+    - What is the most efficient way for me to learn more about the fellowship opportunities?
+    - What resources do I have access to in order to learn more about the fellowships?
+    - What is the best way for me to learn more about the fellowships?
+    - I'm curious about the fellowships but don't know where to start.
+    - What are some good resources for learning more about the fellowships?
+    - How can I learn more about the fellowships?
+    - What are some good places to learn more about fellowships?
+    - How can I find out more about the fellowships?
+    - I'm interested in learning more about fellowships but am unsure where to start.
+    - I'm interested in learning more about fellowships, but I'm not sure where to start.
+    - I'd like to find out more about fellowships, but I'm not sure where to start.
+    - I'm interested in learning more about fellowships, but I'm not sure where to begin.
+    - How can I learn more about the fellowship opportunities in the most efficient manner?
+    - How can I learn more about the fellowship opportunities in the most efficient way possible?
+    - I'm interested in learning more about the fellowships but don't know where to begin.
+    - What resources do I have to learn more about fellowships?
+    - What is the best way for me to learn more about the fellowship opportunities?
+    - What would be the most effective way for me to learn more about the fellowships?
+    - I'm curious about fellowships but don't know where to start.
+    - What resources are available to help me learn more about the fellowships?
+    - What options do I have for learning more about fellowships?
+    - How can I learn more about the fellowship opportunities in the most efficient way?
+    - What are some good places to go to learn more about fellowships?
+    - What resources can I use to learn more about the fellowships?
+    - How can I know more about the fellowships?
+
+- intent: faq-fel-b0/fellowship-eligibility
+  examples: |
+    - how to check the eligibilty for fellowship?
+    - How do I find out if I am qualified for a fellowship?
+    - what are fellowship eligibility norms?
+    - How do I find out if I am a good fit for a fellowship?
+    - How can I find out whether I am qualified for a fellowship?
+    - How can I know if I am eligible for a fellowship?
+    - What is the best way to find out if I'm eligible for a fellowship?
+    - What's the best way to find out if I'm qualified for a fellowship?
+    - How can I find out if I'm eligible for a fellowship if I'm not sure?
+    - How do I find out if I'm a fellowship candidate?
+    - How do I know if I'm a candidate for a fellowship?
+    - What is the best way to find out if I am eligible for a fellowship?
+    - What is the process for determining whether or not I am a candidate for a fellowship?
+    - How do I know if I'm eligible for a fellowship?
+    - How do I see if I'm eligible for a fellowship?
+    - If I'm not sure if I qualify for a fellowship, how can I find out?
+    - I'm not sure if I'm eligible for a fellowship.
+    - If I'm not sure whether I'm eligible for a fellowship, how can I find out?
+    - I'm not sure if I'm eligible for a fellowship, so how can I find out?
+    - How do I find out if I'm a candidate for a fellowship?
+    - How can I find out if I'm a fellowship candidate?
+    - How can I find out if I'm eligible for a fellowship?
+    - What is the best way to find out if I am a candidate for a fellowship?
+    - How do I know if I'm a fellowship candidate?
+    - How do I find out if I'm eligible for a fellowship if I'm not sure?
+    - How can I see if I'm eligible for a fellowship?
+    - How can I find out if I'm a candidate for a fellowship?
+    - If I'm not sure if I'm eligible for a fellowship, how can I find out?
+    - I'm not sure if I'm eligible for a fellowship, so how do I find out?
+    - How can I find out if I'm qualified for a fellowship?
+    - How do I find out if I'm qualified for a fellowship?
+    - How do I find out if I'm eligible for a fellowship?
+    - How can I know if I'm eligible for a fellowship?
+
+- intent: faq-fel-b0/fellowship-timeperiod
+  examples: |
+    - what is the time period for fellowship?
+    - Is the fellowship for a set period of time?
+    - How long will the fellowship program last?
+    - Is the fellowship for a specific amount of time?
+    - what is the duration of fellowship?
+    - How long is the fellowship?
+    - Is the fellowship for a specific amount of time?
+    - How long will the fellowship last?
+    - Is there a time limit to the fellowship?
+    - Is the fellowship going to last a long time?
+    - What is the duration of the fellowship?
+    - Is this a fixed-term fellowship?
+    - Is the fellowship for a specific time period?
+    - Is there a time limit on the fellowship?
+    - Is the fellowship for a set period of time?
+    - How long is the fellowship going to last?
+    - What is the fellowship's duration?
+    - Is the fellowship for a specific period of time?
+    - Is the fellowship for a set amount of time?
+    - Is there a time limit for the fellowship?
+    - Is the fellowship for a set number of months?
+    - How long is the fellowship?
+
+- intent: faq-fel-b0/cost-of-idp-training
+  examples: |
+    - Does training provided by idp is free of cost?
+    - training given by idp is free?
+    - is indian data portal training offered for free?
+    - Is IDP training offered for free?
+    - Is IDP training provided free of charge?
+    - i wannna do some training but i have no money can I do
+    - Is IDP training available for free?
+    - Is there any IDP training that is free?
+    - Is IDP training free?
+    - Is IDP training expensive?
+    - Is there a cost for IDP training 
+    - Is it possible to receive free IDP training?
+    - Is there a cost associated with IDP training?
+    - Is there a fee for training done here?
+    - Is it possible to obtain IDP training for free?
+    - Is IDP training costly?
+    - Is there a way to get free IDP training?
+    - Is there any IDP training that is available for free?
+    - Is there a way to get IDP training for free?
+    - doestraining offered at no cost?
+    - Is it possible to get free IDP training?
+    - training provided free of charge? by you guys
+    - Is IDP education costly?
+    - Is your program costly?
+    - Is there a price tag attached to IDP training?
+    - Does indian data portal training come at a cost?
+    - Is there any free IDP training available?
+    - Is it possible to obtain free IDP training?
+    - Is IDP training offered for free?
+    - Is your training free?

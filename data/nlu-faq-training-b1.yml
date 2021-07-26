@@ -1,0 +1,51 @@
+version: "2.0"
+nlu:
+
+
+- intent: faq-train-b1/often-workshop-arrang #379
+  examples: |
+    - When are the workshops held?
+    - How frequently are the workshops held?
+    - How often do workshops take place?
+    - On a regular basis, workshops are held.
+    - How often are workshops held?
+    - Regular workshops are held.
+    - What is the workshop frequency?
+    - What is the frequency of the workshops?
+    - Workshops are held frequently.
+    - Workshops are held on a regular basis.
+    - Workshops are held how frequently?
+    - What is the frequency of workshops?
+    - how often are workshops held?
+    - How frequently do workshops take place?
+    - how frequently workshops are held
+    - How frequently are workshops held?
+    - How frequently do workshops happen?
+    - What's the frequency of workshops?
+    - how often workshops are arranged
+
+- intent: faq-train-b1/onlin-train-curriculum #417
+  examples: |
+    - What exactly does an online training curriculum entail?
+    - What is the purpose of an online learning curriculum?
+    - What is the purpose of an online training program?
+    - What does an online learning curriculum entail?
+    - What is an online training curriculum?
+    - What exactly is an online training curriculum?
+    - What exactly does an online learning curriculum entail?
+    - What exactly is an online training program?
+    - What is an online learning curriculum?
+    - What exactly does an online training program entail?
+    - What is a curriculum for online training?
+    - What is the definition of an online learning curriculum?
+    - What is an online learning curriculum, and how does it work?
+    - What is a curriculum for online learning?
+    - What is the purpose of an online learning program?
+    - What exactly is an online learning curriculum?
+    - What is an online training curriculum, and how does it differ from traditional classroom training?
+    - What is an online training curriculum, and what does it entail?
+    - what is a curriculum for online training?
+    - What is the definition of an online training curriculum?
+    - What does an online training curriculum entail?
+    - What is an online learning curriculum, and what does it entail?
+    - what is online training curriculum

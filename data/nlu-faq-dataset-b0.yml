@@ -1,0 +1,861 @@
+version: "2.0"
+nlu:
+
+- intent: faq-dataset-b0/alternate-sources-data #19
+  examples: |
+    - Are there any alternate sources for data?
+    - is there any other source of data?
+    - source of india data portal data
+    - where is the data come from
+    - who collect data of idp data
+    - who is data source of data
+    - is this portal available in hindy?
+    - where can I  find the source of this data set
+    - Are there any other sources for data?
+    - Are there any other data sources?
+    - Are there any alternative data sources?
+    - Is there a way to get info from anywhere else on the internet?
+    - Is there a way to get data from more than just this portal?
+    - Are there certain data sources?
+    - Are there any other data sources available?
+    - Is there a way to get info from anywhere other on the internet?
+    - Is there a way to get info from outside of the portal?
+    - Are there any alternative data sources?
+    - Are there any substitute data sources?
+    - except this portal any other source for data?
+    - source for data other than this portal
+
+- intent: faq-dataset-b0/upload-datasets-platofrm # 21
+  examples: |
+    - How do I share/ upload a dataset from IDP
+    - How do I upload a dataset that I have? 
+    - How do I upload an existing dataset?
+    - How then do I upload an existing dataset?
+    - So how would I upload an existing dataset?
+    - So how would I upload an existing data?
+    - How would I upload an existing dataset?
+    - is it possible to upload dataset on the portal?
+    - is it possible to upload data on the portal?
+    - is it possible to upload data on the india data portal?
+    - Is it possible to submit a dataset to the portal?
+    - Can I upload a dataset to the portal?
+    - does idp provides feature to upload data on wesite?
+    - does idp provides feature to upload dataset on portal?
+    - provision to upload data on portal is available?
+    - is there any provision to add custom data here?
+    - can i utilize my own data here?
+    - Is there a way to upload a dataset to the portal?
+
+
+- intent: faq-dataset-b0/multiple-data-sets-same-parameter #23
+  examples: |
+    - Since this is an Open Source initiative, would there be multiple data sets for the same parameters? If yes, how can we know which dataset has been found more useful by users?
+    - Will there be several data sets for the same parameters because this is an Open Source initiative?
+    - If that was the case, how can we determine which dataset has been determined to be more valuable by users?
+    - Will there be several data sets for the same parameters because this is a Free Software initiative?
+    - Would there be several data sets for the same parameters because this is an Open - sourced initiative?
+    - If that was the case, how can we determine which dataset has been discovered to be more valuable by users?
+    - If that was the case, how can we determine which dataset has been discovered to be more useful by users?
+    - If that was the case, how can we determine which dataset has been discovered to be more useful by customers?
+    - If that was the case, how can we determine which dataset has been discovered to be more useful by consumers?
+
+- intent: faq-dataset-b0/financial-data-available #246
+  examples: |
+    - What financial data is available?
+    - What type of Finanacial data is available on IDP?
+    - Financial data present on IDP?
+    - what data related to financial domain is residing on IDP?
+    - what data related to financial domain is available on IDP?
+    - what financial data is present here?
+    - What financial information is accessible?
+    - financial data.
+    - is there any data related to finance?
+    - IDP has any financial inclusion data?
+    - What financial inclusion information is accessible?
+    - is there any financial inclusion data?
+    - any financial inclusion data is available?
+    - portal contain any data regarding financial inclusion?
+    - finanacial inclusion data?
+    - What kind of financial information is available?
+    - What financial data is available?
+    - Exactly what sort financial information is available?
+    - What kind of financial content is provided?
+    - What kind of financial data is available?
+    - What sort of financial data is available?
+    - what financial domain related data is available?
+    - What kinds of financial data are there?
+    - What financial info is accessible?
+    - any financial data is there?
+    - any financial economic data is present here?
+    - any financial economic data on portal?
+    - does this portal contain any financial data?
+    - any type of financial data residing here?
+    - any sort of financial data residing on portal?
+    - tell me about financial data 
+
+- intent: faq-dataset-b0/socioeconomic-data-available-portal #248
+  examples: |
+    - What socioeconomic data is available on the portal
+    - What socioeconomic statistics may be seen on the portal?
+    - Is there any data related to socioeconomic data on IDP?
+    - socioeconomic data?
+    - IDP has any socioeconomic data?
+    - any socioeconomic data on portal?
+    - what kind of socio economic data is available?
+    - what sort of socio economic data is available?
+    - any socio economic data is there?
+    - any socio economic data is present here?
+    - any socio economic data on portal?
+    - does this portal contain any socia- economic data?
+    - any type of socio economic data residing here?
+    - any sort of socio economic data residing on portal?
+    - What kind of socio economic information is available?
+    - What socio economic data is available?
+    - Exactly what sort socio economic information is available?
+    - What kind of socio economic content is provided?
+    - What kind of socio economic data is available?
+    - What sort of socio economic data is available?
+    - what socio economic domain related data is available?
+    - What kinds of socio economic data are there?
+    - What socio economic info is accessible?
+    - tell me about socio economic data 
+
+- intent: faq-dataset-b0/data-Ministry-Agriculture #249
+  examples: |
+    - Do we have data from Ministry of Agriculture?
+    - Do we have information from the Department of Agriculture?
+    - Data from the Agriculture department?
+    - Is there any government data related to the ministry of agriculture?
+    - Do you have Ministry of Agriculture data?
+    - Ministry of agriculture data available?
+    - data from ministry of agriculture is there?
+    - Do you have any information from the Ministry of Agriculture?
+    - does portal have info from ministry of agri
+    - does portal have data from ministry of agri
+    - Do you even have the certain information from the Ministry of Agriculture?
+    - data from ministry of agriculture is present?
+    - Is there any information from the Ministry of Agriculture that we might use?
+    - Do we have any dataset from the Ministry of Agriculture?
+    - data from ministry of agriculture is present?
+    - data from ministry of agri is residing here?
+    - is data from ministry of agri present here?
+    - Do we have Ministry of Agriculture data?
+    - is idp having data from ministry of agriculture?
+
+- intent: faq-dataset-b0/data-Ministry-Statistics #250
+  examples: |
+    - Is there data from Ministry of Statistics?
+    - data on ministry of stats
+    - is there any data available on ministry of statistics?
+    - do you have any data on statistics?
+    - IDP has any data on ministry of statistics?
+    - is there any data related to ministry of statistics?
+    - data from ministry of statistics is there?
+    - Do you have any information from the Ministry of stat?
+    - does portal have info from ministry of stat
+    - does portal have data from ministry of statistics
+    - Do you even have the certain information from the ministry of statistics?
+    - data from ministry of statistics is present?
+    - Is there any information from the ministry of statistics that we might use?
+    - Do we have any dataset from the ministry of statistics?
+    - data from ministry of statistics is present?
+    - data from ministry of stat is residing here?
+    - is data from ministry of stat present here?
+    - Do we have Ministry of statistics data?
+    - is idp having data from ministry of statistics?
+    - tell me about data of ministry of statistics
+
+- intent: faq-dataset-b0/National-Survey-data-available #251
+  examples: |
+    - National Sample Survey data available?
+    - Is there data from the National Sample Survey readily accessible?
+    - national sample survey data?
+    - Does IDP has any data regarding the national sample survey
+    - any national sample survey data on the portal?
+    - is national sample data available?
+    - is National Sample Survey data available on portal?
+    - Is there data from the National Sample Survey available?
+    - Is data from the National Sample Survey available?
+    - Is figures from the National Sample Survey available?
+    - data from National Sample Survey is there?
+    - Do you have any information from the National Sample Survey?
+    - does portal have info from National Sample Survey
+    - does portal have data from National Sample Survey
+    - Do you even have the certain information from the national sample survey?
+    - data from national sample survey is present?
+    - Is there any information from the national sample survey that we might use?
+    - Do we have any dataset from the national sample survey?
+    - data from national sample survey is present?
+    - data from National Sample Survey is residing here?
+    - is data from National Sample Survey present here?
+    - Do we have national sample survey data?
+    - is idp having data from national sample survey?
+    - National Sample Survey data present?
+    - national sample survey data is residing here?
+    - can we acess the National sample survey data on portal?
+    - is portal having National sample survey data?
+    - tell me about national sample survey data
+    - NSS data any availabel
+    - any NSS data
+
+- intent: faq-dataset-b0/data-Rural-Development #252
+  examples: |
+    - Is there any data related to Rural Development data?
+    - Is any information relevant to Village Development?
+    - Rural development data?
+    - village development data?
+    - data on rural development?
+    - IDP has any data regrading rural development?
+    - is there any data related to rural development?
+    - Is there any information about Rural Development?
+    - is there any dataset on rural development?
+    - Do you have any data about Rural Development?
+    - Is there any data pertaining to rural Development?
+    - Is there any statistics regarding Rural Development?
+    - is rural development data available on portal?
+    - Is there data regarding the rural development available?
+    - Is data from the rural development available?
+    - Is figures from the rural development available?
+    - data from rural development is there?
+    - Do you have any information from the rural development?
+    - does portal have info concern with rural development
+    - does portal have data related to rural development
+    - Do you even have the certain information from the rural development department?
+    - data from rural development is present?
+    - Is there any information from the rural development domain that we might use?
+    - Do we have any dataset from the rural development?
+    - data from rural development is present?
+    - data from rural development is residing here?
+    - is data from rural development present here?
+    - Do we have rural development data?
+    - is idp having data from rural development domain?
+    - rural development data present?
+    - rural development data is residing here?
+    - can we acess the rural development data on portal?
+    - is portal having rural development data?
+    - tell me about rural development data?
+
+- intent: faq-dataset-b0/data-available-CMIE  #296
+  examples: |
+    - Any data available from CMIE ?
+    - show the available data at CMIE?
+    - does cmie have any data available ?
+    - is there any data on CMIE?
+    - what data is available from cmie?
+    - list the data available from CMIE?
+    - are there any data available from cmie?
+    - what data can i get from CMIE?
+    - Is there any CMIE data available?
+    - is cmie data available on portal?
+    - Is there data from the cmie available?
+    - Is data from the cmie available?
+    - Is figures from the cmie available?
+    - data from cmie is there?
+    - Do you have any information from the cmie?
+    - does portal have info from cmie
+    - does portal have data from cmie
+    - Do you even have the certain information from the cmie?
+    - data from cmie is present?
+    - Is there any information from the cmie that we might use?
+    - Do we have any dataset from the cmie?
+    - data from cmie is present?
+    - data from cmie is residing here?
+    - is data from cmie present here?
+    - Do we have cmie data?
+    - is idp having data from cmie?
+    - cmie data present?
+    - cmie data is residing here?
+    - can we acess the cmie data on portal?
+    - is portal having cmie data?
+    - tell me about cmie data?
+
+- intent: faq-dataset-b0/foreign-trade-data  #297
+  examples: |
+    - Any foreign trade data available ?
+    - can you provide me with details of the foreign trade?
+    - are there any available data on the foreign trade?
+    - do you have data about foreign trade?
+    - how do i get data on foreign trade?
+    - can you list the foreign trade statistics available?
+    - are there any available foreign trade data?
+    - do you have datasets about foreign trade?
+    - Is there any information about foreign trade?
+    - is there any dataset on foreign trade?
+    - Do you have any data about foreign trade?
+    - Is there any data pertaining to foreign trade?
+    - Is there any statistics regarding foreign trade?
+    - is foreign trade data available on portal?
+    - Is there data regarding the foreign trade available?
+    - Is data from the foreign trade available?
+    - Is figures from the foreign trade available?
+    - data from foreign trade is there?
+    - Do you have any information from the foreign trade?
+    - does portal have info concern with foreign trade
+    - does portal have data related to foreign trade
+    - Do you even have the certain information from the foreign trade department?
+    - data from foreign trade is present?
+    - Is there any information from the foreign trade domain that we might use?
+    - Do we have any dataset from the foreign trade?
+    - data from foreign trade is present?
+    - data from foreign trade is residing here?
+    - is data from foreign trade present here?
+    - Do we have foreign trade data?
+    - is idp having data from foreign trade domain?
+    - foreign trade data present?
+    - foreign trade data is residing here?
+    - can we acess the foreign trade data on portal?
+    - is portal having foreign trade data?
+    - tell me about foreign trade data
+
+- intent: faq-dataset-b0/RBI-data  #298
+  examples: |
+    - Any RBI data ?
+    - any data related to reserve bank of India
+    - do you have any data related to reserve bank of India
+    - show me the rbi data?
+    - is there any rbi data?
+    - tell me the rbi statistics?
+    - Is there any information about rbi?
+    - is there any dataset on rbi?
+    - Do you have any data about rbi?
+    - Is there any data pertaining to rbi?
+    - Is there any statistics regarding rbi?
+    - is rbi data available on portal?
+    - Is there data regarding the rbi available?
+    - Is data from the rbi available?
+    - Is figures from the rbi available?
+    - data from rbi is there?
+    - Do you have any information from the rbi?
+    - does portal have info concern with rbi
+    - does portal have data related to rbi
+    - Do you even have the certain information from the rbi department?
+    - data from rbi is present?
+    - Is there any information from the rbi domain that we might use?
+    - Do we have any dataset from the rbi?
+    - data from rbi is present?
+    - data from rbi is residing here?
+    - is data from rbi present here?
+    - Do we have rbi data?
+    - is idp having data from rbi domain?
+    - rbi data present?
+    - rbi data is residing here?
+    - can we acess the rbi data on portal?
+    - is portal having rbi data?
+    - data related to reserve bank of india
+    - reserve bank of india data?
+    - data from reserve bank of india is present?
+    - are we having data from reserve bank of india?
+    - does this portal have dataset related to reseve bank of india?
+    - tell me about rbi data?
+    - tell me about data of reseve bank of india 
+
+- intent: faq-dataset-b0/Petrol-Data  #299
+  examples: |
+    - Petrol Data ?
+    - any data related to petrol
+    - do you have any data related to petrol
+    - show me Petrol data?
+    - is there any ptrol data?
+    - tell me some petrol statistics?
+    - any kind of data related to petroleum
+    - tell me the petrol statistics?
+    - Is there any information about petrol?
+    - is there any dataset on petrol?
+    - Do you have any data about petrol?
+    - Is there any data pertaining to petrol?
+    - Is there any statistics regarding petrol?
+    - is petrol data available on portal?
+    - Is there data regarding the petrol available?
+    - Is data from the petrol available?
+    - Is figures from the petrol available?
+    - data from petrol is there?
+    - Do you have any information from the petrol?
+    - does portal have info concern with petrol
+    - does portal have data related to petrol
+    - Do you even have the certain information from the petrol department?
+    - data from petrol is present?
+    - Is there any information from the petrol domain that we might use?
+    - Do we have any dataset from the petrol?
+    - data from petrol is present?
+    - data from petrol is residing here?
+    - is data from petrol present here?
+    - Do we have petrol data?
+    - is idp having data from petrol domain?
+    - petrol data present?
+    - petrol data is residing here?
+    - can we acess the petrol data on portal?
+    - is portal having petrol data?
+    - are we having data related to petroleum industry?
+    - petroleum data is present?
+    - is there any petroleum data?
+    - is portal having petroleum data?
+    - tell me about petroleum data?
+
+- intent: faq-dataset-b0/e-way-bills-data   #300
+  examples: |
+    - What are e-way bills data ?
+    - tell me the definition of e-way bill data?
+    - what is the meaning of e-way bill data?
+    - what is eway bill data
+    - can you tell me about eway bill data?
+    - tell me the eway statistics?
+    - Is there any information about eway?
+    - is there any dataset on eway?
+    - Do you have any data about eway?
+    - Is there any data pertaining to eway?
+    - Is there any statistics regarding eway?
+    - is eway data available on portal?
+    - Is there data regarding the eway available?
+    - Is data from the eway available?
+    - Is figures from the eway available?
+    - data from eway is there?
+    - Do you have any information from the eway?
+    - does portal have info concern with eway
+    - does portal have data related to eway
+    - Do you even have the certain information from the eway department?
+    - data from eway is present?
+    - Is there any information from the eway domain that we might use?
+    - Do we have any dataset from the eway?
+    - data from eway is present?
+    - data from eway is residing here?
+    - is data from eway present here?
+    - Do we have eway data?
+    - is idp having data from eway domain?
+    - eway data present?
+    - eway data is residing here?
+    - can we acess the eway data on portal?
+    - is portal having eway data?
+    - tell me about eway data?
+
+- intent: faq-dataset-b0/electricity-data #301
+  examples: |
+    - Is there any electricity data ?
+    - is there electricity data available
+    - can you list the electricity data?
+    - is there electricity data?
+    - do you have any elec data with you?
+    - can i see some eleectricity data?
+    - DATA for electricity presnt ?
+    - any info on electricity?
+    - Is there any information about electricity?
+    - is there any dataset on electricity?
+    - Do you have any data about electricity?
+    - Is there any data pertaining to electricity?
+    - Is there any statistics regarding electricity?
+    - is electricity data available on portal?
+    - Is there data regarding the electricity available?
+    - Is data from the electricity available?
+    - Is figures from the electricity available?
+    - data from electricity is there?
+    - Do you have any information from the electricity?
+    - does portal have info concern with electricity
+    - does portal have data related to electricity
+    - Do you even have the certain information from the electricity department?
+    - data from electricity is present?
+    - Is there any information from the electricity domain that we might use?
+    - Do we have any dataset from the electricity?
+    - data from electricity is present?
+    - data from electricity is residing here?
+    - is data from electricity present here?
+    - Do we have electricity data?
+    - is idp having data from electricity domain?
+    - electricity data present?
+    - electricity data is residing here?
+    - can we acess the electricity data on portal?
+    - is portal having electricity data?
+    - is there any power corporation data present?
+    - are we having any data related to power corporation?
+    - Do we have power corporation data?
+    - tell me about electricity data?
+    - tell me about power corporation data
+
+- intent: faq-dataset-b0/data-related-energy  #302
+  examples: |
+    - Is there any data related to energy ?
+    - show some interesting information about energy?
+    - show the data on energy?
+    - where do you have data about energy?
+    - tell me the data that are related to energy?
+    - is there any data related to energy?
+    - Is there any information about energy?
+    - is there any dataset on energy?
+    - Do you have any data about energy?
+    - Is there any data pertaining to energy?
+    - Is there any statistics regarding energy?
+    - is energy data available on portal?
+    - Is there data regarding the energy available?
+    - Is data from the energy available?
+    - Is figures from the energy available?
+    - data from energy is there?
+    - Do you have any information from the energy?
+    - does portal have info concern with energy
+    - does portal have data related to energy
+    - Do you even have the certain information from the energy department?
+    - data from energy is present?
+    - Is there any information from the energy domain that we might use?
+    - Do we have any dataset from the energy?
+    - data from energy is present?
+    - data from energy is residing here?
+    - is data from energy present here?
+    - Do we have energy data?
+    - is idp having data from energy domain?
+    - energy data present?
+    - energy data is residing here?
+    - can we acess the energy data on portal?
+    - is portal having energy data?
+    - tell me about energy data
+
+- intent: faq-dataset-b0/data-micro-ATM  #303
+  examples: |
+    - Any data related to micro ATM's?
+    - is there any data for micro ATMS
+    - there are available data for micro ATMS
+    - tell me about data related to micro ATMs.
+    - show me the data related tto micro ATMs.
+    - is micro ATMs data is available.
+    - any data is available related to micro ATMs?
+    - micro ATMS data.
+    - Is there any information about micro atm?
+    - is there any dataset on micro atm?
+    - Do you have any data about micro atm?
+    - Is there any data pertaining to micro atm?
+    - Is there any statistics regarding micro atm?
+    - is micro atm data available on portal?
+    - Is there data regarding the micro atm available?
+    - Is data from the micro atm available?
+    - Is figures from the micro atm available?
+    - data from micro atm is there?
+    - Do you have any information from the micro atm?
+    - does portal have info concern with micro atm
+    - does portal have data related to micro atm
+    - Do you even have the certain information from the micro atm department?
+    - data from micro atm is present?
+    - Is there any information from the micro atm domain that we might use?
+    - Do we have any dataset from the micro atm?
+    - data from micro atm is present?
+    - data from micro atm is residing here?
+    - is data from micro atm present here?
+    - Do we have micro atm data?
+    - is idp having data from micro atm domain?
+    - micro atm data present?
+    - micro atm data is residing here?
+    - can we acess the micro atm data on portal?
+    - is portal having micro atm data?
+    - tell me about micro atm data
+
+- intent: faq-dataset-b0/unemployment-data   #304
+  examples: |
+    - Are you having unemployment data ?
+    - any unemployment data .
+    - unemployment data is available.
+    - can you give me unemployment data.
+    - is there any unemployment data?
+    - how can i get unemployment data?
+    - do i get unemployment data?
+    - tell me about employment data.
+    - Is there any information about unemployment?
+    - is there any dataset on unemployment?
+    - Do you have any data about unemployment?
+    - Is there any data pertaining to unemployment?
+    - Is there any statistics regarding unemployment?
+    - is unemployment data available on portal?
+    - Is there data regarding the unemployment available?
+    - Is data from the unemployment available?
+    - Is figures from the unemployment available?
+    - data from unemployment is there?
+    - Do you have any information from the unemployment?
+    - does portal have info concern with unemployment
+    - does portal have data related to unemployment
+    - Do you even have the certain information from the unemployment department?
+    - data from unemployment domain is present?
+    - Is there any information from the unemployment domain that we might use?
+    - Do we have any dataset from the unemployment?
+    - data from unemployment is present?
+    - data from unemployment is residing here?
+    - is data from unemployment present here?
+    - Do we have unemployment data?
+    - is idp having data from unemployment domain?
+    - unemployment data present?
+    - unemployment data is residing here?
+    - can we acess the unemployment data on portal?
+    - is portal having unemployment data?
+    - are we having any unemplyment data?
+    - can i get unemployment data from this portal?
+    - unemployment data?
+    - tell me about unemployment data
+
+- intent: faq-dataset-b0/data-UIDAI   #305
+  examples: |
+    - Is there any data from UIDAI ?
+    - any data fromUIDAI.
+    - does i get data from UIDAI?
+    - How can i GET uidai data?
+    - tell me about any data From UIDAI.
+    - how to fetch any data from UIDAI?
+    - Is there any information about uidai?
+    - is there any dataset on uidai?
+    - Do you have any data about uidai?
+    - Is there any data pertaining to uidai?
+    - Is there any statistics regarding uidai?
+    - is uidai data available on portal?
+    - Is there data regarding the uidai available?
+    - Is data from the uidai available?
+    - Is figures from the uidai available?
+    - data from uidai is there?
+    - Do you have any information from the uidai?
+    - does portal have info concern with uidai
+    - does portal have data related to uidai
+    - Do you even have the certain information from the uidai department?
+    - data from uidai domain is present?
+    - Is there any information from the uidai domain that we might use?
+    - Do we have any dataset from the uidai?
+    - data from uidai is present?
+    - data from uidai is residing here?
+    - is data from uidai present here?
+    - Do we have uidai data?
+    - is idp having data from uidai domain?
+    - uidai data present?
+    - uidai data is residing here?
+    - can we acess the uidai data on portal?
+    - is portal having uidai data?
+    - are we having any unemplyment data?
+    - can i get uidai data from this portal?
+    - uidai data?
+    - tell me about uidai data
+
+- intent: faq-dataset-b0/Aadhar-data   #306
+  examples: |
+    - Any Aadhar related data ?
+    - aadhar data.
+    - is any data  available reated to aadhar?
+    - aadhar related data.
+    - tell me about aadhar related data.
+    - give us the aadhar data
+    - Is there any information about aadhar?
+    - is there any dataset on aadhar?
+    - Do you have any data about aadhar?
+    - Is there any data pertaining to aadhar?
+    - Is there any statistics regarding aadhar?
+    - is aadhar data available on portal?
+    - Is there data regarding the aadhar available?
+    - Is data from the aadhar available?
+    - Is figures from the aadhar available?
+    - data from aadhar is there?
+    - Do you have any information from the aadhar?
+    - does portal have info concern with aadhar
+    - does portal have data related to aadhar
+    - Do you even have the certain information from the aadhar department?
+    - data from aadhar is present?
+    - Is there any information from the aadhar cards that we might use?
+    - Do we have any dataset from the aadhar?
+    - data from aadhar is present?
+    - data from aadhar is residing here?
+    - is data from aadhar present here?
+    - Do we have aadhar data?
+    - is idp having data from aadhar domain?
+    - aadhar data present?
+    - aadhar data is residing here?
+    - can we acess the aadhar data on portal?
+    - is portal having aadhar data? 
+    - are we having any unemplyment data?
+    - can i get aadhar data from this portal?
+    - aadhar data?
+    - aadhar card data?
+    - data from aadhar card is present?
+    - tell me about aadhar data
+
+- intent: faq-dataset-b0/monthly-data-sets  #307
+  examples: |
+    - What are monthly datasets ?
+    - dataset  relared to monthly information.
+    - monthly dataset.
+    - give me monthly datasets.
+    - what about monthly dataset?
+    - how can i get monthly dataset?
+    - can we have monthly information.
+    - What exactly are monthly datasets?
+    - i want to know more about monthly datasets?
+    - monthly datasets?
+    - what is monthly dataset?
+    - What are monthly datasets ? what they supposed to do?
+    - tell me about the monthly datasets?
+    - what are datasets on monthly basis?
+    - please provide knowledge about monthly datasets?
+    - any info regarding monthly datasets?
+
+- intent: faq-dataset-b0/daily-datasets  #308
+  examples: |
+    - What are daily datasets ?
+    - can we have daily datasets.
+    - how we get daily informatiuon.
+    - daily datasets/.
+    - datasets on daily basis.
+    - is there any daily based datasets?
+    - any daily info based dataset?
+    - dataset based on data information is available?
+    - What exactly are daily datasets?
+    - i want to know more about daily datasets?
+    - daily datasets?
+    - what is daily dataset?
+    - What are daily datasets ? what they supposed to do?
+    - tell me about the daily datasets?
+    - please provide knowledge about daily datasets?
+    - any info regarding daily datasets?
+
+- intent: faq-dataset-b0/old-data-available #311
+  examples: |
+    - Do you have 10 years old data ?
+    - do you any data older than 10 years or 20
+    - can i see data on IDP older than a deacde any dataset?
+    - is there any availability of older datasets like 50 years or 30 years old dtasets
+    - I have some project for that I need datasets frompast 10 years cani get it from here
+    - for my current research i need a dataset that should contain time from 2000 to 2020
+    - Do you have 10 years old data ?
+    - Do you have any historical data ?
+    - do you any deataset that is way old
+    - can i get some dataset that is older than 2 or 3 decades
+    - i want to fetch some data from history
+    - Do you have data that is more than ten years old?
+    - Do you have data from the last ten years?
+    - Do you have any data that is more than ten years old?
+    - Do you have any data from the previous ten years?
+    - Do you have data from the past ten years?
+    - any data from past 10 years
+    - past 10 years data?
+    - previous ten years data?
+    - last 10 years data on the portal?
+    - are we having last 10 years data on the porta?
+
+- intent: faq-dataset-b0/historical-data  #312
+  examples: |
+    - Do you have any historical data ?
+    - please give historical data.
+    - can we have historical data?
+    - how we get historical data?
+    - is there any historical data?
+    - any historical data?
+    - Do you have any data from the past?
+    - Do you have any historical information?
+    - Do you have any historical statistics ?
+    - Is there any historical information available?
+    - Would there be any historical data available?
+    - Is there any historical information collected?
+
+- intent: faq-dataset-b0/COVID-data  #313
+  examples: |
+    - Any COVID data ?
+    - do you have any COVID data?
+    - can we have COVID data?
+    - any data is available related to COVID?
+    - is there any COVID related DAta?
+    - give COVID data?
+    - any COVID related data is available?
+    - is there any dataset on covid?
+    - Do you have any data about covid?
+    - Is there any data pertaining to covid?
+    - Is there any statistics regarding covid?
+    - is covid data available on portal?
+    - Is there data regarding the covid available?
+    - Is data from the covid available?
+    - Is figures from the covid available?
+    - data from covid is there?
+    - Do you have any information from the covid?
+    - does portal have info concern with covid
+    - does portal have data related to covid
+    - Do you even have the certain information from the covid department?
+    - data from covid is present?
+    - Is there any information from the covid that we might use?
+    - Do we have any dataset from the covid?
+    - data from covid is present?
+    - data from covid is residing here?
+    - is data from covid present here?
+    - Do we have covid data?
+    - is idp having data from covid domain?
+    - covid data present?
+    - covid data is residing here?
+    - can we acess the covid data on portal?
+    - is portal having covid data? 
+    - are we having any unemplyment data?
+    - can i get covid data from this portal?
+    - covid data?
+    - data from covid site is present?
+    - tell me about covid data
+    - aarogyasetu data available?
+
+- intent: faq-dataset-b0/any-industry-data-question # 314
+  examples : |
+    - Any data from Ministry of Corporate Affairs ?
+    - Any stock market related data ?
+    - any data related to stocks
+    - can you give me some data regarding stocks
+    - i wnat some data regarding stocks
+    - but can you provide me some fig. about stocks
+    - any data we are having for staock market
+    - I want some data for corporate affairs
+    - Which type of data available on daily basis ?
+    - type od data available on daily basis ?
+    - Which type of data available on monthly  basis ?
+    - any source of data from ministu of corprate affairs
+    - i have a research work for which stocks data can i get it from here
+    - i have a jounalism project work for which stocks data can i get it from here
+    - Is there any information about ministry of corporate affair?
+    - is there any dataset on ministry of corporate affair?
+    - Do you have any data about ministry of corporate affair?
+    - Is there any data pertaining to ministry of corporate affair?
+    - Is there any statistics regarding ministry of corporate affair?
+    - is ministry of corporate affair data available on portal?
+    - Is there data regarding the ministry of corporate affair available?
+    - Is data from the ministry of corporate affair available?
+    - Is figures from the ministry of corporate affair available?
+    - data from ministry of corporate affair is there?
+    - Do you have any information from the ministry of corporate affair?
+    - does portal have info concern with ministry of corporate affair
+    - does portal have data related to ministry of corporate affair
+    - Do you even have the certain information from the ministry of corporate affair department?
+    - data from ministry of corporate affair domain is present?
+    - Is there any information from the ministry of corporate affair domain that we might use?
+    - Do we have any dataset from the ministry of corporate affair?
+    - data from ministry of corporate affair is present?
+    - data from ministry of corporate affair is residing here?
+    - is data from ministry of corporate affair present here?
+    - Do we have ministry of corporate affair data?
+    - is idp having data from ministry of corporate affair domain?
+    - ministry of corporate affair data present?
+    - ministry of corporate affair data is residing here?
+    - can we acess the ministry of corporate affair data on portal?
+    - is portal having ministry of corporate affair data?
+    - are we having any unemplyment data?
+    - can i get ministry of corporate affair data from this portal?
+    - ministry of corporate affair data?
+    - tell me about ministry of corporate affair data
+    - any corporate data?
+    - data from corporate domain
+    - any corporate data on the portal?
+    - ministry of corporate data is present here?
+
+- intent: faq-dataset-b0/Why-India-data-portal-create   #316
+  examples: |
+    - Why was India data portal created? 
+    - why IDP is crerated?
+    - why IDP is created?
+    - reason fpor creating IDP.
+    - what are reasons to create INDIAN DATA PORTAL?
+    - idp is created .WHY?
+    - what was the aim of india data portal?
+    - why india data portal cam into existance?
+    - ehy idp was made
+    - what was the goal of idp which leads to its creation?
+    - what factors are responsible for creation of india data portal
+    - What was the motivation for the creation of the India data portal?
+    - what was the motivation behind the creation of india data portal?
+    - what was the driving force behind the creation of this portal?
+    - What was the rationale behind the establishment of the India data portal?
+    - What was the objective for the construction of the India data portal?
+    - What was the motive behind the building of the India data portal?
+    - Why was the India Data Portal established?
+    - Why was the India Data Portal developed?
+    - Why was the India Data Portal created?
+    - why india data portal is formed?
+    - Why was the India Data Portal constructed?
+    - Why was the India Data Portal developed?
+    - Why was the India Data Portal founded?

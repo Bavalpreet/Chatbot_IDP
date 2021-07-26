@@ -1,0 +1,20 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq-fel-b0:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_faq-fel-b0/info-about-fellowship:  #360
+  - text: If you are registered in our portal we will update you in mail.Please visit the website- https://www.newslaundry.com/2021/03/05/newslaundry-and-india-data-portal-announce-data-journalism-fellowship. Also  write to us at idp@isb.edu and stay tuned to our social media handles
+  utter_faq-fel-b0/fellowship-eligibility: #361
+  - text: For the first phase, 16 journalists will be selected as fellows by a jury comprising editors from Newslaundry and editors working in Bengali, Oriya, Marathi, and Telugu media.Please write to us at idp@isb.edu for more info
+  utter_faq-fel-b0/fellowship-timeperiod: #362
+  - text: The first phase of the fellowship consists of a four-week programme to familiarize the fellows with datasets of IDP. Based on how they perform, the fellows move to phases 2 and 3, which include workshops on long-form writing, masterclasses, and a one-week research trip to the Indian School of Business’s campus in Mohali.
+  utter_faq-fel-b0/cost-of-idp-training: #363
+  - text: Yes, all the training provided by India Data Portal is free of cost

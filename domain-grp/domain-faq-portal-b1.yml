@@ -1,0 +1,87 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+
+- faq-portal-b1:
+    use_entities: true
+    
+entities: []
+slots: {}
+
+responses:
+    utter_faq-portal-b1/find-dataset: #369
+    - text: You can search the datasets by typing its name in the search bar. Another way of getting the datasets is to directly go to the dataset tab on the above.
+    utter_faq-portal-b1/new-graphic-portal: #370
+    - text: The News and Graphics tab in the website shows the news created using and also the graphic gallery 
+    utter_faq-portal-b1/type-new-cover-idp: #371
+    - text: India Data Portal focuses mainly on Agriculture, Rural development and Financial inclusion
+    utter_faq-portal-b1/necesari-signup-use-dataset: #372
+    - text: To use the data set a user must login to the portal
+    utter_faq-portal-b1/make-viz-without-log: #373
+    - text: As of now, you cannot make a visualization without logging in
+    utter_faq-portal-b1/app-idp: #374
+    - text: Yes, India Data Portal has a mobile application which could be downloaded from the Google Playstore and the App Store
+    utter_faq-portal-b1/one-one-convers-idp-team: #375
+    - text: You can write to us at idp@isb.edu
+    utter_faq-portal-b1/vizualis-interact: #381
+    - text: India Data Portal has interactive as well as static visualisations
+    utter_faq-portal-b1/chang-languag-portal-affect-dashboard-inform-present-portal-also-translat: #386
+    - text: We we change the language in India Data Portal, almost every option changes to that specific language which is selected including the visualisation
+    utter_faq-portal-b1/dataset-filter-featur-availabel-dataset: #390
+    - text: You can apply filters to all the dataset where the functionality is available
+    utter_faq-portal-b1/suppos-fill-indic-name: #396
+    - text: You can fill in information which you think is suitable for representating the indicator that you have created
+    utter_faq-portal-b1/indic-select-mean-unit: #397
+    - text: Unit is a number used as a standard of measurement
+    utter_faq-portal-b1/abl-see-indic-indic-select-page: # 401
+    - text: Any visualization page always has indicators. If you cannot find any kindly refresh your page.
+    utter_faq-portal-b1/indic-select-add-one-dataset: #403
+    - text: As of now IDP doesn't have this feature
+    utter_faq-portal-b1/even-select-dataset-abl-select-unit: #404
+    - text: Kindly close the popup and  refresh your page and try again.
+    utter_faq-portal-b1/write-new-indic-formula: #405
+    - text: On the top right corner of the indicator popup you will see create new indicator button. Click it and then you will get another popup and there is a dropdown named dataset and after that there is a section to select the indicators. After selecting the indicators use the mathematical icons to define the relationship between the selected indicators. Then name the new indicator and name its unit and click on create indicator.
+    utter_faq-portal-b1/indic-creat-succes-see: # 406
+    - text: You can view your newly created indicator in the indicator popup. Also you can view your indicator in my indicators tab.
+    utter_faq-portal-b1/modifi-detail-indic: # 407
+    - text: You can modify custom created indicator by going to 'my indicator' tab and then 'edit'
+    utter_faq-portal-b1/clear-visualis-histori: #409
+    - text: You can click on your profile and go to visualization history. After that select a date range to see your visualizations and then hit the button clear visualization.
+    utter_faq-portal-b1/benefit-share-social-profil-idp: #411
+    - text: Yes if you share your social media profiles then it would be easier to tag you or to mention you in any of our posts
+    utter_faq-portal-b1/live-demo-protal-use-idp: #415
+    - text: You can find the  demo on the online training tab in our portal. For further assistance please enroll in our workshops
+    utter_faq-portal-b1/add-data-card: #419
+    - text: We can have one dataset on one datacard. There is an button "add datacard" in the below where you can add upto 4 datacards in one single page.
+    utter_faq-portal-b1/indiapuls-isb: #420
+    - text: indiapulse@isb is an initiative for one stop data access specially for high frequency indicators. Data are available on monthly and daily basis. Go to https://indiadataportal.com/IndiaPulse?language=English&location=India#?objectid=44012&d_id1=14&d_id2=14&d_id3=14&d_id4=14&d_id5=14&ind_id1=118&ind_id2=118&ind_id3=118&ind_id4=118&ind_id5=118&startdate=08%2F01%2F2020&enddate=04%2F01%2F2021&global_location=India to learn more!
+    utter_faq-portal-b1/intern-comparison-avail-indiapuls-isb: #421
+    - text: As of now indiapulse@isb doesn't have this feature
+    utter_faq-portal-b1/idp-compar-demograph-countri: #422
+    - text: As of now IDP doesn't have this feature
+    utter_faq-portal-b1/donload-imag-datacard: #423
+    - text: You can download the image by clicking in to the top right corner of the data card on 'three lines' icon.
+    utter_faq-portal-b1/made-datacard-use-multipl-dataset: #424
+    - text: Yes one datacard will have one dataset visualization. Like this we can have 4 datacards with 4 different visualizations in one page
+    utter_faq-portal-b1/incorpor-multipl-dataset-datacard: #425
+    - text: We can have one dataset on one datacard. There is an button "add datacard" in the below where you can add upto 4 datacards in one single page.
+    utter_faq-portal-b1/function-provid-datacard: #426
+    - text: Datacard consists of one dataset with visualization. In one page we can have 4 datacards with 4 different visualizations
+    utter_faq-portal-b1/use-datacard: #427
+    - text: Datacard consists of one dataset with visualization. In one page we can have 4 datacards with 4 different visualizations
+    utter_faq-portal-b1/compar-multipl-datacard-portal: # 428
+    - text: We can compare 4 datacards with 4 different visualizations in one page. We can add the datacards by prassing "add datacard" button on below.
+    utter_faq-portal-b1/upload-datacard-sourc-idp: # 429
+    - text: As of now IDP doesn't have this feature
+    utter_faq-portal-b1/idp-provid-function-cross-compar-differ-site: #430
+    - text: As of now IDP doesn't have this feature
+    utter_faq-portal-b1/add-custom-indic-datacard: #431
+    - text: On the top right corner of the indicator popup you will see create new indicator button. Click it and then you will get another popup and there is a dropdown named dataset and after that there is a section to select the indicators. After selecting the indicators use the mathematical icons to define the relationship between the selected indicators. Then name the new indicator and name its unit and click on create indicator.
+actions: []
+forms: {}
+e2e_actions: []

@@ -1,0 +1,38 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq-visualisation-b1:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  
+  utter_faq-visualisation-b1/add-dataset-on-idp:
+  - text: In the left side bar on visualize page, you will see the Add Dataset option. You can add upto 2 datasets one by one for comparison
+  utter_faq-visualisation-b1/location-meaning-idp:
+  - text: Location in the dataset defines the geographical attributes like state, district, city available according to the level it was recorded at source.
+  utter_faq-visualisation-b1/only-india-is-covered:
+  - text: India Data Portal contains data of Indian government sources only. The level of depth / granullarity varies in dataset according to the data collection at source. and more over IDP covers all districts in a particular state, which are recorded in the data collection at source
+  utter_faq-visualisation-b1/mandatory-to-select-location:
+  - text: In some aggregatable datasets, there is no need need to select a location. This way it can present pan india statistics for the dataset. However, for non aggregatable datasets, selecting a location is mandatory
+  utter_faq-visualisation-b1/can-i-select-dis-without-state:
+  - text: No, selection of an upper level entity like state is mandatory to select the districts it contains
+  utter_faq-visualisation-b1/can-change-color-of-viz:
+  - text: On top left corner of the visualisation, there is a icon with gear and pencil which enable you to change the color pallet of visualisations
+  utter_faq-visualisation-b1/can-we-save-viz:
+  - text: On right side of the second menu bar, there is Save To button which can save your visualisation on the portal. My Graphics, saves it to your personal gallery Graphic Gallery saves it to a public gallery where you can also see visualisations saved by others
+  utter_faq-visualisation-b1/can-we-export-viz:
+  - text: On top left corner of the visualisation, there is three dot icon which enable to save visualisation as png and svg
+  utter_faq-visualisation-b1/can-share-viz-on-social-media:
+  - text: On top right corner of the visualisation, there is a share icon (like a branch) which gives you option to share on Social media and a custom link.
+  utter_faq-visualisation-b1/do-i-have-to-share-number:
+  - text: ' No, IDP directly opens the web whatsapp on your browser which works with QR code scanned with your phone'
+  utter_faq-visualisation-b1/which-social-media-platform-supported-for-sharing-vis:
+  - text: IDP can share on Facebook, Linkedin, Twitter &  Instagram. Apart from that you can also copy the visualisation link and share it anywhere on the internet.
+actions: []
+forms: {}
+e2e_actions: []
