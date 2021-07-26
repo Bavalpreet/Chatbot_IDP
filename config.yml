@@ -1,0 +1,102 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 100
+    batch_strategy: sequence # if you have a lot of training data for some intents and very little training data for others. 
+
+  - name: EntitySynonymMapper
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-train-b0 # for faq-train-b0 specific questions
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-train-b1 # for faq-train-b1 specific questions
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-portal-b0 # for faq-portal-b0 specific questions
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-portal-b1 # for faq-portal-b0 specific questions
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-fel-b0 # for faq-fel-b0 specific questions
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-dataset-b0 # for faq-dataset-b0 specific questions
+  
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-dataset-b1 # for faq-dataset-b0 specific questions
+  
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-visualisation-b0
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-visualisation-b1 # from faq number 35 to 54
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-visualisation-b2 # from faq number 55 to 80
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-visualisation-b3 # from faq number 80 to 110
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-visualisation-b4 # from faq number 110 to 140
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-visualisation-b5 # from faq number 140 to 180
+
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq-visualisation-b6 # from faq number 180 to 10038
+
+
+
+  - name: FallbackClassifier
+    threshold: 0.75
+    ambiguity_threshold : 0.1
+
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+# # No configuration for policies was provided. The following default policies were used to train your model.
+# # If you'd like to customize them, uncomment and adjust the policies.
+# # See https://rasa.com/docs/rasa/policies for more information.
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 3
+    epochs: 100
+    # constrain_similarities: true
+
+  - name: RulePolicy
+  # # Confidence threshold for the `core_fallback_action_name` to apply.
+  # # The action will apply if no other action was predicted with
+  # # a confidence >= core_fallback_threshold
+  #   core_fallback_threshold: 0.5
+  #   core_fallback_action_name: "action_default_fallback"
+  #   enable_fallback_prediction: True
