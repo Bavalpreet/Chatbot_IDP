@@ -1,0 +1,1081 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- faq-dataset-b1:
+    use_entities: true
+- faq-visualisation-b6:
+    use_entities: true
+- faq-portal-b0:
+    use_entities: true
+- faq-visualisation-b2:
+    use_entities: true
+- faq-train-b0:
+    use_entities: true
+- faq-train-b1:
+    use_entities: true
+- faq-visualisation-b5:
+    use_entities: true
+- faq-dataset-b0:
+    use_entities: true
+- faq-visualisation-b3:
+    use_entities: true
+- faq-portal-b1:
+    use_entities: true
+- faq-visualisation-b1:
+    use_entities: true
+- faq-visualisation-b0:
+    use_entities: true
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- idp_bot_intro:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+- ok:
+    use_entities: true
+- faq-fel-b0:
+    use_entities: true
+- faq-visualisation-b4:
+    use_entities: true
+entities:
+- intent_button
+slots:
+  intent_button:
+    type: list
+    influence_conversation: true
+responses:
+  utter_faq-dataset-b1/search-dataset-use-demograph:
+  - text: Our dynamic search bar allows you to search with almost any key words
+  utter_faq-dataset-b1/select-multipl-dataset-one-indic-one-go:
+  - text: As of now IDP doesn't have this feature
+  utter_faq-dataset-b1/chang-decim-point-across-diff-column-singl-dataset:
+  - text: As of now IDP doesn't have this feature
+  utter_faq-dataset-b1/download-data-set-excel-format:
+  - text: Yes you can download the data in excel format. On the top right corner of
+      the visualization you will find save icon where there is an option to save the
+      data.
+  utter_faq-dataset-b1/differ-format-support-dataset-download:
+  - text: As of now only .xlsx format is available for the data download
+  utter_faq-dataset-b1/download-data-set-csv-format:
+  - text: As of now you can't save the data in csv format
+  utter_faq-dataset-b1/combin-datset-diff-sector:
+  - text: Yes you can combine and compare datasets from different sectors.
+  utter_faq-dataset-b1/datacard-signifi:
+  - text: Datacard consists of one dataset with visualization. In one page we can
+      have 4 datacards with 4 different visualizations
+  utter_faq-visualisation-b6/why-create-new-indicator:
+  - text: The user has the option to create new indicators for the purpose of further
+      analysis and visualizations. The indicators created by the user can be viewed
+      under the "My Indicators" option under your account.
+  utter_faq-visualisation-b6/create-new-indicators:
+  - text: On the Visualise page, go to the left hand side of the page where you will
+      find the indicators option under the data set tab. Click on indicators and on
+      the right hand side of the pop-up, there will be an option to create your own
+      indicator.
+  utter_faq-visualisation-b6/choropleth-map:
+  - text: choropleth map is a type of thematic map in which a set of pre-defined areas
+      is colored or patterned in proportion to a statistical variable that represents
+      an aggregate summary of a geographic characteristic within each area.
+  utter_faq-visualisation-b6/how-many-for-cholorpleth-map:
+  - text: Only one indicator value can be visualized using the chropleth map of India
+  utter_faq-visualisation-b6/new-indicator-using-seperate-datasets:
+  - text: A new indicator can be created for the respective datasets that is selected
+  utter_faq-visualisation-b6/create-3-dimensional-graph:
+  - text: Currently we do not have the option to create a 3 dimensional graph
+  utter_faq-visualisation-b6/when-use-choropleth-map:
+  - text: A choropleth map is best used to represents an aggregate summary of a geographic
+      characteristic within each area, such as population density or per-capita income.
+  utter_faq-visualisation-b6/flip-axis:
+  - text: Once a chart is created, you can go to the settings and change the values
+      on each axis
+  utter_faq-visualisation-b6/possibility-sorting-bars:
+  - text: Yes, you can sort the bars in ascending or descending order and you can
+      sort them alphabetically or by indicator value
+  utter_faq-visualisation-b6/maximum-indicators-one-visulisation:
+  - text: You can select as many indicator available in the dataset
+  utter_faq-visualisation-b6/map-cannot-generated:
+  - text: If multiple indicators are selected, then it cannot be visualized on the
+      map. Please select only one indicator for the Map option.
+  utter_faq-visualisation-b6/save-visualisations-among-my-graphics-my-gallery:
+  - text: My graphics is you personal space for saving visualisation and graphics
+      gallery lets you share your visualisation with everyon else. It is completly
+      your choice where to save your visualisation.
+  utter_faq-visualisation-b6/upload-work-on-social-media:
+  - text: After creating the visulisation there will a share icon in the top right
+      corner of your visualisation space. Clicking on that share icon will give you
+      the various options to share your visualisation
+  utter_faq-visualisation-b6/why-save-svg-format:
+  - text: SVG (Scaleable Vector Graphics) files are ideal for saving, as the name
+      suggests is infinitely scaleable; they will never lose their sharpness.
+  utter_faq-visualisation-b6/download-visual-suggested-format:
+  - text: The formats available in India Data Portal is SVG an PNG. You can download
+      whichever you like depending on the need
+  utter_faq-visualisation-b6/add-dataset-compare-dataset-difference:
+  - text: Add data set option will let you add another data set for the purpose of
+      comparision. The Compare data set option starts with having two data set boxes
+      to directly go into comparing data sets
+  utter_faq-visualisation-b6/trend-analysis-what-viz-needed:
+  - text: Line chart will help you analyze the trend over time and perfom trend analysis
+  utter_faq-visualisation-b6/minimum-indicators-and-dimension-to-create-snakey-graph:
+  - text: To create a Sankey Graph you need 2 or more indicator with any number of
+      dimensions and in the visualise pop up additional 2 or more dimension or location
+      needs to be selected
+  utter_faq-visualisation-b6/how-to-read-sankey-chart:
+  - text: Sankey diagrams show the flow of resources. The key to reading and interpreting
+      Sankey Diagrams is remembering that the width is proportional to the quantity
+      represented.
+  utter_faq-visualisation-b6/where-give-chart-title:
+  - text: Right next to the chart name displaye on the centre top of your visualisation
+      space, there is a small pencil icon. Click on this icon to change the title
+      of your chart.
+  utter_faq-visualisation-b6/send-visualisation-on-email-id:
+  - text: You can copy the shareable link by clicking on the share icon on the top
+      right corner of your visualisation space.
+  utter_faq-visualisation-b6/change-font-title:
+  - text: It is currently not possible to change the font of your title. Thanks for
+      the suggestion, we  will consider it in our product update
+  utter_faq-visualisation-b6/change-font-style-on-visualisation:
+  - text: It is not currently possible to change the font size of your visualisation.
+      Thanks for the suggestion, we  will consider it in our product update
+  utter_faq-visualisation-b6/create-my-own-visualisation:
+  - text: Once you have identified the data set to work on, you add the necesarry
+      filters and then click on the Build your Chart option. After selecting this
+      option a pop-up will ask for additional information, you can fill this in if
+      needed and click on Visualise at the bottom.
+  utter_faq-visualisation-b6/how-generate-viz:
+  - text: The visualizations are generated based on the meticulous analysis of the
+      data on India Data Portal
+  utter_faq-visualisation-b6/maximum-visualisation-generated-for-dataset-at-a-time:
+  - text: You can create upto 48 different types of visualisation using India Data
+      Portal
+  utter_faq-visualisation-b6/select-dimension-or-indicator-by-default:
+  - text: You should select both dimension and indicator for creating a visualisation
+  utter_faq-visualisation-b6/possibility-rearranging-visualisation-parts-like-legends-as-my-choice:
+  - text: No, legends cannot be rearranged as per choice
+  utter_faq-visualisation-b6/possibility-customize-bins-in-histogram:
+  - text: No, it is not possible to customise bins in a Histogram
+  utter_faq-visualisation-b6/maximum-visualizations-I-can-download:
+  - text: You can download as many visualisations as you want at any point in time
+  utter_faq-visualisation-b6/viz-categorical-only:
+  - text: Categorical variables are often the dimensions and the values for these
+      dimensions can be visulaised on the portal
+  utter_faq-visualisation-b6/what-is-custom-indicator:
+  - text: The user has the option to create new indicators for the purpose of further
+      analysis and visualizations. The indicators created by the user can be viewed
+      under the "My Indicators" option under your account.
+  utter_faq-visualisation-b6/what-happen-when-click-reset-all:
+  - text: You will reset all the selection you have made.
+  utter_faq-visualisation-b6/get-table-after-download-image-format:
+  - text: User can download the data that is being visualized on the portal and use
+      it for analysis externally
+  utter_faq-visualisation-b6/export-selected-data:
+  - text: India Data Portal doesn't give you the option to export data from the site.
+  utter_faq-visualisation-b6/why-percentage-100:
+  - text: Please refer to the "Dataset Information" page for further details on the
+      dataset and the values
+  utter_faq-visualisation-b6/blanks-chloropleth-map:
+  - text: There might be no values for the regions which are blank or the regions
+      were formed after this data was collected
+  utter_faq-visualisation-b6/change-visulaisation-to-local-language:
+  - text: "To change the visualisation into your local language, click on the top\
+      \ right option on your screen which shows  'A/\u0906'. Here you can find thw\
+      \ various languages available."
+  utter_faq-visualisation-b6/write-title-in-local-language:
+  - text: Yes, you can write the title in your preffered choice of language which
+      is available
+  utter_faq-visualisation-b6/type-title-local-lang:
+  - text: You can use a local language keyboard to type the title in that language
+  utter_faq-visualisation-b6/type-local-lang:
+  - text: You can use a local language keyboard to type the title in that language
+  utter_faq-visualisation-b6/search-previously-created-visulaisation:
+  - text: You can view your saved visualizations in My graphics or Graphic Gallery
+  utter_faq-visualisation-b6/search-visualisation-in-graphic-gallery:
+  - text: On the top bar under News and Graphics, you can find the Graphic Gallery.
+      Once you are in the Graphic Gallery there will be a search box
+  utter_faq-visualisation-b6/can-viz-others-gallery-directly:
+  - text: Visualizations shared by other users in the Graphics Gallery can be re-used
+      by other users
+  utter_faq-portal-b0/about_idp:
+  - text: IDP is Your one-stop destination for open-access data on agriculture, rural
+      development and financial inclusion in India.The portal contains a data repository
+      with processed and documented public datasets on related themes. For agriculture,
+      these include crops, water, livestock, public investments, etc at levels such
+      as districts, tehsils, and villages with a largely rural focus and socio-economic
+      characteristics in both rural and urban areas at granular spatial scales like
+      district, town and ward spanning the entire country.
+  utter_faq-portal-b0/why_idp:
+  - text: IDP is Your one-stop destination for open-access data on agriculture, rural
+      development and financial inclusion in India.The portal contains a data repository
+      with processed and documented public datasets on related themes. For agriculture,
+      these include crops, water, livestock, public investments, etc at levels such
+      as districts, tehsils, and villages with a largely rural focus and socio-economic
+      characteristics in both rural and urban areas at granular spatial scales like
+      district, town and ward spanning the entire country.
+  utter_faq-portal-b0/types-visualisation-portal:
+  - text: More than 30 types of visualizations are available on India Data portal,
+      which includes bar chart, pie chart, line chart, histogram, tree map, etc.
+  utter_faq-portal-b0/frequency-data-upload:
+  - text: India Data Portal has data from various government sources and once the
+      data is uploaded on the source, it is updated on the portal within a short time
+  utter_faq-portal-b0/server-error:
+  - text: Sorry for the inconvinience due to technical issue, which is resolved now.
+  utter_faq-portal-b0/not-able-search-dataset-with-keywords:
+  - text: You can search for the dataset name, indicator name or location separately
+  utter_faq-portal-b0/help-technical-issues-portal:
+  - text: Just mail to us idp@isb.edu
+  utter_faq-portal-b0/not-able-compare-datasets:
+  - text: You can compare two datasets provided there is data on the same locations
+      across both the datasets, e.g. either state or district level data
+  utter_faq-portal-b0/trust-data-sourced-from-government-agencies:
+  - text: We have collected the data from reliable government sourcs You can also
+      see the links in the about dataset page in the source link section
+  utter_faq-portal-b0/materials-videos-different-visualization-posted-website:
+  - text: Yes we will be uploading new training videos in our portal
+  utter_faq-portal-b0/different_langauges_availability:
+  - text: India Data Portal is available in six languages which includes English and
+      other Indian languages like Hindi, Bengali, Marathi, Oriya and Telegu
+  utter_faq-portal-b0/visualisations-made-downloaded-other-languages:
+  - text: Yes the visualisations can be made and downloaded in the languages available
+      in the Portal
+  utter_faq-portal-b0/paid_service_or_not:
+  - text: Till now it is not a paid service and is completely open source
+  utter_faq-portal-b0/what-is-indicator:
+  - text: Indicator is a variable whose value is of interest to the user of the portal
+  utter_faq-portal-b0/compare-datasets-on-idp:
+  - text: Go to the visualize page, and on the left hand side, you will see the Add
+      Dataset option. You can add upto 2 datasets one by one for comparison
+  utter_faq-portal-b0/count-of-datasets:
+  - text: There are more than 35+ dataset available at IDP, across various sectors
+      like agriculture, rural development, soci-economic, financial inclusion, economic
+      activity, etc.
+  utter_faq-portal-b0/part-available-data:
+  - text: India Data portal covers multiple domains like Agriculture, Financial Inclusion,
+      Rural Development, Economy, Socio- economic, Climate etc
+  utter_faq-portal-b0/Why-not-see-all-selected-language:
+  - text: We are working on converting all the text into the selected language and
+      in some cases there are technical difficuilties for the translation.
+  utter_faq-portal-b0/most-recent-data:
+  - text: For some datasets youll find data available from last month on the portal.
+      Data is updated on the portal after it is made available by the Indian Government
+  utter_faq-portal-b0/recent-data-available:
+  - text: India Data portal updates its data from the Govt sources. As soon as the
+      Govt updates its data we also updates our data within few days
+  utter_faq-portal-b0/employment-data-available:
+  - text: Employment data is available on the portal. We have NSSO employment and
+      MGNREGA employment data
+  utter_faq-portal-b0/agriculture-data-available:
+  - text: India Data Portal extensively covers Agriculture data starting from Agricensus,
+      Agri Marketing, Area Production Yield, Fertilizers sales, Cost of Cultivation.
+      To find more go to Food and Agriculture Tab
+  utter_faq-portal-b0/Is-data-reliable:
+  - text: Our data is completely reliable since we extract our data only from government
+      sources.
+  utter_faq-portal-b0/How-portal-useful:
+  - text: IDP helps you in creating different visualization which you can add in your
+      stories making your stories enriched with data and attractive
+  utter_faq-portal-b0/Why-need-data:
+  - text: Journalists need data as a supporting evidence for their stories. IDP will
+      help them in creating data rish stories with simple visualizations
+  utter_faq-portal-b0/data-updation:
+  - text: India Data portal updates its data from the Govt sources. As soon as the
+      Govt updates its data we also updates our data within few days
+  utter_faq-portal-b0/data-download-provision:
+  - text: Yes you can download the data either in csv or xlsx format. There is an
+      option in the top right corner to download the dataset.
+  utter_faq-portal-b0/data-use-for-research:
+  - text: You can use this data for your research
+  utter_faq-portal-b0/portal-maintainence:
+  - text: This portal is maintained by the Indian School of Business
+  utter_faq-portal-b0/potal-maintainence-by-goi:
+  - text: This portal is maintained by the Indian School of Business
+  utter_faq-portal-b0/data-age-how-old:
+  - text: Various distoric datasets are available on the portal, please visit the
+      dataset section of the portal for details
+  utter_faq-portal-b0/data-update-mail-alerts:
+  - text: Until now, we do not have that feature. Thanks for the feedback, well include
+      this in the product roadmap.
+  utter_faq-portal-b0/hindi-illustrations:
+  - text: Yes, India Data portal is available in 6 languages
+  utter_faq-portal-b0/different-languages:
+  - text: India Data Portal is available in English, Hindi, Telugu, Bengali, Marathi
+      and Oriya
+  utter_faq-portal-b0/portal-came-to-existance:
+  - text: The project started in 2019 and the first version of the portal was launched
+      in January 2020
+  utter_faq-portal-b0/user-count-on-portal:
+  - text: The portal has a vibrant group of users including journalists, researchers,
+      academia, students, corporates, etc.
+  utter_faq-portal-b0/portals-impact:
+  - text: The portal helps journalists with easy access to data, accompanied with
+      visualizations that they can immediately use for publication
+  utter_faq-portal-b0/news-and-graphics:
+  - text: News is a space where one can see the news article created using IDP and
+      the Graphic gallery lets one view the graphics shared publically by the user
+  utter_faq-portal-b0/uploading-news:
+  - text: Please send the content to us at idp@isb.edu
+  utter_faq-portal-b0/frequency-of-data-updation:
+  - text: India Data Portal updates data as soon as the source updates them
+  utter_faq-portal-b0/data-change-notifications:
+  - text: As of now, we do not have custom notifications
+  utter_faq-portal-b0/data-sourced-from-gov-sites:
+  - text: The data is sourced from reliable publically available sources
+  utter_faq-portal-b0/hyperlink-to-source-data:
+  - text: The source of the data can be found at the bottom of the image that is downloaded
+      which can be accessed through the informations section of the dataset
+  utter_faq-portal-b0/idp-training:
+  - text: India Data Portal offers Masterclasses and Workshops
+  utter_faq-portal-b0/fellowship-with-idp:
+  - text: Yes, India Data Portal offers fellowships collaborating with Newslaundry.
+      The first phase of the fellowship consists of a four-week programme to familiarize
+      the fellows with datasets on India Data Portal, attend exclusive masterclasses
+      and get research support from the Indian School of Business, and publish data-driven
+      stories. Please write to us at idp@isb.edu for more information.
+  utter_faq-portal-b0/whats-on-portal:
+  - text: India Data Portal has various datasets starting from agriculture, Financial
+      Inclusion, Rural Development, Socio economic etc. You can interact with the
+      data and visualize information by creating various graphs and charts
+  utter_faq-portal-b0/data-citation:
+  - text: We have collected the data from government websites. You can also see the
+      source links in the 'about dataset' page of a dataset. In any chart in the below
+      you can see the sources from where the data has been referenced.
+  utter_faq-portal-b0/is-data-reliable:
+  - text: We have collected the data from reliable government sources. You can also
+      see the source links in the 'about dataset' page of a dataset
+  utter_faq-portal-b0/data-sources:
+  - text: We have collected the data from government websites. You can also see the
+      source links in the 'about dataset' page of a dataset
+  utter_faq-visualisation-b2/delete-visualisation-from-graphic-gallery:
+  - text: As of Now we cannot delete a visualization from graphics gallary
+  utter_faq-visualisation-b2/possible-share-live-visualisation:
+  - text: yes you can share the visualisation by clicking on the share link
+  utter_faq-visualisation-b2/login-create-visualisation:
+  - text: for now login is required to create any visualisation
+  utter_faq-visualisation-b2/shared-visualisation-link-not-seen:
+  - text: May be you are not logged in which is why you are not able to see the visualization
+  utter_faq-visualisation-b2/automatically-redirect-shared-visualisation-link-after-login:
+  - text: Yes it will automatically redirect to visualisation link once you logged
+      in
+  utter_faq-visualisation-b2/select-all-indicators-together:
+  - text: No it is not necessary to select all the indicators. select one which you
+      want to see in the visualisation
+  utter_faq-visualisation-b2/add-indicators-from-other-datasets:
+  - text: Yes we can add the indicators from other datasets. Just click on the datasets
+      tab on top and go to create new indicator. Now a popup will show up which includes
+      a dropdown of dataset where you can choose across datasets and their indicators
+      to create a new indicator
+  utter_faq-visualisation-b2/create-new-indicator:
+  - text: On the top right corner of the indicator popup you will see create new indicator
+      button. Click it and then you will get another popup and there is a dropdown
+      named dataset and after that there is a section to select the indicators. After
+      selecting the indicators use the mathematical icons to define the relationship
+      between the selected indicators. Then name the new indicator and name its unit
+      and click on create indicator.
+  utter_faq-visualisation-b2/create-new-visualizations-using-new-indicator-two-different-datasets:
+  - text: Yes we can create new visualization using new indicator from different datasets.
+  utter_faq-visualisation-b2/new-indicators-added-visualization:
+  - text: You can add all the indicators that are there in a dataset
+  utter_faq-visualisation-b2/create-new-indicators:
+  - text: No its not necessary.If you want to see a visualization from a new indicator
+      that could be derived from the exisiting indicators then you can create a new
+      indicator and view visualization from it.
+  utter_faq-visualisation-b2/define-unit-new-indicator:
+  - text: The unit of a new indicator can be derived from the existing indicators.
+      If you create a new indicator by using area and production then the unit of
+      the new indicator should be area/production
+  utter_faq-visualisation-b2/necessity-select-dimensions-Visualisation-option:
+  - text: Yes it is necessory to select dimensions to see the visualization.
+  utter_faq-visualisation-b2/any-dimension-not-selected:
+  - text: It will give you an error that please select atleast one dimension
+  utter_faq-visualisation-b2/save-new-indicators-how:
+  - text: The new indicator is automatically saved in the dataset's indicator panel
+  utter_faq-visualisation-b2/remove-created-new-indicators:
+  - text: Till now we cannot remove any new indicators
+  utter_faq-visualisation-b2/select-maximum-number-dimensions-for-visualization:
+  - text: You can select all the dimensions in a dataset. No limit
+  utter_faq-visualisation-b2/How-search-dimension:
+  - text: In the dimensions popup in the page visualise you can search for a dimension.
+      Also you can search dimensions in our home page search bar
+  utter_faq-visualisation-b2/edit-dimensions-selected-for-visualization:
+  - text: You can edit by clicking on Clear all button which is on the top of the
+      dimensions popup
+  utter_faq-visualisation-b2/selecting-time-necessary:
+  - text: If there is only one year in the dataset then no need to select time. But
+      if there are multiple years in a dataset and you have to select a time
+  utter_faq-visualisation-b2/How-visualize-trend:
+  - text: if you have selected two dimensions and want to see their postion over time.
+      ft then a trend chart can be obtained
+  utter_faq-visualisation-b2/select-location:
+  - text: Yes its necessary to select a location in a dataset to visualize
+  utter_faq-visualisation-b2/donot-select-location-possible-visualization:
+  - text: It will give you an error that please select atleast one location
+  utter_faq-visualisation-b2/select-Districts-after-states-necessary:
+  - text: Yes you have to select a district after selecting a state
+  utter_faq-visualisation-b2/add-dataset:
+  - text: We can add datasets in order to compare between the two datasets
+  utter_faq-train-b0/next-version:
+  - text: We are continuously updating the latest visualisations on our portal.
+  utter_faq-train-b0/how-to-use-idp:
+  - text: On the top right corner tab you will find training. After clicking on training
+      you will find two categories- workshop & events and online training. Click on
+      online training to find tutorial videos.
+  utter_faq-train-b0/any-training-available:
+  - text: On the top right corner tab you will find training. After clicking on training
+      you will find two subtabs- workshop & events and online training. Click on online
+      training to find tutorial videos.
+  utter_faq-train-b0/help-to-see-graph:
+  - text: On the top right corner tab you will find training. After clicking on training
+      you will find two subtabs- workshop & events and online training. Click on online
+      training to find tutorial videos.
+  utter_faq-train-b0/need-help-understand-portal:
+  - text: On the top right corner tab you will find training. After clicking on training
+      you will find two subtabs- workshop & events and online training. Click on online
+      training to find tutorial videos.
+  utter_faq-train-b0/next-training-when:
+  - text: On the top right corner tab you will find training. After clicking on training
+      you will find two subtabs- workshop & events and online training. Click on workshop
+      & events to find next training
+  utter_faq-train-b0/next-masterclass-when:
+  - text: On the top right corner tab you will find training. After clicking on training
+      you will find two subtabs- workshop & events and online training. Click on workshop
+      & events to find masterclass
+  utter_faq-train-b0/join-masterclass-how:
+  - text: You can register in the workshop and events page which is in the training
+      tab. Also you can write to us at idp@isb.edu. We will send the zoom link for
+      the masterclass
+  utter_faq-train-b0/what-is-masterclass:
+  - text: Masterclass is a virtual tutorial class intended for journalists, students,
+      researchers, faculties,consultants to learn about Indiadataportal
+  utter_faq-train-b0/any-certification-available:
+  - text: Yes we do provide certificates from Indian School of business for attending
+      the masterclass
+  utter_faq-train-b0/what-training-material-we-use:
+  - text: On the top right corner tab you will find training. After clicking on training
+      you will find two subtabs- workshop & events and online training. Click on workshop
+      & events to find next training
+  utter_faq-train-b0/learn-data-visualisation:
+  - text: On the top right corner tab you will find training. After clicking on training
+      you will find two subtabs- workshop & events and online training. Click on online
+      training to find tutorial videos.
+  utter_faq-train-b0/idp-journalism:
+  - text: IDP helps you in creating different visualization which you can add in your
+      stories making your stories enriched with data and attractive
+  utter_faq-train-b0/idp-stories:
+  - text: IDP helps you in creating different visualization which you can add in your
+      stories making your stories enriched with data and attractive
+  utter_faq-train-b0/any-journalism-certificate:
+  - text: We are now collaborating with India spend for an online certification course
+      which will gain you a certificate
+  utter_faq-train-b0/researchers-learn-about-idp:
+  - text: Yes Researchers can learn and use IDP in their research. IDP will help them
+      in creating data insightful articles with different charts and graphs
+  utter_faq-train-b0/training-cover:
+  - text: The training will cover hands-on experience in IDP creating new different
+      visualizations based on an newspaper article and also assisting journalists
+      in writing their stories.
+  utter_faq-train-b0/training-content:
+  - text: Training details about the portal can be found through the training tab
+      in our website or through our social media handles
+  utter_faq-train-b0/training-content-video:
+  - text: Training videos consists of full lenght in depth explanations on how to
+      use India Data Portal
+  utter_faq-train-b0/training-duration:
+  - text: We are collaborating with newslaundry for the training and our training
+      duration is 15 days as of now.
+  utter_faq-train-b0/training-for-novice-users:
+  - text: We have the training modules where any novice user can also learn. It doesn't
+      require any prerequisite knowledge.
+  utter_faq-train-b0/training-for-jounalist-users:
+  - text: The training is primarily meant for the journalists. But students, researchers,
+      faculties also can join.
+  utter_faq-train-b0/how-training-help-me:
+  - text: IDP will help you in creating data insightful articles with different charts
+      and graphs. This you can use in your articles and blogs.
+  utter_faq-train-b0/training-data-from-cmie:
+  - text: As of now, India Data Portal has data made available from government sources.
+      In future, private data sources would be incorporated on the portal
+  utter_faq-train-b0/multiple-training-modules:
+  - text: There are multiple training modules which you can find in the training tab
+      on the top right corner of the home page. We frequently upload many training
+      modules here.
+  utter_faq-train-b0/online-resource-for-training:
+  - text: You can find a Training tab on our website and for more material on India
+      Data Portal visit our Youtube Channel https://www.youtube.com/channel/UCB6LwUiFwPSobU0TwXuF4Fg
+  utter_faq-train-b0/tutorial-on-how-to-use-idp:
+  - text: You can find a Training tab on our website and for more material on India
+      Data Portal visit our Youtube Channel https://www.youtube.com/channel/UCB6LwUiFwPSobU0TwXuF4Fg
+  utter_faq-train-b0/free-online-tutorials-idp:
+  - text: You can find a Training tab on our website and for more material on India
+      Data Portal visit our Youtube Channel https://www.youtube.com/channel/UCB6LwUiFwPSobU0TwXuF4Fg
+  utter_faq-train-b0/workshops-by-idp:
+  - text: India Data Portal conducts workshops and masterclasses. The details are
+      announced through the training tab in our website and through social media handles
+  utter_faq-train-b0/physical-workshop:
+  - text: India Data Portal conducts physical trainings/workshops
+  utter_faq-train-b0/training-material-on-youtube:
+  - text: India Data Portal's Youtube channel can be accessed at https://www.youtube.com/channel/UCB6LwUiFwPSobU0TwXuF4Fg
+  utter_faq-train-b0/idp-training-incharge:
+  - text: IDP offers training through researchers and experts in the field
+  utter_faq-train-b0/training-participation-recognition:
+  - text: IDP offers a certificate of participation for people who successfully compeletes
+      the training program
+  utter_faq-train-b0/how-to-send-feedback:
+  - text: You can fill the feedback form or mail us at- idp@isb.edu
+  utter_faq-train-b0/training-available-for-all:
+  - text: India Data Portal offers Masterclasses and Workshops free of cost and anyone
+      can attend
+  utter_faq-train-b0/portals-objective:
+  - text: "The \u201CIndia Data Portal\u201D is a one-stop open-access portal for\
+      \ journalists to access, interact with, and visualize information, data and\
+      \ knowledge related to agriculture and financial inclusion, while also aiding\
+      \ other beneficiaries \u2013 researchers, students, policy makers, administrators,\
+      \ NGOs, and entrepreneurs."
+  utter_faq-train-b1/often-workshop-arrang:
+  - text: Workshops are arranged frequently. You can see all of the updates in our
+      social media handles and our website.
+  utter_faq-train-b1/onlin-train-curriculum:
+  - text: In IDP we have various online training curriculam like workshops, fellowships
+      etc. Kindly write to us at idp@isb.edu to know more.
+  utter_faq-visualisation-b5/why-not-add-two-datasets:
+  - text: As of now you can add only two datasets at one
+  utter_faq-visualisation-b5/help-understand-indicators:
+  - text: As of now we dont have a detailed description of the indicators
+  utter_faq-visualisation-b5/tutorial-making-graphs-visualisations:
+  - text: Yes we have a tutorial for making graphs and visualization. click on training
+      tab on the top right corner and then go to online training. Here in this page
+      you will find the tutoial videos. Page can be directly opened at the link 'https://indiadataportal.com/workshop?w_tab=pills-training-tab&tab=all&language=English&location=Punjab'
+  utter_faq-visualisation-b5/only-see-states-find-district-village:
+  - text: On the left side of the location popup window you can see the districts
+      tab.
+  utter_faq-visualisation-b5/graph-not-see-loading:
+  - text: Please make sure that you have not missed any pop-ups and your device is
+      connected to the internet
+  utter_faq-visualisation-b5/How-change-title:
+  - text: Once you have created a visualisation, click on the small pencil icon on
+      the bottom left portion of the existing title to edit
+  utter_faq-visualisation-b5/What-numbers-in-brackets:
+  - text: The number in brackets while creating a visualisation indicated the number
+      of selection you have made in the particular category
+  utter_faq-visualisation-b5/Do-have-select-filters:
+  - text: Yes, you have to select filters to make a visualisation
+  utter_faq-visualisation-b5/What-JumpStartIndia-ISB:
+  - text: Please visit this link to know more about JumpStartIndia@ISB 'https://www.isb.edu/en/research-thought-leadership/research-centres-institutes/bharti-institute-of-public-policy/JSI.html'
+  utter_faq-visualisation-b5/Can-zoom-chart:
+  - text: Currently, we do not have an option to zoom into the chart
+  utter_faq-visualisation-b5/what-dimension:
+  - text: A dimension is a descriptive attribute or characteristic of an object that
+      can be given different values.
+  utter_faq-visualisation-b5/Should-select-location-always:
+  - text: No it's not mandatory to select location always
+  utter_faq-visualisation-b5/How-many-indicators-select-at-time:
+  - text: You can compare a maximum of 2 data sets at a time
+  utter_faq-visualisation-b5/How-select-two-datasets-visualizing-together:
+  - text: Once you are in the visualise page, there will an option towards the left
+      side of your screen to add a data set under the data set tab
+  utter_faq-visualisation-b5/what-kind-datasets-i-compare:
+  - text: You can compare datasets that have similar temporal and spatial distribution.
+  utter_faq-visualisation-b5/What-you-mean-time:
+  - text: The time varible lets you filter out specific time periods
+  utter_faq-visualisation-b5/Why-click-options-popping-out-in-Build-Chart:
+  - text: These options will further let you diversify the visualisation that you
+      are trying to build
+  utter_faq-visualisation-b5/How-many-ways-create-graph:
+  - text: You can create a chart in almost infinite number of ways
+  utter_faq-visualisation-b5/How-multiple-colours-available-Select-at-time:
+  - text: You can select one color palette from the option provided. Each color palatte
+      will have multiple colors
+  utter_faq-visualisation-b5/how-change-units-entity:
+  - text: You cannot change units for data uploaded from government sources. But you
+      can always create new indicators and specify the units of your choice.
+  utter_faq-visualisation-b5/How-change-different-colours-bar:
+  - text: You can choose from the various color scheme options available
+  utter_faq-visualisation-b5/how-change-color-graph:
+  - text: On top left corner of the visualisation, there is a icon with gear and pencil
+      which enable you to change the color pallet of visualisations
+  utter_faq-visualisation-b5/How-many-ways-download-graph:
+  - text: You can download your visualisation in SVG and PNG format
+  utter_faq-visualisation-b5/Can-share-graphs-on-social-media:
+  - text: Yes, you can share your visualisation in social media using the share icon
+      on the top right corner of your visualisation
+  utter_faq-visualisation-b5/compare-more-datasets-single-visualization:
+  - text: You can compare upto 2 data sets in a single visualisation
+  utter_faq-visualisation-b5/How-many-maximum-number-locations-select-which-creating-graph:
+  - text: You can select upto the number of locations available in the data set for
+      creating your visualisation
+  utter_faq-visualisation-b5/How-many-visualisations-create-single-selected-data:
+  - text: You can create as many visualisation - explore the options on the India
+      Data Portal
+  utter_faq-visualisation-b5/why-no-jpeg:
+  - text: SVG and PNG formats are available
+  utter_faq-visualisation-b5/tables-instead-vis:
+  - text: Tabular view of the data would be available soon on the Portal, meanwhile
+      you can view the data and download the same at your end
+  utter_faq-visualisation-b5/max-datasets-compare:
+  - text: You can compare a maximum of 2 datasets at a time
+  utter_faq-visualisation-b5/create-indicator-with-assigned-units:
+  - text: The user can assign any units of choice on the user created indicator
+  utter_faq-visualisation-b5/whatis-indiapulse:
+  - text: Please visit this link to know more about IndiaPulse@ISB https://www.isb.edu/en/research-thought-leadership/research-centres-institutes/bharti-institute-of-public-policy/JSI.html
+  utter_faq-dataset-b0/alternate-sources-data:
+  - text: Data on the India Data Portal is sourced from government websites and you
+      may visit the source websites mentioned as alternate data sources
+  utter_faq-dataset-b0/upload-datasets-platofrm:
+  - text: It is not possible to upload a data set into the India Data Portal
+  utter_faq-dataset-b0/multiple-data-sets-same-parameter:
+  - text: The datasets on IDP are sourced from governments sources. There are multiple
+      surveys, data collection activities by the government those have common parameters
+      for data collection which is usually the mandat of data collection objective.
+      So, as a result there can be similar indicators but with different data collection
+      methods. As far as their usability is concerned, this type comparison has not
+      been considered yet but is part of our long term plan.
+  utter_faq-dataset-b0/financial-data-available:
+  - text: India Data Portal has financial data which includes credit by Bank, Agri
+      wages, Debt and investment, Deposits with bank and many more!! Just go to Financial
+      inclusion tab in our dataset to find more
+  utter_faq-dataset-b0/socioeconomic-data-available-portal:
+  - text: India Data Portal consists of socio-economic data which has datasets like  mission
+      antodaya, household AMneties. Check the socio-economic tab for more
+  utter_faq-dataset-b0/data-Ministry-Agriculture:
+  - text: We always source our data from government sources which includes Ministry
+      of Agriculture
+  utter_faq-dataset-b0/data-Ministry-Statistics:
+  - text: We always source our data from government sources which includes Ministry
+      of Statistics
+  utter_faq-dataset-b0/National-Survey-data-available:
+  - text: Yes we have the NSSO data
+  utter_faq-dataset-b0/data-Rural-Development:
+  - text: India Data Portal has rural development data which includes MGNREGA and
+      Misson Antodaya data Just go to rural development tab in our dataset to find
+      more
+  utter_faq-dataset-b0/data-available-CMIE:
+  - text: As of now, India Data Portal has data made available from government sources.
+      In future, private data sources would be incorporated on the portal
+  utter_faq-dataset-b0/foreign-trade-data:
+  - text: This data is available on the India Pulse section of the India Data Portal
+      at https://indiadataportal.com/IndiaPulse
+  utter_faq-dataset-b0/RBI-data:
+  - text: As of now, we have Credit by banks an deposit with banks datasets from the
+      RBI
+  utter_faq-dataset-b0/Petrol-Data:
+  - text: This data is available on the India Pulse section of the India Data Portal
+      at https://indiadataportal.com/IndiaPulse
+  utter_faq-dataset-b0/e-way-bills-data:
+  - text: This data is available on the India Pulse section of the India Data Portal
+      at https://indiadataportal.com/IndiaPulse
+  utter_faq-dataset-b0/electricity-data:
+  - text: This data is available on the India Pulse section of the India Data Portal
+      at https://indiadataportal.com/IndiaPulse
+  utter_faq-dataset-b0/data-related-energy:
+  - text: This data is available on the India Pulse section of the India Data Portal
+      at https://indiadataportal.com/IndiaPulse
+  utter_faq-dataset-b0/data-micro-ATM:
+  - text: This data is available on the India Pulse section of the India Data Portal
+      at https://indiadataportal.com/IndiaPulse
+  utter_faq-dataset-b0/unemployment-data:
+  - text: This data is available on the India Pulse section of the India Data Portal
+      at https://indiadataportal.com/IndiaPulse
+  utter_faq-dataset-b0/data-UIDAI:
+  - text: This data is available on the India Pulse section of the India Data Portal
+      at https://indiadataportal.com/IndiaPulse
+  utter_faq-dataset-b0/Aadhar-data:
+  - text: This data is available on the India Pulse section of the India Data Portal
+      at https://indiadataportal.com/IndiaPulse
+  utter_faq-dataset-b0/monthly-data-sets:
+  - text: The data sets where the sources put out monthly information
+  utter_faq-dataset-b0/daily-datasets:
+  - text: The data sets where the sources put out information on a daily basis
+  utter_faq-dataset-b0/old-data-available:
+  - text: We can provide data from public sources across the years where it is available
+  utter_faq-dataset-b0/historical-data:
+  - text: Various distoric datasets are available on the portal, please visit the
+      dataset section of the portal for details
+  utter_faq-dataset-b0/COVID-data:
+  - text: You can find Covid19 data set at https://indiadataportal.com/jsi
+  utter_faq-dataset-b0/any-industry-data-question:
+  - text: This data is available on the India Pulse section of the India Data Portal
+      at https://indiadataportal.com/IndiaPulse
+  utter_faq-dataset-b0/Why-India-data-portal-create:
+  - text: "The \u201CIndia Data Portal\u201D was created to provide a one-stop open-access\
+      \ portal for journalists to access, interact with, and visualize information,\
+      \ data and knowledge related to agriculture and financial inclusion, while also\
+      \ aiding other beneficiaries \u2013 researchers, students, policy makers, administrators,\
+      \ NGOs, and entrepreneurs. To know more, visit this link- https://indiadataportal.com/about?language=English&location=India"
+  utter_faq-visualisation-b3/why-add-dataset:
+  - text: We can add datasets in order to compare between the two datasets
+  utter_faq-visualisation-b3/options-to-make-chart-builder:
+  - text: We can select as many options on chart builder as per our need
+  utter_faq-visualisation-b3/to-create-state-level-chart:
+  - text: On clicking build your chart button you can see an option 'How detailed
+      should the analysis be? Select state level or/and district level' and below
+      which there is a checkbox named 'state'
+  utter_faq-visualisation-b3/to-create-district-level-chart:
+  - text: On clicking build your chart button you can see an option 'How detailed
+      should the analysis be? Select state level or/and district level' and below
+      which there is a checkbox named 'district'
+  utter_faq-visualisation-b3/why-select-crops:
+  - text: If you select the crops in the same category in order to view them in the
+      graphs/chart you have to select crops in the build your chart
+  utter_faq-visualisation-b3/why-farm-size-category:
+  - text: If you want to see what are the farm sizes large or small then you can select
+      farmsize category
+  utter_faq-visualisation-b3/why-crop-type-selected:
+  - text: If you select two or multiple crops of different categories then to see
+      their visualization you have to select crop type
+  utter_faq-visualisation-b3/why-social-grp-selected:
+  - text: If you want to know the social group of the farmers whether its institutional
+      or others then select social group
+  utter_faq-visualisation-b3/what-happens-if-we-select-all-on-chart-builder:
+  - text: Most frequently a tree map will appear, it is advisable to select the the
+      option one by one.
+  utter_faq-visualisation-b3/why-farm-size-class-selected:
+  - text: If the user wants to see the disaggregated data accross the farm size category
+      they should select this option.
+  utter_faq-visualisation-b3/how-access-full-data:
+  - text: You can access the full data everytime in our portal
+  utter_faq-visualisation-b3/how-to-create-indicators:
+  - text: On the top right corner of the indicator popup you will see create new indicator
+      button. Click it and then you will get another popup and there is a dropdown
+      named dataset and after that there is a section to select the indicators. After
+      selecting the indicators use the mathematical icons to define the relationship
+      between the selected indicators. Then name the new indicator and name its unit
+      and click on create indicator.
+  utter_faq-visualisation-b3/where-is-graph:
+  - text: First select a dataset and then select the indicators and dimensions with
+      location and time. Then select 'Build your chart' for the visualization.
+  utter_faq-visualisation-b3/what-to-select-first:
+  - text: If you want to visualize any dataset then go to visualize by clicking on
+      the top tab dataset and then visualize. then add the dataset by clicking on
+      the plus sign and then select the desired dataset from the list.
+  utter_faq-visualisation-b3/how-can-select-graph:
+  - text: As of now you cannot select a graph of your own choice. But for visualization
+      if you press the build your chart button then there are multiple chart which
+      would come. Just view the chart which you are more comfortable with.
+  utter_faq-visualisation-b3/diff-bw-crop-and-crop-type:
+  - text: you have to select crop if you are selecting crops of same category like
+      tea and coffee. Crop type is that when you have selected crops of different
+      categories.
+  utter_faq-visualisation-b3/how-change-color-of-chart:
+  - text: On the top left side of the visualisation there is a button after clicking
+      which you will get the colour palette from which you can choose colours of your
+      choice
+  utter_faq-visualisation-b3/share-viz-of-personal-proj:
+  - text: Yes you can definitely use this visualisation for personal use. Only do
+      credit us while publishing
+  utter_faq-visualisation-b3/give-credit-to-idp:
+  - text: Yes it is good if you cite or credit IDP whenever you are sharing visualisation
+      from our portal
+  utter_faq-visualisation-b3/can-i-share-my-viz:
+  - text: Yes you can share the visualizaion by clicking on the share option which
+      is on the top right corner on the page of visualisation
+  utter_faq-visualisation-b3/change-axis-of-graph:
+  - text: On right hand side, top corner there is a drop down menu from where the
+      user can select to switch axis.
+  utter_faq-visualisation-b3/how-tochange-chart-not-liked-first-one:
+  - text: If you visualize a dataset there are multiple charts that will come. Choose
+      a chart which you like most and would depict the information according to your
+      need.
+  utter_faq-visualisation-b3/graphs-diff-after-download:
+  - text: There might be a loss in clarity after downloading the chart.
+  utter_faq-visualisation-b3/bar-graphs-too-wide:
+  - text: As of now there is no provision of adjusting the chart size
+  utter_faq-visualisation-b3/not-able-to-understand-viz:
+  - text: Please check the indicators and dimensions and relate to what story you
+      need to find and then click on build your chart. If you dont understand one
+      chart look for the other ones.
+  utter_faq-portal-b1/find-dataset:
+  - text: You can search the datasets by typing its name in the search bar. Another
+      way of getting the datasets is to directly go to the dataset tab on the above.
+  utter_faq-portal-b1/new-graphic-portal:
+  - text: The News and Graphics tab in the website shows the news created using and
+      also the graphic gallery
+  utter_faq-portal-b1/type-new-cover-idp:
+  - text: India Data Portal focuses mainly on Agriculture, Rural development and Financial
+      inclusion
+  utter_faq-portal-b1/necesari-signup-use-dataset:
+  - text: To use the data set a user must login to the portal
+  utter_faq-portal-b1/make-viz-without-log:
+  - text: As of now, you cannot make a visualization without logging in
+  utter_faq-portal-b1/app-idp:
+  - text: Yes, India Data Portal has a mobile application which could be downloaded
+      from the Google Playstore and the App Store
+  utter_faq-portal-b1/one-one-convers-idp-team:
+  - text: You can write to us at idp@isb.edu
+  utter_faq-portal-b1/vizualis-interact:
+  - text: India Data Portal has interactive as well as static visualisations
+  utter_faq-portal-b1/chang-languag-portal-affect-dashboard-inform-present-portal-also-translat:
+  - text: We we change the language in India Data Portal, almost every option changes
+      to that specific language which is selected including the visualisation
+  utter_faq-portal-b1/dataset-filter-featur-availabel-dataset:
+  - text: You can apply filters to all the dataset where the functionality is available
+  utter_faq-portal-b1/suppos-fill-indic-name:
+  - text: You can fill in information which you think is suitable for representating
+      the indicator that you have created
+  utter_faq-portal-b1/indic-select-mean-unit:
+  - text: Unit is a number used as a standard of measurement
+  utter_faq-portal-b1/abl-see-indic-indic-select-page:
+  - text: Any visualization page always has indicators. If you cannot find any kindly
+      refresh your page.
+  utter_faq-portal-b1/indic-select-add-one-dataset:
+  - text: As of now IDP doesn't have this feature
+  utter_faq-portal-b1/even-select-dataset-abl-select-unit:
+  - text: Kindly close the popup and  refresh your page and try again.
+  utter_faq-portal-b1/write-new-indic-formula:
+  - text: On the top right corner of the indicator popup you will see create new indicator
+      button. Click it and then you will get another popup and there is a dropdown
+      named dataset and after that there is a section to select the indicators. After
+      selecting the indicators use the mathematical icons to define the relationship
+      between the selected indicators. Then name the new indicator and name its unit
+      and click on create indicator.
+  utter_faq-portal-b1/indic-creat-succes-see:
+  - text: You can view your newly created indicator in the indicator popup. Also you
+      can view your indicator in my indicators tab.
+  utter_faq-portal-b1/modifi-detail-indic:
+  - text: You can modify custom created indicator by going to 'my indicator' tab and
+      then 'edit'
+  utter_faq-portal-b1/clear-visualis-histori:
+  - text: You can click on your profile and go to visualization history. After that
+      select a date range to see your visualizations and then hit the button clear
+      visualization.
+  utter_faq-portal-b1/benefit-share-social-profil-idp:
+  - text: Yes if you share your social media profiles then it would be easier to tag
+      you or to mention you in any of our posts
+  utter_faq-portal-b1/live-demo-protal-use-idp:
+  - text: You can find the  demo on the online training tab in our portal. For further
+      assistance please enroll in our workshops
+  utter_faq-portal-b1/add-data-card:
+  - text: We can have one dataset on one datacard. There is an button "add datacard"
+      in the below where you can add upto 4 datacards in one single page.
+  utter_faq-portal-b1/indiapuls-isb:
+  - text: indiapulse@isb is an initiative for one stop data access specially for high
+      frequency indicators. Data are available on monthly and daily basis. Go to https://indiadataportal.com/IndiaPulse?language=English&location=India#?objectid=44012&d_id1=14&d_id2=14&d_id3=14&d_id4=14&d_id5=14&ind_id1=118&ind_id2=118&ind_id3=118&ind_id4=118&ind_id5=118&startdate=08%2F01%2F2020&enddate=04%2F01%2F2021&global_location=India
+      to learn more!
+  utter_faq-portal-b1/intern-comparison-avail-indiapuls-isb:
+  - text: As of now indiapulse@isb doesn't have this feature
+  utter_faq-portal-b1/idp-compar-demograph-countri:
+  - text: As of now IDP doesn't have this feature
+  utter_faq-portal-b1/donload-imag-datacard:
+  - text: You can download the image by clicking in to the top right corner of the
+      data card on 'three lines' icon.
+  utter_faq-portal-b1/made-datacard-use-multipl-dataset:
+  - text: Yes one datacard will have one dataset visualization. Like this we can have
+      4 datacards with 4 different visualizations in one page
+  utter_faq-portal-b1/incorpor-multipl-dataset-datacard:
+  - text: We can have one dataset on one datacard. There is an button "add datacard"
+      in the below where you can add upto 4 datacards in one single page.
+  utter_faq-portal-b1/function-provid-datacard:
+  - text: Datacard consists of one dataset with visualization. In one page we can
+      have 4 datacards with 4 different visualizations
+  utter_faq-portal-b1/use-datacard:
+  - text: Datacard consists of one dataset with visualization. In one page we can
+      have 4 datacards with 4 different visualizations
+  utter_faq-portal-b1/compar-multipl-datacard-portal:
+  - text: We can compare 4 datacards with 4 different visualizations in one page.
+      We can add the datacards by prassing "add datacard" button on below.
+  utter_faq-portal-b1/upload-datacard-sourc-idp:
+  - text: As of now IDP doesn't have this feature
+  utter_faq-portal-b1/idp-provid-function-cross-compar-differ-site:
+  - text: As of now IDP doesn't have this feature
+  utter_faq-portal-b1/add-custom-indic-datacard:
+  - text: On the top right corner of the indicator popup you will see create new indicator
+      button. Click it and then you will get another popup and there is a dropdown
+      named dataset and after that there is a section to select the indicators. After
+      selecting the indicators use the mathematical icons to define the relationship
+      between the selected indicators. Then name the new indicator and name its unit
+      and click on create indicator.
+  utter_faq-visualisation-b1/add-dataset-on-idp:
+  - text: In the left side bar on visualize page, you will see the Add Dataset option.
+      You can add upto 2 datasets one by one for comparison
+  utter_faq-visualisation-b1/location-meaning-idp:
+  - text: Location in the dataset defines the geographical attributes like state,
+      district, city available according to the level it was recorded at source.
+  utter_faq-visualisation-b1/only-india-is-covered:
+  - text: India Data Portal contains data of Indian government sources only. The level
+      of depth / granullarity varies in dataset according to the data collection at
+      source. and more over IDP covers all districts in a particular state, which
+      are recorded in the data collection at source
+  utter_faq-visualisation-b1/mandatory-to-select-location:
+  - text: In some aggregatable datasets, there is no need need to select a location.
+      This way it can present pan india statistics for the dataset. However, for non
+      aggregatable datasets, selecting a location is mandatory
+  utter_faq-visualisation-b1/can-i-select-dis-without-state:
+  - text: No, selection of an upper level entity like state is mandatory to select
+      the districts it contains
+  utter_faq-visualisation-b1/can-change-color-of-viz:
+  - text: On top left corner of the visualisation, there is a icon with gear and pencil
+      which enable you to change the color pallet of visualisations
+  utter_faq-visualisation-b1/can-we-save-viz:
+  - text: On right side of the second menu bar, there is Save To button which can
+      save your visualisation on the portal. My Graphics, saves it to your personal
+      gallery Graphic Gallery saves it to a public gallery where you can also see
+      visualisations saved by others
+  utter_faq-visualisation-b1/can-we-export-viz:
+  - text: On top left corner of the visualisation, there is three dot icon which enable
+      to save visualisation as png and svg
+  utter_faq-visualisation-b1/can-share-viz-on-social-media:
+  - text: On top right corner of the visualisation, there is a share icon (like a
+      branch) which gives you option to share on Social media and a custom link.
+  utter_faq-visualisation-b1/do-i-have-to-share-number:
+  - text: ' No, IDP directly opens the web whatsapp on your browser which works with
+      QR code scanned with your phone'
+  utter_faq-visualisation-b1/which-social-media-platform-supported-for-sharing-vis:
+  - text: IDP can share on Facebook, Linkedin, Twitter &  Instagram. Apart from that
+      you can also copy the visualisation link and share it anywhere on the internet.
+  utter_ok:
+  - text: Ok go ahead :)
+  utter_greet:
+  - text: Hey! How are you? How can i help you
+  utter_goodbye:
+  - text: Bye It was very nice meeting you
+  utter_idp_bot_intro:
+  - text: I am a bot that is here to help you for INDIAN DATA portal
+  - text: ' Hey I am a chatbot to help you here'
+  - text: I am bot made by IDP
+  utter_faq-visualisation-b0/count_of_datasets:
+  - text: There are more than 35+ dataset available at IDP, across various sectors
+      like agriculture, rural development, soci-economic, financial inclusion, economic
+      activity, etc.
+  utter_faq-visualisation-b0/type_of_viz:
+  - text: The list of visualizations available is wide (about 30 kinds of visualisations).
+      They range from :-Lollipop, stacked bar plot, maps, grouped bar plots, grouped
+      scattered plots, treemap, donut, Sankey, infographic, frequency histogram, Grouped
+      Bubble chart, beeswarm plot,
+  utter_faq-visualisation-b0/source_of_data:
+  - text: The IDP uses multiple sources for the data but mostly relies on publically
+      available and have been shared by government institutions, who frankly are the
+      only bodies in the country to have that kind of data collection capabilities.
+      The repository for visualization is exhaustive with overlapping as well as independent
+      well-established remote-sensing and satellite products.
+  utter_faq-visualisation-b0/will_addtional_sources_be_added:
+  - text: 'The IDP endeavours to regularly add more training material/videos/etc as
+      we move forward. The feedback from users would also help us in adding more material
+      and features to the portal. '
+  utter_faq-visualisation-b0/frequently-data-updated:
+  - text: The data is updated on quarterly basis on IDP and daily for HFI indicators
+  utter_faq-visualisation-b0/share-upload-dataset:
+  - text: It is not possible to upload a data set into the India Data Portal
+  utter_faq-visualisation-b0/multiple-data-set-same-parameters-which-useful:
+  - text: The datasets on IDP are sourced from governments sources  There are multiple
+      surveys  data collection activities by the government those have common parameters
+      for data collection which is usually the mandat of data collection objective
+      So as a result there can be similar indicators but with different data collection
+      methods As far as their usability is concerned  this type comparison has not
+      been considered yet but is part of our long term plan
+  utter_out_of_scope:
+  - text: Out of my knowledge can you pls rephrase
+  utter_please_rephrase:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+  utter_faq-fel-b0/info-about-fellowship:
+  - text: If you are registered in our portal we will update you in mail.Please visit
+      the website- https://www.newslaundry.com/2021/03/05/newslaundry-and-india-data-portal-announce-data-journalism-fellowship.
+      Also  write to us at idp@isb.edu and stay tuned to our social media handles
+  utter_faq-fel-b0/fellowship-eligibility:
+  - text: For the first phase, 16 journalists will be selected as fellows by a jury
+      comprising editors from Newslaundry and editors working in Bengali, Oriya, Marathi,
+      and Telugu media.Please write to us at idp@isb.edu for more info
+  utter_faq-fel-b0/fellowship-timeperiod:
+  - text: "The first phase of the fellowship consists of a four-week programme to\
+      \ familiarize the fellows with datasets of IDP. Based on how they perform, the\
+      \ fellows move to phases 2 and 3, which include workshops on long-form writing,\
+      \ masterclasses, and a one-week research trip to the Indian School of Business\u2019\
+      s campus in Mohali."
+  utter_faq-fel-b0/cost-of-idp-training:
+  - text: Yes, all the training provided by India Data Portal is free of cost
+  utter_faq-visualisation-b4/not-understand-viz:
+  - text: Please check the indicators and dimensions and relate to what story you
+      need to find and then click on build your chart. If you dont understand one
+      chart look for the other ones.
+  utter_faq-visualisation-b4/add-indicator-from-diff-dataset:
+  - text: Yes you can add the indicators from other datasets. Just click on  the datasets
+      tab on top and go to create new indicator. Now a popup will show up which includes
+      a dropdown of dataset where you can choose across datasets and their indicators
+      to create a new indicator
+  utter_faq-visualisation-b4/how-many-datasets-compare:
+  - text: As of now You can compare atmost two datasets at a time
+  utter_faq-visualisation-b4/sort-data-in-graph-how:
+  - text: You can do sorting by clicking on the top right button named 'sort' on your
+      chart page. You can do sorting by indicator value ascending or descending or
+      by alphabetical order
+  utter_faq-visualisation-b4/upload-my-data:
+  - text: You can write to us in the mail that you have found a source of data. Kindly
+      share the link of the datasource and we will look into it.
+  utter_faq-visualisation-b4/how-many-options-select-chart-builder:
+  - text: You can select every option in the chart builder. But as per your requirements
+      you may not have to select all the options.
+  utter_faq-visualisation-b4/cannot-see-district-state-in-legend:
+  - text: When the filters are not applied states and districts on the legend will
+      not show up.
+  utter_faq-visualisation-b4/why-data-available-for-some-years:
+  - text: We extract data from the governemt datasources. If the goernment source
+      does not have the data for a particular year or years then we cannot have that
+      data.
+  utter_faq-visualisation-b4/how-add-labels:
+  - text: Yes you can only edit the title of the graph by clicking the pencil button
+      near to the chart title.
+  utter_faq-visualisation-b4/what-my-graphics:
+  - text: My graphics is a space in the portal where you can see your past graphs.
+      You can save a particular visualization by clicking on to the save to button
+      on the top right corner of the visualization page and select 'my graphics'
+  utter_faq-visualisation-b4/what-graphics-gallery:
+  - text: Graphics gallery is a public section where you can view all the visualizations
+      created by other users in this portal. Your graph can be viewed by other users
+      if you publish it to graphic gallary.
+  utter_faq-visualisation-b4/diff-bw-mygraphics-graphics-gallery:
+  - text: In my graphics only you can see your past saved visualizations after logging
+      in. But in graphics gallary your published visualizations can be seen by other
+      users also.
+  utter_faq-visualisation-b4/why-personal-info-to-publish-graphs:
+  - text: Users can view your graphs which are saved by your name only. There is no
+      other private information that is shared.
+  utter_faq-visualisation-b4/where-is-data-coming-from:
+  - text: We have collected the data from reliable government sourcs. You can also
+      see the links in the 'about dataset' page in the source link section
+  utter_faq-visualisation-b4/will-update-affect-my-saved-graphics:
+  - text: Yes if you update the dataset another new graphics will be saved to my graphics
+      not updating thre old one
+  utter_faq-visualisation-b4/how-add-shapes-icons-on-graph:
+  - text: As of now you cannot add shapes and icons to your graphs
+  utter_faq-visualisation-b4/how-change-legend-of-graph:
+  - text: As of now you cannot change the legends of the graph
+  utter_faq-visualisation-b4/cannot-see-title-after-downloading-graph:
+  - text: As of now you cannot see the title of your chart.
+  utter_faq-visualisation-b4/what-is-svg:
+  - text: Scalable Vector Graphics(SVG) is an Extensible Markup Language-based vector
+      image format for two-dimensional graphics with support for interactivity and
+      animation.
+  utter_faq-visualisation-b4/diff-bw-svg-png:
+  - text: A png (Portable Network Graphics) file is a raster or bitmap image file
+      format. A svg (Scalable Vector Graphics) file is a vector image file format.
+  utter_faq-visualisation-b4/assist-me-in-graph:
+  - text: Please write to us. we will definitely assist you. We have masterclass and
+      workshop tutorials every month attending which you can get a very clear idea
+      about the portal
+  utter_faq-visualisation-b4/can-you-connect-me-with-team:
+  - text: Please write to us. we will definitely connect you to our team
+  utter_faq-visualisation-b4/can-add-three-datasets:
+  - text: As of now you only can add two datasets.
+  utter_faq-visualisation-b4/can-see-30-datasets:
+  - text: The respective graphs will appear with the choice of selections the users
+      make.
+  utter_faq-visualisation-b4/selecte-district-no-result:
+  - text: Please check if you have selected time dimension and one indicator atleast
+      from the indicator list.
+  utter_faq-visualisation-b4/chart-wrong:
+  - text: If you have any doubt on the chart kindly see the indicators and the dimensions
+      of the dataset first. Then check the time frame that you have selected. Also
+      refer to other charts that are coming
+  utter_faq-visualisation-b4/download-all-treemaps:
+  - text: You can download tree maps by clinking on the three dots button on the top
+      left corner of the visualization page
+  utter_faq-visualisation-b4/remove-all-selections-once:
+  - text: You can remove all the selections by clicking on 'clear all' button on the
+      top of any popup window
+actions:
+- action_slot_setter
+- action_viz_faq
+forms: {}
+e2e_actions: []
