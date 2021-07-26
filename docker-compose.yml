@@ -1,0 +1,35 @@
+version: '3.0'
+
+services:
+  
+  rasa_chatbot:
+    # env_file: 
+    #   - ./.env
+    build: .
+    image: rasa-chatbot-sahib:latest
+    ports:
+      - 5005:5005
+    volumes:
+      - ./models:/app/models
+    command:     
+        - rasa
+        - run
+        - -m
+        - /app/models
+        - --enable-api  
+        - --endpoints
+        - /app/endpoints.yml # not using endpoints.local.yml
+
+  action_server:
+    # env_file: 
+    #   - ./.env
+    build: actions
+    image: rasa-chatbot-actions-sahib:latest
+    volumes:
+      - ./actions:/app/actions
+    command:
+      - python3
+      - -m
+      - rasa_sdk
+      - --actions
+      - actions
